@@ -24,5 +24,17 @@ The website includes positive user testimonials, like this one from current stud
 * Call-to-action - allows users to book a class, by filling out and submitting a form. 
 * User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
 * Schedule - allows users to find a class that fits their schedule & preference, by displaying class names & times.
-* Contact details - allow users to find or contact the studio, by providing its' address & phone number. 
+* Contact details - allow users to find or contact the studio, by providing its' address & phone number.
+
+## Features Left to Implement
+* Social media icons with working links
+
+# Technologies Used
+This project makes use of the following languagex, frameworks and libraries:
+* [HTML/HTML5](https://html5tutorial.info)
+* [CSS/CSS3](https://w3.org/Style/CSS)
+* [Bootstrap4](https://getbootstrap.com)
+
+# Testing
+
 
