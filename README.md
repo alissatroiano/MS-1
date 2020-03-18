@@ -15,18 +15,21 @@ The website includes positive user testimonials, like this one from current stud
 > I feel happier and healthier than ever!
 
 # Features 
-* Call-to-action: The call-to-action is presented to the user with a visually appealing header image and a, "Book Now!" button. 
+* Call-to-action: The call-to-action is presented in the form of a button that reads, "Book Now!" button. 
 * User stories: User stories include photos and quotes from 2 current studio members
 * Schedule: The schedule provides class details & times.
-* Contact Details: The contact details include the studio's address, phone number, hours of operation & social media links.
+* Contact: The contact details include the studio's address, phone number, hours of operation & social media links.
 
 ## Existing Features
 * Call-to-action - allows users to book a class, by filling out and submitting a form. 
 * User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
 * Schedule - allows users to find a class that fits their schedule & preference, by displaying class names & times.
-* Contact details - allow users to find or contact the studio, by providing its' address & phone number.
+* Contact - allows users to find or contact the studio, by providing its' address & phone number.
 
 ## Features Left to Implement
+* Logo
+* Navigation Bar
+* Header Image
 * Social media icons with working links
 
 # Technologies Used
