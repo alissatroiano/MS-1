@@ -15,29 +15,54 @@ The website includes positive user testimonials, like this one from current stud
 > I feel happier and healthier than ever!
 
 # Features 
-* Call-to-action: The call-to-action is presented in the form of a button that reads, "Book Now!" button. 
+* Hero Image: The hero image will display current studio members exercising and having fun.
 * User stories: User stories include photos and quotes from 2 current studio members
 * Schedule: The schedule provides class details & times.
-* Contact: The contact details include the studio's address, phone number, hours of operation & social media links.
 
 ## Existing Features
-* Call-to-action - allows users to book a class, by filling out and submitting a form. 
-* User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
-* Schedule - allows users to find a class that fits their schedule & preference, by displaying class names & times.
-* Contact - allows users to find or contact the studio, by providing its' address & phone number.
+
 
 ## Features Left to Implement
+* Hero Image - will allow users to get an idea of the kind of experience they may have at the studio, by viewing a photo of current members practicing yoga.
+* User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
+* Schedule - allows users to find a class that fits their schedule & preference, by displaying class names & times.
 * Logo
 * Navigation Bar
-* Header Image
 * Social media icons with working links
+* Contact section
 
 # Technologies Used
 This project makes use of the following languagex, frameworks and libraries:
 * [HTML/HTML5](https://html5tutorial.info)
 * [CSS/CSS3](https://w3.org/Style/CSS)
-* [Bootstrap4](https://getbootstrap.com)
+* [Bootstrap](https://getbootstrap.com)
 
 # Testing
+Site will be tested when it is live. 
 
+Tests will be conducted to ensure that:
+* Website is responsive
+* Links work properly
+* Color scheme & typography are consistent
 
+# Deployment
+This project will be deployed with Github Pages.
+
+To run this project locally, choose one of the following options:
+* Download & unzip the project file, then open index.html in your web browser
+* Clone this repository and open index.html in your web browser 
+
+# Credits
+## Content
+* 
+## Media
+### Logo
+* The logo in the top left corner was copied from [Font Awesome](https://fontawesome.com/)
+### Hero Image
+* The hero image was copied from [Pexels](https://www.pexels.com/)
+### User Stories
+* The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
+* The photo of Daniel Zen was provided by [Pexels](https://images.pexels.com/photos/1881994/pexels-photo-1881994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
+## Acknowledgements
+* I recieved inspiration for this project from [Code Institute](https://codeinstitute.net)
