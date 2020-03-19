@@ -15,27 +15,28 @@ The website includes positive user testimonials, like this one from current stud
 > I feel happier and healthier than ever!
 
 # Features 
-* Hero Image: The hero image will display current studio members exercising and having fun.
+* Images: The images will display current studio members practicing yoga and having fun.
 * User stories: User stories include photos and quotes from 2 current studio members
-* Schedule: The schedule provides class details & times.
+* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
 
 ## Existing Features
 
 
 ## Features Left to Implement
-* Hero Image - will allow users to get an idea of the kind of experience they may have at the studio, by viewing a photo of current members practicing yoga.
+* Images - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
 * User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
-* Schedule - allows users to find a class that fits their schedule & preference, by displaying class names & times.
+* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
 * Logo
 * Navigation Bar
-* Social media icons with working links
-* Contact section
+* Contact section with links to social media
 
 # Technologies Used
-This project makes use of the following languagex, frameworks and libraries:
+This project makes use of the following languages, frameworks and libraries:
 * [HTML/HTML5](https://html5tutorial.info)
 * [CSS/CSS3](https://w3.org/Style/CSS)
 * [Bootstrap](https://getbootstrap.com)
+* [Font Awesome]()
+* [Google Fonts](https://fonts.google.com/)
 
 # Testing
 Site will be tested when it is live. 
@@ -43,7 +44,7 @@ Site will be tested when it is live.
 Tests will be conducted to ensure that:
 * Website is responsive
 * Links work properly
-* Color scheme & typography are consistent
+* Colors & typography are consistent
 
 # Deployment
 This project will be deployed with Github Pages.
@@ -54,10 +55,11 @@ To run this project locally, choose one of the following options:
 
 # Credits
 ## Content
-* 
+### Typography
+* The typography for this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
 ### Logo
-* The logo in the top left corner was copied from [Font Awesome](https://fontawesome.com/)
+* The logo was copied from [Font Awesome](https://fontawesome.com/)
 ### Hero Image
 * The hero image was copied from [Pexels](https://www.pexels.com/)
 ### User Stories
