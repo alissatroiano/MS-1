@@ -15,9 +15,9 @@ The website includes positive user testimonials, like this one from current stud
 > I feel happier and healthier than ever!
 
 # Features 
-* Images: The images will display current studio members practicing yoga and having fun.
-* User stories: User stories include photos and quotes from 2 current studio members
-* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
+* Schedule: The schedule will provide site visitors with class times & details.
+* User stories: Each user story includes a photo and relevant quote about the studio from current studio members.
+* Sign Up Form: The sign up form will allow current & prospective members to fill out a form with their information so they can book a session at the yoga studio.
 
 ## Existing Features
 
