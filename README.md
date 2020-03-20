@@ -76,7 +76,7 @@ You can also:
 * The media queries were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 * The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
 ### Typography
-* The typography for this project was imported from [Google Fonts](https://fonts.google.com/)
+* The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
 ### Jumbotron Image
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)/
