@@ -79,20 +79,17 @@ You can also:
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
 ### Jumbotron Image
-* The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)/
+* The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)
 ### Logo
 * The infinity symbol logo was copied from [Font Awesome](https://fontawesome.com/).
-
 
 ### User Stories
 * The photo of "Sarah Solar" in the User Stories section was copied from [Unsplash](https://images.unsplash.com/photo-1549540807-9442299306da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 * The photo of Daniel Zen was provided by [Unsplash](https://images.unsplash.com/photo-1549540952-f1a0ff6d3e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 * The photo of "Octavia Bliss" in the User Stories section was provided by [Unsplash](https://images.unsplash.com/photo-1516526995003-435ccce2be97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-
-### README
-* The deployment section of this README file was influenced by [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
-* The markdown used in this README file was learned from [Github Guides]()
-### Project template
+### Build
+* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+* The markdown used in this README file was copied from [Github](https://guides.github.com/features/mastering-markdown/)
 * The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ## Acknowledgements
@@ -102,5 +99,5 @@ You can also:
 
 ### README
 * The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
-* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
+* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
 * The markdown written in the README was inspire by [Github Guides](https://guides.github.com/features/mastering-markdown/).
