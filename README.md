@@ -71,15 +71,20 @@ You can also:
 
 # Credits
 ## Content
+### Syntax
+* The syntax for this responsive site was copied from [Bootstrap](https://getbootstrap.com/)
+* The media queries were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
+* The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
 ### Typography
 * The typography for this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
+### Jumbotron Image
+* The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)/
 ### Logo
-* The logo was copied from [Font Awesome](https://fontawesome.com/)
-### Syntax for Hero/Jumbotron Image
+* The infinity symbol logo was copied from [Font Awesome](https://fontawesome.com/).
 * 
-### Hero/Jumbotron Image
-* The masthead image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)
+
+
 ### User Stories
 * The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
 * The photo of Daniel Zen was provided by [Pexels](https://images.pexels.com/photos/1881994/pexels-photo-1881994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
@@ -87,11 +92,15 @@ You can also:
 * The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
 * The markdown used in this README file was learned from [Github Guides]()
 ### Project template
-*
+* The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ## Acknowledgements
-* I recieved inspiration for this project from [Code Institute](https://codeinstitute.net)
-* The format for this README file follow the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
-* The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
-* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
-* 
+### Project
+* This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
+* The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+### README
+* The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
+* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
+* The markdown written in the README was inspire by [Github Guides](https://guides.github.com/features/mastering-markdown/).
+
