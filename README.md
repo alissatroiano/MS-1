@@ -87,10 +87,10 @@ You can also:
 ### User Stories
 * The photo of "Sarah Solar" in the User Stories section was copied from [Unsplash](https://images.unsplash.com/photo-1549540807-9442299306da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 * The photo of Daniel Zen was provided by [Unsplash](https://images.unsplash.com/photo-1549540952-f1a0ff6d3e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-* The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
+* The photo of "Octavia Bliss" in the User Stories section was provided by [Unsplash](https://images.unsplash.com/photo-1516526995003-435ccce2be97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
 ### README
-* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+* The deployment section of this README file was influenced by [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
 * The markdown used in this README file was learned from [Github Guides]()
 ### Project template
 * The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
