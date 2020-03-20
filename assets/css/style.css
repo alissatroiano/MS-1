@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,404&display=swap');
 
 /* Nav */
-.navalert-container {
+.navbar {
    font-family: 'Playfair Display', sans-serif;
 }
 
@@ -14,7 +14,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-  
+
   @media screen and (max-width: 1024px) {
     .jumbotron {
     left: 50%;
