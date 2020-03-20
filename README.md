@@ -20,7 +20,8 @@ The website includes positive user testimonials, like this one from current stud
 * Sign Up Form: The sign up form will allow current & prospective members to fill out a form with their information so they can book a session at the yoga studio.
 
 ## Existing Features
-
+* Branded Navigation Bar: helps site visitors identify where they are upon arrival to the site, by displaying the name & logo of the yoga studio.   
+* Jumbotron:
 
 ## Features Left to Implement
 * Images - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
@@ -32,26 +33,41 @@ The website includes positive user testimonials, like this one from current stud
 
 # Technologies Used
 This project makes use of the following languages, frameworks and libraries:
-* [HTML/HTML5](https://html5tutorial.info)
-* [CSS/CSS3](https://w3.org/Style/CSS)
+* [HTML](https://html5tutorial.info)
+* [CSS](https://w3.org/Style/CSS)
 * [Bootstrap](https://getbootstrap.com)
-* [Font Awesome]()
+* [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 
 # Testing
-Site will be tested when it is live. 
 
 Tests will be conducted to ensure that:
 * Website is responsive
 * Links work properly
 * Colors & typography are consistent
+* Sign up button is functional and easy to use
 
 # Deployment
 This project will be deployed with Github Pages.
 
+To run this project remotely:
+* Clone the repository using **git clone** open index.html in your web browser
+* **cd** project folder
+* **~/ms-1/setup-repo** then follow the instructions
+* **git push deploy**
+
 To run this project locally, choose one of the following options:
+1. **git init**
+1. **git remote add deploy** 
+*then push to the server and deploy*
+1. **git add .**
+1. **git commit -m "commit message"**
+1. **git push deploy master**
+
+You can also:
 * Download & unzip the project file, then open index.html in your web browser
-* Clone this repository and open index.html in your web browser 
+*or*
+* View a live version of this project [here](https://)
 
 # Credits
 ## Content
@@ -60,7 +76,9 @@ To run this project locally, choose one of the following options:
 ## Media
 ### Logo
 * The logo was copied from [Font Awesome](https://fontawesome.com/)
-### Hero/Masthead Image
+### Syntax for Hero/Jumbotron Image
+* 
+### Hero/Jumbotron Image
 * The masthead image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)
 ### User Stories
 * The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
