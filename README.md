@@ -86,7 +86,7 @@ You can also:
 
 ### User Stories
 * The photo of "Sarah Solar" in the User Stories section was copied from [Unsplash](https://images.unsplash.com/photo-1549540807-9442299306da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
-* The photo of Daniel Zen was provided by [Pexels](https://images.pexels.com/photos/1881994/pexels-photo-1881994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+* The photo of Daniel Zen was provided by [Unsplash](https://images.unsplash.com/photo-1549540952-f1a0ff6d3e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 * The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
 
 ### README
