@@ -83,6 +83,15 @@ You can also:
 ### User Stories
 * The photo of "Octavia Bliss" in the User Stories section was provided by [Pexels](https://www.pexels.com/photo/woman-doing-yoga-on-round-purple-yoga-mat-1882007/)
 * The photo of Daniel Zen was provided by [Pexels](https://images.pexels.com/photos/1881994/pexels-photo-1881994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+### README
+* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+* The markdown used in this README file was learned from [Github Guides]()
+### Project template
+*
 
 ## Acknowledgements
 * I recieved inspiration for this project from [Code Institute](https://codeinstitute.net)
+* The format for this README file follow the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+* The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
+* The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+* 
