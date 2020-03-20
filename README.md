@@ -102,4 +102,3 @@ You can also:
 * The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
 * The deployment section of this README file were copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
 * The markdown written in the README was inspire by [Github Guides](https://guides.github.com/features/mastering-markdown/).
-

@@ -16,7 +16,7 @@
 }
 
   @media screen and (max-width: 1024px) {
-    .jumbotron {
+.jumbotron {
     left: 50%;
     margin-left: auto;
    }
@@ -32,3 +32,7 @@
   font-style: italic;
   color: aliceblue;
 }
+
+
+/* Image Cards */
+.

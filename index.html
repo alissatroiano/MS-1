@@ -10,18 +10,17 @@
     <title>Infinity</title>
 </head>
 <body>
+<header>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-infinity"></i> Infinity</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
         </button>
-       <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
+       <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
@@ -34,21 +33,64 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
+        <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  </div>
 </nav>
+</header>
 
 <!-- Jumbotron -->
-<section class="jumbotron">
+<div class="jumbotron jumbotrom-fluid">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
-        <h1 class="display-4 font-weight-light">Infinity Yoga</h1>
-        <p class="lead">Begin your journey today</p>
+        <h1 class="display-4 font-weight-light">Infinity Yoga Studio</h1>
+        <p class="lead">Begin your practice today</p>
+        <p><a class="btn btn-info btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
   </div>
-</section>
-    
+</div>
+<!-- About -->
+
+<div class="container-md">
+<!-- User Stories -->
+<div class="card-deck">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1549540807-9442299306da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="User Story 1">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1549540952-f1a0ff6d3e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1516526995003-435ccce2be97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
+</div>
+
 </body>
 </html>
