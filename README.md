@@ -1,4 +1,4 @@
-# Infinity Yoga Studio
+# Milestone 1
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
