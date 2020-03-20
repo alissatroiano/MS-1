@@ -22,6 +22,7 @@ The website includes positive user testimonials, like this one from current stud
 ## Existing Features
 * Branded Navigation Bar  
 * Jumbotron
+* Image Cards
 
 ## Features Left to Implement
 * Images - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
@@ -40,7 +41,6 @@ This project makes use of the following languages, frameworks and libraries:
 * [Google Fonts](https://fonts.google.com/)
 
 # Testing
-
 Tests will be conducted to ensure that:
 * Website is responsive
 * Links work properly
