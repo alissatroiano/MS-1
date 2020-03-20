@@ -51,10 +51,10 @@ Tests will be conducted to ensure that:
 This project will be deployed with Github Pages.
 
 To run this project remotely:
-* Clone the repository using **git clone** open index.html in your web browser
-* **cd** project folder
-* **~/ms-1/setup-repo** then follow the instructions
-* **git push deploy**
+1. Clone the repository using **git clone** open index.html in your web browser
+2. **cd** project folder
+3. **~/ms-1/setup-repo** then follow the instructions
+4. **git push deploy**
 
 To run this project locally, choose one of the following options:
 1. **git init**
@@ -82,7 +82,6 @@ You can also:
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)/
 ### Logo
 * The infinity symbol logo was copied from [Font Awesome](https://fontawesome.com/).
-* 
 
 
 ### User Stories
