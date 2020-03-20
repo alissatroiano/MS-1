@@ -1,13 +1,13 @@
 # Infinity Yoga Studio
 
-This responsive, user-friendly website was created for Infinity, a fictional yoga studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML5, CSS & Bootstrap-4.
+This responsive, user-friendly website was created for Infinity, a fictional yoga studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-The website features an attractive header image with a sign up button followed by user-testimonials to incentivize new & existing members to sign up. The site also features a class schedule for users that want to know more about the studio and its approach.
+The website features an attractive header image with a sign up button and a class schedule to incentivize new & existing members to sign up. The site also includes user stories from current yoga students, for those who wish to know more about the studio and its approach.
 
 # UX
-This website was built for a fictional yoga studio owner in Manhattan, who wants to attract new members & retain their existing clientbase. 
+This website was built for a fictional yoga studio in Manhattan. The goal of the studio is to attract new members & retain their existing clientbase. 
 
-The target market for this website is men & women (18-24) who are currently interested in practicing yoga or who wish to begin practicing yoga.
+The target market for this website is men & women (24-36) who currently practice yoga or who wish to begin practicing yoga.
 
 The website includes positive user testimonials, like this one from current studio member & yoga enthusiast, Octavia Bliss:
 
