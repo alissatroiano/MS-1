@@ -31,17 +31,17 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(36, 37, 42, 0.5);
 }
 .jumbotron h1 {
   font-family: 'Playfair Display', serif;
-  color: aliceblue;
+  color: #f8f9fa;
 }
 
 .jumbotron p {
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
-  color: aliceblue;
+  color: #e8edf2;
 }
 
 
