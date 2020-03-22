@@ -10,18 +10,29 @@
   height: 100vh;
   min-height: 500px;
   background-image: url('https://images.unsplash.com/photo-1516527083915-bcc0641e1d43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1586&q=80');
-  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+/* Media Query copied from CSS Tricks */
   @media screen and (max-width: 1024px) {
 .jumbotron {
     left: 50%;
     margin-left: auto;
    }
 }
-
+/* Overlay style syntax copied from Whiskey Drop project */
+.jumbotron-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 .jumbotron h1 {
   font-family: 'Playfair Display', serif;
   color: aliceblue;
