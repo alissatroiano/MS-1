@@ -5,8 +5,25 @@
    font-family: 'Playfair Display', sans-serif;
 }
 
-/* callout */
+/* Containers */
+.container .quotes-header {
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+}
 
+.container-wrapper {}
+
+.container-wrapper--grey {
+    background-color: #ffffff;
+    color:#000000;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 /* Jumbotron */
 .jumbotron {
@@ -23,14 +40,6 @@
 .jumbotron button {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 500;
-    font-style: italic;
-}
-
-/* Containers */
-.container .quotes-header {
-    text-align: center;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 2rem;
     font-style: italic;
 }
 
@@ -61,7 +70,6 @@
   color: #e8edf2;
 }
 
-
 /* Card Deck */
 .card-text {
     font-family: 'Playfair Display', sans-serif;
@@ -74,4 +82,41 @@
     font-size: 14px;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
+}
+
+/********** About Section */
+/* this syntax was copied from code institute's whiskey drop project */
+.about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.about .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #69a8a9;
+}
+
+.about .page-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.about-feature {
+     font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
 }
