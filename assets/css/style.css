@@ -114,9 +114,16 @@
     font-weight: 500;
 }
 
-.about-feature {
+.about-header {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 550;
+}
+
+.about-content {
+     font-family: 'Playfair Display', serif;
+     font-size: 1rem;
+     font-weight: 400;
+     font-style: italic;
 }
