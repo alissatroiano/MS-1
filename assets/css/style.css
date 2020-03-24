@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,404&display=swap');
 
+/* Global Styles */
+
+.page-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
 /* Nav */
 .navbar {
    font-family: 'Playfair Display', sans-serif;
@@ -70,22 +79,7 @@
   color: #e8edf2;
 }
 
-/* Card Deck */
-.card-text {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    text-align: center;
-}
-
-.blockquote-footer {
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Playfair Display', sans-serif;
-}
-
-/********** About Section */
-/* this styles for this section were inspired by Code Institute's Whiskey Drop project */
+/* About */
 .about {
     text-align: center;
     margin-bottom: 40px;
@@ -126,4 +120,30 @@
      font-size: 1rem;
      font-weight: 400;
      font-style: italic;
+}
+
+/* Quotes */
+
+.quotes {
+
+}
+
+.quotes-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quotes-content {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.blockquote-footer {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
 }
