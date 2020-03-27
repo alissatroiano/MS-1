@@ -105,7 +105,7 @@ body, p {
     font-weight: 500;
 }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 600px) {
 .about-header {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
