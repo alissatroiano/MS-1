@@ -20,17 +20,17 @@ The website includes positive user testimonials, like this one from current stud
 * Sign Up Form: The sign up form will allow current & prospective members to fill out a form with their information so they can book a session at the yoga studio.
 
 ## Existing Features
-* Branded Navigation Bar  
+* Branded Navigation Bar
 * Jumbotron
 * User Stories
+* Logo
+* Navigation Bar
+* User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
 
 
 ## Features Left to Implement
-* Images - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
-* User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
+* Jumbotron Image - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
 * Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
-* Logo
-* Navigation Bar
 * Contact section with links to social media
 
 # Technologies Used

@@ -12,12 +12,12 @@ body, p {
     font-weight: 500;
 }
 
-/* Nav */
+/***** Navbar */
 .navbar {
    font-family: 'Playfair Display', sans-serif;
 }
 
-/* Containers */
+/***** Containers */
 
 .container-wrapper {}
 
@@ -30,7 +30,7 @@ body, p {
     padding-bottom: 75px;
 }
 
-/* Jumbotron */
+/***** Jumbotron */
 .jumbotron {
   height: 100vh;
   min-height: 500px;
@@ -48,14 +48,14 @@ body, p {
     font-style: italic;
 }
 
-/* Media Query copied from CSS Tricks */
+/* Media Query copies from CSS Tricks */
   @media screen and (max-width: 1024px) {
 .jumbotron {
     left: 50%;
     margin-left: auto;
    }
 }
-/* Overlay style syntax inspired by Code Insitute's Whiskey Drop project */
+/* .jumbotron Overlay - inspired by Code Institute */
 .jumbotron-overlay {
     position: absolute;
     top: 0;
@@ -105,26 +105,27 @@ body, p {
     font-weight: 500;
 }
 
+ @media screen and (max-width: 1024px) {
 .about-header {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 550;
+    margin: 0 auto;
+    float: none;
 }
+ }
 
 .about-content {
      font-family: 'Playfair Display', serif;
      font-size: 1rem;
      font-weight: 400;
      font-style: italic;
+     margin: 0 auto;
+     float: none;
 }
 
 /* Quotes */
-
-.quotes {
-
-}
-
 .quotes-header {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
