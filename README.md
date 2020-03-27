@@ -72,9 +72,9 @@ You can also:
 
 # Credits
 ## Content
-### Syntax
-* The syntax for this responsive site was copied from [Bootstrap](https://getbootstrap.com/)
-* The media queries were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
+### Style
+* This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/)
+* The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 * The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
 ### Typography
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
@@ -97,8 +97,9 @@ You can also:
 ### Project
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
 * The template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+* The syntax for the overlay in the jumbotron image was inspired by [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
 
 ### README
 * The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
-* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
-* The markdown written in the README was inspire by [Github Guides](https://guides.github.com/features/mastering-markdown/).
+* The deployment section of this README file was inspired by [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b).
+* The markdown language used to write the README for this project was learned by the developer thanks to [Github Guides](https://guides.github.com/features/mastering-markdown/).
