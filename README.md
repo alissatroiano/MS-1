@@ -83,6 +83,7 @@ You can also:
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/F79aH5eraUw)
 ### Logo
 * The infinity symbol logo was copied from [Font Awesome](https://fontawesome.com/).
+## Icons
 
 ### User Stories
 * The photo of "Sarah Solar" in the User Stories section was copied from [Unsplash](https://images.unsplash.com/photo-1549540807-9442299306da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
