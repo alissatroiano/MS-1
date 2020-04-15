@@ -18,6 +18,7 @@ The website includes positive user testimonials, like this one from current stud
 * Schedule: The schedule will provide site visitors with class times & details.
 * User stories: Each user story includes a photo and relevant quote about the studio from current studio members.
 * Sign Up Form: The sign up form will allow current & prospective members to fill out a form with their information so they can book a session at the yoga studio.
+* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
 
 ## Existing Features
 * Branded Navigation Bar
@@ -29,9 +30,7 @@ The website includes positive user testimonials, like this one from current stud
 
 
 ## Features Left to Implement
-* Jumbotron Image - will allow users to get an idea of the kind of experience they may have at the studio, by viewing photos of current members practicing yoga.
-* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
-* Contact section with links to social media
+
 
 # Technologies Used
 This project makes use of the following languages, frameworks and libraries:
