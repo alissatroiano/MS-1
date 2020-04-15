@@ -61,7 +61,7 @@ body, p {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(36, 37, 42, 0.5);
+    background-color: rgba(1, 24, 38, .8);
 }
 
 .jumbotron h1 {
@@ -109,7 +109,7 @@ body, p {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-style: italic;
-    font-weight: 550;
+    font-weight: 500;
     margin: 0 auto;
     float: none;
 }
