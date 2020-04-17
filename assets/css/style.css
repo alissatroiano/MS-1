@@ -162,12 +162,30 @@ i.fas.fa-heart.d-none.d-sm-block:hover {
     font-size: 50px;
 }
 
-i.fas.fa-infinity.d-none.d-sm-block {
+i.fas.fa-fire-alt.d-none.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-infinity.d-none.d-sm-block:hover {
+i.fas.fa-fire-alt.d-none.d-sm-block:hover {
+    color: #081826;
+}
+
+i.fas.fa-brain.d-none.d-sm-block {
+    color: #69a8a9;
+    font-size: 50px;
+}
+
+i.fas.fa-brain.d-none.d-sm-block:hover {
+    color: #081826;
+}
+
+i.fas.fa-praying-hands.d-none.d-sm-block {
+    color: #69a8a9;
+    font-size: 50px;
+}
+
+i.fas.fa-praying-hands.d-none.d-sm-block:hover {
     color: #081826;
 }
 
