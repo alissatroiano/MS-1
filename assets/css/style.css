@@ -24,15 +24,14 @@ p {
 }
 
 /*-------------------------------------------- Containers */
-.container-wrapper {}
-
-.container-wrapper--grey {
-    background-color: rgba(57, 57, 57, 0.8);
-}
 
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
 }
 
 /*-------------------------------------------- Jumbotron */
