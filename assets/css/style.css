@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300&display=swap');
 
 /*-----------------------------------------Headers */
-h1, h2, h3 {
+
+h2, h3 {
     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 p {
