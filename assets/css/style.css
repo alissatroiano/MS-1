@@ -31,14 +31,16 @@ body, p {
 
 /***** Jumbotron */
 .jumbotron {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url('https://images.unsplash.com/photo-1516527083915-bcc0641e1d43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1586&q=80');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+    background: url('/assets/images/yogamat.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .jumbotron button {
@@ -54,14 +56,15 @@ body, p {
     margin-left: auto;
    }
 }
-/* .jumbotron Overlay */
+
+/* .jumbotron overlay */
 .jumbotron-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 24, 38, .8);
+    background-color: rgba(21, 68, 97, 0.205);
 }
 
 .jumbotron h1 {
