@@ -9,13 +9,23 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.section-header {
+h2.section-header {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-style: italic;
     font-weight: 500;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 /*-------------------------------------------- Navbar */
@@ -104,17 +114,6 @@ p {
     font-style: italic;
     font-weight: 500;
 }
-
- @media screen and (max-width: 600px) {
-.about-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 500;
-    margin: 0 auto;
-    float: none;
-}
- }
 
 .about-content {
      font-family: 'Poppins', sans-serif;
@@ -213,3 +212,14 @@ i:hover {
     color: #081826;
     }
 }
+
+ @media screen and (max-width: 600px) {
+h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 auto;
+    float: none;
+}
+ }
