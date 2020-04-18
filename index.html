@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- Bootstrap CSS -->
+	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- Font Awesome CDN -->
@@ -180,35 +180,41 @@
 			</div>
 <!--Quotes Carousel-->
 <h2>What Our Members Say</h2>
-<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-
+<div class="container-fluid">
+<div id="myCarousel"  class="carousel slide" data-ride="carousel">
     <!--Indicators-->
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active">
-        </li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!--Wrapper for slides-->
-	<div class="carousel-inner" role="listbox">
-		<div class="item active">
-        <h4>"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></h4>	
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+        <blockquote class="d-block w-100">"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></blockquote>
 	    </div>
-        <div class="item">
-        <h4>"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></h4>	
+        <div class="carousel-item">
+        <blockquote>"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></blockquote>	
 	    </div>
-           <div class="item">
-        <h4>"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></h4>	
+           <div class="carousel-item">
+        <blockquote>"Infinity yoga is the best! I feel happier and healthier than ever!"<br><span style="font-style:normal;">Octavia Bliss, Infinity Yoga Student</span></blockquote>	
 	    </div>
 	  </div>
 
       <!--Left and right controls-->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide-to="prev">
-        
-     </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+      </a>
+       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
    </div>
- </div>
+</div>
+  </div>
 </section>
 
 
@@ -220,9 +226,5 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-
 </body>
 </html>
