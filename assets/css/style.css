@@ -203,6 +203,7 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 .img-thumbnail {
     padding: 0 0 15px 0;
     border: none;
+    margin-bottom: 20px;
 }
 
 .img-thumbnail img {
