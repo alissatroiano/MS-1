@@ -36,20 +36,24 @@ h3.about-header {
 }
 
 /*-------------------------------------------- Containers */
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
 .container-fluid {
-    padding: 60px 40px;
+    padding: 20px 60px;
     margin: 0px auto;
 }
 
-.container-fluid.text-center.bg-blue {
+.container-fluid.blue-wrapper {
+    padding: 40px 60px;
+    background-color: rgba(135, 156, 166, 0.3);
     margin: 0px auto;
-    background-color: rgba(115, 207, 217, .4);
+}
+
+.container.text-center.bg-blue {
+    max-width: 960px;
 }
 
 /*-------------------------------------------- Jumbotron */
@@ -195,6 +199,20 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
     color: #081826;
 }
 
+/*-------------------------------------------- Schedule */
+.img-thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+}
+
+.img-thumbnail img {
+    margin-bottom: 10px;
+}
+
+p.schedule-content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
 
 /*-------------------------------------------- Quotes */
 .quotes-header {
@@ -219,9 +237,6 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
 }
-
-
-/*-------------------------------------------- Schedule */
 
 
 /*-------------------------------------------- Media Queries */
