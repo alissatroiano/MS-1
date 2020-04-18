@@ -141,6 +141,10 @@ h3.about-header {
      float: none;
 }
 
+p.display-4.about-content {
+    font-size: 15px;
+}
+
 /*-------------------------------------------- Icons */
 i.fas.fa-yin-yang.d-none.d-sm-block {
     color: #69a8a9;
@@ -204,15 +208,13 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
     padding: 0 0 15px 0;
     border: none;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .img-thumbnail img {
+    width: 100%;
+    height: 100%;
     margin-bottom: 10px;
-}
-
-p.schedule-content {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 /*-------------------------------------------- Quotes */
