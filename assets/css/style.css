@@ -222,6 +222,7 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
+    font-family: 'Poppins', sans-serif;
     display: block;
 }
 
