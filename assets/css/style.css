@@ -43,7 +43,13 @@ h3.about-header {
 }
 
 .container-fluid {
-    padding: 60px 50px;
+    padding: 60px 40px;
+    margin: 0px auto;
+}
+
+.container-fluid.text-center.bg-blue {
+    margin: 0px auto;
+    background-color: rgba(115, 207, 217, .4);
 }
 
 /*-------------------------------------------- Jumbotron */
