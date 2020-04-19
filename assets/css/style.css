@@ -5,6 +5,7 @@
 h2, h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
+    text-align: center;
 }
 
 p {
@@ -218,38 +219,53 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 }
 
 /*-------------------------------------------- Quotes */
+#myCarousel {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
 
+.text-center h2 {
+    padding-top: 40px;
+    margin-top: 30px;
+}
 .carousel-item.active,
 .carousel-item-next,
-.carousel-item-prev{
-    font-family: 'Poppins', sans-serif;
+.carousel-item-prev blockquote{
     display: block;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-.quotes-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 500;
-    text-align: center;
-    color: #000000;
+span.cite {
+   display: block;
+   font-family: 'Poppins', sans-serif;
 }
 
-.quotes-content {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-    text-align: center;
-    color: #000000;
+i.fas.fa-chevron-left,
+i.fas.fa-chevron-right {
+    color: #1e4c50;
+    font-size: 40px;
 }
 
-.blockquote-footer {
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Playfair Display', sans-serif;
+i.fas.fa-chevron-left:hover,
+i.fas.fa-chevron-right:hover {
+    color: #011801;
+    font-size: 40px;
 }
 
+.carousel-indicators li {
+    background-color: #1e4c50;}
+
+.carousel-indicators li.active {
+    background-color: #011801;
+}
+
+div.carousel-item {
+    font-size: 16px;
+    line-height: 1.375em;
+    font-weight: 400;
+}
 
 /*-------------------------------------------- Media Queries */
   @media screen and (max-width: 1024px) {
