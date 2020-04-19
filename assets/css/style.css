@@ -219,57 +219,43 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 }
 
 /*-------------------------------------------- Quotes */
+
 #myCarousel {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    margin-top: inherit;
-    margin-bottom: inherit;
-}
-
-h2.text-center.quotes-header {
-    padding-top: 40px;
-}
-
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev blockquote{
-    display: block;
     font-family: 'Poppins', sans-serif;
-}
-
-span.cite {
-   display: block;
-   font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 i.fas.fa-chevron-left,
 i.fas.fa-chevron-right {
     color: #1e4c50;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 i.fas.fa-chevron-left:hover,
 i.fas.fa-chevron-right:hover {
     color: #011801;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .carousel-indicators li {
-    background-color: #1e4c50;}
+    background-color: transparent;}
 
 .carousel-indicators li.active {
-    background-color: #011801;
+    background-color: transparent;
 }
 
 div.carousel-item {
-    font-size: 15px;
     line-height: 1.375em;
     font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-div.carousel-inner {
-    padding: 20px 60px;
+h3.text-center.quotes {
+    padding-top: 30px;
 }
+
+/*-------------------------------------------- Contact */
 
 /*-------------------------------------------- Media Queries */
   @media screen and (max-width: 1024px) {
