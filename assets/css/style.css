@@ -226,10 +226,10 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
     margin-bottom: inherit;
 }
 
-.text-center h2 {
+h2.text-center.quotes-header {
     padding-top: 40px;
-    margin-top: 30px;
 }
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev blockquote{
@@ -262,9 +262,13 @@ i.fas.fa-chevron-right:hover {
 }
 
 div.carousel-item {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.375em;
     font-weight: 400;
+}
+
+div.carousel-inner {
+    padding: 20px 60px;
 }
 
 /*-------------------------------------------- Media Queries */
