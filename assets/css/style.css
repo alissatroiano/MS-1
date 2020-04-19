@@ -2,10 +2,16 @@
 
 /*-----------------------------------------Headers */
 
+h1 {
+    color: #011826;
+    text-shadow: 2px 2px #011826Z;
+}
+
 h2, h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
+    color: #011826;
 }
 
 p {
@@ -36,6 +42,25 @@ h3.about-header {
    font-family: 'Playfair Display', serif;
 }
 
+i.fas.fa-infinity {
+    color: #69a8a9;
+    text-size-adjust: inherit;
+}
+
+i.fas.fa-infinity:hover {
+    color: #011826;
+}
+
+a.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: .5px 1px #859CA6;
+    font-weight: 200;
+    text-size-adjust: inherit;
+}
+
+
 /*-------------------------------------------- Containers */
 .content-container {
     padding-top: 75px;
@@ -61,7 +86,7 @@ h3.about-header {
 .jumbotron {
     height: 100vh;
     min-height: 500px;
-    background: url('/assets/images/infinityphoto.jpg');
+    background: url('../images/warrior3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,22 +101,36 @@ h3.about-header {
     font-weight: 500;
     font-style: italic;
     margin: 0 auto;
+    color: #011826;
+}
+
+a.btn.btn-info.btn-lg {
+    background-color: #69a8a9;
+    color: #f2f2f2;
+    border-color: #69a8a9;
+}
+
+a.btn.btn-info.btn-lg:hover {
+    background-color: #f2f2f2;
+    color: #69a8a9;
+    border-color: #f2f2f2;
+
 }
 
 .jumbotron h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 7rem;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  text-shadow: 2px #081826;
+  text-shadow: 2px 2px #011826;
 }
 
 .jumbotron p {
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  color: #e8edf2;
+  color: #F2F2F2;
 }
 
 
@@ -102,7 +141,7 @@ h3.about-header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(3, 13, 21, .8);
 }
 
 /*-------------------------------------------- About */
@@ -153,7 +192,7 @@ i.fas.fa-yin-yang.d-none.d-sm-block {
 }
 
 i.fas.fa-yin-yang.d-none.d-sm-block:hover {
-    color: #081826;
+    color: #011826;
     font-size: 50px;
 }
 
@@ -163,7 +202,7 @@ i.fas.fa-peace.d-none.d-sm-block {
 }
 
 i.fas.fa-peace.d-none.d-sm-block:hover {
-    color: #081826;
+    color: #011826;
     font-size: 50px;
 }
 
@@ -173,7 +212,7 @@ i.fas.fa-heart.d-none.d-sm-block {
 }
 
 i.fas.fa-heart.d-none.d-sm-block:hover {
-    color: #081826;
+    color: #011826;
     font-size: 50px;
 }
 
@@ -183,7 +222,7 @@ i.fas.fa-fire-alt.d-none.d-sm-block {
 }
 
 i.fas.fa-fire-alt.d-none.d-sm-block:hover {
-    color: #081826;
+    color: #011826;
 }
 
 i.fas.fa-brain.d-none.d-sm-block {
@@ -192,7 +231,7 @@ i.fas.fa-brain.d-none.d-sm-block {
 }
 
 i.fas.fa-brain.d-none.d-sm-block:hover {
-    color: #081826;
+    color: #011826;
 }
 
 i.fas.fa-praying-hands.d-none.d-sm-block {
@@ -201,8 +240,8 @@ i.fas.fa-praying-hands.d-none.d-sm-block {
 }
 
 i.fas.fa-praying-hands.d-none.d-sm-block:hover {
-    color: #081826;
-}
+    color: #011826;
+}s
 
 /*-------------------------------------------- Schedule */
 .img-thumbnail {
@@ -227,13 +266,13 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 
 i.fas.fa-chevron-left,
 i.fas.fa-chevron-right {
-    color: #1e4c50;
+    color: #69a8a9;
     font-size: 20px;
 }
 
 i.fas.fa-chevron-left:hover,
 i.fas.fa-chevron-right:hover {
-    color: #011801;
+    color: #011826;
     font-size: 30px;
 }
 
