@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Headers */
 
@@ -15,7 +15,7 @@ h2, h3 {
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2.section-header {
@@ -28,9 +28,9 @@ h2.section-header {
     padding-bottom: 20px;
 }
 
-h3.about-header {
+h4.about-header {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: 500;
     margin: 0 auto;
@@ -45,15 +45,17 @@ h3.about-header {
 i.fas.fa-infinity {
     color: #69a8a9;
     text-size-adjust: inherit;
+    font-size: 30px;
 }
 
 i.fas.fa-infinity:hover {
     color: #011826;
+    font-size: 30px;
 }
 
 a.navbar-brand {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     text-shadow: .5px 1px #859CA6;
     font-weight: 200;
@@ -118,12 +120,12 @@ a.btn.btn-info.btn-lg:hover {
 }
 
 .jumbotron h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 7rem;
   color: #f2f2f2;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 1.5px;
   text-shadow: 2px 2px #011826;
 }
 
@@ -174,7 +176,7 @@ a.btn.btn-info.btn-lg:hover {
 }
 
 .about-content {
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 15px;
      font-weight: 400;
      margin: 0 auto;
@@ -260,7 +262,7 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 /*-------------------------------------------- Quotes */
 
 #myCarousel {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
@@ -295,6 +297,12 @@ h3.text-center.quotes {
 }
 
 /*-------------------------------------------- Contact */
+.google-map {
+    align-content: center;
+    margin: 0px auto;
+    max-width: 600px;
+    text-align: center;
+}
 
 /*-------------------------------------------- Media Queries */
   @media screen and (max-width: 1024px) {
