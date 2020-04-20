@@ -34,7 +34,7 @@ h4.about-header {
     font-style: italic;
     font-weight: 500;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /*-------------------------------------------- Navbar */
@@ -147,9 +147,12 @@ a.btn.btn-info.btn-lg:hover {
 }
 
 /*-------------------------------------------- About */
+.col-sm-4 {
+}
+
 .about {
     text-align: center;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .about i {
@@ -177,73 +180,71 @@ a.btn.btn-info.btn-lg:hover {
 
 .about-content {
      font-family: 'Montserrat', sans-serif;
-     font-size: 15px;
+     font-size: 14px;
      font-weight: 400;
-     margin: 0 auto;
-     float: none;
 }
 
 p.display-4.about-content {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /*-------------------------------------------- Icons */
-i.fas.fa-yin-yang.d-none.d-sm-block {
+i.fas.fa-yin-yang.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-yin-yang.d-none.d-sm-block:hover {
+i.fas.fa-yin-yang.d-sm-block:hover {
     color: #011826;
     font-size: 50px;
 }
 
-i.fas.fa-peace.d-none.d-sm-block {
+i.fas.fa-peace.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-peace.d-none.d-sm-block:hover {
+i.fas.fa-peace.d-sm-block:hover {
     color: #011826;
     font-size: 50px;
 }
 
-i.fas.fa-heart.d-none.d-sm-block {
+i.fas.fa-heart.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-heart.d-none.d-sm-block:hover {
+i.fas.fa-heart.d-sm-block:hover {
     color: #011826;
     font-size: 50px;
 }
 
-i.fas.fa-fire-alt.d-none.d-sm-block {
+i.fas.fa-fire-alt.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-fire-alt.d-none.d-sm-block:hover {
+i.fas.fa-fire-alt.d-sm-block:hover {
     color: #011826;
 }
 
-i.fas.fa-brain.d-none.d-sm-block {
+i.fas.fa-brain.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-brain.d-none.d-sm-block:hover {
+i.fas.fa-brain.d-sm-block:hover {
     color: #011826;
 }
 
-i.fas.fa-praying-hands.d-none.d-sm-block {
+i.fas.fa-praying-hands.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
-i.fas.fa-praying-hands.d-none.d-sm-block:hover {
+i.fas.fa-praying-hands.d-sm-block:hover {
     color: #011826;
-}s
+}
 
 /*-------------------------------------------- Schedule */
 div.img-thumbnail {
