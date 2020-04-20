@@ -246,10 +246,10 @@ i.fas.fa-praying-hands.d-none.d-sm-block:hover {
 }s
 
 /*-------------------------------------------- Schedule */
-.img-thumbnail {
-    padding: 0 0 15px 0;
+div.img-thumbnail {
+    padding-bottom: 20px;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 5px;
 }
 
@@ -297,11 +297,38 @@ h3.text-center.quotes {
 }
 
 /*-------------------------------------------- Contact */
-.google-map {
+
+div.col-12.col-6 {
     align-content: center;
     margin: 0px auto;
-    max-width: 600px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+    align-content: center;
+    margin: 0px auto;
     text-align: center;
+}
+
+/*-------------------------------------------- Contact */
+
+/*-------------------------------------------- Footer */
+footer {
+    background-color: #f8f9fa;
+    font-size: 14px;
+}
+
+footer i.fas.fa-chevron-up {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #69A8A9;
+}
+
+footer i.fas.fa-chevron-up:hover {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #011826;
 }
 
 /*-------------------------------------------- Media Queries */
