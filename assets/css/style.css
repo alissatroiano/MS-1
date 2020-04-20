@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
+/*-----------------------------------------Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 /*-----------------------------------------Headers */
 
 h1 {
@@ -70,7 +75,6 @@ a.navbar-brand {
 }
 
 .container-fluid {
-    padding: 20px 60px;
     margin: 0px auto;
 }
 
@@ -294,7 +298,8 @@ div.carousel-item {
 }
 
 h3.text-center.quotes {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*-------------------------------------------- Contact */
