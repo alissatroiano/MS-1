@@ -13,7 +13,7 @@ html {
 
 h1 {
     color: #011826;
-    text-shadow: 2px 2px #011826Z;
+    text-shadow: 2px 2px #011826;
 }
 
 h2 {
@@ -21,7 +21,6 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     font-weight: 500;
-    margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -36,7 +35,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -46,18 +44,12 @@ h2.section-header {
     font-size: 2rem;
     font-style: italic;
     font-weight: 500;
-    margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
 }
 
-h4.about-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
-    font-style: italic;
-    font-weight: 500;
-    margin: 0 auto;
-    padding-bottom: 10px;
+.row {
+    padding-top: 20px;
 }
 
 /*-------------------------------------------- Navbar */
@@ -67,7 +59,6 @@ h4.about-header {
 
 i.fas.fa-infinity {
     color: #69a8a9;
-    text-size-adjust: inherit;
     font-size: 30px;
 }
 
@@ -82,7 +73,6 @@ a.navbar-brand {
     text-transform: uppercase;
     text-shadow: .5px 1px #859CA6;
     font-weight: 200;
-    text-size-adjust: inherit;
 }
 
 
@@ -111,7 +101,7 @@ a.navbar-brand {
 .jumbotron {
     height: 100vh;
     min-height: 500px;
-    background: url('../images/infinityphoto.jpg');
+    background: url('../images/jumbotron.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +115,6 @@ a.navbar-brand {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
-    margin: 0 auto;
     color: #011826;
 }
 
@@ -167,7 +156,7 @@ a.btn.btn-info.btn-lg:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(3, 13, 21, .8);
+    background-color: rgba(3, 13, 21, .7);
 }
 
 /*-------------------------------------------- About */
@@ -207,8 +196,25 @@ a.btn.btn-info.btn-lg:hover {
      float: none;
 }
 
+h4.about-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
 p.display-4.about-content {
     font-size: 15px;
+}
+
+p.text-md-center.font-weight-normal {
+    padding: 10px 40px;
+}
+
+h3.about-header.text-break.text-align-center {
+    
 }
 
 /*-------------------------------------------- Icons */
