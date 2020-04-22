@@ -16,12 +16,26 @@ h1 {
     text-shadow: 2px 2px #011826Z;
 }
 
-h2, h3 {
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
     color: #011826;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    font-size: 1.5rem;
 }
+
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -305,6 +319,12 @@ div.carousel-item {
 h3.text-center.quotes {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+blockquote {
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
 }
 
 /*-------------------------------------------- Contact */
