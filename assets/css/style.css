@@ -88,6 +88,7 @@ a.navbar-brand {
 .container-fluid {
     padding: 20px 60px;
     margin: 0 auto;
+    overflow: scroll;
 }
 
 .container-fluid.blue-wrapper {
@@ -136,13 +137,12 @@ a.btn.btn-info.btn-lg:hover {
 
 .jumbotron h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #f2f2f2;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-shadow: 2px 2px #011826;
-  overflow: hidden;
 }
 
 .jumbotron p {
@@ -160,6 +160,7 @@ a.btn.btn-info.btn-lg:hover {
     height: 100%;
     width: 100%;
     background-color: rgba(3, 13, 21, .7);
+    overflow: visible;
 }
 
 /*-------------------------------------------- About */
