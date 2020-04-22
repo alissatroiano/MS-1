@@ -13,12 +13,12 @@ html {
 
 h1 {
     color: #011826;
-    text-shadow: 2px 2px #011826;
+    text-shadow: 2px 2px 2px 2px #011826;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 6vw;
+    font-size: 3rem;
     font-style: italic;
     font-weight: 500;
     text-align: center;
@@ -32,7 +32,7 @@ h3 {
     color: #011826;
     padding-bottom: 30px;
     margin: 0 auto;
-    font-size: 4.5vw;
+    font-size: 2rem;
 }
 
 footer h6 {
@@ -41,6 +41,7 @@ footer h6 {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
 }
 
 h2.section-header {
@@ -58,26 +59,25 @@ h2.section-header {
 /*-------------------------------------------- Navbar */
 .navbar {
    font-family: 'Playfair Display', serif;
+   font-size: 1rem !important;
+   line-height: 1.5;
 }
 
 i.fas.fa-infinity {
     color: #69a8a9;
-    font-size: 3vw;
 }
 
 i.fas.fa-infinity:hover {
     color: #011826;
-    font-size: 3vw;
 }
 
 a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    text-shadow: .5px 1px #859CA6;
+    text-shadow: 1px 1px 1px 1px #859CA6;
     font-weight: 200;
 }
-
 
 /*-------------------------------------------- Containers */
 .content-container {
@@ -136,7 +136,7 @@ a.btn.btn-info.btn-lg:hover {
 
 .jumbotron h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14vw;
+  font-size: 8rem;
   color: #f2f2f2;
   font-weight: 200;
   text-transform: uppercase;
@@ -170,7 +170,7 @@ a.btn.btn-info.btn-lg:hover {
 
 .about i {
     margin-bottom: 20px;
-    font-size: 5vw;
+    font-size: 40px;
     line-height: 45px;
 }
 
@@ -182,13 +182,6 @@ a.btn.btn-info.btn-lg:hover {
     font-weight: bold;
     margin-top: 10px;
     color: #69a8a9;
-}
-
-.about .page-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 500;
 }
 
 .about-content {
@@ -296,13 +289,12 @@ div.img-thumbnail {
 
 #myCarousel {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
 }
 
 i.fas.fa-chevron-left,
 i.fas.fa-chevron-right {
     color: #69a8a9;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 i.fas.fa-chevron-left:hover,
@@ -332,7 +324,6 @@ h3.text-center.quotes {
 
 blockquote {
     margin: 0 auto;
-    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -342,7 +333,6 @@ div.col-12.col-6 {
     align-content: center;
     margin: 0px auto;
     text-align: left;
-    font-size: 1.3vw;
 }
 
 .embed-responsive.embed-responsive-16by9 {
@@ -359,23 +349,21 @@ section#contact.contact {
 
 h2.text-center {
     padding-bottom: 0;
-
 }
 
 /*-------------------------------------------- Footer */
 .footer {
     background-color: #f8f9fa;
-    font-size: 1.6vw;
 }
 
 footer i.fas.fa-chevron-up {
-    font-size: 2.3vw;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
     color: #69A8A9;
 }
 
 footer i.fas.fa-chevron-up:hover {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
     color: #011826;
 }
