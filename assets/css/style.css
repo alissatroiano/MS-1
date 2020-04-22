@@ -354,6 +354,15 @@ div.col-12.col-6 {
 
 /*-------------------------------------------- Contact */
 
+section#contact.contact {
+    padding-top: 40px;
+}
+
+h2.text-center {
+    padding-bottom: 0;
+
+}
+
 /*-------------------------------------------- Footer */
 .footer {
     background-color: #f8f9fa;
