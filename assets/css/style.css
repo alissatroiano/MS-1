@@ -35,6 +35,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+footer h6 {
+    font-family: 'Playfair Display', serif;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -214,7 +218,7 @@ p.text-md-center.font-weight-normal {
 }
 
 h3.about-header.text-break.text-align-center {
-    
+
 }
 
 /*-------------------------------------------- Icons */
