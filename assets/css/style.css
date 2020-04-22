@@ -373,3 +373,11 @@ h3.about-header {
     float: none;
 }
  }
+
+ @media screen and (max-width:600px) {
+     #myCarousel {
+    font-family: 'Montserrat', sans-serif;
+    overflow: scroll;
+}
+     }
+
