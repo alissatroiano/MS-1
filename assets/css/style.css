@@ -42,6 +42,7 @@ footer h6 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    text-align: center;
 }
 
 h2.section-header {
@@ -101,18 +102,24 @@ a.navbar-brand {
     max-width: 960px;
 }
 
-/*-------------------------------------------- Jumbotron */
-.jumbotron {
+/* Jumbotron */
+/* jumbotron syntax and overlay were copied from Code Institute's Whiskey Drop project */
+.jumbotron-container {
     height: 100vh;
-    min-height: 500px;
-    background: url('../images/jumbotron.jpg');
+
+    background: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .jumbotron button {
@@ -135,7 +142,7 @@ a.btn.btn-info.btn-lg:hover {
 
 }
 
-.jumbotron h1 {
+.jumbotron-container h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 7rem;
   color: #f2f2f2;
