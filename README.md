@@ -9,10 +9,19 @@ This website was built for a fictional yoga studio in Manhattan. The goal of the
 
 The target market for this website is men & women (24-36) who currently practice yoga or who wish to begin practicing yoga.
 
-The website includes positive user testimonials, like this one from current studio member & yoga enthusiast, Octavia Bliss:
+The website also includes positive user testimonials from current studio members:
 
-> Infinity studio changed my life.
-> I feel happier and healthier than ever!
+> As a yoga student, I am happy that I can find Infinity’s address from any device, so I know when to go!
+
+> "As an Infinity member, I love that I can contact the studio online, so I don’t have to go out of my way."
+- Sara Solar
+
+> As an Infinity member, I love that I can read more about yoga and meditation on their website, so I know exactly what I'm paying for!
+> - Daniel Zen
+
+> As an Infinity member, I am able to quickly find class times on their website, so I don't have to spend too much time clicking around!
+> - Octavia Bliss
+
 
 # Features 
 * Schedule: The schedule will provide site visitors with class times & details.
