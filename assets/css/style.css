@@ -166,7 +166,7 @@ p.lead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(3, 13, 21, .7);
+    background-color: rgba(1, 24, 28, .7);
     overflow: visible;
 }
 
@@ -357,6 +357,19 @@ section#contact.contact {
 
 h2.text-center {
     padding-bottom: 0;
+}
+
+button.btn.btn-info.text-align-center.float-right {
+    background-color: #69a8a9;
+    border: #69A8A9;
+    font-family: 'Playfair Display', serif;
+}
+
+button.btn.btn-info.text-align-center.float-right:hover {
+    background-color: #011801;
+    border: #011801;
+    font-family: 'Playfair Display', serif;
+    color: #f2f2f2;
 }
 
 /*-------------------------------------------- Footer */
