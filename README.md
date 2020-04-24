@@ -16,9 +16,8 @@ The website includes positive user testimonials, like this one from current stud
 
 # Features 
 * Schedule: The schedule will provide site visitors with class times & details.
-* User stories: Each user story includes a photo and relevant quote about the studio from current studio members.
-* Sign Up Form: The sign up form will allow current & prospective members to fill out a form with their information so they can book a session at the yoga studio.
-* Contact Form: Contact form will allow current & prospective members to fill out a form and contact the studio
+* User stories: Three user stories from current studio members will be displayed under the schedule in the form of a carousel slider.
+* Contact Form: The contact form will be displayed on the bottom of the screen and will allow current & prospective members to fill out a form with their name, email and comments.
 
 ## Existing Features
 * Branded Navigation Bar
@@ -31,7 +30,6 @@ The website includes positive user testimonials, like this one from current stud
 
 ## Features Left to Implement
 
-
 # Technologies Used
 This project makes use of the following languages, frameworks and libraries:
 * [HTML](https://html5tutorial.info)
@@ -42,10 +40,11 @@ This project makes use of the following languages, frameworks and libraries:
 
 # Testing
 Tests will be conducted to ensure that:
-* Website is responsive
-* Links work properly
+* The website is responsive
+* All Links work properly
 * Colors & typography are consistent
-* Sign up button is functional and easy to use
+* The, 'Schedule' button in the jumbotron is functional and brings users to the appropriate section of the website.
+* The Contact form is functional and easy to use
 
 # Deployment
 This project will be deployed with Github Pages.
@@ -67,7 +66,7 @@ To run this project locally, choose one of the following options:
 You can also:
 * Download & unzip the project file, then open index.html in your web browser
 *or*
-* View a live version of this project [here](https://)
+* View a live version of this project [here](https://alissatroiano.github.io/MS-1/)
 
 # Credits
 ## Content
