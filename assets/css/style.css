@@ -13,7 +13,7 @@ html {
 
 h1 {
     color: #011826;
-    text-shadow: 2px 2px 2px 2px #011826;
+    text-shadow: 2px 2px #011826;
     font-size: 2rem;
 }
 
@@ -77,7 +77,7 @@ a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px 1px #859CA6;
+    text-shadow: 1px 1px #859CA6;
     font-weight: 200;
 }
 
@@ -152,7 +152,7 @@ h1.display-1 {
   text-shadow: 2px 2px #011826;
 }
 
-.jumbotron p {
+p.lead {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: #F2F2F2;
