@@ -33,7 +33,7 @@ The website includes positive user testimonials, like this one from current stud
 # Technologies Used
 This project makes use of the following languages, frameworks and libraries:
 * [HTML](https://html5tutorial.info)
-* [CSS](https://w3.org/Style/CSS)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 * [Bootstrap](https://getbootstrap.com)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
