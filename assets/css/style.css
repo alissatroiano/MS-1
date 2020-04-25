@@ -104,7 +104,7 @@ a.navbar-brand {
 }
 
 /* Jumbotron */
-/* jumbotron syntax and overlay were copied from Code Institute's Whiskey Drop project */
+/* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
     height: 100vh;
 
@@ -166,7 +166,7 @@ p.lead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 10, 10, .6);
+    background-color: rgba(1, 10, 10, .65);
     overflow: visible;
 }
 

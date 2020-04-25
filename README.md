@@ -9,7 +9,7 @@ This website was built for a fictional yoga studio in Manhattan. The goal of the
 
 The target market for this website is men & women (24-36) who currently practice yoga or who wish to begin practicing yoga.
 
-The website also includes positive user testimonials from current studio members:
+The website also includes three positive user testimonials from current studio members:
 
 > As a yoga student, I am happy that I can find Infinity’s address from any device, so I know where to go!
 > - Octavia Bliss
@@ -20,10 +20,10 @@ The website also includes positive user testimonials from current studio members
 > As an Infinity member, I can reach out to the studio from their website, so I never have to go out of my way.
 > - Sara Solar
 
-Here are some other user stories that were created during the planning phase of this project: 
+In addition to the final user stories included on the website, user stories were created during the planning phase of this project: 
 
 > As an Infinity member, I love that I can read more about yoga and meditation on their website, so I know exactly what I'm paying for!
-> - Mob Barley
+> - Mob Barley, Infinity Member
 
 > As a user, I can navigate the page easily, so I don't get frustrated or confused. 
 > - John Doe, Infinity Member
@@ -46,8 +46,7 @@ Here are some other user stories that were created during the planning phase of 
 * User Stories
 * Logo
 * Navigation Bar
-* User stories - allows users to read about the experiences current users have had, by providing them with quotes & testimonials.
-
+* User stories
 
 ## Features Left to Implement
 
