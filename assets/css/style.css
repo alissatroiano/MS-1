@@ -222,61 +222,24 @@ h3.about-header.text-break.text-align-center {
 }
 
 /*-------------------------------------------- Icons */
-i.fas.fa-yin-yang.d-sm-block {
-    color: #69a8a9;
-    font-size: 50px;
-}
-
-i.fas.fa-yin-yang.d-sm-block:hover {
-    color: #011826;
-    font-size: 50px;
-}
-
-i.fas.fa-peace.d-sm-block {
-    color: #69a8a9;
-    font-size: 50px;
-}
-
-i.fas.fa-peace.d-sm-block:hover {
-    color: #011826;
-    font-size: 50px;
-}
-
-i.fas.fa-heart.d-sm-block {
-    color: #69a8a9;
-    font-size: 50px;
-}
-
-i.fas.fa-heart.d-sm-block:hover {
-    color: #011826;
-    font-size: 50px;
-}
-
-i.fas.fa-fire-alt.d-sm-block {
-    color: #69a8a9;
-    font-size: 50px;
-}
-
-i.fas.fa-fire-alt.d-sm-block:hover {
-    color: #011826;
-}
-
-i.fas.fa-brain.d-sm-block {
-    color: #69a8a9;
-    font-size: 50px;
-}
-
-i.fas.fa-brain.d-sm-block:hover {
-    color: #011826;
-}
-
+i.fas.fa-yin-yang.d-sm-block,
+i.fas.fa-peace.d-sm-block,
+i.fas.fa-heart.d-sm-block,
+i.fas.fa-fire-alt.d-sm-block,
+i.fas.fa-brain.d-sm-block,
 i.fas.fa-praying-hands.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
 }
 
+i.fas.fa-yin-yang.d-sm-block:hover,
+i.fas.fa-peace.d-sm-block:hover,
+i.fas.fa-heart.d-sm-block:hover,
+i.fas.fa-fire-alt.d-sm-block:hover,
+i.fas.fa-brain.d-sm-block:hover,
 i.fas.fa-praying-hands.d-sm-block:hover {
     color: #011826;
+    font-size: 50px;
 }
 
 /*-------------------------------------------- Schedule */
