@@ -260,6 +260,7 @@ div.img-thumbnail {
 
 #myCarousel {
     font-family: 'Montserrat', sans-serif;
+    padding: 5px 40px;
 }
 
 div.carousel-inner {
