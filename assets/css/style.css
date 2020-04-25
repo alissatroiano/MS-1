@@ -1,8 +1,11 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Global Styles */
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -115,9 +118,17 @@ a.navbar-brand {
     -moz-background-size: cover;
     -o-background-size: cover;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
     overflow: hidden;
@@ -306,13 +317,15 @@ blockquote {
 /*-------------------------------------------- Contact */
 
 div.col-12.col-6 {
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0px auto;
     text-align: left;
 }
 
 .embed-responsive.embed-responsive-16by9 {
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0px auto;
     text-align: center;
 }
