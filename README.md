@@ -11,16 +11,28 @@ The target market for this website is men & women (24-36) who currently practice
 
 The website also includes positive user testimonials from current studio members:
 
-> As a yoga student, I am happy that I can find Infinity’s address from any device, so I know when to go!
+> As a yoga student, I am happy that I can find Infinity’s address from any device, so I know where to go!
+> - Octavia Bliss
 
-> "As an Infinity member, I love that I can contact the studio online, so I don’t have to go out of my way."
-- Sara Solar
-
-> As an Infinity member, I love that I can read more about yoga and meditation on their website, so I know exactly what I'm paying for!
+> As a member, I love that I can find class details on Infinity's website, so I know exactly when to go!
 > - Daniel Zen
 
-> As an Infinity member, I am able to quickly find class times on their website, so I don't have to spend too much time clicking around!
-> - Octavia Bliss
+> As an Infinity member, I can reach out to the studio from their website, so I never have to go out of my way.
+> - Sara Solar
+
+Here are some other user stories that were created during the planning phase of this project: 
+
+> As an Infinity member, I love that I can read more about yoga and meditation on their website, so I know exactly what I'm paying for!
+> - Mob Barley
+
+> As a user, I can navigate the page easily, so I don't get frustrated or confused. 
+> - John Doe, Infinity Member
+
+> As a user, I can click a link and move to a different section of the page, so I don't have to scroll around looking for content.
+> - Jane Doe, Infinity Member
+
+> As a user, I can tell that I am on a yoga website immediately, so I do not get confused.
+> - John Doe, Infinity Member
 
 
 # Features 

@@ -166,7 +166,7 @@ p.lead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 24, 28, .7);
+    background-color: rgba(1, 10, 10, .8);
     overflow: visible;
 }
 
@@ -262,6 +262,16 @@ div.img-thumbnail {
     font-family: 'Montserrat', sans-serif;
 }
 
+div.carousel-inner {
+    padding: 40px 40px;
+}
+
+div.carousel-item {
+    line-height: 1.375em;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+
 i.fas.fa-chevron-left,
 i.fas.fa-chevron-right {
     color: #69a8a9;
@@ -275,17 +285,11 @@ i.fas.fa-chevron-right:hover {
 }
 
 .carousel-indicators li {
-    background-color: transparent;}
+    background-color: #011826;
+    }
 
 .carousel-indicators li.active {
-    background-color: transparent;
-}
-
-div.carousel-item {
-    line-height: 1.375em;
-    font-weight: 400;
-    padding-left: 40px;
-    padding-right: 40px;
+    background-color: #011826;
 }
 
 h3.text-center.quotes {
@@ -322,13 +326,13 @@ h2.text-center {
     padding-bottom: 0;
 }
 
-button.btn.btn-info.text-align-center.float-right {
+button.btn.btn-info.float-right {
     background-color: #69a8a9;
     border: #69A8A9;
     font-family: 'Playfair Display', serif;
 }
 
-button.btn.btn-info.text-align-center.float-right:hover {
+button.btn.btn-info.float-right:hover {
     background-color: #011801;
     border: #011801;
     font-family: 'Playfair Display', serif;
