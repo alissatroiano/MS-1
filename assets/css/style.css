@@ -103,17 +103,29 @@ a.navbar-brand {
 /* Jumbotron */
 /* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
-    .jumbotron-container {
-        height: 100vh;
-    min-height: 500px;
-    background: url('../images/jumbotron.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100vh;
+
+    background: url('../images/jumbotron.jpg') no-repeat center center fixed;
     
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .jumbotron-overlay {
@@ -122,8 +134,8 @@ a.navbar-brand {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+    background-color: rgba(1, 10, 10, .65);
+    overflow: visible;
 }
 
 .jumbotron button {
@@ -161,8 +173,6 @@ p.lead {
   color: #F2F2F2;
 }
 
-
-/*-------------------------------------------- Jumbotron Overlay */
 
 /*-------------------------------------------- About */
 .about {
@@ -299,6 +309,20 @@ b, strong {
 
 /*-------------------------------------------- Contact */
 
+div.col-12.col-6 {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+
 /*-------------------------------------------- Contact */
 
 section#contact.contact {
@@ -340,12 +364,11 @@ footer i.fas.fa-chevron-up:hover {
 }
 
 /*-------------------------------------------- Media Queries */
-  @media screen and (max-width: 1024px) {
-.jumbotron {
-    left: 50%;
-    margin-left: auto;
-   }
-}
+  @media only screen and (max-width: 320px) {
+    .jumbotron-container { 
+        background-image: url('../images/"jumbotron.jpg');
+    }
+  }
 
 /* stack overflow (https://stackoverflow.com/questions/56964388/how-to-fix-font-awesome-icons-not-showing-on-mobile-chrome) */
 @media screen and (max-width:600px){
