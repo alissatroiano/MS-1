@@ -57,12 +57,16 @@ This project makes use of the following languages, frameworks and libraries:
 * [Bootstrap](https://getbootstrap.com)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [CSS Auto-prefixer](https://autoprefixer.github.io/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [W3C HTML Validator](https://validator.w3.org/)
 
 # Testing
-* The CSS in assets/css/style.css passed all tests according to the (W3C Jigsaw CSS Validator)[http://jigsaw.w3.org/css-validator/validator$link].
+* The CSS in assets/css/style.css passed all tests according to the (W3C Jigsaw CSS Validator)[http://jigsaw.w3.org/css-validator/].
  - To view the results of this test click [here](http://jigsaw.w3.org/css-validator/validator$link)
-
  * The HTML in index.html passed all tests according to the (W3C HTML Validator)[https://validator.w3.org/nu/#textarea]
+* All CSS prefixes in style.css were provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/)
+*
  
 
 Tests have been conducted to ensure that:
