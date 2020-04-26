@@ -62,12 +62,14 @@ This project makes use of the following languages, frameworks and libraries:
 * [W3C HTML Validator](https://validator.w3.org/)
 
 # Testing
-* The CSS in assets/css/style.css passed all tests according to the (W3C Jigsaw CSS Validator)[http://jigsaw.w3.org/css-validator/].
- - To view the results of this test click [here](http://jigsaw.w3.org/css-validator/validator$link)
+The following testing has been executed accordingly:
+* The CSS in assets/css/style.css passed all tests according to the (W3C Jigsaw CSS Validator)[http://jigsaw.w3.org/css-validator/]
+ ***To view the results of this test click [here](http://jigsaw.w3.org/css-validator/validator$link)***
  * The HTML in index.html passed all tests according to the (W3C HTML Validator)[https://validator.w3.org/nu/#textarea]
 * All CSS prefixes in style.css were provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/)
-*
- 
+* Tests were conducted by the developer to ensure that all navbar links work properly.
+* Tests were conducted by the developer to ensure that all social media links in the navbar work properly.
+*  Tests were conducted by the developer to ensure that all social media links open in a new tab using `target=_blank`
 
 Tests have been conducted to ensure that:
 * The website is responsive
