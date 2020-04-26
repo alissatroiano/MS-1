@@ -106,7 +106,7 @@ a.navbar-brand {
 .jumbotron-container {
     height: 100vh;
 
-    background: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
+    background: url('../images/infinityphoto.jpg') no-repeat bottom center fixed;
     background-size: cover;
     
     -webkit-background-size: cover;
@@ -175,6 +175,7 @@ p.lead {
     height: 100%;
     width: 100%;
     background-color: rgba(1, 10, 10, .65);
+    overflow: visible;
 }
 
 /*-------------------------------------------- About */
@@ -305,9 +306,9 @@ h3.text-center.quotes {
     padding-bottom: 20px;
 }
 
-blockquote {
-    margin: 0 auto;
-    text-align: center;
+b, strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 /*-------------------------------------------- Contact */
@@ -444,7 +445,6 @@ copied from https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp */
  -webkit-box-sizing:border-box;
  box-sizing:border-box
 }
-
 
 body {
  padding:0;
