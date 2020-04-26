@@ -59,7 +59,13 @@ This project makes use of the following languages, frameworks and libraries:
 * [Google Fonts](https://fonts.google.com/)
 
 # Testing
-Tests will be conducted to ensure that:
+* The CSS in assets/css/style.css passed all tests according to the (W3C Jigsaw CSS Validator)[http://jigsaw.w3.org/css-validator/validator$link].
+ - To view the results of this test click [here](http://jigsaw.w3.org/css-validator/validator$link)
+
+ * The HTML in index.html passed all tests according to the (W3C HTML Validator)[https://validator.w3.org/nu/#textarea]
+ 
+
+Tests have been conducted to ensure that:
 * The website is responsive
 * All Links work properly
 * Colors & typography are consistent
@@ -95,6 +101,8 @@ You can also:
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 * The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
 * The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
+* The syntax for the social media icons in the navbar was learned by reading this [mdbootstrap](https://mdbootstrap.com/snippets/jquery/mdbootstrap/948906) tutorial.
+
 ### Typography
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
