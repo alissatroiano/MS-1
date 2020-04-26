@@ -103,20 +103,22 @@ a.navbar-brand {
 /* Jumbotron */
 /* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
+    .jumbotron-container {
     height: 100vh;
 
-    background-image: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
-
+    background: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     position: relative;
+    overflow: hidden;
 }
 
 .opaque-overlay {
@@ -126,6 +128,7 @@ a.navbar-brand {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: visible;
 }
 
 .jumbotron button {
