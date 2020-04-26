@@ -94,6 +94,7 @@ You can also:
 * This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/)
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 * The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
+* The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 ### Typography
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
