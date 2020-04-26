@@ -4,7 +4,8 @@
 
 /*-----------------------------------------Global Styles */
 * {
-     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
 }
 
 html {
@@ -121,17 +122,21 @@ a.navbar-brand {
 .jumbotron-container {
      background-image: url('../images/infinityphoto.jpg');
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
     background-size: cover;
     height: 100vh;
     min-height: 100%;
 
-    justify-content: center;
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
-     align-items: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
 
      position: relative;
      overflow: hidden;
@@ -384,17 +389,21 @@ footer i.fas.fa-chevron-up:hover {
     .jumbotron-container {
      background-image: url('../images/infinityphoto.jpg');
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
     background-size: cover;
     height: 100vh;
     min-height: 100%;
 
-    justify-content: center;
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
-     align-items: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
 
      position: relative;
      overflow: hidden;
@@ -447,11 +456,13 @@ copied from https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp */
 @keyframes slide {
   0% {
     opacity: 0;
-    transform: translateY(70%);
+    -webkit-transform: translateY(70%);
+            transform: translateY(70%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 @-webkit-keyframes slide {
@@ -551,6 +562,7 @@ body {
  font-size:14px;
  font-weight:700;
  -webkit-transition:.2s all;
+ -o-transition:.2s all;
  transition:.2s all
 }
 
