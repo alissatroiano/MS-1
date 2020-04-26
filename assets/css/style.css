@@ -103,12 +103,30 @@ a.navbar-brand {
 /* Jumbotron */
 /* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
-    background-image: url('../images/jumbotron.jpg') no-repeat center center fixed;
+    height: 100vh;
+
+    background: url('../images/jumbotron.jpg') no-repeat center center fixed;
     
     background-size: cover;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .jumbotron-overlay {
@@ -349,9 +367,30 @@ footer i.fas.fa-chevron-up:hover {
 /*-------------------------------------------- Media Queries */
   @media only screen and (max-width: 320px) {
     .jumbotron-container { 
-        background-image: url('../images/"jumbotron.jpg');
+            height: 100vh;
+            
+            background: url('../images/jumbotron.jpg') no-repeat center center fixed;
+            background-size: cover;
+            
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             
+            display: -webkit-box;
+            display: -ms-flexbox;
+            
+            display: flex;
+            -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            
+            position: relative;
+            overflow: hidden;
+            }
     }
-  }
 
 /* stack overflow (https://stackoverflow.com/questions/56964388/how-to-fix-font-awesome-icons-not-showing-on-mobile-chrome) */
 @media screen and (max-width:600px){
