@@ -105,7 +105,7 @@ a.navbar-brand {
 .jumbotron-container {
     height: 100vh;
 
-    background: url('./../images/jumbotron.jpg') no-repeat bottom right fixed;
+    background: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
 
     background-size: cover;
     
@@ -126,7 +126,7 @@ a.navbar-brand {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 10, 10, .65);
+    background-color: rgba(1, 10, 10, .5);
     overflow: visible;
 }
 
@@ -302,20 +302,6 @@ b, strong {
 }
 
 /*-------------------------------------------- Contact */
-
-div.col-12.col-6 {
-    -ms-flex-line-pack: center;
-        align-content: center;
-    margin: 0px auto;
-    text-align: left;
-}
-
-.embed-responsive.embed-responsive-16by9 {
-    -ms-flex-line-pack: center;
-        align-content: center;
-    margin: 0px auto;
-    text-align: center;
-}
 
 /*-------------------------------------------- Contact */
 
