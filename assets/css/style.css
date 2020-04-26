@@ -106,7 +106,7 @@ a.navbar-brand {
 .jumbotron-container {
     height: 100vh;
 
-    background: url('./images/jumbotron.jpg') no-repeat bottom center fixed;
+    background: url('../images/jumbotron.jpg') no-repeat bottom center fixed;
     background-size: cover;
     
     -webkit-background-size: cover;
@@ -173,7 +173,6 @@ p.lead {
     height: 100%;
     width: 100%;
     background-color: rgba(1, 10, 10, .65);
-    overflow: visible;
 }
 
 /*-------------------------------------------- About */
