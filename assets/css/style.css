@@ -75,6 +75,28 @@ i.fas.fa-infinity:hover {
     color: #011826;
 }
 
+i.fab.fa-twitter, 
+i.fab.fa-facebook, 
+i.fab.fa-instagram,
+i.fab.fa-pinterest {
+    color: #69a8a9;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+i.fab.fa-twitter:hover, 
+i.fab.fa-facebook:hover, 
+i.fab.fa-instagram:hover,
+i.fab.fa-pinterest:hover {
+    color: #011826;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+
 a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
