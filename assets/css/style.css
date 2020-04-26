@@ -81,8 +81,7 @@ i.fab.fa-instagram,
 i.fab.fa-pinterest {
     color: #69a8a9;
     font-size: 20px;
-    padding-right: 10px;
-    margin-right: 10px;
+    margin-right: 0 auto;
 }
 
 i.fab.fa-twitter:hover, 
@@ -91,8 +90,7 @@ i.fab.fa-instagram:hover,
 i.fab.fa-pinterest:hover {
     color: #011826;
     font-size: 20px;
-    padding-right: 10px;
-    margin-right: 10px;
+    margin-right: 0 auto;
 }
 
 
