@@ -105,7 +105,7 @@ a.navbar-brand {
 .jumbotron-container {
     height: 100vh;
 
-    background: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
+    background-image: url('../images/jumbotron.jpg') no-repeat bottom right fixed;
 
     background-size: cover;
     
@@ -127,8 +127,7 @@ a.navbar-brand {
     height: 100%;
     width: 100%;
     background-color: rgba(1, 10, 10, .5);
-    overflow: visible;
-}
+ }
 
 .jumbotron button {
     font-family: 'Playfair Display', serif;
