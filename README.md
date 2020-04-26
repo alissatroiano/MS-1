@@ -106,6 +106,8 @@ You can also:
 ### Typography
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
+### Favicon
+The favicon was downloaded from  [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
 ### Jumbotron Image
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/sOBKKLFVi8M)
 ### Logo
