@@ -106,7 +106,8 @@ a.navbar-brand {
 .jumbotron-container {
     height: 100vh;
 
-    background: url('../images/infinityphoto.jpg') no-repeat bottom center fixed;
+    background: url('../images/infinityphoto.jpg') no-repeat bottom right fixed;
+
     background-size: cover;
     
     -webkit-background-size: cover;
