@@ -528,8 +528,15 @@ body {
 }
 
 .notfound a:hover {
- background-color: #69a8a9;
- color: #011801;
+ background-color: #45d1e8;
+ border-color: #45d1e8;
+ color: #000;
+}
+
+.notfound.button a:hover {
+    background-color: #fe0943;
+    border-color: #fe0943;
+    color: #F2F2F2;
 }
 
 @media only screen and (max-width:767px) {
