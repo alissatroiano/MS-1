@@ -56,6 +56,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: center;
+    padding: inherit;
 }
 
 h2.section-header {
