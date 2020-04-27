@@ -234,6 +234,14 @@ p.lead {
      float: none;
 }
 
+h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 50px;
+    float: none;
+}
+
 h4.about-header {
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
@@ -249,10 +257,6 @@ p.display-4.about-content {
 
 p.text-md-center.font-weight-normal {
     padding: 10px 40px;
-}
-
-h3.about-header.text-break.text-align-center {
-
 }
 
 /*-------------------------------------------- Icons */
@@ -460,7 +464,7 @@ h3.about-header {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 500;
-    margin: 0 auto;
+    margin-top: 50px;
     float: none;
 }
  }
