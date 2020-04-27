@@ -8,7 +8,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!-- Bootstrap CDN -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.4.1/jquery.min.js"></script>
 	<!-- Font Awesome CDN -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
 		integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
@@ -86,7 +85,7 @@
 <!--./jumbotron-overlay-->   
 	<div class="jumbotron-fluid">
         <div class="container">
-			<div class="row slide">
+			<div class="row">
 				<div class="col-12 enter">
                 <h1 class="display-3">Infinity</h1>
                  <h2 class="lead" style="color:#f2f2f2;">Yoga and Meditation Studio</h2>
@@ -101,13 +100,13 @@
 <!--About-->
 <section class="about">
 	<div id="about" class="container container-fluid">
-		<div class="row slide">
+		<div class="row">
 			<div class="col-12 col-6">
 				<h2 class="section-header">About Us</h2>
-				<hr class="block-divider block-divider--short block-divider--black">
+				<hr>
 			</div>
 		</div>
-		<div class="row slide">
+		<div class="row">
 			<div class="flex-column col-12">
 			</div>
 			<div class="flex-column col-12">
@@ -120,7 +119,7 @@
     <!--Why Infinity Container-->
     <div class="container-fluid text-center">
 	    <h3 class="about-header text-break text-lg-center">Why Infinity?</h3>
-	        <div class="row slide">
+	        <div class="row">
 		        <div class="col-12 col-md-6 col-lg-4">
 			        <div class="about">
 				        <i class="fas fa-brain d-sm-block"></i>
@@ -143,7 +142,7 @@
 				                </p>
 			                    </div>
 		                    </div>
-		    <div class="row slide">
+		    <div class="row">
 			    <div class="col-12 col-md-6 col-lg-4">
 				        <div class="about">
 					<i class="fas fa-peace  d-sm-block"></i>
@@ -262,14 +261,14 @@
 <section class="contact">
 	<div id="contact" class="container-fluid">
 		<h2 class="text-center">Contact Us</h2>
-		<div class="row slide">
+		<div class="row">
 			<div class="col-12 col-6">
 				<p style="padding-top:20px;"><i class="fas fa-map-marker-alt"></i><span> New York, New York</span></p>
 				<p><i class="fas fa-phone"></i> +1.212.000.0000 </p>
 				<p><i class="fas fa-envelope-open"></i> owner@infinityyoga.nyc</p>
 			</div>
 			<div class="col-12 col-6">
-				<div class="row slide">
+				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 form-group">
 						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                 </div>
@@ -278,7 +277,7 @@
                 </div>
 						</div>
 						<textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea>
-						<div class="row slide">
+						<div class="row">
 							<div class="col-12 col-sm-12 form-group">
 								<button class="btn btn-info float-right" type="submit">Send</button>
 							</div>
@@ -301,43 +300,6 @@
 	</footer>
 </section>
 <!--./footer-->
-
-<!--jQuery Syntax for animations here-->
-<!--copied from https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp -->
-<script>
-$(document).ready(function(){
-     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-           if (this.hash !== "") {
-                     // Prevent default anchor click behavior
-      event.preventDefault();
-
-  // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate ({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 900) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
