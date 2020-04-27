@@ -85,20 +85,20 @@ i.fas.fa-infinity:hover {
     color: #011826;
 }
 
-i.fab.fa-twitter, 
-i.fab.fa-facebook, 
-i.fab.fa-instagram,
+i.fab.fa-twitter-square, 
+i.fab.fa-facebook-square, 
+i.fab.fa-instagram-square,
 i.fab.fa-pinterest {
     color: #69a8a9;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
-i.fab.fa-twitter:hover, 
-i.fab.fa-facebook:hover, 
-i.fab.fa-instagram:hover,
+i.fab.fa-twitter-square:hover,
+i.fab.fa-facebook-square:hover, 
+i.fab.fa-instagram-square:hover,
 i.fab.fa-pinterest:hover {
     color: #011826;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 a.navbar-brand {
@@ -106,7 +106,8 @@ a.navbar-brand {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-shadow: 1px 1px #859CA6;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 /*-------------------------------------------- Containers */
@@ -118,6 +119,7 @@ a.navbar-brand {
 .container-wrapper-blue {
     background-color: rgba(135, 156, 166, 0.3);
     max-width: 100%;
+    padding-top: inherit;
 }
 
 .container-fluid {
@@ -205,6 +207,7 @@ p.lead {
 .about {
     text-align: center;
     padding-bottom: 40px;
+    margin-top: 50px;
 }
 
 .about i {
@@ -292,11 +295,6 @@ div.img-thumbnail {
 
 /*-------------------------------------------- Quotes */
 
-#myCarousel {
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px 40px;
-}
-
 div.carousel-inner {
     padding: 20px 20px;
 }
@@ -335,6 +333,11 @@ h3.text-center.quotes {
 b, strong {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+#myCarousel {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 40px;
 }
 
 /*-------------------------------------------- Contact */
@@ -393,6 +396,26 @@ footer i.fas.fa-chevron-up:hover {
     color: #011826;
 }
 
+/*-------------------------------------------- Sections */
+#about {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+#schedule {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+#contact {
+    margin-top: 70px;
+    padding-top: 30px;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
 /*-------------------------------------------- Media Queries */
   @media only screen and (max-width: 320px) {
     .jumbotron-container {
@@ -446,43 +469,7 @@ h3.about-header {
      #myCarousel {
     font-family: 'Montserrat', sans-serif;
     overflow: scroll;
-}
-     }
-
-/* Animations 
-copied from https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp */
-
-.slideanim {visibility:hidden;}
-.slide {
-  animation-name: slide;
-  -webkit-animation-name: slide;
-  animation-duration: 2s;
-  -webkit-animation-duration: 2s;
-  /* Make the element visible */
-  visibility: visible;
-}
-
-@keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
-            transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-}
-@-webkit-keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
+    }
 }
 
 /* 404 Error Page 
