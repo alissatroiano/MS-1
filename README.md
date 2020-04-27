@@ -69,7 +69,7 @@ The following testing has been executed accordingly:
 * All CSS prefixes in style.css were provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/)
 * Tests were conducted by the developer to ensure that all navbar links work properly.
 * Tests were conducted by the developer to ensure that all social media links in the navbar work properly.
-*  Tests were conducted by the developer to ensure that all social media links open in a new tab using `target=_blank`
+*  Tests were conducted by the developer to ensure that all social media links open in a new tab using `target=_blank`.
 
 Tests have been conducted to ensure that:
 * The website is responsive
@@ -102,13 +102,18 @@ You can also:
 
 # Credits
 ## Content
+* The content in this page was written by the [developer](https://www.github.com/alissatroiano)
+* The 404 page for Infinity was copied from a 404 template created by [Colorlib](https://colorlib.com).
+* The schedule and contact section were styled based on [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp).
+* The carousel slider was copied from [W3 Schools Create a Theme: "Company" Bootstrap Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp). Because W3 Schools used Bootstrap 3 for this template, most of the syntax was revised for Bootstrap 4 by the developer.
+slide up effect 
 ### Style
 * This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/)
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 * The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
 * The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 * The syntax for the social media icons in the navbar was learned by reading this [mdbootstrap](https://mdbootstrap.com/snippets/jquery/mdbootstrap/948906) tutorial.
-
+* The s
 ### Typography
 * The font used in this project was imported from [Google Fonts](https://fonts.google.com/)
 ## Media
