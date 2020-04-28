@@ -18,7 +18,7 @@ html {
 hr {
     border-top: 2.5px solid rgb(33, 37, 41);
     width: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -34,7 +34,6 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-style: italic;
-    font-weight: 500;
     text-align: center;
 }
 
@@ -57,7 +56,7 @@ h4, h5, h6 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -190,11 +189,10 @@ h1.display-3 {
 }
 
 .about-content {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 14px;
-     font-weight: 400;
-     margin: 0 auto;
-     float: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    float: none;
 }
 
 /*-------------------------------------------- Icons */
@@ -225,7 +223,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     background-color: transparent;
     box-sizing: border-box;
     box-shadow: 1px 2px 1px 2px #375a5a75;
-    margin-bottom: 20px;
+    margin: 20px 30px;
 }
 
 /*-------------------------------------------- Quotes */
@@ -319,6 +317,11 @@ footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     margin-bottom: 10px;
     color: #011826;
+}
+
+footer h6 {
+    font-size: 1rem;
+    font-style: normal;
 }
 
 /*-------------------------------------------- Sections */
