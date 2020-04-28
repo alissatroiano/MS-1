@@ -97,15 +97,11 @@ a.navbar-brand {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-shadow: 1px 1px #859CA6;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.2rem;
 }
 
 /*-------------------------------------------- Containers */
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
 
 .container-wrapper-blue {
     background-color: rgba(135, 156, 166, 0.3);
@@ -118,11 +114,10 @@ a.navbar-brand {
     margin: 0 auto;
 }
 
-
 /* Jumbotron */
 /* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
-     background-image: url('../images/infinityphoto.jpg');
+    background-image: url('../images/infinityphoto.jpg');
 
     background-size: cover;
     height: 100vh;
@@ -154,12 +149,6 @@ a.navbar-brand {
     overflow: visible;
 }
 
-.jumbotron button {
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-style: italic;
-    color: #011826;
-}
 
 a.btn.btn-info.btn-lg {
     background-color: #69a8a9;
@@ -187,13 +176,6 @@ h1.display-3 {
   text-shadow: 2px 2px #011826;
 }
 
-p.lead {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  color: #F2F2F2;
-}
-
-
 /*-------------------------------------------- About */
 .about {
     text-align: center;
@@ -205,16 +187,6 @@ p.lead {
     margin-bottom: 20px;
     font-size: 40px;
     line-height: 45px;
-}
-
-.about .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #69a8a9;
 }
 
 .about-content {
