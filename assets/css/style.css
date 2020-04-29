@@ -36,6 +36,7 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -239,7 +240,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 img.figure-img.img-fluid.rounded-circle {
@@ -271,19 +272,18 @@ button.btn.btn-info.float-right:hover {
 }
 
 /*-------------------------------------------- Footer */
-.footer {
-    background-color: #f8f9fa;
+footer {
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
 }
 
 footer i.fas.fa-chevron-up {
     font-size: 30px;
-    margin-bottom: 20px;
     color: #69A8A9;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
-    margin-bottom: 10px;
     color: #011826;
 }
 
@@ -334,8 +334,6 @@ footer h6 {
         overflow: hidden;
     }
 }
-
-
 
 /* 404 Error Page (https://colorlib.com) */
 * {
