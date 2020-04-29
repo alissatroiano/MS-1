@@ -223,45 +223,11 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     background-color: transparent;
     box-sizing: border-box;
     box-shadow: 1px 2px 1px 2px #375a5a75;
-    margin: 20px 30px;
+    margin-bottom: 20px;
 }
 
 /*-------------------------------------------- Quotes */
 
-div.carousel-inner {
-    padding: 20px 20px;
-}
-
-div.carousel-item {
-    line-height: 1.375em;
-    font-weight: 400;
-    padding: 20px 20px;
-}
-
-i.fas.fa-chevron-left,
-i.fas.fa-chevron-right {
-    color: #69a8a9;
-    font-size: 30px;
-}
-
-i.fas.fa-chevron-left:hover,
-i.fas.fa-chevron-right:hover {
-    color: #011826;
-    font-size: 30px;
-}
-
-.carousel-indicators li {
-    background-color: #011826;
-    }
-
-.carousel-indicators li.active {
-    background-color: #011826;
-}
-
-#myCarousel {
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px 40px;
-}
 
 /*-------------------------------------------- Contact */
 
@@ -326,17 +292,20 @@ footer h6 {
 
 /*-------------------------------------------- Sections */
 #about {
-    margin-top: 50px;
-    padding-top: 30px;
+    margin: 50px 20px;
+    padding: 60px 40px;
 }
 
 #schedule {
     margin-top: 50px;
-    padding-top: 30px;
+    padding: 60px 40px;
+    background-color: rgba(135, 156, 166, 0.3);
+    max-width: 100%;
 }
 
 #contact {
-    margin-top: 30px;
+    margin: 50px 50px;
+    padding: 30px 30px;
 }
 
 #footer {
