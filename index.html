@@ -20,18 +20,18 @@
 </head>
 
 <!-- Body -->
-
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-	<!-- Header -->
+<!-- Header -->
 <header>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
 		<a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-              </span>
-             </button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+			</span>
+		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
@@ -80,22 +80,22 @@
 <!--Page Content-->
 <main>
 <!-- Jumbotron Container-->
-<section class="jumbotron-container">
-	<!--Jumbotron Overlay-->
-	<div class="jumbotron-overlay">&nbsp;</div>
-	<!--./jumbotron-overlay-->
-	<div class="jumbotron-fluid">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 enter">
-					<h1 class="display-3">Infinity</h1>
-					<h2 class="lead" style="color:#f2f2f2;">Yoga and Meditation Studio</h2>
-					<p><a class="btn btn-info btn-lg" href="#schedule" role="button">Schedule &raquo;</a></p>
+	<section class="jumbotron-container">
+		<!--Jumbotron Overlay-->
+		<div class="jumbotron-overlay">&nbsp;</div>
+		<!--./jumbotron-overlay-->
+		<div class="jumbotron-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 enter">
+						<h1 class="display-3">Infinity</h1>
+						<h2 class="lead" style="color:#f2f2f2;">Yoga and Meditation Studio</h2>
+						<p><a class="btn btn-info btn-lg" href="#schedule" role="button">Schedule &raquo;</a></p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 <!--./jumbotron-container-->
 
 <!--About-->
@@ -176,8 +176,7 @@
 </section>
 <!--./about-->
 
-<!-- Schedule Section-->
-<!-- This code was copied from & inspired by W3Schools.com https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp -->
+<!-- Schedule-->
 <section id="schedule">
 	<div class="container-fluid">
 		<h2 class="section-header">Schedule</h2>
@@ -210,7 +209,7 @@
 		</div>
 	</div>
 </section>
-<!--./schedule-section-->
+<!--./schedule-->
 
 <!--Contact Section-->
 <section id="contact">
@@ -219,56 +218,60 @@
 		<hr>
 		<div class="row">
 			<div class="col-xs-8 col-sm-4">
-				<p class="text-sm-justify"><i class="fas fa-map-marker-alt"></i><span> New York, New York</span></p>
+				<p class="text-sm-justify"><i class="fas fa-map-marker-alt"></i><span> New York, New York</span>
+				</p>
 				<p class="text-sm-justify"><i class="fas fa-phone"></i> +1.212.000.0000 </p>
 				<p class="text-sm-justify"><i class="fas fa-envelope-open"></i> owner@infinty.nyc</p>
 			</div>
 			<div class="col-xs-4 col-sm-8">
 				<div class="form-group">
 					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
-                </div>
-					<div class="form-group">
-						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
-                </div>
-						<textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="3"></textarea>
-						<br>
-						<button class="btn btn-info float-right" type="submit">Send</button>
-					</div>
 				</div>
-			</div>
-</section>
-<!--./contact-section-->
-
-<!--Quotes-->
-<section id="quotes">
-<div class="quotes-container">
-	<div class="container-fluid">
-		<h2 class="section-header">Quotes</h2>
-		<hr>
-		<div class="row">
-			<div class="col-xs-8 col-sm-4 text-center">
-				<figure class="figure">
-					<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" class="figure-img img-fluid rounded-circle" alt="woman's face">
-					<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
-				</figure>
-			</div>
-
-			<div class="col-xs-8 col-sm-4 text-center">
-				<figure class="figure">
-					<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" class="figure-img img-fluid rounded-circle" alt="woman's face">
-					<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
-				</figure>
-			</div>
-
-			<div class="col-xs-8 col-sm-4 text-center">
-				<figure class="figure">
-					<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" class="figure-img img-fluid rounded-circle" alt="woman's face">
-					<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
-				</figure>
+				<div class="form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
+				</div>
+				<textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="3"></textarea>
+				<br>
+				<button class="btn btn-info float-right" type="submit">Send</button>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
+<!--./contact-->
+
+<!--Quotes-->
+<section id="quotes">
+	<div class="quotes-container">
+		<div class="container-fluid">
+			<h2 class="section-header">Quotes</h2>
+			<hr>
+			<div class="row">
+				<div class="col-xs-8 col-sm-4 text-center">
+					<figure class="figure">
+						<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260"
+							class="figure-img img-fluid rounded-circle" alt="woman's face">
+						<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-8 col-sm-4 text-center">
+					<figure class="figure">
+						<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260"
+							class="figure-img img-fluid rounded-circle" alt="woman's face">
+						<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-8 col-sm-4 text-center">
+					<figure class="figure">
+						<img src="https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260"
+							class="figure-img img-fluid rounded-circle" alt="woman's face">
+						<figcaption class="figure-caption">"A quote from this yoga student"</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!--./quotes-->
 </main>
@@ -287,14 +290,13 @@
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+		</script>
 
 </body>
-
 </html>
