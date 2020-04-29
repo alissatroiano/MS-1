@@ -223,7 +223,8 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     background-color: transparent;
     box-sizing: border-box;
     box-shadow: 1px 2px 1px 2px #375a5a75;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------------------- Quotes */
@@ -292,20 +293,26 @@ footer h6 {
 
 /*-------------------------------------------- Sections */
 #about {
-    margin: 50px 20px;
-    padding: 60px 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #schedule {
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-top: 50px;
-    padding: 60px 40px;
+    margin-bottom: 50px;
     background-color: rgba(135, 156, 166, 0.3);
     max-width: 100%;
 }
 
 #contact {
-    margin: 50px 50px;
-    padding: 30px 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #footer {
