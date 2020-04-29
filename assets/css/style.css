@@ -239,6 +239,19 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     margin-bottom: 30px;
 }
 
+img.figure-img.img-fluid.rounded-circle {
+    vertical-align: middle;
+    width: fit-content;
+    max-width: 150px;
+    height: 150px;
+}
+
+.figure-caption {
+    font-size: 90%;
+    color: #011826;
+    padding-bottom: 20px;
+}
+
 /*-------------------------------------------- Contact */
 
 button.btn.btn-info.float-right {
