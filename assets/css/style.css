@@ -176,6 +176,9 @@ h1.display-3 {
 }
 
 /*-------------------------------------------- About */
+.container-wrapper-about {
+
+}
 
 .about i {
     margin-bottom: 20px;
@@ -192,8 +195,7 @@ h1.display-3 {
 }
 
 #about {
-    padding-top: 40px;
-    margin-top: 50px;
+    padding-top: 60px;
 }
 
 /*-------------------------------------------- Icons */
@@ -229,28 +231,33 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 }
 
 /*-------------------------------------------- Quotes */
-.quotes-container {
-    background: rgba(135, 156, 166, 0.3);
+.container-wrapper-quotes{
+    background: rgba(135, 156, 166, 0.2);
     text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 
-.teal.lighten-3, .teal.lighten- {
-    background-color: #80cbc4 !important;
+.top-color {
+    background-color: #69a8a9 !important;
 }
 
-.testimonial-card .card-up {
+.fas.fa-quote-left {
+}
+
+.quote-card .card-top {
     height: 120px;
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
 }
   
-  p {
+p {
     margin-top: 0;
     margin-bottom: 1rem;
-  }
+}
   
-  .testimonial-card .avatar {
+.quote-card .avatar {
     width: 120px;
     margin-top: -60px;
     overflow: hidden;
@@ -258,7 +265,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     border-radius: 50%;
   }
   
-  .testimonial-card .avatar {
+.quote-card .avatar {
     width: 100%;
 }
   
@@ -267,11 +274,11 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     height: auto;
 }
   
-.testimonial-card .card-body {
+.quote-card .card-body {
     text-align: center;
 }
  
-  .card {
+.card {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -279,7 +286,8 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #fafafa;
+    box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
   }
   
 .card-body {
@@ -289,14 +297,14 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     padding: 1.25rem;
 }
   
- .testimonial-card .card-up {
+ .quote-card .card-top {
     height: 120px;
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
   }
   
- .testimonial-card .avatar {
+ .quote-card .avatar {
     width: 120px;
     margin-top: -60px;
     overflow: hidden;
@@ -304,38 +312,23 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     border-radius: 50%;
   }
   
- .card-body {
+  .card-body {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
 }
 
 blockquote {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-style: italic;
+    font-weight: ;
 }
 
-.blockquote-footer {
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    background-color: #fff;
-    font-size: .75rem;
-}
-  
-
-
-img.figure-img.img-fluid.rounded-circle {
-    vertical-align: middle;
-    width: fit-content;
-    max-width: 150px;
-    height: 150px;
-}
-
-.figure-caption {
-    font-size: 90%;
-    color: #011826;
-    padding-bottom: 20px;
+.quotes hr {
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1.5px solid rgb(185, 185, 185);
 }
 
 #quotes {
@@ -382,17 +375,15 @@ footer h6 {
 /*-------------------------------------------- Sections */
 
 #schedule {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
-    margin-top: 50px;
     margin-bottom: 50px;
     background-color: rgba(135, 156, 166, 0.3);
 }
 
 #contact {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -490,7 +481,6 @@ body {
     left: 20px;
     right: 20px;
     top: -40px;
-    /*! font-size:80px; */
     font-weight: 800;
     color: #000106;
     text-transform: uppercase;
