@@ -217,6 +217,10 @@ You can also:
 
 - The fonts used in this project were imported from [Google Fonts](https://fonts.google.com/)
 
+- The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
+
+
+
 ### Media
 
 - The photo for "Vinyasa Flow" in the schedule section was copied from [Unsplash](https://unsplash.com/photos/C7xUP_-Q8eI)
@@ -226,7 +230,6 @@ You can also:
 - The photo for, 'Candelight Meditation,' in the schedule section was copied from [Unsplash](https://unsplash.com/photos/t888K8RWyDQ)
 
 The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
-* The photo for, 'Rooftop Yoga' in the schedule section was copied from [Unsplash](https://unsplash.com/photos/TYk-iqkW0i4)
 
 - The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
 
