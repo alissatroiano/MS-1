@@ -219,8 +219,6 @@ You can also:
 
 - The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
 
-
-
 ### Media
 
 - The photo for "Vinyasa Flow" in the schedule section was copied from [Unsplash](https://unsplash.com/photos/C7xUP_-Q8eI)
