@@ -230,18 +230,100 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 
 /*-------------------------------------------- Quotes */
 .quotes-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #90bfc0;
-    overflow: visible;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background: rgba(135, 156, 166, 0.3);
+    text-align: center;
 }
+
+.teal.lighten-3, .teal.lighten- {
+    background-color: #80cbc4 !important;
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .testimonial-card .avatar {
+    width: 100%;
+}
+  
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  
+.testimonial-card .card-body {
+    text-align: center;
+}
+ 
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+  }
+  
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+  
+ .testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+ .testimonial-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+  
+ .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.blockquote-footer {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    background-color: #fff;
+    font-size: .75rem;
+}
+  
+
 
 img.figure-img.img-fluid.rounded-circle {
     vertical-align: middle;
@@ -254,6 +336,11 @@ img.figure-img.img-fluid.rounded-circle {
     font-size: 90%;
     color: #011826;
     padding-bottom: 20px;
+}
+
+#quotes {
+    padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 /*-------------------------------------------- Contact */
@@ -308,6 +395,7 @@ footer h6 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 
 /*-------------------------------------------- Media Queries */
 @media only screen and (max-width: 320px) {
