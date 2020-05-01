@@ -98,12 +98,12 @@ i.fab.fa-pinterest:hover {
 }
 
 a.navbar-brand {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Futura-PT', sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    text-shadow: 1px 1px #859CA6;
+    text-shadow: .5px .5px #011826;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /*-------------------------------------------- Containers */
@@ -167,18 +167,16 @@ a.btn.btn-info.btn-lg:hover {
 
 
 h1.display-3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Futura-PT', sans-serif;
     color: #f2f2f2;
     font-weight: 200;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     text-shadow: 2px 2px #011826;
+    font-size: 5rem;
 }
 
 /*-------------------------------------------- About */
-.container-wrapper-about {
-
-}
 
 .about i {
     margin-bottom: 20px;
