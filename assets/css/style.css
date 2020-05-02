@@ -23,6 +23,17 @@ hr {
     margin-bottom: 40px;
 }
 
+/* https://www.w3schools.com/cssref/sel_selection.asp */
+::-moz-selection { /* Code for Firefox */
+    color: #f2f2f2;
+    background: #69a8a9;
+  }
+  
+  ::selection {
+    color: #f2f2f2;
+    background: #69a8a9;
+  }
+
 /*-----------------------------------------Headers */
 
 h1 {
@@ -119,6 +130,7 @@ a.navbar-brand {
     background-image: url('../images/infinityphoto.jpg');
 
     background-size: cover;
+    max-width: 100%;
     height: 100vh;
     min-height: 100%;
 
@@ -240,9 +252,6 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     background-color: #69a8a9 !important;
 }
 
-.fas.fa-quote-left {
-}
-
 .quote-card .card-top {
     height: 120px;
     overflow: hidden;
@@ -321,7 +330,6 @@ p {
 blockquote {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: ;
 }
 
 .quotes hr {
@@ -471,7 +479,6 @@ body {
     text-transform: uppercase;
     text-shadow: -1px -1px 0px #e6d8e059, 1px 1px 0px #a5e8e8;
     letter-spacing: -20px;
-    z-index: ;
 }
 
 .notfound .notfound-404 h2 {

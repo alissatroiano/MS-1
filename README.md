@@ -2,7 +2,7 @@
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-The website features an attractive jumbotron image with a schedule button that, when clicked, directs the user to the class schedule section of the webpage. The schedule is included to provide class details and information to new & existing members. 
+The website features an attractive jumbotron image with a schedule button that, when clicked, directs the user to the class schedule section of the webpage. The schedule is included to provide class details and information to new & existing members.
 
 Infinity’s website also includes user testimonials,a popular trust element in UX, from current studio members. The user stories on Infinity’s site are included to motivate new & prospective users to sign up and to provide information for those who wish to know more about the studio and its approach.
 
@@ -34,7 +34,7 @@ In addition to the final user stories included on the website, user stories were
 
 - Quote:
 
-> As an Infinity member, I love that I can read more about yoga and meditation on their website, so I know exactly what I'm paying for!
+> As a member at Infinity, I know I since they opened an yoga & meditation , so I know what I'm paying for!
 >
 > - ***Mob Barley, Infinity Member***
 
