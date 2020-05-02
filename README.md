@@ -221,6 +221,8 @@ You can also:
 
 - The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
 
+- The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
+
 ### Media
 
 - The photo for "Vinyasa Flow" in the schedule section was copied from [Unsplash](https://unsplash.com/photos/C7xUP_-Q8eI)
