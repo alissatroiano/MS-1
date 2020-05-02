@@ -13,7 +13,7 @@ html {
 
 .row,
 .container {
-    margin: 0;
+    margin: 0 auto;
 }
 
 hr {
@@ -120,13 +120,11 @@ a.navbar-brand {
 /*-------------------------------------------- Containers */
 
 .container-fluid {
-    padding: 20px 60px;
     margin: 0 auto;
 }
 
 .container-fluid.mt-40 {
-    padding: 20px 30px;
-    margin-top: 0 auto;
+    margin: 0 auto;
 }
 
 /* Jumbotron */
@@ -235,33 +233,25 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 }
 
 /*-------------------------------------------- Schedule */
-.img-thumbnail.rounded {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    box-sizing: border-box;
-    box-shadow: 1px 2px 1px 2px #375a5a75;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.box13 {
+div.box {
     position: relative;
     -webkit-transition: all 0.2s ease-out 0s;
     -o-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s;
-    width: 300px;
+    max-width: 300px;
     height: auto;
-  }
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
   
-  .box13 .box-content,
-  .box13:after {
+  .box .box-content,
+  .box:after {
     position: absolute;
     left: 20px;
     right: 20px;
   }
   
-  .box13:after {
+  .box:after {
     content: "";
     display: block;
     background: rgba(105, 168, 169, 2);
@@ -275,20 +265,22 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     transition: all 0.4s ease-in-out 0s;
   }
   
-  .box13:hover:after {
+  .box:hover:after {
     opacity: 0.9;
     -webkit-transform: rotate3d(0, 0, 0, 0deg);
             transform: rotate3d(0, 0, 0, 0deg);
   }
   
-  .box13 img {
+img.img-fluid {
     max-width: 100%;
     height: auto;
     overflow: hidden;
-  }
+    box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
+    border: 2px solid #f2f2f2;
+}
   
-  .box13 .box-content {
-    top: 45%;
+  .box .box-content {
+    top: 50%;
     opacity: 0;
     z-index: 1;
     -webkit-transform: translate(10%, -30%);
@@ -299,7 +291,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     transition: all 0.2s ease-out 0s;
   }
   
-  .box13:hover .box-content {
+  .box:hover .box-content {
     opacity: 1;
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
@@ -309,19 +301,21 @@ i.fas.fa-praying-hands.d-sm-block:hover {
             transition-delay: 0.2s;
   }
   
-  .box13 .title {
+.box .title {
     display: block;
     font-size: 20px;
     font-weight: 700;
     color: #000000;
-    margin: 0 0 10px;
+    margin-top: 10px;
     font-family: "Playfair Display", serif;
     font-style: italic;
     text-align: center;
     margin-top: 30px;
-  }
+    margin: 10px 10px;
+    overflow: hidden;
+}
   
-  .box13 .post {
+  .box .post {
     font-family: "Futura-PT", san-serif;
     display: block;
     font-size: 16px;
@@ -333,14 +327,30 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     font-family: "Futura-PT", san-serif;
     text-align: center;
     color: #f2f2f2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.btn.btn-sm.btn-dark:hover {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #011826;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  hr.box {
+    border-top: 2.5px solid rgb(33, 37, 41);
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   @media only screen and (max-width: 990px) {
-    .box13 {
+    .box {
       margin-bottom: 30px;
     }
   }
-
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
     background: rgba(135, 156, 166, 0.2);
