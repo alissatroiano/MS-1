@@ -257,6 +257,10 @@ The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-si
 
 - The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 
+- The instructions for the placement of the favicon were learned from [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
+
+- The tools used to repair any markdown issues were aquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
+
 2.README:
 
 - The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
