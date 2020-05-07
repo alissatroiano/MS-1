@@ -209,15 +209,17 @@ You can also:
 
 1. Code Snippets:
 
-- The syntax for the jumbotron and navigation bar were copied from [Start Bootstrap](https://codepen.io/eversionsystems/pen/YOmqdj).
+- The syntax for the navigation was copied from [Bootstrap]().
 
 - The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
 - The HTML and CSS syntax for the 404 page for Infinity was copied from a 404 template created by [Colorlib](https://colorlib.com). The [developer](https://www.github.com/alissatroiano) adjusted this code with the color palette and typography selected for this project.
 
-- The contact section was originally styled based on [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp).The [developer](https://www.github.com/alissatroiano) adjusted the column sizes, placement, color scheme and typography for this code.
+- The contact section was originally styled based on [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp), but the [developer](https://www.github.com/alissatroiano) adjusted the column sizes and redesigned the placement, color scheme and typography for this section.
 
-- The fonts used in this project were imported from [Google Fonts](https://fonts.google.com/)
+- The serif font used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/).
+
+- The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts]().
 
 - The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
 

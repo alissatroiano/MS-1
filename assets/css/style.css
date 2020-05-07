@@ -23,8 +23,10 @@ html {
 }
 
 hr {
-    border-top: 2.5px solid rgb(33, 37, 41);
-    width: 25px;
+    width: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid #69a8a9;
 }
 
 /* https://www.w3schools.com/cssref/sel_selection.asp */
@@ -50,7 +52,8 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 h3 {
@@ -78,6 +81,7 @@ p {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
+    margin-bottom: 1rem;    
 }
 
 /*-------------------------------------------- Navbar */
@@ -89,10 +93,14 @@ p {
 
 i.fas.fa-infinity {
     color: #69a8a9;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #011826;
 }
 
 i.fas.fa-infinity:hover {
     color: #011826;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #69a8a9;
 }
 
 i.fab.fa-twitter-square,
@@ -115,9 +123,9 @@ a.navbar-brand {
     font-family: 'Futura-PT', sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    text-shadow: .5px .5px #011826;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 2px #69a8a9;
 }
 
 /*-------------------------------------------- Containers */
@@ -202,7 +210,7 @@ h1.display-3 {
 }
 
 .about-content {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0 auto;
     float: none;
@@ -247,11 +255,6 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-}
-  
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
   
 .schedule-card .avatar {
@@ -299,36 +302,16 @@ p {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
   }
- 
-.schedule hr {
-        width: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-top: 3px solid #69a8a9;
-}
 
 p.text-muted {
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Futura-PT', sans-serif;
 }
 
-p, 
 a.nav-item {
-   font-family: 'Futura-PT', sans-serif;
-  margin: 0 auto;
-  color: #000;
-}
-
-a.nav-item:hover {
-   font-family: 'Futura-PT', sans-serif;
-  color: #69a8a9;
-}
-
-h4.card-title.mt-1 {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 1.5rem;
+    font-family: 'Futura-PT', sans-serif;
+    margin: 0 auto;
+    color: #69a8a9;
 }
 
 .signUp {
@@ -353,8 +336,7 @@ svg {
 
 svg rect, svg path, svg polyline {
   fill: none;
-  stroke: #fff;
-  stroke-width: 2;
+  stroke-width: 2px;
 }
 
 .signUp:hover svg rect {
@@ -385,8 +367,8 @@ svg rect {
 .container-wrapper-quotes{
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 60px 40px;
 }
 
 .top-color {
@@ -398,11 +380,6 @@ svg rect {
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-}
-  
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
   
 .quote-card .avatar {
@@ -483,19 +460,16 @@ blockquote {
     padding: 10px 10px;
 }
 
-.quotes hr {
-    width: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 3px solid #69a8a9;
-}
-
 #quotes {
     padding-top: 40px;
     margin-bottom: 50px;
 }
 
 /*-------------------------------------------- Contact */
+.row.contact {
+    margin-top: 50px;
+}
+
 button.btn.btn-info.float-right {
     background-color: #69a8a9;
     border: #69A8A9;
@@ -511,8 +485,8 @@ button.btn.btn-info.float-right:hover {
 
 /*-------------------------------------------- Footer */
 footer {
-    background-color: #f2f2f2;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 footer i.fas.fa-chevron-up {
@@ -528,27 +502,28 @@ footer i.fas.fa-chevron-up:hover {
 footer h6 {
     font-size: 1rem;
     font-style: normal;
+    margin-top: 20px;
 }
 
 /*-------------------------------------------- Sections */
 #schedule {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 60px 40px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #contact {
-    padding-top: 60px;
-    padding-bottom: 40px;
-    margin-bottom: 50px;
-}
-
-
-#about {
     padding: 60px 40px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#about {
+    padding: 60px 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 /*./sections*/
 
 
