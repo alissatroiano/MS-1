@@ -125,7 +125,7 @@ a.navbar-brand {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1.7rem;
-    text-shadow: 2px 2px 2px #69a8a9;
+    text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
 }
 
 /*-------------------------------------------- Containers */
@@ -246,27 +246,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     margin-bottom: 30px;
 }
 
-.top-color {
-    background-color: #69a8a9 !important;
-}
-
-.schedule-card .card-top {
-    height: 120px;
-    overflow: hidden;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-}
-  
-.schedule-card .avatar {
-  width: 120px;
-  height: auto;
-  margin-top: -60px;
-  overflow: hidden;
-  border: 1px solid #fff;
-  border-radius: 50%;
-}
-
-.schedule-card .card-body {
+.card .card-body {
     text-align: center;
 }
  
@@ -294,14 +274,8 @@ i.fas.fa-praying-hands.d-sm-block:hover {
             flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
+  background-color: #fafafa;
 }
-  
- .schedule-card .card-top {
-    height: 120px;
-    overflow: hidden;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-  }
 
 p.text-muted {
   font-size: 14px;
@@ -318,7 +292,6 @@ a.nav-item {
   width: 130px;
   height: 65px;
   margin: 0 auto;
-  color: #011826;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 65px;
