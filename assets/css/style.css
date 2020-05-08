@@ -457,6 +457,10 @@ button.btn.btn-info.float-right:hover {
     margin-top: 20px;
 }
 
+.form-control::placeholder {
+    font-family: 'Futura-PT', sans-serif;
+}
+
 /*-------------------------------------------- Footer */
 footer {
     margin-bottom: 20px;
