@@ -332,7 +332,6 @@ svg rect {
   -o-transition: all 0.8s ease-in-out;
 }
 
-li.nav-item,
 a.nav-link.signUp,
 a.nav-link.active.signUp {
 	color: #69a8a9;
@@ -341,8 +340,8 @@ a.nav-link.active.signUp {
 	-webkit-transition: all 0.4s;
     transition: all 0.4s;
     font-family: 'Futura-PT', sans-serif;
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
     color: #69a8a9;
 }
 
