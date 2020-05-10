@@ -209,7 +209,7 @@ You can also:
 
 1. Code Snippets:
 
-- The syntax for the navigation was copied from [Bootstrap]().
+- The syntax for the navigation was copied from [Bootstrap](https://getbootstrap.com/).
 
 - The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
@@ -219,7 +219,7 @@ You can also:
 
 - The serif font used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/).
 
-- The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts]().
+- The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts](https://fonts.adobe.com/fonts).
 
 - The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
 
