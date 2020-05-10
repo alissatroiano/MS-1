@@ -245,6 +245,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 
 .card .card-body {
     text-align: center;
+    background-color: #fafafa;
 }
 
 .card-deck, .card {
@@ -281,12 +282,6 @@ margin: 0 auto;
 p.text-muted {
   font-size: 14px;
   font-family: 'Futura-PT', sans-serif;
-}
-
-a.nav-item {
-    font-family: 'Futura-PT', sans-serif;
-    margin: 0 auto;
-    color: #69a8a9;
 }
 
 .signUp {
@@ -336,6 +331,153 @@ svg rect {
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
+
+li.nav-item,
+a.nav-link.signUp,
+a.nav-link.active.signUp {
+	color: #69a8a9;
+	text-align: center;
+	border-radius: 2px;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #69a8a9;
+}
+
+.signUp {
+    width: 130px;
+    height: 65px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5srem;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  svg rect, svg path, svg polyline {
+    fill: none;
+    stroke-width: 1px;
+  }
+  
+  .signUp:hover svg rect {
+    stroke: #69a8a9;
+  }
+  
+  svg rect {
+    stroke-dasharray: 400, 0;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+  }
+  
+  .signUp:hover svg rect {
+    stroke-width: 3;
+    stroke-dasharray: 35, 245;
+    stroke-dashoffset: 38;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+  }
+
+/*Sign Up Form */
+.fname, .lname, .email, .class {
+    font-family: "Futura-PT", sans-serif;
+    font-size: 14px;
+  }
+  
+  form.signup-form {
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .text-input {
+     margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button.btn.btn-info {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    float: none;
+  }
+  
+  .vinyasa,
+  .restorative, .chakracleansing {
+    font-family: "Futura-PT", sans-serif;
+    font-size: 14px;
+  }
+  
+  .form-row {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+      margin: 0 auto;
+  }
+  
+  .form_section {
+    text-align: center;
+  }
+
+  a.nav-link:hover,
+a.nav-link.active.signUp:hover {
+	color: #69a8a9;
+	text-align: center;
+	border-radius: 2px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.nav-link {
+	display: block;
+}
+
+.col-sm-6.col-form-label,
+.form-check-label,
+.date {
+	font-family: "Futura-PT", sans-serif;
+	font-size: 15px;
+  text-align: justify;
+}
+
+form {
+position: relative;
+}
+
+[type="date"] {
+	background: #fff
+		url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+		97% 50% no-repeat;
+	font-family: "Futura-PT", sans-serif;
+	font-size: 15px;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+	display: flex;
+	font-family: "Futura-PT", sans-serif;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+	font-family: "Futura-PT", sans-serif;
+}
+  
 
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
