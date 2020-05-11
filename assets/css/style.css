@@ -240,22 +240,12 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
 }
-
-.card-body {
-    background-color: #fff;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-}
  
 .card {
     margin-top: 10px;
     margin-bottom: 10px;
-    position: relative;
-    display: inline-block;
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-    display: block;
   }
 
 p.text-muted {
@@ -326,37 +316,36 @@ a.nav-link.active.signUp {
 }
 
 /*Sign Up Form */
-label.fname, label.lname, label.email, label.class, label.email {
+label.fname, label.lname, label.email, label.class, label.email, label.class_selection {
     font-family: "Futura-PT", sans-serif;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+}
+
+.vinyasa, .restorative, .chakracleansing {
+    font-family: "Futura-PT", sans-serif;
+    font-size: 14px;
+    text-align: right;
 }
   
 .text-input {
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: "Futura-PT", sans-serif;
+    border: 1px solid gray;
     color: #4ba0b5;
 }
 
 button.btn.btn-info {
-    font-size: 14px;
+    font-size: 12.5px;
     margin-top: 10px;
     font-family: "Playfair Display", serif;
-    text-align: center;
-
 }
   
   .form-row {
-    text-align: center;
     overflow: hidden;
     position: relative;
-      margin: 0 auto;
+    margin: 0 auto;
   }
   
-  .form_section {
-    text-align: center;
-  }
 
   a.nav-link:hover,
 a.nav-link.active.signUp:hover {
@@ -376,8 +365,9 @@ a.nav-link.active.signUp:hover {
 .form-check-label,
 .date {
 	font-family: "Futura-PT", sans-serif;
-	font-size: 15px;
-  text-align: justify;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 form {

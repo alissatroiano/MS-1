@@ -220,55 +220,78 @@
                                             <div class="tab-content" id="pills-tabContent">
                                                 <div class="tab-pane fade show active" id="about1" role="tabpanel"
                                                     aria-labelledby="about-tab"></div>
-                                                     <!-- Sign Up Form -->
-                                                     <form class="signup-form" method="POST"
-                                                     action="https://formdump.codeinstitute.net/">
-                                                     <!-- First Name Input field -->
-                                                     <div class="form-row align-items-center">
-                                                         <div class="col-md-auto">
-                                                             <label class="fname" for="fname">First
-                                                                 Name</label>
-                                                             <input type="text" id="fname" name="first_name"
-                                                                 class="text-input" placeholder="First Name" required="">
-                                                         </div>
-                                                     </div>
-                                                     <!-- Last Name Input field -->
-                                                     <div class="form-row">
-                                                         <div class="col-md-auto">
-                                                             <label for="lname" class="lname">Last
-                                                                 Name</label>
-                                                             <input type="text" id="lname" name="last_name"
-                                                                 class="text-input" placeholder="Last Name" required="">
-                                                         </div>
-                                                     </div>
+                                                <!-- Sign Up Form -->
+                                                <form class="signup-form" method="POST"
+                                                    action="https://formdump.codeinstitute.net/">
+                                                    <!-- First Name Input field -->
+                                                    <div class="form-row align-items-center">
+                                                        <div class="col-md-auto">
+                                                            <label class="fname" for="fname">First Name</label>
+                                                            <input type="text" id="fname" name="first_name"
+                                                                class="text-input" required="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Last Name Input field -->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <label for="lname" class="lname">Last Name</label>
+                                                            <input type="text" id="lname" name="last_name"
+                                                                class="text-input" required="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Email Input field -->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <label for="email" class="email">Email Addr.</label>
+                                                            <input type="email" id="email" name="email_address"
+                                                                class="text-input" required="">
+                                                        </div>
+                                                    </div>
+                                                <!-- Class Sign Up Radio Buttons -->
+                                                    <!--Vinyasa Flow Selection-->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <input type="radio" id="vinyasa" name="class_selection"
+                                                                value="vinyasa" required="">
+                                                            <label for="vinyasa" class="vinyasa">Vinyasa Flow
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Restorative Yoga Selection  -->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <input type="radio" id="restorative" name="class_selection"
+                                                                value="restorative">
+                                                            <label for="restorative" class="restorative">Restorative Yoga
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Chakra Cleansing Selection -->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <input type="radio" id="chakracleansing"
+                                                                name="class_selection" value="chakracleansing">
+                                                            <label for="chakracleansing" class="chakracleansing">Chakra
+                                                                Cleansing
+                                                              </label>
+                                                        </div>
+                                                    </div>
+                                                    <!--Datepicker-->
+                                                    <div class="form-group row">
+                                                        <div class="col-md-auto">
+                                                            <label for="date" class="date"></label>
+                                                            <input type="date" name="date" id="date" required="">
+                                                        </div>
+                                                    <!--Submit Button-->
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-md-auto">
+                                                            <button type="submit" class="btn btn-info"
+                                                                style="float:right">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
 
-                                                     <!-- Email Input field -->
-                                                     <div class="form-row">
-                                                         <div class="col-md-auto">
-                                                             <label for="email" class="email" placeholder="Your Email">Email Addr.
-                                                                </label>
-                                                             <input type="email" id="email" name="email_address"
-                                                                 class="text-input" placeholder="Email Address" required="">
-                                                         </div>
-                                                     </div>
-
-                                                     <!--Datepicker-->
-                                                     <div class="form-group row">
-                                                         <div class="col-md-auto">
-                                                             <label for="date" class="date"></label>
-                                                             <input type="date" name="date" id="date" required="">
-                                                         </div>
-                                                     </div>
-
-                                                     <!--Submit Button-->
-                                                     <div class="form-group row">
-                                                         <div class="col-md-auto">
-                                                             <button type="submit"
-                                                                 class="btn btn-info">Submit</button>
-                                                         </div>
-                                                     </div>
-                                                 </form>
-                                   
 
                                             </div>
                                         </div>
@@ -335,7 +358,7 @@
                                                         <div class="col-md-auto">
                                                             <label class="fname" for="fname">First Name</label>
                                                             <input type="text" id="fname" name="first_name"
-                                                                class="text-input"  placeholder="First Name" required="">
+                                                                class="text-input" required="">
                                                         </div>
                                                     </div>
                                                     <!-- Last Name Input field -->
@@ -343,7 +366,7 @@
                                                         <div class="col-md-auto">
                                                             <label for="lname" class="lname">Last Name</label>
                                                             <input type="text" id="lname" name="last_name"
-                                                                class="text-input" placeholder="Last Name" required="">
+                                                                class="text-input" required="">
                                                         </div>
                                                     </div>
                                                     <!-- Email Input field -->
@@ -351,27 +374,54 @@
                                                         <div class="col-md-auto">
                                                             <label for="email" class="email">Email Addr.</label>
                                                             <input type="email" id="email" name="email_address"
-                                                                class="text-input" placeholder="Email Address" required="">
+                                                                class="text-input" required="">
                                                         </div>
                                                     </div>
-                                                
-                                                    <!-- Datepicker -->
+                                                <!-- Class Sign Up Radio Buttons -->
+                                                    <!-- Vinyasa Flow Selection  -->
                                                     <div class="form-row">
                                                         <div class="col-md-auto">
-                                                        <label for="date" class="date"></label>
-                                                        <input type="date" name="date" id="date" required />
+                                                            <input type="radio" id="vinyasa" name="class_selection"
+                                                                value="vinyasa" required="">
+                                                            <label for="vinyasa" class="vinyasa">Vinyasa Flow
+                                                            </label>
                                                         </div>
                                                     </div>
 
-                                                    <!-- Submit Button -->
+                                                    <!-- Restorative Yoga Selection  -->
                                                     <div class="form-row">
                                                         <div class="col-md-auto">
-                                                            <button class="btn btn-info" type="submit" style="float:none;">Submit</button>
+                                                            <input type="radio" id="restorative" name="class_selection"
+                                                                value="restorative">
+                                                            <label for="restorative" class="restorative">Restorative
+                                                               </label>
                                                         </div>
                                                     </div>
-                                                </form>    
+
+                                                    <!-- Chakra Cleansing Selection -->
+                                                    <div class="form-row">
+                                                        <div class="col-md-auto">
+                                                            <input type="radio" id="chakracleansing"
+                                                                name="class_selection" value="chakracleansing">
+                                                            <label for="chakracleansing" class="chakracleansing">Chakra
+                                                                Cleansing
+                                                             </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-md-auto">
+                                                            <label for="date" class="date"></label>
+                                                            <input type="date" name="date" id="date" required="">
+                                                        </div>
+                                                    </div>
 
 
+                                                    <div class="form-group row">
+                                                        <div class="col-md-auto">
+                                                            <button type="submit" class="btn btn-info">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -384,8 +434,6 @@
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <rect x="0" y="0" fill="none" width="130" height="65"></rect>
                                             </svg>
-
-
                                         </a>
                                     </li>
                                     <li class="nav-item">
@@ -399,9 +447,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-
-
+						</div>
                         <!--Third Card-->
                         <div class="col mb-4">
                             <div class="card h-100">
@@ -421,7 +467,6 @@
                                                     followed by a guided meditation.</p>
                                             </div>
 
-
                                             <div class="tab-pane fade" id="signup3" role="tabpanel"
                                                 aria-labelledby="pills-signup-tab">
                                                 <div class="tab-content" id="pills-tabContent">
@@ -437,7 +482,7 @@
                                                                 <label class="fname" for="fname">First
                                                                     Name</label>
                                                                 <input type="text" id="fname" name="first_name"
-                                                                    class="text-input"  placeholder="First Name" required="">
+                                                                    class="text-input" required="">
                                                             </div>
                                                         </div>
                                                         <!-- Last Name Input field -->
@@ -446,28 +491,54 @@
                                                                 <label for="lname" class="lname">Last
                                                                     Name</label>
                                                                 <input type="text" id="lname" name="last_name"
-                                                                    class="text-input" placeholder="Last Name" required="">
+                                                                    class="text-input" required="">
                                                             </div>
                                                         </div>
-
                                                         <!-- Email Input field -->
                                                         <div class="form-row">
                                                             <div class="col-md-auto">
-                                                                <label for="email" class="email">Email Addr.
-                                                                   </label>
+                                                                <label for="email" class="email">Email
+                                                                    Addr.</label>
                                                                 <input type="email" id="email" name="email_address"
-                                                                    class="text-input" placeholder="Email Address" required="">
+                                                                    class="text-input" required="">
                                                             </div>
                                                         </div>
-
-                                                        <!--Datepicker-->
+                                                    <!-- Class Sign Up Radio Buttons -->
+                                                        <!-- Vinyasa Flow Selection  -->
+                                                        <div class="form-row">
+                                                            <div class="col-md-auto">
+                                                                <input type="radio" id="vinyasa" name="class_selection"
+                                                                    value="vinyasa" required="">
+                                                                <label for="vinyasa" class="vinyasa">Vinyasa
+                                                                    Flow</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Restorative Yoga Selection  -->
+                                                        <div class="form-row">
+                                                            <div class="col-md-auto">
+                                                                <input type="radio" id="restorative"
+                                                                    name="class_selection" value="restorative">
+                                                                <label for="restorative" class="restorative">Restorative
+                                                                    </label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Chakra Cleansing Selection -->
+                                                        <div class="form-row">
+                                                            <div class="col-md-auto">
+                                                                <input type="radio" id="chakracleansing"
+                                                                    name="class_selection" value="chakracleansing">
+                                                                <label for="chakracleansing"
+                                                                    class="chakracleansing">Chakra
+                                                                    Cleansing</label>
+                                                            </div>
+                                                        </div>
+                                                    <!--Datepicker-->
                                                         <div class="form-group row">
                                                             <div class="col-md-auto">
                                                                 <label for="date" class="date"></label>
                                                                 <input type="date" name="date" id="date" required="">
                                                             </div>
                                                         </div>
-
                                                         <!--Submit Button-->
                                                         <div class="form-group row">
                                                             <div class="col-md-auto">
@@ -476,8 +547,6 @@
                                                             </div>
                                                         </div>
                                                     </form>
-
-
                                                 </div>
                                             </div>
                                         </div>
@@ -490,8 +559,6 @@
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <rect x="0" y="0" fill="none" width="130" height="65"></rect>
                                                 </svg>
-
-
                                             </a>
                                         </li>
                                         <li class="nav-item">
@@ -509,10 +576,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+			</div>
+		</section>
+		<!--./schedule-->
     </div>
 </div>
+<!--./schedule-container-->
 
 <!--Contact Section-->
 <section id="contact">
@@ -542,48 +611,48 @@
 </section>
 <!--./contact-->
 
-		<!--Quotes Container-->
-		<div class="container-wrapper-quotes">
-			<div class="container-fluid quotes-container">
-				<!--Quotes-->
-				<section id="quotes" class="quotes">
-					<div class="row text-center">
-						<div class="col-12 section-header">
-							<h2 class="section-header">Quotes</h2>
-							<hr>
-							<p>Want to know what our members have to say about Infinity? Check out these quotes!</p>
-						</div>
-					</div>
-					<div class="row text-center">
-						<!--Grid for card deck-->
-						<div class="col-xs-8 col-sm-4">
-							<!--First Card-->
-							<div class="card quote-card h-100">
-								<div class="card-top top-color"></div>
-								<div class="avatar  white">
-									<img src="assets/images/quotes1.png" alt="avatar 1"
+<!--Quotes Container-->
+<div class="container-wrapper-quotes">
+	<div class="container-fluid quotes-container">
+		<!--Quotes-->
+		<section id="quotes" class="quotes">
+			<div class="row text-center">
+				<div class="col-12 section-header">
+					<h2 class="section-header">Quotes</h2>
+					<hr>
+					<p>Want to know what our members have to say about Infinity? Check out these quotes!</p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<!--Grid for card deck-->
+				<div class="col-xs-8 col-sm-4">
+					<!--First Card-->
+					<div class="card quote-card h-100">
+						<div class="card-top top-color"></div>
+						<div class="avatar mx-auto white">
+							<img src="assets/images/quotes1.png" alt="avatar 1"
 										class="rounded-circle img-fluid">
 								</div>
-								<!--Card Body-->
-								<div class="card-body">
-									<h4 class="card-title mt-1">Octavia Bliss</h4>
-									<hr>
-									<!--Blockquote-->
-									<blockquote>Infinity is the best place to strengthen your yoga practice.
-										The instructors are dedicated, patient & thorough!
-									</blockquote>
-								</div>
+							<!--Card Body-->
+							<div class="card-body">
+								<h4 class="card-title mt-1">Octavia Bliss</h4>
+								<hr>
+								<!--Blockquote-->
+								<blockquote>Infinity is the best place to strengthen your yoga practice.
+									The instructors are dedicated, patient & thorough!
+								</blockquote>
 							</div>
 						</div>
-						<!--./contact-->
+					</div>
+					<!--./contact-->
 
-						<!--Grid for card deck-->
-						<div class="col-xs-8 col-sm-4">
-							<!--Second Card-->
-							<div class="card quote-card h-100">
-								<div class="card-top top-color"></div>
-								<div class="avatar mx-auto white">
-									<img src="assets/images/quotes3.png" alt="avatar 2"
+					<!--Grid for card deck-->
+					<div class="col-xs-8 col-sm-4">
+						<!--Second Card-->
+						<div class="card quote-card h-100">
+							<div class="card-top top-color"></div>
+							<div class="avatar mx-auto white">
+								<img src="assets/images/quotes3.png" alt="avatar 2"
 										class="rounded-circle img-fluid">
 								</div>
 								<!--Card Body-->
@@ -592,7 +661,7 @@
 									<hr>
 									<!--Blockquote-->
 									<blockquote>
-										As a studio member, I love that I can find class times on
+										As a studio member, I love that I can find class times on
 										Infinity's website, so I know when to go!
 									</blockquote>
 								</div>
@@ -608,36 +677,36 @@
 									<img src="assets/images/quotes2.png" alt="avatar 3"
 										class="rounded-circle img-fluid">
 								</div>
-								<!--Card Body-->
-								<div class="card-body">
-									<h4 class="card-title mt-1">Sara Solar</h4>
-									<hr>
-									<!--Blockquote-->
-									<blockquote>
-										As an Infinity member, I can contact them from their website,
-										so I never have to go out of my way!
-									</blockquote>
+									<!--Card Body-->
+									<div class="card-body">
+										<h4 class="card-title mt-1">Sara Solar</h4>
+										<hr>
+										<!--Blockquote-->
+										<blockquote>
+											As an Infinity member, I can contact them from their website,
+											so I never have to go out of my way!
+										</blockquote>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
-				<!--./quotes-->
-			</div>
-		</div>
-		<!--./quotes-container-->
-	</main>
+                        </section>
+		<!--./quotes-->
+        </div>
+</div>
+<!--./quotes-container-->
+</main>
 
-	<!--Footer-->
-	<footer class="text-center">
-		<a href="#myPage" title="To Top">
-			<i class="fas fa-chevron-up"></i>
-		</a>
-		<h6>2020 Alissa Troiano | Code Institute Project</h6>
-	</footer>
-	<!--./footer-->
+<!--Footer-->
+<footer class="text-center">
+	<a href="#myPage" title="To Top">
+		<i class="fas fa-chevron-up"></i>
+	</a>
+    <h6>2020 Alissa Troiano | Code Institute Project</h6>
+</footer>
+<!--./footer-->
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 		</script>
@@ -652,6 +721,6 @@
 			$(".navbar-collapse").collapse('hide');
 		});
 	</script>
-</body>
 
+</body>
 </html>
