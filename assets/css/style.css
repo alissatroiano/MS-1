@@ -8,10 +8,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Global Styles */
-* {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-}
 
 html {
     font-size: 16px;
@@ -243,41 +239,21 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     text-align: center;
 }
 
-.card .card-body {
+.card-body {
     text-align: center;
-    background-color: #fafafa;
-}
-
 .card-deck, .card {
 margin: 0 auto;
+    background-color: #fff;
 }
  
 .card {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fafafa;
+    display: inline-block;
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-            box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
+    box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
   }
-  
-.card-body {
-    -ms-flex: 1 1 auto;
-    -webkit-box-flex: 1;
-            flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-  background-color: #fafafa;
-}
 
 p.text-muted {
   font-size: 14px;
@@ -344,54 +320,6 @@ a.nav-link.active.signUp {
     margin-bottom: 15px;
     color: #69a8a9;
 }
-
-.signUp {
-    width: 130px;
-    height: 65px;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: .5srem;
-    line-height: 65px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  svg rect, svg path, svg polyline {
-    fill: none;
-    stroke-width: 1px;
-  }
-  
-  .signUp:hover svg rect {
-    stroke: #69a8a9;
-  }
-  
-  svg rect {
-    stroke-dasharray: 400, 0;
-    transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
-  }
-  
-  .signUp:hover svg rect {
-    stroke-width: 3;
-    stroke-dasharray: 35, 245;
-    stroke-dashoffset: 38;
-    transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
-  }
 
 /*Sign Up Form */
 .fname, .lname, .email, .class {
@@ -504,21 +432,13 @@ position: relative;
     border: 5px solid #fff;
     border-radius: 50%;
   }
-  
-.quote-card .avatar {
-    width: 100%;
-}
-  
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
-  
-.quote-card .card-body {
-    text-align: center;
-}
- 
-.card {
+
+.quote-card {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -534,29 +454,6 @@ position: relative;
     background-color: #fafafa;
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
             box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-  }
-  
-.card-body {
-    -ms-flex: 1 1 auto;
-    -webkit-box-flex: 1;
-            flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-}
-  
- .quote-card .card-top {
-    height: 120px;
-    overflow: hidden;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-  }
-  
- .quote-card .avatar {
-    width: 120px;
-    margin-top: -60px;
-    overflow: hidden;
-    border: 5px solid #fff;
-    border-radius: 50%;
   }
   
   .card-body {
@@ -587,13 +484,13 @@ blockquote {
 
 button.btn.btn-info.float-right {
     background-color: #69a8a9;
-    border: #69A8A9;
+    border-color: transparent;
     font-family: 'Playfair Display', serif;
 }
 
 button.btn.btn-info.float-right:hover {
     background-color: #011801;
-    border: #011801;
+    border-color: transparent;
     font-family: 'Playfair Display', serif;
     color: #f2f2f2;
 }
