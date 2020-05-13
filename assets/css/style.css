@@ -350,7 +350,6 @@ button.btn.btn-info {
   a.nav-link:hover,
 a.nav-link.active.signUp:hover {
 	color: #69a8a9;
-	text-align: center;
 	border-radius: 2px;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
