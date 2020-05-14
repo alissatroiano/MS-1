@@ -13,13 +13,6 @@ html {
     font-size: 16px;
 }
 
-body,
-.row,
-.container, 
-.container-fluid {
-    margin: 0 auto;
-}
-
 hr {
     width: 20px;
     margin-top: 20px;
@@ -71,7 +64,6 @@ h6 {
     text-align: center;
     color: #011826;
     font-size: 1.2rem;
-    font-weight: 500;
 }
 
 p {
@@ -123,15 +115,6 @@ a.navbar-brand {
     font-weight: 300;
     font-size: 1.7rem;
     text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
-}
-
-/*-------------------------------------------- Containers */
-.container-fluid {
-    margin: 0 auto;
-}
-
-.container-fluid.mt-40 {
-    margin: 0 auto;
 }
 
 /*-------------------------------------------- Jumbotron */
@@ -202,7 +185,6 @@ h1.display-3 {
 
 .about i {
     margin-bottom: 20px;
-    font-size: 40px;
     line-height: 45px;
 }
 
@@ -239,6 +221,8 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 .container-wrapper-schedule{
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
+    padding: 60px 40px;
+    margin-bottom: 50px;
 }
  
 .card {
@@ -257,11 +241,8 @@ p.text-muted {
   width: 130px;
   height: 65px;
   margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
   line-height: 65px;
   text-transform: uppercase;
-  text-align: center;
   position: relative;
   cursor: pointer;
 }
@@ -301,8 +282,7 @@ svg rect {
   -o-transition: all 0.8s ease-in-out;
 }
 
-a.nav-link.signUp,
-a.nav-link.active.signUp {
+a.nav-link.signUp {
 	color: #69a8a9;
 	text-align: center;
 	border-radius: 2px;
@@ -347,7 +327,7 @@ button.btn.btn-info {
   }
   
 
-  a.nav-link:hover,
+a.nav-link:hover,
 a.nav-link.active.signUp:hover {
 	color: #69a8a9;
 	border-radius: 2px;
@@ -535,8 +515,6 @@ footer h6 {
 }
 
 #schedule {
-    padding: 60px 40px;
-    margin-bottom: 50px;
     margin-top: 50px;
 }
 
@@ -577,16 +555,6 @@ footer h6 {
 
 
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-body {
-    padding: 0;
-    margin: 0 auto;
-}
-
 #notfound {
     position: relative;
     height: 100vh;
@@ -677,17 +645,4 @@ a.button:hover {
     background-color: #d59cad;
     border-color: transparent;
     color: #F2F2F2;
-}
-
-@media only screen and (max-width:767px) {
-    .notfound .notfound-404 h2 {
-        font-size: 30px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width:480px) {
-    .notfound .notfound-404 h1 {
-        font-size: 182px
-    }
 }
