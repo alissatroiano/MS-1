@@ -325,7 +325,6 @@ button.btn.btn-info {
     position: relative;
     margin: 0 auto;
   }
-  
 
 a.nav-link:hover,
 a.nav-link.active.signUp:hover {
@@ -340,45 +339,36 @@ a.nav-link.active.signUp:hover {
 	display: block;
 }
 
-.col-sm-6.col-form-label,
-.form-check-label,
-.date {
-	font-family: "Futura-PT", sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 form {
-position: relative;
+    position: relative;
 }
 
 [type="date"] {
-	background: #fff
-		url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
-		97% 50% no-repeat;
-	font-family: "Futura-PT", sans-serif;
-	font-size: 15px;
-}
-
-[type="date"]::-webkit-inner-spin-button {
-	display: -webkit-box;
-	display: flex;
-	font-family: "Futura-PT", sans-serif;
-}
-
-[type="date"]::-webkit-calendar-picker-indicator {
-	opacity: 0;
-	font-family: "Futura-PT", sans-serif;
-}
-
-.text-input {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background:#fff url("")  97% 50% no-repeat ;
+    font-family: 'Futura-PT', sans-serif;
     font-size: 14px;
-    font-family: "Futura-PT", sans-serif;
-    color: #4ba0b5;
-}
+  }
+
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
   
+  input {
+    border: 1px solid #011826;
+    border-radius: 5px;
+    padding: 2px 2px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
+    font-family: 'Futura-PT', sans-serif;
+    color: #69a8a9;
+  }
+  
+  .fas.fa-calendar {
+    color: #69a8a9;
+    font-size: 15px;
+  }
 
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
