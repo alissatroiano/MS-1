@@ -344,7 +344,6 @@ form {
 }
 
 [type="date"] {
-    background:#fff url("")  97% 50% no-repeat ;
     font-family: 'Futura-PT', sans-serif;
     font-size: 14px;
   }
@@ -354,6 +353,7 @@ form {
   }
   [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
+    font-size: medium;
   }
   
   input {
