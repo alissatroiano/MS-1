@@ -150,7 +150,7 @@ a.navbar-brand {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 10, 10, .75);
+    background-color: rgba(1, 10, 10, .85);
     overflow: visible;
 }
 
@@ -180,6 +180,16 @@ h1.display-3 {
     letter-spacing: 1px;
     text-shadow: 2px 2px #011826;
     font-size: 5rem;
+}
+
+h2.lead {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------------------- About */
@@ -304,12 +314,14 @@ label.fname, label.lname, label.email, label.class, label.email, label.class_sel
     font-family: "Futura-PT", sans-serif;
     font-size: 14px;
     text-align: left;
+    line-height: 1.5;
 }
 
 .vinyasa, .restorative, .chakracleansing {
     font-family: "Futura-PT", sans-serif;
     font-size: 14px;
     text-align: right;
+    line-height: 1.5;
 }
   
 .text-input {
@@ -320,14 +332,26 @@ label.fname, label.lname, label.email, label.class, label.email, label.class_sel
 
 button.btn.btn-info {
     font-size: 12.5px;
-    margin-top: 10px;
+    margin-top: 18px;
     font-family: "Playfair Display", serif;
+    background-color: #69a8a9;
+    border-color: transparent;
+}
+
+button.btn.btn-info:hover {
+    font-size: 12.5px;
+    margin-top: 18px;
+    font-family: "Playfair Display", serif;
+    background-color: #011801;
+    border-color: transparent;
+    color: #f2f2f2;
 }
   
   .form-row {
     overflow: hidden;
     position: relative;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 a.nav-link:hover,
@@ -361,7 +385,7 @@ form {
   }
 }
 
-  input {
+input {
     border: 1px solid #011826;
     border-radius: 5px;
     padding: 2px 2px;
@@ -369,10 +393,17 @@ form {
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
   }
+
+#date {
+    font-size: 1rem;
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+  }
   
   .fas.fa-calendar {
     color: #69a8a9;
-    font-size: 15px;
+    font-size: 1rem;
   }
 
 /*-------------------------------------------- Quotes */
