@@ -346,14 +346,11 @@ form {
 @media only screen and (max-width: 320px) {
     [type="date"] {
         font-family: 'Futura-PT', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
     }
   }
 
   @media only screen and (max-width: 320px) {
-  [type="date"]::-webkit-inner-spin-button {
-    display: none;
-  }
   [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
     font-size: medium;
