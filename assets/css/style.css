@@ -343,11 +343,14 @@ form {
     position: relative;
 }
 
-[type="date"] {
-    font-family: 'Futura-PT', sans-serif;
-    font-size: 14px;
+@media only screen and (max-width: 320px) {
+    [type="date"] {
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 14px;
+    }
   }
 
+  @media only screen and (max-width: 320px) {
   [type="date"]::-webkit-inner-spin-button {
     display: none;
   }
@@ -355,7 +358,8 @@ form {
     opacity: 0;
     font-size: medium;
   }
-  
+}
+
   input {
     border: 1px solid #011826;
     border-radius: 5px;
@@ -542,7 +546,6 @@ footer h6 {
         overflow: hidden;
     }
 }
-
 
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
 #notfound {
