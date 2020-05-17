@@ -385,19 +385,17 @@ form {
   }
 }
 
-input {
-    border: 1px solid #011826;
-    border-radius: 5px;
-    padding: 2px 2px;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
+input, 
+textarea {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
   }
 
 #date {
     font-size: 1rem;
-    width: 50%;
-    height: auto;
+    width: 140px;
+    height: 30px;
     font-size: 1rem;
   }
   
