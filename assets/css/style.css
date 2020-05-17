@@ -329,13 +329,6 @@ label.fname, label.lname, label.email, label.class, label.email, label.class_sel
     color: #4ba0b5;
 }
 
-.form-control::placeholder,
-.form-control::-webkit-input-placeholder,
-.form-control::-moz-placeholder,
-.form-control:-ms-input-placeholder {
-    font-family: "Futura-PT", sans-serif;
-}
-
 button.btn.btn-info {
     font-size: 12.5px;
     margin-top: 18px;
@@ -396,12 +389,6 @@ input,
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
-  }
-
-#date {
-    font-size: 1rem;
-    width: 130px;
-    height: 30px;
   }
   
   .fas.fa-calendar {
@@ -494,9 +481,9 @@ button.btn.btn-info.float-right:hover {
 .form-control:-ms-input-placeholder,
 .form-control::-ms-input-placeholder, 
 .form-control::placeholder {
-
+    font-family: "Futura-PT", sans-serif;
+    color: #69a8a9;
 }
-
 
 /*-------------------------------------------- Footer */
 footer {
