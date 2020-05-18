@@ -296,7 +296,7 @@ svg rect {
   -o-transition: all 0.8s ease-in-out;
 }
 
-a.nav-link.signUp {
+div.signUp, a.nav-item {
 	color: #69a8a9;
 	text-align: center;
 	border-radius: 2px;
@@ -305,7 +305,6 @@ a.nav-link.signUp {
     transition: all 0.4s;
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
-    margin-bottom: 15px;
     color: #69a8a9;
 }
 
