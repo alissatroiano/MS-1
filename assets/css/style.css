@@ -345,13 +345,6 @@ button.btn.btn-info:hover {
     border-color: transparent;
     color: #f2f2f2;
 }
-  
-  .form-row {
-    overflow: hidden;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
 
 a.nav-link:hover,
 a.nav-link.active.signUp:hover {
@@ -370,19 +363,15 @@ form {
     position: relative;
 }
 
-@media only screen and (max-width: 320px) {
-    [type="date"] {
+ [type="date"] {
         font-family: 'Futura-PT', sans-serif;
-        font-size: 16px;
-    }
+        font-size: 14px;
   }
 
-  @media only screen and (max-width: 320px) {
   [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
     font-size: medium;
   }
-}
 
 input, 
 .form-control {
@@ -390,11 +379,7 @@ input,
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
   }
-  
-  .fas.fa-calendar {
-    color: #69a8a9;
-    font-size: 1rem;
-  }
+
 
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
