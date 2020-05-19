@@ -251,6 +251,7 @@ p.text-muted {
   font-family: 'Futura-PT', sans-serif;
 }
 
+/*-------------------------------------------- Animated Modal Trigger Button */
 .signUp {
   width: 130px;
   height: 65px;
@@ -307,39 +308,53 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
+/* end animated modal trigger button */
 
-/*Sign Up Form */
-label.fname, label.lname, label.email, label.class, label.email, label.class_selection {
+/*-------------------------------------------- Sign Up Form */
+label.fname, label.lname, label.email, label.class_selection {
     font-family: "Futura-PT", sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     line-height: 1.5;
 }
 
-.vinyasa, .restorative, .chakracleansing {
-    font-family: "Futura-PT", sans-serif;
-    font-size: 14px;
-    text-align: right;
-    line-height: 1.5;
-}
-  
-#fname, #lname, #email {
-    font-family: "Futura-PT", sans-serif;
-    color: #4ba0b5;
+#fname, #lname, #email,
+#fname2, #lname2, #email2,
+#fname3, #lname3, #email3 {
+    font-family: 'Futura-PT', sans-serif;
+    color: #69a8a9;
 }
 
-button.btn.btn-info {
-    font-size: 12.5px;
+.modal-open, .model-content {
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: 'Futura-PT', sans-serif;
+}
+
+input, 
+.form-control {
+    box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
+    font-family: 'Futura-PT', sans-serif;
+    color: #69a8a9;
+    width: -webkit-fill-available;
+    height: auto;
+    margin: 0 auto;
+}
+
+input.btn.btn-info {
     margin-top: 18px;
     font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-style: italic;
     background-color: #69a8a9;
     border-color: transparent;
 }
 
-button.btn.btn-info:hover {
-    font-size: 12.5px;
+input.btn.btn-info:hover {
     margin-top: 18px;
     font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-style: italic;
     background-color: #011801;
     border-color: transparent;
     color: #f2f2f2;
@@ -358,27 +373,17 @@ a.nav-link.active.signUp:hover {
 	display: block;
 }
 
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
 form {
     position: relative;
 }
-
- [type="date"] {
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 14px;
-  }
-
-  [type="date"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-    font-size: medium;
-  }
-
-input, 
-.form-control {
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
-    font-family: 'Futura-PT', sans-serif;
-    color: #69a8a9;
-  }
-
+/* end form */
 
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
@@ -437,6 +442,7 @@ blockquote {
     margin-bottom: 20px;
     padding: 10px 10px;
 }
+/* end quotes */
 
 /*-------------------------------------------- Contact */
 .row.contact {
@@ -469,6 +475,8 @@ button.btn.btn-info.float-right:hover {
     color: #69a8a9;
 }
 
+/* end quotes */
+
 /*-------------------------------------------- Footer */
 footer {
     margin-bottom: 20px;
@@ -490,6 +498,7 @@ footer h6 {
     font-style: normal;
     margin-top: 20px;
 }
+/* end footer */
 
 /*-------------------------------------------- Sections */
 #about {
@@ -511,9 +520,7 @@ footer h6 {
 #quotes {
     margin-bottom: 50px;
 }
-
-/*./sections*/
-
+/*.end sections*/
 
 /*-------------------------------------------- Media Queries */
 @media only screen and (max-width: 320px) {
@@ -540,6 +547,8 @@ footer h6 {
         overflow: hidden;
     }
 }
+/* end media query */
+
 
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
 #notfound {
