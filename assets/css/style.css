@@ -150,7 +150,7 @@ a.navbar-brand {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 10, 10, .85);
+    background-color: rgba(1, 10, 10, .7);
     overflow: visible;
 }
 
@@ -474,6 +474,27 @@ button.btn.btn-info.float-right:hover {
     font-family: "Futura-PT", sans-serif;
     color: #69a8a9;
 }
+
+i.fas.fa-map-marker-alt,
+i.fas.fa-phone,
+i.fas.fa-envelope-open {
+    color: #69a8a9;
+    font-size: 20px;
+}
+
+i.fas.fa-map-marker-alt:hover,
+i.fas.fa-phone:hover,
+i.fas.fa-envelope-open:hover {
+    color: #011801;
+    font-size: 20px;
+}
+
+span.contact {
+    color: #011801;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
 
 /* end quotes */
 
