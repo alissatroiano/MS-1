@@ -348,6 +348,9 @@ input.btn.btn-info {
     font-style: italic;
     background-color: #69a8a9;
     border-color: transparent;
+    margin-bottom: 18px;
+    max-width: 6rem;
+    height: auto;
 }
 
 input.btn.btn-info:hover {
@@ -358,6 +361,20 @@ input.btn.btn-info:hover {
     background-color: #011801;
     border-color: transparent;
     color: #f2f2f2;
+    margin-bottom: 18px;
+    max-width: 6rem;
+    height: auto;
+}
+
+button.close {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #011801;
+}
+
+button.close:hover {
+    font-size: 2rem;
+    color: #69a8a9;
 }
 
 a.nav-link:hover,
