@@ -66,23 +66,24 @@ Tho two fonts selected by the [developer](https://www.github.com/alissatroiano) 
 * The [developer](https://www.github.com/alissatroiano) selected these fonts because:
 
 1. When it comes to typograpy, serif and sans-serif fonts pair together nicely, creating a modern and clean aesthetic that will appear to the project's target market.
-1. `'Playfair Display', serif` is a font that brings elegance into the project.
-1. `'Montserrat', sans-serif` is a clean, modern font that is easy to read.
+1. `'Playfair Display', serif` is a serif font that brings both style & elegance to the project.
+1. `'Futura', sans-serif` is a modern, sans-serif font that is clean, visually appealing and easy for users to read.
 
 ## Features
 
-* Schedule: The schedule will provide site visitors with class times & details.
+* Schedule: The schedule section provides site visitors with class information and a place to sign up by listing class times, durations, descriptions and a, "Sign Up," button.
 
-* Contact Form: The contact form allows site visitors to fill out a form by inputting their name, email and comments.
+* Sign Up Form: The sign up form gives users an option to sign up for a class, by clicking on a button, filling out a form and submitting it.
 
-* User stories: Three user stories are displayed in one row of cards; each user story includes a photo and quote about Infinity from current studio members.
+* User stories: The user stories allow users to learn more about Infinity and its' procedures from relatable, trustworthy sources by viewing photos of and reading quotes from exisiting Infinity members.
+
+* Contact Form: The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
 
 ### Existing Features
 
 * Schedule
-
+* Sign Up Form
 * User Stories
-
 * Contact Form
 
 ### Features Left to Implement
