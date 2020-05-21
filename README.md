@@ -242,7 +242,7 @@ The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-si
 
 * All of the icons in Infinity’s website and their accompanying hover effects were styled by the [developer](https://www.github.com/alissatroiano).
 
-* The Gitpod template used to create this project was provided by [Code Institute](<<https://github.com/Code-Institute-Org/gitpod-full-template).>
+* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ### Acknowledgements
 
