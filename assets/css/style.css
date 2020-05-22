@@ -331,8 +331,8 @@ label.fname, label.lname, label.email, label.class_selection {
     font-family: 'Futura-PT', sans-serif;
 }
 
-input, 
-.form-control {
+input.form-control, input, textarea, textarea.form-group, 
+textarea.form-control {
     box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
