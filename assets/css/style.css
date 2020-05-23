@@ -675,8 +675,10 @@ body {
   font-weight: 700;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .notfound a:hover {
