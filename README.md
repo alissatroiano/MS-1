@@ -12,11 +12,13 @@ This website was built for a fictional yoga studio in Manhattan. The goal of the
 
 After much research, planning and strategizing, it was determined that the final version of this website was the best way to help Infinity studio achieve their goals for the following reasons:
 
-* The website is responsive across all devices, an essential factor for a target market of 26-36 year olds living in an urban area, like Manhattan.
+* The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like Manhattan.
 
 * Any information a user may wish to find about the studio and its’ procedures is located on the home/landing page.
 
 * Navigation is intuitive; each section of the page has an accompanying navbar link that takes users to it. The navbar is also fixed, so it never disappears and users can always find their way around.
+
+* The website is responsive; dynamic changes are made to the appearance of the website, depending on the screen size and orientation of the device being used to view it.
 
 * The website utilizes a minimal, modern color palette and typography scheme that will appeal to this target market.
 
@@ -24,7 +26,7 @@ After much research, planning and strategizing, it was determined that the final
 
 * The website isn’t overcrowded and there is a lot of whitespace.
 
-* The website includes an 'About' section that fulfills the client's goal to provde users with information about the studio and its' procedures.
+* The website includes an 'About' section that fulfills one of the client's goals: to provde users with information about the studio and its' procedures.
 
 * The website includes a section with benefits of practicing yoga and meditation at Infinity, to incentevize users to sign up.
 
@@ -40,15 +42,29 @@ User stories were created by the developer during the planning phase of this pro
 
 The final version of Infinity's website includes three positive user stories from current studio members. Many user stories were created by the developer during the planning phase of this project, but these three quotes were chosen for the final site because they:
 
-> * As a yoga student, I am happy that I can find Infinity’s address from any device, so I know where to go!
+* Each user story summarizes one or several positive experience(s) that current members have had.
+
+* The quotes are clear, easy-to-read and written in a relatable tone.
+
+The final quotes are displayed in one single row of three cards. Each card has a small, round headshot of the user that is quoted followed by their name and blockquote. This layout was chosen because it:
+
+* Presents the user stories in a clean, visually-appealing & responsive manner that is both easy-to-read & pleasant to view on all devices.
+
+* The avatar images accompanying each quote display happy, relatable individuals that users in this target market will resonate with.
+
+* The website's primary color is present in both the top of the card and the block divider, which the viewer's eyes will already have begun to associate with the rest of the website and, most importantly, with Infinity.
+
+Quotes included in the final build of Infinity:
+
+> * Infinity is the best place to strengthen your yoga practice. The instructors are dedicated, patient & thorough! 
 >
 >   ***Octavia Bliss***
 >
-> * As a member, I love that I can find class details on Infinity's website, so I know exactly when class is!
->
+> * When I first joined I was worried that I wasn't flexibile, but Infinity's staff taught me that anybody can do yoga!
+
 >    ***Daniel Zen***
 >
-> * As an Infinity member, I can contact them from their website, so I never have to go out of my way!
+> * Infinity's classes taught me the tools needed to deal with day-to-day stress & anxiety. Now I'm happier than ever!
 >
 >   ***Sara Solar***
 
