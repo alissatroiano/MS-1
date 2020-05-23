@@ -1,34 +1,24 @@
 # Milestone 1
 
-This responsive, user-friendly website was created for Infinity, a fictional yoga studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
+This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-The website features an attractive jumbotron image with a schedule button that, when clicked, directs the user to the class schedule section of the webpage. The schedule is included to provide class details and information to new & existing members.
-
-Infinity’s website also includes user testimonials,a popular trust element in UX, from current studio members. The user stories on Infinity’s site are included to motivate new & prospective users to sign up and to provide information for those who wish to know more about the studio and its approach.
+The website features an attractive jumbotron image with a schedule button that, when clicked, directs the user to the class schedule section of the webpage. The schedule section provides new & existing members with class details, times and an option to signup. Infinity’s website also includes an aesthetically appealing 'About' section to provide information for those who wish to know more about the studio and its approach as well as user stories (or 'Quotes'), which are a popular trust element in UX. 
 
 ## UX
 
-This website was built for a fictional yoga studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (24-36) who currently practice yoga or who wish to begin practicing yoga.
+This website was built for a fictional yoga and meditation studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (ages 4-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
 
 After much research, planning and strategizing, it was determined that the final version of this website was the best way to help Infinity studio achieve their goals for the following reasons:
 
-* The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like Manhattan.
+* The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like NYC.
 
-* Any information a user may wish to find about the studio and its’ procedures is located on the home/landing page.
+* Navigation is intuitive across all devices.
 
-* Navigation is intuitive; each section of the page has an accompanying navbar link that takes users to it. The navbar is also fixed, so it never disappears and users can always find their way around.
-
-* The website is responsive; dynamic changes are made to the appearance of the website, depending on the screen size and orientation of the device being used to view it.
-
-* The website utilizes a minimal, modern color palette and typography scheme that will appeal to this target market.
+* The website is responsive; dynamic changes are made to its' appearance, depending on device screen size and orientation.
 
 * The website places class details, class times and class sign up forms in one central location, so users will not have to click a lot, making them more likely to sign up.
 
-* The website isn’t overcrowded and there is a lot of whitespace.
-
 * The website includes an 'About' section that fulfills one of the client's goals: to provde users with information about the studio and its' procedures.
-
-* The website includes a section with benefits of practicing yoga and meditation at Infinity, to incentevize users to sign up.
 
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
@@ -39,22 +29,10 @@ User stories were created by the developer during the planning phase of this pro
 > As a user, I can tell that I am on a yoga website immediately, so I do not get confused.
 >>
 > As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up!
+>>
+> As a user, I can comlplete the 'Sign Up' process in less than 3 clicks!
 
-The final version of Infinity's website includes three positive user stories from current studio members. Many user stories were created by the developer during the planning phase of this project, but these three quotes were chosen for the final site because they:
-
-* Each user story summarizes one or several positive experience(s) that current members have had.
-
-* The quotes are clear, easy-to-read and written in a relatable tone.
-
-The final quotes are displayed in one single row of three cards. Each card has a small, round headshot of the user that is quoted followed by their name and blockquote. This layout was chosen because it:
-
-* Presents the user stories in a clean, visually-appealing & responsive manner that is both easy-to-read & pleasant to view on all devices.
-
-* The avatar images accompanying each quote display happy, relatable individuals that users in this target market will resonate with.
-
-* The website's primary color is present in both the top of the card and the block divider, which the viewer's eyes will already have begun to associate with the rest of the website and, most importantly, with Infinity.
-
-The quotes included in the final build of Infinity are present in the Quotes section of the website and read:
+Quotes included in the final build of Infinity:
 
 Quote 1
 > Infinity is the best place to strengthen your yoga practice. The instructors are dedicated, patient & thorough!
@@ -73,10 +51,10 @@ Quote 3
 
 ### UX Design
 
-The two fonts selected by the [developer](https://www.github.com/alissatroiano) were:
+The fonts selected by the [developer](https://www.github.com/alissatroiano) for Infinity's website are:
 
 1. `'Playfair Display', serif`
-1. `'Montserrat', sans-serif`
+2. `'Futura PT', sans-serif`
 
 * The [developer](https://www.github.com/alissatroiano) selected these fonts because:
 
