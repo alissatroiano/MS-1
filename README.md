@@ -33,11 +33,11 @@ After much research, planning and strategizing, it was determined that the final
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
 > As a user, I can navigate the page easily, so I don't get frustrated or confused.
->
+>>
 > As a user, I can click a link and move to a different section of the page, so I don't have to scroll around looking for content.
->
+>>
 > As a user, I can tell that I am on a yoga website immediately, so I do not get confused.
->
+>>
 > As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up!
 
 The final version of Infinity's website includes three positive user stories from current studio members. Many user stories were created by the developer during the planning phase of this project, but these three quotes were chosen for the final site because they:
@@ -54,27 +54,26 @@ The final quotes are displayed in one single row of three cards. Each card has a
 
 * The website's primary color is present in both the top of the card and the block divider, which the viewer's eyes will already have begun to associate with the rest of the website and, most importantly, with Infinity.
 
-Quotes included in the final build of Infinity:
+The quotes included in the final build of Infinity are present in the Quotes section of the website and read:
 
-> * Infinity is the best place to strengthen your yoga practice. The instructors are dedicated, patient & thorough! 
+Quote 1
+> Infinity is the best place to strengthen your yoga practice. The instructors are dedicated, patient & thorough!
 >
->   ***Octavia Bliss***
->
-> * When I first joined I was worried that I wasn't flexibile, but Infinity's staff taught me that anybody can do yoga!
+> ***Octavia Bliss***
 
->    ***Daniel Zen***
+Quote 2
+> When I first joined I was worried that I wasn't flexibile, but Infinity's staff taught me that anybody can do yoga!
 >
-> * Infinity's classes taught me the tools needed to deal with day-to-day stress & anxiety. Now I'm happier than ever!
+> ***Daniel Zen***
+
+Quote 3
+> Infinity's classes taught me the tools needed to deal with day-to-day stress & anxiety. Now I'm happier than ever!
 >
->   ***Sara Solar***
+> ***Sara Solar***
 
 ### UX Design
 
-1. Wireframes
-
-1. Typography
-
-Tho two fonts selected by the [developer](https://www.github.com/alissatroiano) were:
+The two fonts selected by the [developer](https://www.github.com/alissatroiano) were:
 
 1. `'Playfair Display', serif`
 1. `'Montserrat', sans-serif`
@@ -102,8 +101,6 @@ Tho two fonts selected by the [developer](https://www.github.com/alissatroiano) 
 * User Stories
 * Contact Form
 
-### Features Left to Implement
-
 ## Technologies Used
 
 This project makes use of the following languages, frameworks and libraries:
@@ -125,7 +122,7 @@ The following tests have been conducted by the [developer](https://www.github.co
 
 2. Social Media Links:
     1. Visted website to ensure social media icons are present on the right side of navbar.
-    2. Visted website to ensure social media icons change color on hover.
+    2. Hovered mouse over social media icons to ensure icons change color on hover.
     3. Visted website on multiple devices and utilized Responsive Device Mode to verify social media icons bring users to respective social media site when clicked.
     4. Visted website on multiple devices and utilized Responsive Device Mode to verify social media links open in a new tab using `target=_blank.`
 
@@ -175,13 +172,13 @@ The following tests have been conducted by the [developer](https://www.github.co
 
 This project was deployed with [Github Pages](https://pages.github.com/). The [developer](https://github.com/alissatroiano) deployed the project successfully by following these steps:
 
-1. Created a repository
-1. Cloned the repository
-1. Created index.html
-1. Built project website
-1. Commited and pushed all changes to Github
-1. Once project was completed, visited "repository settings" on GitHub.com
-1. Scrolled down to the GitHub Pages section and clicked, "source"
+1. Created a repository.
+1. Opened project in GitHub Desktop and VSCode. 
+1. Created index.html.
+1. Built project website.
+1. Commited and pushed all changes to Github.
+1. Once project was completed, visited "repository settings" on GitHub.com.
+1. Scrolled down to the GitHub Pages section and clicked, "source".
 1. Fired up a browser and went [here](https://alissatroiano.github.io/MS-1/) to ensure deployment was successful.
 
 To run this project remotely:
