@@ -92,21 +92,11 @@ Tho two fonts selected by the [developer](https://www.github.com/alissatroiano) 
 
 This project makes use of the following languages, frameworks and libraries:
 
--[HTML](https://html5tutorial.info)
+* [HTML](https://html5tutorial.info)
 
--[CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 * [Bootstrap](https://getbootstrap.com)
-
-* [Font Awesome](https://fontawesome.com/)
-
-* [Google Fonts](https://fonts.google.com/)
-* [CSS Auto-prefixer](https://autoprefixer.github.io/)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-* [W3C HTML Validator](https://validator.w3.org/)
-* [GitHub](https://www.github.com)
-* [Gitpod](https://gitpod.io)
-* [GitHub Pages](https://pages.github.com/)
 
 ## Testing
 
@@ -137,21 +127,29 @@ The following tests have been conducted by the [developer](https://www.github.co
     1. Visted website on multiple devices to verify hover features are functional.
     2. Visted website on multiple devices and utilized responsive device mode to ensure back to top icon sends users to top of page.
 
-6. Buttons:
-    1. Visted website and clicked, 'Schedule' button to verify button brings users to 'schedule' section.
+6. Call To Action:
+    1. Visted website on desktop browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
+    2. Visted website on tablet browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
+    3. Visted website on mobile browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
+    4. Inspected website with Google Chrome developer tools and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
 
-7. CSS Prefixer:
+7. Sign Up Form:
+    1. Visted website and tested, 'Sign Up' buttons in each schedule card.
+    2. Filled out sign up form with text.
+    3. Tried to submit signup form before filling out each row to verify `required` fields.
+    4. Repeated above steps from tablet, mobile and tested with Chrome Dev Tools.
+
+8. CSS Prefixer:
     1. Utilized [Autoprefixer CSS Online](https://autoprefixer.github.io/) and inputted CSS.
     2. Replaced stylesheet with syntax provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/).
 
-8. W3C Jigsaw CSS Test:
+9. W3C Jigsaw CSS Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Uploaded entire stylesheet.
     3. Made all changes.
     4. Ran test again to verify all CSS passed.
-    ***To view the results of this test click [here](http://jigsaw.w3.org/css-validator/validator$link)***
 
-9. W3C HTML Test:
+10. W3C HTML Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Pasted all contents of `index.html`.
     3. Made all corrections.
@@ -196,33 +194,57 @@ You can also:
 
 ### Content
 
-1. Written Content:
+Written Content:
 
-* The content on the page is original was written by the [developer](https://www.github.com/alissatroiano)
+* The content on the page is original and was written by the [developer](https://www.github.com/alissatroiano)
 
-* The content in the 404 page, including the main text 'Karma is a 404' and the verbiage in both buttons, was written by the [developer](https://www.github.com/alissatroiano).
+* The content in the 404 page, including the subheding text, 'Karma is a 404' and the verbiage in both buttons, was written by the [developer](https://www.github.com/alissatroiano).
 
-* The class names, times and details in the schedule section were written by the [developer](https://www.github.com/alissatroiano).
+* The class names, times and durations in the schedule section are fictional and were written by the [developer](https://www.github.com/alissatroiano).
 
-* The quotes at the bottom of the page were written by the [developer](https://www.github.com/alissatroiano).
+* The blockquotes in the "Quotes" section are fictional and were written by the [developer](https://www.github.com/alissatroiano).
 
-1. Code Snippets:
+* The names of the people quotes in the, "Quotes" section were made-up by the [developer](https://www.github.com/alissatroiano).
+
+* The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
+
+* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+
+Code Resources:
+
+* The layout for the 404 Error page was discovered via [colorlib](https://colorlib.com/wp/free-404-error-page-templates/).
+
+* The HTML and CSS syntax for the 404 page for Infinity was copied from a 404 template created by [Colorlib](https://colorlib.com). The [developer](https://www.github.com/alissatroiano) adjusted this code with the color palette and typography selected for this project.
+
+* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+* The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+
+* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+* The instructions for the placement of the favicon were learned from [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
+
+* The tools used to repair any markdown issues were aquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
+
+Code Snippets:
 
 * The syntax for the navigation was copied from [Bootstrap](https://getbootstrap.com/).
 
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
-* The HTML and CSS syntax for the 404 page for Infinity was copied from a 404 template created by [Colorlib](https://colorlib.com). The [developer](https://www.github.com/alissatroiano) adjusted this code with the color palette and typography selected for this project.
-
 * The contact section was originally styled based on [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp), but the [developer](https://www.github.com/alissatroiano) adjusted the column sizes and redesigned the placement, color scheme and typography for this section.
 
-* The serif font used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/).
+* The serif font, 'Playfair Display' used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/)
 
 * The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts](https://fonts.adobe.com/fonts).
 
-* The user stories/quotes section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography.
+* The card layout/design used in the, "Quotes," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography for this section before adding original content to it.
 
-* The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
+* The syntax for the jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) and [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
+
+* This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/).
+
+* The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 
 ### Media
 
@@ -232,7 +254,7 @@ You can also:
 
 * The photo for, 'Candelight Meditation,' in the schedule section was copied from [Unsplash](https://unsplash.com/photos/t888K8RWyDQ)
 
-The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
+* The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
 
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
 
@@ -242,34 +264,17 @@ The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-si
 
 * All of the icons in Infinity’s website and their accompanying hover effects were styled by the [developer](https://www.github.com/alissatroiano).
 
-* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
-
 ### Acknowledgements
 
-1. Project:
+Project:
 
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
 
-* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
-
 * The syntax for the overlay in the jumbotron image was inspired by [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
 
-* The syntax for the jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
-* This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/).
-
-* The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
-
-* The instructions for the placement of the favicon were learned from [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
-
-* The tools used to repair any markdown issues were aquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
-
-2.README:
-
-* The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+README:
 
 * The deployment section of this README file was inspired by [Medium](https://medium.com@francoisromain/vps-deploy-with-git-fea605f1303b).
 
-* The markdown language used to write this README was learned from [Github Guides](https://guides.github.com/features/mastering-markdown/).
-
-* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
+* The markdown language used to write this README was inspired by [Github Guides](https://guides.github.com/features/mastering-markdown/).
