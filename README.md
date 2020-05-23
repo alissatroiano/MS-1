@@ -212,33 +212,21 @@ You can also:
 
 Written Content:
 
-* The content on the page is original and was written by the [developer](https://www.github.com/alissatroiano)
-
-* The content in the 404 page, including the subheding text, 'Karma is a 404' and the verbiage in both buttons, was written by the [developer](https://www.github.com/alissatroiano).
-
-* The class names, times and durations in the schedule section are fictional and were written by the [developer](https://www.github.com/alissatroiano).
-
-* The blockquotes in the "Quotes" section are fictional and were written by the [developer](https://www.github.com/alissatroiano).
-
-* The names of the people quotes in the, "Quotes" section were made-up by the [developer](https://www.github.com/alissatroiano).
-
 * The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
 
 * The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
 
+* All other website content pertaining to Infinity Studio is fictional and was written by the [developer](https://www.github.com/alissatroiano).
+
 Code Resources:
 
-* The layout for the 404 Error page was discovered via [colorlib](https://colorlib.com/wp/free-404-error-page-templates/).
+* The template for the 404 Error page was copied from [Colorlib](https://colorlib.com/wp/free-404-error-page-templates/).
 
-* The HTML and CSS syntax for the 404 page for Infinity was copied from a 404 template created by [Colorlib](https://colorlib.com). The [developer](https://www.github.com/alissatroiano) adjusted this code with the color palette and typography selected for this project.
+* I learned how to properly place the favicon by viewing [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
 
-* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+* The deployment section of this README file was inspired by [Medium](https://medium.com@francoisromain/vps-deploy-with-git-fea605f1303b).
 
-* The format for this README file follows the format provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
-
-* The Gitpod template used to create this project was provided by [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
-
-* The instructions for the placement of the favicon were learned from [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
+* The markdown language used to write this README was inspired by [Github Guides](https://guides.github.com/features/mastering-markdown/).
 
 * The tools used to repair any markdown issues were aquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
 
@@ -248,37 +236,31 @@ Code Snippets:
 
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
-* The contact section was originally styled based on [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp), but the [developer](https://www.github.com/alissatroiano) adjusted the column sizes and redesigned the placement, color scheme and typography for this section.
+* The contact section was copied from [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp); the [developer](https://www.github.com/alissatroiano) then customized the columns, placement, sizes, colors and content.
 
-* The serif font, 'Playfair Display' used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/)
+* The serif font, 'Playfair Display' used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/).
 
 * The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts](https://fonts.adobe.com/fonts).
 
-* The card layout/design used in the, "Quotes," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/). The [developer](https://www.github.com/alissatroiano) manually adjusted the class names, css properties, column sizes, card color scheme and typography for this section before adding original content to it.
+* The card layout/design used in the, "Quotes," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/).
 
 * The syntax for the jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) and [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
 
-* This page was styled using Bootstrap responsive components [Bootstrap](https://getbootstrap.com/).
-
-* The syntax for the social media icons in the navbar was learned by reading this [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
+* The syntax for the social media icons in the navbar was copied from [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 
 ### Media
 
 * The photo for "Vinyasa Flow" in the schedule section was copied from [Unsplash](https://unsplash.com/photos/C7xUP_-Q8eI)
 
-* The photo for, 'Rooftop Yoga' in the schedule section was copied from [Unsplash](https://unsplash.com/photos/TYk-iqkW0i4)
+* The photo for, 'Restorative Yoga' in the schedule section was copied from [Adobe Stock](https://stock.adobe.com/search?load_type=search&is_recent_search=&search_type=usertyped&k=restorative+yoga&native_visual_search=&similar_content_id=&asset_id=300959883).
 
-* The photo for, 'Candelight Meditation,' in the schedule section was copied from [Unsplash](https://unsplash.com/photos/t888K8RWyDQ)
+* The photo for, 'Chakra Cleansing,' in the schedule section was copied from [Adobe Stock](https://stock.adobe.com/images/females-meditating-in-padmasana-at-yoga-class/194685469).
 
 * The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
 
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
 
-* The infinity symbol logo was copied from [Font Awesome](https://fontawesome.com/).
-
-* All of the icons on Infinity’s website were imported from [Font Awesome](https://fontawesome.com/).
-
-* All of the icons in Infinity’s website and their accompanying hover effects were styled by the [developer](https://www.github.com/alissatroiano).
+* All of the icons on Infinity’s website were imported from [Font Awesome](https://fontawesome.com/) and styled with the project's primary color.
 
 ### Acknowledgements
 
@@ -286,11 +268,6 @@ Project:
 
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
 
-* The syntax for the overlay in the jumbotron image was inspired by [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
+* I received inspiration from [Awwwards](https://www.awwwards.com/).
 
-
-README:
-
-* The deployment section of this README file was inspired by [Medium](https://medium.com@francoisromain/vps-deploy-with-git-fea605f1303b).
-
-* The markdown language used to write this README was inspired by [Github Guides](https://guides.github.com/features/mastering-markdown/).
+* I received inspiration from [Mat Rebel](http://www.matrebel.co.uk/).
