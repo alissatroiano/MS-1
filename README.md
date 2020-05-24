@@ -91,60 +91,72 @@ This project makes use of the following languages, frameworks and libraries:
 
 ## Testing
 
-The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below is accompanied by the actions taken to ensure the test passed.
+The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the test passed.
 
 1. Navigation:
-    1. Visted website on multiple devices to ensure navigation bar is present on the top of website.
-    2. Visted website on multiple devices and utilized Responsive Device Mode to ensure navigation bar appears in the form of a dropdown/toggle on tablet and mobile.
-    3. Visted website on multiple devices and utilized Responsive Device Mode to ensure that all links bring user to intended page section.
+    1. Visted website on multiple devices to ensure navigation bar is present.
+    2. Used Responsive Device Mode to ensure navigation toggle icon works on tablet and mobile.
+    3. Visted website on multiple devices and used Responsive Device Mode to ensure all links bring user to intended page section.
 
-2. Social Media Links:
-    1. Visted website to ensure social media icons are present on the right side of navbar.
+2. Navigation Test 2:
+    1. Asked friends to open webite on their respective browsers.
+    2. Received feedback in regards to navigation toggle not automatically closing after navigation link is clicked.
+    3. Researched issue.
+    4. Added a script to the bottom of `index.html` to repair.
+    5. Asked the same people to test link again to ensure issue was resolved.
+
+3. Social Media Links:
+    1. Visted website to ensure social media icons are present.
     2. Hovered mouse over social media icons to ensure icons change color on hover.
-    3. Visted website on multiple devices and utilized Responsive Device Mode to verify social media icons bring users to respective social media site when clicked.
-    4. Visted website on multiple devices and utilized Responsive Device Mode to verify social media links open in a new tab using `target=_blank.`
+    3. Opened website on desktop, mobile, browser and Responsive Device Mode to verify social media links direct users to intended websites when clicked.
+    4. Verified social media links open in a new tab.
 
-3. Colors & typography:
-    1. Visted website on multiple devices and utilized eye-dropper tool in responsive device mode to verify colors are consistent.
+4. Colors & typography:
+    1. Visted website on multiple devices and browsers.
+    2. Tested color palette with eye-dropper tool in Chrome Dev Tools.
+    3. Asked friends and family to open website on respective browsers to ensure colors and font load properly.
 
-4. Contact Form:
-    1. Visited contact form on website.
+5. Contact Form:
+    1. Visited contact section of website.
     2. Filled out contact form with text.
-    3. Tried to fill out contact form while leaving a `required` field blank to verify required fields.
-    4. Filled out textarea area to ensure the comments section allows for 3 rows of text input.
-    5. Filled out contact form from multiple devices to verify it is responsive.
+    3. Tried to fill out contact form while leaving a `required` field blank.
+    4. Tried to fill out "Email" row without an email address and was unsuccesful.
+    5. Filled out textarea area to ensure comments section fits 3 rows of text.
+    6. Repeated steps 1-4 on mobile and tablet.
 
-5. Icons:
+6. Icons:
     1. Visted website on multiple devices to verify hover features are functional.
     2. Visted website on multiple devices and utilized responsive device mode to ensure back to top icon sends users to top of page.
 
-6. Call To Action:
-    1. Visted website on desktop browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
-    2. Visted website on tablet browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
-    3. Visted website on mobile browser and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
-    4. Inspected website with Google Chrome developer tools and clicked, 'Schedule' button in jumbotron to verify button brings users to 'schedule' section.
+7. Call To Action:
+    1. Visted website on desktop, tablet and mobile.
+    2. Clicked, 'Schedule' button to verify button works.
+    3. Repeated steps 1-2 in Chrome Dev Tools, Responsive Device Mode.
 
-7. Sign Up Form:
-    1. Visted website and tested, 'Sign Up' buttons in each schedule card.
-    2. Filled out sign up form with text.
-    3. Tried to submit signup form before filling out each row to verify `required` fields.
-    4. Repeated above steps from tablet, mobile and tested with Chrome Dev Tools.
+8. Sign Up Form:
+    1. Visted website and clicked, 'Sign Up' button in each schedule card.
+    2. Filled out each sign up form with text.
+    3. Tried to submit signup form before filling out each row and was unable to.
+    4. Tried to fill out "Email" row without an email address and was unsuccesful.
+    5. Repeated above steps from tablet, mobile and Responsive Device Mode.
 
-8. CSS Prefixer:
+9. CSS Prefixer:
     1. Utilized [Autoprefixer CSS Online](https://autoprefixer.github.io/) and inputted CSS.
     2. Replaced stylesheet with syntax provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/).
 
-9. W3C Jigsaw CSS Test:
+10. W3C Jigsaw CSS Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Uploaded entire stylesheet.
     3. Made all changes.
     4. Ran test again to verify all CSS passed.
+    5. Repeated this step again after adding or updating anyting in stylesheet.
 
-10. W3C HTML Test:
+11. W3C HTML Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Pasted all contents of `index.html`.
-    3. Made all corrections.
+    3. Made all corrections to repair errors.
     4. Ran test again to verify all HTML passed tests.
+    5. Repeated this step again after adding any new syntax and/or making changes.
 
 ## Deployment
 
@@ -236,6 +248,12 @@ Code Snippets:
 * The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
 
 * All of the icons on Infinity’s website were imported from [Font Awesome](https://fontawesome.com/) and styled with the project's primary color.
+
+* The photo of Octavia Bliss in the 'Quotes' section was copied from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822904/).
+
+* The photo of Daniel Zen in the 'Quotes' section was copied from [Unsplash](https://unsplash.com/photos/hyfRxVq9OUk).
+
+* The photo of Sara Solar in the 'Quotes' section was copied from [Pexels](https://www.pexels.com/photo/exercising-keeps-oneself-healthy-3768918/).
 
 ### Acknowledgements
 
