@@ -43,8 +43,7 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 h3 {
@@ -54,7 +53,6 @@ h3 {
     color: #011826;
     font-size: 1.5rem;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 h4,
@@ -323,12 +321,24 @@ label.fname, label.lname, label.email, label.class_selection {
 #fname3, #lname3, #email3 {
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
+    width: 60%;
 }
 
 .modal-open, .model-content {
     overflow: hidden;
     font-size: 1rem;
     font-family: 'Futura-PT', sans-serif;
+}
+
+.modal-top.top-color {
+  background-color: #69a8a9 !important;
+  height: 100px;
+}
+
+h2.modal-title {
+  color: #fff;
+  text-shadow: 1px 1px 1px #011801;
+  text-align: center;
 }
 
 input.form-control, input, textarea, textarea.form-group, 
@@ -404,8 +414,6 @@ form {
 .container-wrapper-quotes{
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
-    margin-top: 30px;
-    padding: 60px 40px;
 }
 
 .top-color {
@@ -468,6 +476,9 @@ button.btn.btn-info.float-right {
     background-color: #69a8a9;
     border-color: transparent;
     font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-style: italic;
+    font-size: large;
 }
 
 button.btn.btn-info.float-right:hover {
@@ -475,6 +486,8 @@ button.btn.btn-info.float-right:hover {
     border-color: transparent;
     font-family: 'Playfair Display', serif;
     color: #f2f2f2;
+    font-style: italic;
+    font-size: large;
 }
 
 .form-group {
@@ -538,24 +551,25 @@ footer h6 {
 
 /*-------------------------------------------- Sections */
 #about {
-    padding: 60px 40px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 60px 40px;
 }
 
 #schedule {
     margin-top: 50px;
-    margin-bottom: 50px;
     padding: 60px 40px;
 }
 
 #contact {
-    padding: 60px 40px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 60px 40px;
 }
 
 #quotes {
-    margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 60px 40px;
 }
+
 /*.end sections*/
 
 /*-------------------------------------------- Media Queries */
@@ -595,7 +609,7 @@ footer h6 {
 body {
     padding: 0;
     margin: 0;
-    background-color: #eee;
+    background-color: #fff;
   }
   
   #notfound {
@@ -626,7 +640,7 @@ body {
     top: 0;
     bottom: 0;
     width: 1px;
-    background-color: #eee;
+    background-color: #fff;
   }
   
   #notfound .notfound-bg>div:nth-child(1) {
