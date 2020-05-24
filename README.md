@@ -237,7 +237,7 @@ Code Snippets:
 
 ### Media
 
-* The photo for "Vinyasa Flow" in the schedule section was copied from [Unsplash](https://unsplash.com/photos/C7xUP_-Q8eI)
+* The photo for "Vinyasa Flow" in the schedule section was copied from [Pexels](https://images.pexels.com/photos/3984340/pexels-photo-3984340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260).
 
 * The photo for, 'Restorative Yoga' in the schedule section was copied from [Adobe Stock](https://stock.adobe.com/search?load_type=search&is_recent_search=&search_type=usertyped&k=restorative+yoga&native_visual_search=&similar_content_id=&asset_id=300959883).
 
