@@ -323,6 +323,8 @@ label.fname, label.lname, label.email, label.class_selection {
 #fname3, #lname3, #email3 {
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
+    width: 75%;
+    height: auto;
 }
 
 .modal-open, .model-content {
