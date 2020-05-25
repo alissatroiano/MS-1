@@ -14,6 +14,9 @@
     <!--Favicon Link-->
     <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico" />
     <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.png" />
+    <!-- AOS Animations CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <!-- Title -->
@@ -51,29 +54,6 @@
                     <a class="nav-link" href="#quotes">Quotes</a>
                 </li>
             </ul>
-            <!--Social Media Links-->
-            <ul class="nav navbar-right ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="https://www.twitter.com" target="_blank">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="https://www.facebook.com" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="https://www.instagram.com" target="_blank">
-                        <i class="fab fa-instagram-square"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="https://www.pinterest.com" target="_blank">
-                        <i class="fab fa-pinterest"></i>
-                    </a>
-                </li>
-            </ul>
         </div>
     </nav>
     <!--./navbar-->
@@ -88,12 +68,13 @@
     <div class="jumbotron-overlay">&nbsp;</div>
     <!--./jumbotron-overlay-->
     <div class="jumbotron-fluid">
-        <div class="container">
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
             <div class="row">
                 <div class="col-12">
                     <h1 class="display-3">Infinity</h1>
                     <h2 class="lead" style="color:#f2f2f2;">Yoga and Meditation Studio</h2>
-                    <p><a class="btn btn-info btn-lg" href="#schedule" role="button">Schedule &raquo;</a></p>
+                    <p><a class="btn btn-info btn-lg" href="#schedule" role="button" >Schedule &raquo;</a></p>
                 </div>
             </div>
         </div>
@@ -129,7 +110,8 @@
                 <div class="row">
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-brain d-sm-block"></i>
+                            <i class="fas fa-brain d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i>
                             <h4 class="about-header">Mind</h4>
                             <p class="display-4 about-content">Yoga increases healthy brain function &amp;
                                 mental
@@ -138,14 +120,16 @@
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-fire-alt d-sm-block"></i>
+                            <i class="fas fa-fire-alt d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100" ></i>
                             <h4 class="about-header">Body</h4>
                             <p class="display-4 about-content">Burn calories during our Vinyasa Flow class</p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-praying-hands d-sm-block"></i>
+                            <i class="fas fa-praying-hands d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom"  data-aos-delay="100"></i>
                             <h4 class="about-header">Spirit</h4>
                             <p class="display-4 about-content">Find your inner strength through meditation.</p>
                         </div>
@@ -154,7 +138,8 @@
                 <div class="row">
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-peace  d-sm-block"></i>
+                            <i class="fas fa-peace d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i>
                             <h4 class="about-header">Peace</h4>
                             <p class="display-4 about-content">Forget all the stress and focus on you.
                             </p>
@@ -162,14 +147,16 @@
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-heart d-sm-block"></i>
+                            <i class="fas fa-heart d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i>
                             <h4 class="about-header">Love</h4>
                             <p class="display-4 about-content">Inhale love, exhale all the negative stuff.</p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
-                            <i class="fas fa-yin-yang d-sm-block"></i>
+                            <i class="fas fa-yin-yang d-sm-block" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i>
                             <h4 class="about-header">Harmony </h4>
                             <p class="display-4 about-content">Bring harmony &amp; balance into your life.</p>
                         </div>
@@ -198,9 +185,10 @@
             <div class="row row-cols-1 row-cols-lg-1">
                 <!--Card Deck-->
                 <div class="card-deck">
-                    <div class="col mb-4">
+                    <div class="col xs-8 col-sm-4">
                         <!--First Card-->
-                        <div class="card h-100">
+                        <div class="card h-100" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                             <div class="mx-auto">
                                 <img src="assets/images/vinyasa.jpg" alt="people taking vinyasa flow class at infinity"
                                     class="card-img-top">
@@ -224,7 +212,7 @@
                                 <!-- Modal -->
                                 <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog"
                                     aria-labelledby="signUpModal" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <div class="modal-body">
@@ -305,8 +293,9 @@
                         </div>
                     </div>
                     <!--Second Card-->
-                    <div class="col mb-4">
-                        <div class="card h-100">
+                    <div class="col xs-8 col-sm-4">
+                        <div class="card h-100" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                             <div class="mx-auto">
                                 <img src="assets/images/restorative.jpg" alt="women using blocks during restorative yoga"
                                     class="card-img-top">
@@ -329,7 +318,7 @@
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="signUpModal2" tabindex="-1" role="dialog" aria-labelledby="signUpModal2" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <div class="modal-body">
@@ -404,8 +393,9 @@
                         </div>
                     </div>
                     <!--Third Card-->
-                    <div class="col mb-4">
-                        <div class="card h-100">
+                    <div class="col xs-8 col-sm-4">
+                        <div class="card h-100" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                             <div class="mx-auto">
                                 <img src="assets/images/chakracleansing.jpg"
                                     alt="people meditating during infinity chakra-cleansing class" class="card-img-top">
@@ -430,7 +420,7 @@
                                 <!-- Modal -->
                                 <div class="modal fade" id="signUpModal3" tabindex="-1" role="dialog"
                                     aria-labelledby="signUpModal3" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <div class="modal-body">
@@ -530,13 +520,13 @@
             <div class="col-xs-8 col-sm-4">
                 <!--Address-->
                 <p><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank"><i
-                            class="fas fa-map-marker-alt"></i></a><span class="contact"> New York, New York</span></p>
+                            class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i></a><span class="contact"> New York, New York</span></p>
                 <!--Phone number-->
-                <p><a href="https://www.google.com/gmail/about/" target="_blank"><i class="fas fa-phone"></i></a><span
+                <p><a href="https://www.google.com/gmail/about/" target="_blank"><i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i></a><span
                         class="contact"> 212.000.0000</span></p>
                 <!--Email-->
                 <p><a href="https://voice.google.com/about" target="_blank"><i
-                            class="fas fa-envelope-open"></i></a><span class="contact"> owner@infinty.nyc</span></p>
+                            class="fas fa-envelope-open" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100"></i></a><span class="contact"> owner@infinty.nyc</span></p>
             </div>
             <!--./contact-details-->
             <!--Contact Form-->
@@ -576,7 +566,8 @@
             <div class="row text-center">
                 <div class="col-xs-8 col-sm-4">
                     <!--First Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card quote-card h-100" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes1.png" alt="closeup of female doing yoga" class="rounded-circle img-fluid">
@@ -596,7 +587,8 @@
                 <!--./first-card-->
                 <div class="col-xs-8 col-sm-4">
                     <!--Second Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card quote-card h-100" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes3.png" alt="closeup of young man at infinity" class="rounded-circle img-fluid">
@@ -616,7 +608,8 @@
                 <!--Grid for card deck-->
                 <div class="col-xs-8 col-sm-4">
                     <!--Third Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card quote-card h-100" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes2.png" alt="headshot of happy female infinity member" class="rounded-circle img-fluid">
@@ -644,11 +637,40 @@
 <!--./end main-page-content-->
 
 <!--Footer-->
-<footer class="text-center">
-    <a href="#myPage" title="To Top">
-        <i class="fas fa-chevron-up"></i>
-    </a>
+<footer>
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col-12">
+            <a href="#myPage" title="To Top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+     <!--Social Media Links-->
+     <ul class="nav navbar-right ml-auto">
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.pinterest.com" target="_blank">
+                <i class="fab fa-pinterest"></i>
+            </a>
+        </li>
+    </ul>
     <h6>2020 Alissa Troiano | Code Institute Project</h6>
+</div>
 </footer>
 <!--./footer-->
 
@@ -664,6 +686,8 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <!--./bootstrap-cdn-->
+
+    <!-- AOS Script-->
     
 <!--Responsive Navbar-->
 <script>
@@ -672,6 +696,11 @@ $('.navbar-collapse a').click(function () {
 });
 </script>
 <!--./responsive-navbar-->
+
+<!--AOS-->
+<script>
+    AOS.init();
+  </script>
 
 </body>
 <!--./body-->
