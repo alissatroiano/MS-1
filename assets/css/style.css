@@ -72,6 +72,60 @@ p {
     text-align: center;
 }
 
+
+/* Header CTA */
+/*-------------------------------------------- Header */
+.header__bookbutton {
+  position: absolute;
+  padding-left: 1.5rem;
+  top: 1.8rem;
+  right: 2.6rem;
+  background: #f2f2f2;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-family: 'Futura-PT', sans-serif;
+  font-size: 12px;
+  letter-spacing: .65px;
+  text-transform: uppercase;
+  text-align: left;
+  transform: rotate(-7deg);
+  color: #011826;
+  z-index: 1;
+  border: none;
+  outline: none;
+  animation: fadein 1.5s ease-in;
+  }
+  
+  .header__bookbutton, .header__bookbutton:active {
+    position: absolute;
+    padding-left: 1.5rem;
+    top: 1rem;
+    right: 5rem;
+    background: #011826;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    transform: rotate(-7deg);
+    color: #fafafa;
+    z-index: 1;
+    border: none;
+    outline: none;
+    animation: fadein 2.5s ease-in;
+  }
+  
+  .header__bookbutton:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: #69a8a9;
+    color: #fafafa;
+  }
+
+  
 /*-------------------------------------------- Navbar */
 .navbar {
     font-family: 'Playfair Display', serif;
