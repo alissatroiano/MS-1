@@ -57,12 +57,13 @@ h3 {
 
 h4,
 h5,
-h6 {
+h6, b {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
     color: #011826;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 p {
@@ -214,6 +215,14 @@ dd {
   margin-bottom: 40px;
 }
 
+mark {
+  background-color: #bde0e12b;
+}
+
+p.about-description {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /*-------------------------------------------- Icons */
 i.fas.fa-yin-yang.d-sm-block,
