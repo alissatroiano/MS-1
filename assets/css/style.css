@@ -538,14 +538,14 @@ i.fas.fa-map-marker-alt,
 i.fas.fa-phone,
 i.fas.fa-envelope-open {
     color: #69a8a9;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 i.fas.fa-map-marker-alt:hover,
 i.fas.fa-phone:hover,
 i.fas.fa-envelope-open:hover {
     color: #011801;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 span.contact {
