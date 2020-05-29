@@ -197,13 +197,23 @@ h2.lead {
     line-height: 45px;
 }
 
-.about-content {
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 40px;
+dt {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-align: center;
+  color: #011826;
+  font-size: 1.2rem;
 }
+
+dd {
+  font-family: 'Futura-PT', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 40px;
+}
+
 
 /*-------------------------------------------- Icons */
 i.fas.fa-yin-yang.d-sm-block,
