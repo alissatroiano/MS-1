@@ -20,49 +20,35 @@ After much research, planning and strategizing, it was determined that the final
 
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
-> As a user, I can navigate the page easily, so I don't get frustrated or confused.
+> As a user, I want a fixed navbar so I can navigate the page easily.
 >>
-> As a user, I can click a link and move to a different section of the page, so I don't have to scroll around looking for content.
+> As a user, I want the option to complete the 'Sign Up' process in less than 3 clicks.
 >>
-> As a user, I can tell that I am on a yoga website immediately, so I do not get confused.
+> As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up.
 >>
-> As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up!
->>
-> As a user, I can comlplete the 'Sign Up' process in less than 3 clicks!
+> As a user, I want the ‘about’ to provide meaningful information.
 
-Quotes included in the final build of Infinity:
+In order to determine what features were the most important and most viable, the following Startegy Plane activity was completed during the planning phase of this project. Please review the Trade Off Table and Chart below:
 
-Quote 1
-> Infinity is the best place to strengthen your yoga practice. The instructors are dedicated, patient & thorough!
->
-> ***Octavia Bliss***
+![Trade Off Table](assets/development/tradeofftable.png)
 
-Quote 2
-> When I first joined I was worried that I wasn't flexibile, but Infinity's staff taught me that anybody can do yoga!
->
-> ***Daniel Zen***
+![Trade Off Chart](assets/development/tradeoffchart.png)
 
-Quote 3
-> Infinity's classes taught me the tools needed to deal with day-to-day stress & anxiety. Now I'm happier than ever!
->
-> ***Sara Solar***
+A full write-up of this exercise can also be viewed [here](assets/development/StrategyActivity.pdf).
 
-### UX Design
+Once the strategy exercises were completed, wire frames were created by the developer. All wire-frames were created with [Balsamiq](https://balsamiq.com/) and can be viewed in [this document](assets/development/WireframesDoc.pdf).
 
-The fonts selected by the [developer](https://www.github.com/alissatroiano) for Infinity's website are:
+* [Desktop Wireframe](assets/development/desktopwireframe.jpeg)
 
-1. `'Playfair Display', serif`
-2. `'Futura PT', sans-serif`
+* [Tablet Wireframe](assets/development/tabletwireframe.jpg)
 
-* The [developer](https://www.github.com/alissatroiano) selected these fonts because:
-
-1. When it comes to typograpy, serif and sans-serif fonts pair together nicely, creating a modern and clean aesthetic that will appear to the project's target market.
-1. `'Playfair Display', serif` is a serif font that brings both style & elegance to the project.
-1. `'Futura', sans-serif` is a modern, sans-serif font that is clean, visually appealing and easy for users to read.
+* [Mobile Wireframe](assets/development/mobilewireframe.jpeg)
 
 ## Features
 
 * Schedule: The schedule section provides site visitors with class information and a place to sign up by listing class times, durations, descriptions and a, "Sign Up," button.
+
+    *You can view the schedule [here](file:///Users/b3tafish/Documents/GitHub/MS-1/index.html#schedule).*
 
 * Sign Up Form: The sign up form gives users an option to sign up for a class, by clicking on a button, filling out a form and submitting it.
 
@@ -92,46 +78,47 @@ This project makes use of the following languages, frameworks and libraries:
 The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](assets/development/Testing.pdf).***
 
 1. Navigation:
-    1. Visited website on multiple devices to ensure navigation bar is present.
-    2. Used Responsive Device Mode to ensure navigation toggle icon works on tablet and mobile.
-    3. Visited website on multiple devices and used Responsive Device Mode to ensure all links bring user to intended page section.
+    1. Visited navigation bar in website.
+    2. Clicked each link.
+    3. Verified links bring user to proper section.
+    4. Repeated steps 1-3 on mobile and tablet.
 
 2. Contact Form:
     1. Visited contact section of website.
     2. Filled out contact form with text.
-    3. Tried to fill out contact form while leaving a `required` field blank.
-    4. Tried to fill out "Email" row without an email address and was unsuccessful.
+    3. Tried to submit contact form with `required` field blank.
+    4. Failed to fill out "email" without email address.
     5. Repeated steps 1-4 on mobile and tablet.
 
 3. Sign Up Form:
-    1. Visited website and clicked, 'Sign Up' button in each schedule card.
-    2. Filled out each sign up form with text.
-    3. Tried to submit signup form before filling out each row and was unable to.
-    4. Tried to fill out "Email" row without an email address and was unsuccessful.
-    5. Repeated above steps from tablet, mobile and Responsive Device Mode.
+    1. Visited website and clicked each, 'Sign Up' button.
+    2. Filled out 3 sign up forms.
+    3. Failed to submit forms before completing each row.
+    4. Failed to submit 'email' rows without email address.
+    5. Repeated steps 1-4 on tablet and mobile.
 
 4. W3C Jigsaw CSS Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Uploaded entire stylesheet.
     3. Made all changes.
     4. Ran test again to verify all CSS passed.
-    5. Repeated this step again after adding or updating  in stylesheet.
+    5. Repeated steps 1-4 again after repairing styles.
 
 5. W3C HTML Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Pasted all contents of `index.html`.
     3. Made all corrections to repair errors.
     4. Ran test again to verify all HTML passed tests.
-    5. Repeated this step again after adding any new syntax and/or making changes.
+    5. Repeated steps 1-4 after each update.
 
-Please see the enclosed [document](assets/development/Testing.pdf) to view the full Testing write-up .
+Please see the enclosed [document](assets/development/Testing.pdf) to view the full Testing write-up for this project.
 
 ## Deployment
 
 This project was deployed with [Github Pages](https://pages.github.com/). The [developer](https://github.com/alissatroiano) deployed the project successfully by following these steps:
 
 1. Created a repository.
-1. Opened project in GitHub Desktop and VSCode. 
+1. Opened project in GitHub Desktop and VSCode.
 1. Created index.html.
 1. Built project website.
 1. Commited and pushed all changes to Github.
