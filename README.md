@@ -2,23 +2,21 @@
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-The website features an attractive jumbotron image with a schedule button that, when clicked, directs the user to the class schedule section of the webpage. The schedule section provides new & existing members with class details, times and an option to signup. Infinity’s website also includes an aesthetically appealing 'About' section to provide information for those who wish to know more about the studio and its approach as well as user stories (or 'Quotes'), which are a popular trust element in UX. 
+Infinity’s website features an attractive jumbotron image with a call-to-action button that, when clicked, directs the user to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and a 'Quotes' section with user stories.
 
 ## UX
 
-This website was built for a fictional yoga and meditation studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (ages 4-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
+This website was built for a fictional yoga and meditation studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
 
-After much research, planning and strategizing, it was determined that the final version of this website was the best way to help Infinity studio achieve their goals for the following reasons:
+After much research, planning and strategizing, it was determined that the final version of this website was the best way to help Infinity achieve their goals for the following reasons:
 
 * The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like NYC.
 
 * Navigation is intuitive across all devices.
 
-* The website is responsive; dynamic changes are made to its' appearance, depending on device screen size and orientation.
-
 * The website places class details, class times and class sign up forms in one central location, so users will not have to click a lot, making them more likely to sign up.
 
-* The website includes an 'About' section that fulfills one of the client's goals: to provde users with information about the studio and its' procedures.
+* The website includes an 'About' section that fulfills one of the client's main goals: to provde users with information about the studio and its' procedures.
 
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
@@ -91,72 +89,42 @@ This project makes use of the following languages, frameworks and libraries:
 
 ## Testing
 
-The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the test passed.
+The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](assets/development/Testing.pdf).***
 
 1. Navigation:
-    1. Visted website on multiple devices to ensure navigation bar is present.
+    1. Visited website on multiple devices to ensure navigation bar is present.
     2. Used Responsive Device Mode to ensure navigation toggle icon works on tablet and mobile.
-    3. Visted website on multiple devices and used Responsive Device Mode to ensure all links bring user to intended page section.
+    3. Visited website on multiple devices and used Responsive Device Mode to ensure all links bring user to intended page section.
 
-2. Navigation Test 2:
-    1. Asked friends to open webite on their respective browsers.
-    2. Received feedback in regards to navigation toggle not automatically closing after navigation link is clicked.
-    3. Researched issue.
-    4. Added a script to the bottom of `index.html` to repair.
-    5. Asked the same people to test link again to ensure issue was resolved.
-
-3. Social Media Links:
-    1. Visted website to ensure social media icons are present.
-    2. Hovered mouse over social media icons to ensure icons change color on hover.
-    3. Opened website on desktop, mobile, browser and Responsive Device Mode to verify social media links direct users to intended websites when clicked.
-    4. Verified social media links open in a new tab.
-
-4. Colors & typography:
-    1. Visted website on multiple devices and browsers.
-    2. Tested color palette with eye-dropper tool in Chrome Dev Tools.
-    3. Asked friends and family to open website on respective browsers to ensure colors and font load properly.
-
-5. Contact Form:
+2. Contact Form:
     1. Visited contact section of website.
     2. Filled out contact form with text.
     3. Tried to fill out contact form while leaving a `required` field blank.
-    4. Tried to fill out "Email" row without an email address and was unsuccesful.
-    5. Filled out textarea area to ensure comments section fits 3 rows of text.
-    6. Repeated steps 1-4 on mobile and tablet.
+    4. Tried to fill out "Email" row without an email address and was unsuccessful.
+    5. Repeated steps 1-4 on mobile and tablet.
 
-6. Icons:
-    1. Visted website on multiple devices to verify hover features are functional.
-    2. Visted website on multiple devices and utilized responsive device mode to ensure back to top icon sends users to top of page.
-
-7. Call To Action:
-    1. Visted website on desktop, tablet and mobile.
-    2. Clicked, 'Schedule' button to verify button works.
-    3. Repeated steps 1-2 in Chrome Dev Tools, Responsive Device Mode.
-
-8. Sign Up Form:
-    1. Visted website and clicked, 'Sign Up' button in each schedule card.
+3. Sign Up Form:
+    1. Visited website and clicked, 'Sign Up' button in each schedule card.
     2. Filled out each sign up form with text.
     3. Tried to submit signup form before filling out each row and was unable to.
-    4. Tried to fill out "Email" row without an email address and was unsuccesful.
+    4. Tried to fill out "Email" row without an email address and was unsuccessful.
     5. Repeated above steps from tablet, mobile and Responsive Device Mode.
 
-9. CSS Prefixer:
-    1. Utilized [Autoprefixer CSS Online](https://autoprefixer.github.io/) and inputted CSS.
-    2. Replaced stylesheet with syntax provided by [Autoprefixer CSS Online](https://autoprefixer.github.io/).
-
-10. W3C Jigsaw CSS Test:
+4. W3C Jigsaw CSS Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Uploaded entire stylesheet.
     3. Made all changes.
     4. Ran test again to verify all CSS passed.
-    5. Repeated this step again after adding or updating anyting in stylesheet.
+    5. Repeated this step again after adding or updating  in stylesheet.
 
-11. W3C HTML Test:
+5. W3C HTML Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
     2. Pasted all contents of `index.html`.
     3. Made all corrections to repair errors.
     4. Ran test again to verify all HTML passed tests.
     5. Repeated this step again after adding any new syntax and/or making changes.
+
+Please see the enclosed [document](assets/development/Testing.pdf) to view the full Testing write-up .
 
 ## Deployment
 
@@ -260,6 +228,8 @@ Code Snippets:
 Project:
 
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
+
+* I received inspiration from [Material Design for Bootstrap](https://mdbootstrap.com/).
 
 * I received inspiration from [Awwwards](https://www.awwwards.com/).
 
