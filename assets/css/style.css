@@ -20,6 +20,23 @@ hr {
     border-top: 3px solid #69a8a9;
 }
 
+a {
+    color: #011801;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #69A8A9;
+    text-decoration: none;
+}
+
+mark {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-shadow: .5px .5px .5px lightslategray;
+}
+
 /* https://www.w3schools.com/cssref/sel_selection.asp */
 ::-moz-selection { /* Code for Firefox */
     color: #f2f2f2;
@@ -72,39 +89,15 @@ p {
     text-align: center;
 }
 
-
-/* Header CTA */
 /*-------------------------------------------- Header */
-.header__bookbutton {
-  position: absolute;
-  padding-left: 1.5rem;
-  top: 1.8rem;
-  right: 2.6rem;
-  background: #f2f2f2;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  font-family: 'Futura-PT', sans-serif;
-  font-size: 12px;
-  letter-spacing: .65px;
-  text-transform: uppercase;
-  text-align: left;
-  transform: rotate(-7deg);
-  color: #011826;
-  z-index: 1;
-  border: none;
-  outline: none;
-  animation: fadein 1.5s ease-in;
-  }
-  
-  .header__bookbutton, .header__bookbutton:active {
+.cta_button, .cta_button:active {
     position: absolute;
     padding-left: 1.5rem;
     top: 1rem;
     right: 5rem;
     background: #011826;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
@@ -116,12 +109,12 @@ p {
     border: none;
     outline: none;
     animation: fadein 2.5s ease-in;
-  }
+}
   
-  .header__bookbutton:hover {
+  .cta_button:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: #69a8a9;
+    background: #69A8A9;
     color: #fafafa;
   }
 
@@ -566,25 +559,42 @@ span.contact {
 
 /*-------------------------------------------- Footer */
 footer {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: normal 18px sans-serif;
+    padding: 45px;
+    padding: 40px;
 }
 
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
-footer h6 {
-    font-size: 1rem;
-    font-style: normal;
-    margin-top: 20px;
+a.footer-nav {
+    margin-left: 10px;
 }
+
+#facebook, #instagram, #pinterest {
+    margin-left: 20px;
+}
+
+hr.footer-divider {
+    width: 100%;
+    border: .5px solid #69A8A9;
+}
+
 /* end footer */
 
 /*-------------------------------------------- Sections */
