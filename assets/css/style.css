@@ -31,7 +31,6 @@ hr {
     background: #69a8a9;
 }
 
-/*-----------------------------------------Headers */
 h1 {
     color: #011826;
     text-shadow: 2px 2px #011826;
@@ -55,9 +54,7 @@ h3 {
     margin-top: 50px;
 }
 
-h4,
-h5,
-h6, b {
+h4, h5, h6, b {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
@@ -72,6 +69,7 @@ p {
     text-align: center;
     margin-bottom: 1rem;    
 }
+/* end global styles */
 
 /*-------------------------------------------- Navbar */
 .navbar {
@@ -116,9 +114,10 @@ a.navbar-brand {
     font-size: 1.7rem;
     text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
 }
+/* end navbar */
 
 /*-------------------------------------------- Jumbotron */
-/* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
+  /* The jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
 
@@ -153,7 +152,6 @@ a.navbar-brand {
     overflow: visible;
 }
 
-
 a.btn.btn-info.btn-lg {
     background-color: #69a8a9;
     color: #011826;
@@ -169,7 +167,6 @@ a.btn.btn-info.btn-lg:hover {
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
-
 
 h1.display-3 {
     font-family: 'Futura-PT', sans-serif;
@@ -190,9 +187,9 @@ h2.lead {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+/* end jumbotron */
 
 /*-------------------------------------------- About */
-
 .about i {
     margin-bottom: 20px;
     line-height: 45px;
@@ -224,7 +221,6 @@ p.about-description {
   padding-right: 15px;
 }
 
-/*-------------------------------------------- Icons */
 i.fas.fa-yin-yang.d-sm-block,
 i.fas.fa-peace.d-sm-block,
 i.fas.fa-heart.d-sm-block,
@@ -244,6 +240,7 @@ i.fas.fa-praying-hands.d-sm-block:hover {
     color: #011826;
     font-size: 50px;
 }
+/* end about */
 
 /*-------------------------------------------- Schedule */
 .container-wrapper-schedule{
@@ -268,7 +265,6 @@ p.text-muted {
   font-family: 'Futura-PT', sans-serif;
 }
 
-/*-------------------------------------------- Animated Modal Trigger Button */
 .signUp {
   width: 130px;
   height: 65px;
@@ -325,7 +321,7 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
-/* end animated modal trigger button */
+/* end schedule */
 
 /*-------------------------------------------- Sign Up Form */
 label.fname, label.lname, label.email, label.class_selection {
@@ -427,7 +423,7 @@ input[type=checkbox], input[type=radio] {
 form {
     position: relative;
 }
-/* end form */
+/* end signup-form */
 
 /*-------------------------------------------- Quotes */
 .container-wrapper-quotes{
@@ -541,8 +537,6 @@ span.contact {
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
 }
-
-
 /* end quotes */
 
 /*-------------------------------------------- Footer */
@@ -568,84 +562,33 @@ footer h6 {
 }
 /* end footer */
 
-/*-------------------------------------------- Sections */
-#about {
-  margin-top: 50px;
-  padding: 60px 40px;
-}
-
-#schedule {
-    margin-top: 50px;
-    padding: 60px 40px;
-}
-
-#contact {
-  margin-top: 50px;
-  padding: 60px 40px;
-}
-
-#quotes {
-  margin-top: 50px;
-  padding: 60px 40px;
-}
-
-/*.end sections*/
-
-/*-------------------------------------------- Media Queries */
-@media only screen and (max-width: 320px) {
-    .jumbotron-container {
-        background-image: url('../images/infinityphoto.jpg');
-
-        background-size: cover;
-        height: 100vh;
-        min-height: 100%;
-
-        -webkit-box-pack: center;
-
-        -ms-flex-pack: center;
-
-        justify-content: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-
-        position: relative;
-        overflow: hidden;
-    }
-}
-/* end media query */
-
-
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body {
+body#notfound-body {
     padding: 0;
     margin: 0;
     background-color: #fff;
-  }
+}
   
-  #notfound {
+#notfound {
     position: relative;
     height: 100vh;
-  }
+}
   
-  #notfound .notfound {
+#notfound .notfound {
     position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-  }
+}
   
-  #notfound .notfound-bg {
+#notfound .notfound-bg {
     position: absolute;
     left: 0;
     right: 0;
@@ -654,7 +597,7 @@ body {
     overflow: hidden;
   }
   
-  #notfound .notfound-bg>div {
+#notfound .notfound-bg>div {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -662,23 +605,23 @@ body {
     background-color: #fff;
   }
   
-  #notfound .notfound-bg>div:nth-child(1) {
+#notfound .notfound-bg>div:nth-child(1) {
     left: 20%;
   }
   
-  #notfound .notfound-bg>div:nth-child(2) {
+#notfound .notfound-bg>div:nth-child(2) {
     left: 40%
   }
   
-  #notfound .notfound-bg>div:nth-child(3) {
+#notfound .notfound-bg>div:nth-child(3) {
     left: 60%
   }
   
-  #notfound .notfound-bg>div:nth-child(4) {
+#notfound .notfound-bg>div:nth-child(4) {
     left: 80%
   }
   
-  #notfound .notfound-bg>div:after {
+#notfound .notfound-bg>div:after {
     content: '';
     position: absolute;
     top: 0px;
@@ -713,46 +656,46 @@ body {
     }
   }
   
-  #notfound .notfound-bg>div:nth-child(1):after {
+#notfound .notfound-bg>div:nth-child(1):after {
     -webkit-animation: drop 3s infinite linear;
             animation: drop 3s infinite linear;
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
   }
   
-  #notfound .notfound-bg>div:nth-child(2):after {
+#notfound .notfound-bg>div:nth-child(2):after {
     -webkit-animation: drop 2s infinite linear;
             animation: drop 2s infinite linear;
     -webkit-animation-delay: 0.7s;
             animation-delay: 0.7s;
   }
   
-  #notfound .notfound-bg>div:nth-child(3):after {
+#notfound .notfound-bg>div:nth-child(3):after {
     -webkit-animation: drop 3s infinite linear;
             animation: drop 3s infinite linear;
     -webkit-animation-delay: 0.9s;
             animation-delay: 0.9s;
   }
   
-  #notfound .notfound-bg>div:nth-child(4):after {
+#notfound .notfound-bg>div:nth-child(4):after {
     -webkit-animation: drop 2s infinite linear;
             animation: drop 2s infinite linear;
     -webkit-animation-delay: 1.2s;
             animation-delay: 1.2s;
   }
   
-  .notfound {
+.notfound {
     max-width: 520px;
     width: 100%;
     text-align: center;
   }
   
-  .notfound .notfound-404 {
+.notfound .notfound-404 {
     height: 210px;
     line-height: 210px;
   }
   
-  .notfound .notfound-404 h1 {
+.notfound .notfound-404 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700; 
     font-style: normal;  
@@ -762,7 +705,7 @@ body {
     letter-spacing: -5px;
   }
   
-  .notfound h2 {
+.notfound h2 {
     font-family: 'Dolce', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -770,7 +713,7 @@ body {
     text-shadow: 1px 2px 0px #69a8a9;
   }
   
-  .notfound a {
+.notfound a {
     margin-top: 20px;
     font-family: 'Futura-PT', sans-serif;
     padding: 10px 30px;
@@ -785,17 +728,17 @@ body {
     transition: 0.2s all;
   }
   
-  .notfound a:hover {
+.notfound a:hover {
     background-color: #69a8a9;
     -webkit-box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #69a8a9;
             box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #69a8a9;
   }
   
-  .notfound-social {
+.notfound-social {
     margin-top: 35px;
   }
   
-  .notfound-social>a {
+.notfound-social>a {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -803,26 +746,13 @@ body {
     margin: 0px 5px;
   }
   
-  .notfound-social>a:hover {
+.notfound-social>a:hover {
     background-color: #69a8a9;
     -webkit-box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #69a8a9;
             box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #69a8a9;
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .notfound .notfound-404 {
-      height: 122px;
-      line-height: 122px;
-    }
-    .notfound .notfound-404 h1 {
-      font-size: 122px;
-    }
-    .notfound h2 {
-      font-size: 26px;
-    }
-  }
-  
-  a.button {
+          }
+
+a.button {
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -834,3 +764,67 @@ i.404.fab.fa-twitter {
     font-size: 0px;
     color: #081108;
   }
+/* end 404 error styles */
+
+
+/*-------------------------------------------- Media Queries */
+@media only screen and (max-width: 320px) {
+  .jumbotron-container {
+      background-image: url('../images/infinityphoto.jpg');
+
+      background-size: cover;
+      height: 100vh;
+      min-height: 100%;
+
+      -webkit-box-pack: center;
+
+      -ms-flex-pack: center;
+
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      position: relative;
+      overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.notfound .notfound-404 {
+  height: 122px;
+  line-height: 122px;
+}
+.notfound .notfound-404 h1 {
+  font-size: 122px;
+}
+.notfound h2 {
+  font-size: 26px;
+  }
+}
+/* end media queries */
+
+/*-------------------------------------------- Sections */
+#about {
+  margin-top: 50px;
+  padding: 60px 40px;
+}
+
+#schedule {
+    margin-top: 50px;
+    padding: 60px 40px;
+}
+
+#contact {
+  margin-top: 50px;
+  padding: 60px 40px;
+}
+
+#quotes {
+  margin-top: 50px;
+  padding: 60px 40px;
+}
+/*.end sections*/
