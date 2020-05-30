@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
     <!--Import Futura from Adobe Fonts-->
@@ -19,7 +19,7 @@
     <!-- Title -->
     <title>Infinity Yoga | Yoga and Meditation in NYC </title>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
 <!-- Header-->
 <header>
     <!-- Navbar -->
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#quotes">Quotes</a>
+                    <a class="nav-link" href="#reviews">Reviews</a>
                 </li>
             </ul>
             <!--Social Media Links-->
@@ -79,7 +79,7 @@
 <!--./header-->
 
 <!--Main-->
-<main>
+<main id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <!-- Jumbotron Section-->
 <section class="jumbotron-container">
     <!--Jumbotron Overlay-->
@@ -112,38 +112,36 @@
             </div>
             <div class="row">
                 <div class="col-md-auto">
-                    <p class="about-description">
-                        Infinity is a <mark>Yoga</mark> and <mark>Meditation</mark> studio in New York, NY. Taught by a
-                        staff of dedicated instructors, our classes help members achieve fitness goals and find balance
-                        in their everyday lives.
+                    <p id="description">
+                        Infinity is a <mark>Yoga</mark> and <mark>Meditation</mark> studio in New York, NY. Taught by a staff of dedicated instructors, our classes help members achieve fitness goals and find balance in their everyday lives.
                     </p>
                 </div>
             </div>
             <!--Why Infinity Container-->
             <div class="container-fluid text-center">
-                <h3 class="about-header" style="margin-bottom: 18px; margin-top: 20px;">Why Infinity?</h3>
+                <h3 class="about-header">Why Infinity?</h3>
                 <div class="row">
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-brain d-sm-block"></i>
-                            <dt><strong>Mind</strong></dt>
-                            <dd>Yoga increases healthy brain function &amp;
+                            <h4><strong>Mind</strong></h4>
+                            <p>Yoga increases healthy brain function &amp;
                                 mental
-                                clarity</dd>
+                                clarity</p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-fire-alt d-sm-block"></i>
-                            <dt><strong>Body</strong></dt>
-                            <dd>Burn calories during our Vinyasa Flow class</dd>
+                            <h4><strong>Body</strong></h4>
+                            <p>Burn calories during our Vinyasa Flow class</p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-praying-hands d-sm-block"></i>
-                            <dt><strong>Spirit</strong></dt>
-                            <dd>Find your inner strength through meditation.</dd>
+                            <h4><strong>Spirit</strong></h4>
+                            <p>Find your inner strength through meditation.</p>
                         </div>
                     </div>
                 </div>
@@ -151,23 +149,23 @@
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-peace  d-sm-block"></i>
-                            <dt><strong>Peace</strong></dt>
-                            <dd>Forget all the stress and focus on you.
-                            </dd>
+                            <h4><strong>Peace</strong></h4>
+                            <p>Forget all the stress and focus on you.
+                            </p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-heart d-sm-block"></i>
-                            <dt><strong>Love</strong></dt>
-                            <dd>Inhale love, exhale all the negative stuff.</dd>
+                            <h4><strong>Love</strong></h4>
+                            <p>Inhale love, exhale all the negative stuff.</p>
                         </div>
                     </div>
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
                             <i class="fas fa-yin-yang d-sm-block"></i>
-                            <dt><strong>Harmony</strong></dt>
-                            <dd>Bring harmony &amp; balance into your life.</dd>
+                            <h4><strong>Harmony</strong></h4>
+                            <p>Bring harmony &amp; balance into your life.</p>
                         </div>
                     </div>
                     <!--./why-infinity-container-->
@@ -188,7 +186,7 @@
                 <div class="col-12 section-header">
                     <h2 class="section-header">Schedule</h2>
                     <hr>
-                    <p class="schedule-content">The staff of Infinity is proud to offer these classes. We love what we
+                    <p id="description">The staff of Infinity is proud to offer these classes. We love what we
                         do and we want everybody to experience the peace, love &amp; harmony that we feel at our studio.
                     </p>
                 </div>
@@ -282,65 +280,23 @@
 <!--./schedule-section-->
 </div>
 <!--./schedule-container-->
-<!--Contact Section-->
-<section id="contact">
-    <div class="container-fluid">
-        <h2 class="section-header">Contact Us</h2>
-        <hr>
-        <div class="row">
-            <!--Contact Details-->
-            <div class="col-xs-8 col-sm-4">
-                <!--Address-->
-                <p><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
-                    <span class="contact"> New York, New York</span></p>
-                <!--Phone number-->
-                <p><a href="https://www.google.com/gmail/about/" target="_blank"><i class="fas fa-phone"></i></a><span
-                        class="contact"> 212.000.0000</span></p>
-                <!--Email-->
-                <p><a href="https://voice.google.com/about" target="_blank"><i
-                            class="fas fa-envelope-open"></i></a><span class="contact"> owner@infinty.nyc</span></p>
-            </div>
-            <!--./contact-details-->
-            <!--Contact Form-->
-            <div class="col-xs-4 col-sm-8">
-                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-                    <div class="form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="contact-email" name="contact-email" placeholder="Email"
-                            type="email" required />
-                    </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
-                        rows="3"></textarea>
-                    <br>
-                    <button class="btn btn-info float-right" type="submit">Send</button>
-                </div>
-            </form>
-        </div>
-        <!--./contact-form-->
-    </div>
-</section>
-<!--./contact-->
 
-<!--Quotes Container-->
-<!--Layout design copied from
-     https://mdbootstrap.com/docs/jquery/sections/testimonials/ -->
-<div class="container-wrapper-quotes">
-    <div class="container-fluid quotes-container">
-        <!--Reviews-->
-        <section id="quotes" class="quotes">
+<!-- REVIEWS SECTION -->
+    <!--Design copied from https://mdbootstrap.com/docs/jquery/sections/testimonials/ -->
+<div class="container-wrapper-reviews">
+    <div class="container-fluid reviews-container">
+        <section id="reviews" class="reviews">
             <div class="row text-center">
                 <div class="col-12 section-header">
-                    <h2 class="section-header">Quotes</h2>
+                    <h2 class="section-header">Customer Reviews</h2>
                     <hr>
-                    <p>Want to know what our members have to say about Infinity? Check out these quotes!</p>
+                    <p id="description">Want to know what Infinity members are saying about Infinity? Check out these reviews from some of our favorite customers!</p>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-xs-8 col-sm-4">
                     <!--First Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card review-card h-100">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes1.png" alt="closeup of female doing yoga" class="rounded-circle img-fluid">
@@ -360,7 +316,7 @@
                 <!--./first-card-->
                 <div class="col-xs-8 col-sm-4">
                     <!--Second Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card review-card h-100">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes3.png" alt="closeup of young man at infinity" class="rounded-circle img-fluid">
@@ -380,7 +336,7 @@
                 <!--Grid for card deck-->
                 <div class="col-xs-8 col-sm-4">
                     <!--Third Card-->
-                    <div class="card quote-card h-100">
+                    <div class="card review-card h-100">
                         <div class="card-top top-color"></div>
                         <div class="avatar mx-auto white">
                             <img src="assets/images/quotes2.png" alt="headshot of happy female infinity member" class="rounded-circle img-fluid">
@@ -399,10 +355,69 @@
                 </div>
             </div>
         </section>
-        <!--./quotes-->
     </div>
 </div>
-<!--./quotes-container-->
+<!--./reviews-section-->
+
+<!--Contact Section-->
+    <!--Code copied from -->
+<section id="contact">
+    <div class="container-wrapper-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 m-auto">
+                    <ul class="contact-details">
+                        <li id="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                        </li>
+                        <li id="contact-info">
+                            <p><i class="fas fa-phone"></i> 212.000.000</p>
+                        </li>
+                        <li id="contact-info">
+                            <p><i class="fas fa-envelope-open"></i> owner@infinity.nyc</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-md-offset-2 m-auto">
+                    <div class="contact-form">
+                        <h2>Contact Us</h2>
+                        <hr>
+                        <p id="description">We'd love to hear from you. Drop us a line and we'll try to get back to you
+                            as soon as possible!</p>
+                        <form action="/examples/actions/confirmation.php" method="post">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="inputName">Name</label>
+                                        <input type="text" class="form-control" id="inputName" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputSubject">Subject</label>
+                                <input type="text" class="form-control" id="inputSubject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <a type="submit" class="btn btn-info btn-lg"><i class="fa fa-paper-plane"></i> Send</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 </main>
 <!--./main-->
 
@@ -418,15 +433,6 @@
         <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
     </div>
-    <div class="css-validation" style="margin-top: 10px; margin-bottom: 10px;">
-    <p>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                alt="Valid CSS!" />
-        </a>
-    </p>
-</div>
 </footer>
 <!--./footer-->
 
