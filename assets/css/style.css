@@ -556,9 +556,15 @@ footer i.fas.fa-chevron-up:hover {
 }
 
 footer h6 {
-    font-size: 1rem;
+    font-size: 14px;
     font-style: normal;
     margin-top: 20px;
+    margin-bottom: 0;
+}
+
+div.footer-social {
+  letter-spacing: 3px;
+  font-size: 2.2rem;
 }
 /* end footer */
 
@@ -756,6 +762,14 @@ a.button {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+i.fab.fa-instagram, 
+i.fab.fa-facebook,
+i.fab.fa-pinterest-p,
+i.fab.fa-twitter {
+    font-size: 1.2rem;
+    color: #081108;
+  }
 
 /* end 404 error styles */
 
