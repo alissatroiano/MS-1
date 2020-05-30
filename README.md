@@ -2,13 +2,13 @@
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-Infinity’s website features an attractive jumbotron image with a call-to-action button that, when clicked, directs the user to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and a 'Quotes' section with user stories.
+Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs the user to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and a 'Quotes' section with user stories.
 
 ## UX
 
 This website was built for a fictional yoga and meditation studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
 
-After much research, planning and strategizing, it was determined that the final version of this website was the best way to help Infinity achieve their goals for the following reasons:
+After much research and planning, it was determined that the final version of this website was the best way to help Infinity achieve their goals for the following reasons:
 
 * The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like NYC.
 
@@ -16,7 +16,7 @@ After much research, planning and strategizing, it was determined that the final
 
 * The website places class details, class times and class sign up forms in one central location, so users will not have to click a lot, making them more likely to sign up.
 
-* The website includes an 'About' section that fulfills one of the client's main goals: to provde users with information about the studio and its' procedures.
+* The website includes an 'About' section that fulfills one of the client's main goals: to provide users with information about the studio and its' procedures.
 
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
@@ -28,7 +28,7 @@ User stories were created by the developer during the planning phase of this pro
 >>
 > As a user, I want the ‘about’ to provide meaningful information.
 
-In order to determine what features were the most important and most viable, the following Startegy Plane activity was completed during the planning phase of this project. Please review the Trade Off Table and Chart below:
+In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project. Please review the Trade Off Table and Chart below:
 
 ![Trade Off Table](assets/development/tradeofftable.png)
 
@@ -52,7 +52,7 @@ Once the strategy exercises were completed, wire frames were created by the deve
 
 * Sign Up Form: The sign up form gives users an option to sign up for a class, by clicking on a button, filling out a form and submitting it.
 
-* User stories: The user stories allow users to learn more about Infinity and its' procedures from relatable, trustworthy sources by viewing photos of and reading quotes from exisiting Infinity members.
+* User stories: The user stories allow users to learn more about Infinity and its' procedures from relatable, trustworthy sources by viewing photos of and reading quotes from existing Infinity members.
 
 * Contact Form: The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
 
@@ -121,7 +121,7 @@ This project was deployed with [Github Pages](https://pages.github.com/). The [d
 1. Opened project in GitHub Desktop and VSCode.
 1. Created index.html.
 1. Built project website.
-1. Commited and pushed all changes to Github.
+1. Committed and pushed all changes to Github.
 1. Once project was completed, visited "repository settings" on GitHub.com.
 1. Scrolled down to the GitHub Pages section and clicked, "source".
 1. Fired up a browser and went [here](https://alissatroiano.github.io/MS-1/) to ensure deployment was successful.
@@ -166,11 +166,11 @@ Code Resources:
 
 * I learned how to properly place the favicon by viewing [this video](https://www.youtube.com/watch?v=kEf1xSwX5D8).
 
-* The deployment section of this README file was inspired by [Medium](https://medium.com@francoisromain/vps-deploy-with-git-fea605f1303b).
+* The deployment section of this README file was copied from [Medium](https://medium.com@francoisromain/vps-deploy-with-git-fea605f1303b).
 
 * The markdown language used to write this README was inspired by [Github Guides](https://guides.github.com/features/mastering-markdown/).
 
-* The tools used to repair any markdown issues were aquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
+* The tools used to repair any markdown issues were acquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
 
 Code Snippets:
 
@@ -178,7 +178,7 @@ Code Snippets:
 
 * The media queries in style.css were copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
-* The contact section was copied from [W3 Schools's The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp); the [developer](https://www.github.com/alissatroiano) then customized the columns, placement, sizes, colors and content.
+* The contact section was copied from [W3 Schools: The Company Tutorial](https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp); the [developer](https://www.github.com/alissatroiano) then customized the columns, placement, sizes, colors and content.
 
 * The serif font, 'Playfair Display' used for the headings in this project was imported from [Google Fonts](https://fonts.google.com/).
 
@@ -186,7 +186,7 @@ Code Snippets:
 
 * The card layout/design used in the, "Quotes," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/).
 
-* The syntax for the jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) and [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
+* The syntax for the Jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) and [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
 
 * The syntax for the social media icons in the navbar was copied from [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 
@@ -200,7 +200,7 @@ Code Snippets:
 
 * The favicon was downloaded from [FreeSVG](https://freesvg.org/infinity-symbol-silhouette).
 
-* The jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
+* The Jumbotron image was copied from [Unsplash](https://unsplash.com/photos/D2uK7elFBU4)
 
 * All of the icons on Infinity’s website were imported from [Font Awesome](https://fontawesome.com/) and styled with the project's primary color.
 
@@ -215,6 +215,8 @@ Code Snippets:
 Project:
 
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
+
+* I received inspiration from [Code Institute's](https://codeinstitute.net).
 
 * I received inspiration from [Material Design for Bootstrap](https://mdbootstrap.com/).
 
