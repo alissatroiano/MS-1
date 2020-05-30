@@ -20,10 +20,8 @@ hr {
 }
 
 #description {
-  padding-left: 60px;
-  padding-right: 60px;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 20px;
 }
 
 /* https://www.w3schools.com/cssref/sel_selection.asp */
@@ -368,17 +366,13 @@ blockquote {
 .container-wrapper-contact {
   color: #000;
   background: rgba(135, 156, 166, 0.2);
+  padding: 60px 0;
 }
 
 .contact-form {
-  padding: 20px;
-  margin: 30px auto;
   font-family: "Futura-pt", sans-serif;
+  margin: 0 20px;
 }	
-
-.contact-form .form-group {
-  margin-bottom: 20px;
-}
 
 .contact-form .form-control, .contact-form .btn {
   min-height: 38px;
@@ -398,9 +392,11 @@ box-shadow: 1px 1px 2px #011801;
 .contact-form .btn-primary:hover {
   color: #fff; 
 }
+
 .contact-form .btn-primary i {
   margin-right: 5px;
 }
+
 .contact-form label {
  font-family: "Futura-pt", sans-serif;
 font-size: 1.1rem;
@@ -414,56 +410,17 @@ color: #011801;
   color: #081108;
 }
 
-ul.contact-details, ul.studio-details {
+ul.contact-details {
   list-style: none;
-  letter-spacing: px;
+  margin: 20px 20px 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #contact-info {
   padding-left: 10px;
   display: flex;
   align-items: flex-start;
-}
-
-/*--------------------------------------------./contact-section */
-
-
-
-
-/*-------------------------------------------- Contact */
-.row.contact {
-    margin-top: 50px;
-}
-
-button.btn.btn-info.float-right {
-  background-color: #011801;
-    border-color: transparent;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-    font-style: italic;
-    font-size: large;
-}
-
-button.btn.btn-info.float-right:hover {
-    background-color: #011801;
-    border-color: transparent;
-    font-family: 'Playfair Display', serif;
-    color: #f2f2f2;
-    font-style: italic;
-    font-size: large;
-}
-
-.form-group {
-    margin-top: 20px;
-}
-
-.form-control::-webkit-input-placeholder, 
-.form-control::-moz-placeholder,
-.form-control:-ms-input-placeholder,
-.form-control::-ms-input-placeholder, 
-.form-control::placeholder {
-    font-family: "Futura-PT", sans-serif;
-    color: #69a8a9;
 }
 
 i.fas.fa-map-marker-alt,
@@ -480,12 +437,33 @@ i.fas.fa-envelope-open:hover {
     font-size: 20px;
 }
 
-span.contact {
-    color: #011801;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
+a.btn.btn-info.btn-md {
+  background-color: #69a8a9;
+  color: #011826;
+  border: none;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 30px;
 }
-/* end reviews */
+
+a.btn.btn-info.btn-md:hover {
+  background-color: #203745bf;
+  color: #f2f2f2;
+  border: none;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/*--------------------------------------------./contact-section */
 
 /*-------------------------------------------- Footer */
 footer {
