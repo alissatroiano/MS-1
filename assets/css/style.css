@@ -410,7 +410,7 @@ color: #011801;
   color: #081108;
 }
 
-ul.contact-details {
+ul.nav-list.justify-content-center{
   list-style: none;
   margin: 20px 20px 10px 10px;
   margin-top: 20px;
@@ -419,8 +419,16 @@ ul.contact-details {
 
 #contact-info {
   padding-left: 10px;
+  margin-top: 17px;
   display: flex;
   align-items: flex-start;
+} 
+
+#hours {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 10px;
 }
 
 i.fas.fa-map-marker-alt,
@@ -453,6 +461,12 @@ a.btn.btn-info.btn-md:hover {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   margin-top: 30px;
+}
+
+ul.justify-content-center {
+  line-height: 2px;
+  margin-top: 50px;
+  font-family: 'Futura-PT', sans-serif;
 }
 
 form {
