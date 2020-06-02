@@ -524,25 +524,31 @@
         <hr>
         <div class="row">
             <!--Contact Details-->
-            <div class="col-xs-8 col-sm-4">
-                <!--Address-->
-                <p><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
-                    <i class="fas fa-map-marker-alt"
-                            data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"
-                            ></i></a><span class="contact"> New York, New York</span></p>
-                <!--Phone number-->
-                <p><a href="https://www.google.com/gmail/about/" target="_blank">
-                    <i class="fas fa-phone"
-                            data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"
-                            ></i></a><span class="contact"> 212.000.0000</span></p>
-                <!--Email-->
-                <p><a href="https://voice.google.com/about" target="_blank"><i class="fas fa-envelope-open"
-                            data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"
-                            ></i></a><span class="contact"> owner@infinty.nyc</span></p>
+            <div class="col-xs-6 col-md-offset-2 m-auto">
+                <ul class="nav-list justify-content-center">
+                    <!--Address-->
+                    <li id="contact-info"><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
+                            <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-anchor-placement="center-bottom"></i></a><span class="contact">New York, New York</span>
+                    </li>
+                    <!--Phone number-->
+                    <li id="contact-info">
+                        <a href="https://www.google.com/gmail/about/" target="_blank">
+                            <i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-anchor-placement="center-bottom">
+                            </i></a>
+                        <span class="contact">212.000.0000</span>
+                    </li>
+                    <!--Email-->
+                    <li id="contact-info">
+                        <a href="https://voice.google.com/about" target="_blank"><i class="fas fa-envelope-open" data-aos="zoom-in"
+                                data-aos-duration="1000" data-aos-anchor-placement="center-bottom"></i></a>
+                        <span class="contact">owner@infinty.nyc</span>
+                    </li>
             </div>
             <!--./contact-details-->
             <!--Contact Form-->
-            <div class="col-xs-4 col-sm-8">
+            <div class="col-md-8 col-md-offset-2 m-auto">
                 <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
                     <div class="form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
@@ -553,8 +559,9 @@
                     </div>
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
                         rows="3"></textarea>
-                    <br>
-                    <button class="btn btn-info float-right" type="submit">Send</button>
+                  <div class="row justify-content-center text-center">
+                    <button class="btn btn-info float-right" style="margin-top:20px;" type="submit">Send</button>
+                  </div>          
             </form>
         </div>
         <!--./contact-form-->
@@ -675,17 +682,35 @@
     
     <hr class="footer-divider">
     
-    <div class="row text-center">
-        <p><a class="footer-nav" href="#about">About</a></p>
-        <p><a class="footer-nav" href="#schedule">Schedule</a></p>
-        <p><a class="footer-nav" href="#contact">Contact</a></p>
-        <p><a class="footer-nav" href="#quotes">  Quotes</a></p>
-</div>
+    <div class="row text-center align-items-center">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item active" aria-current="page">
+                       Home
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#schedule">Schedule</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#reviews">Reviews</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                  </ol>
+            </nav>
+          
+        </div>
+    </div>
 
     <!--Socials-->
 <div class="row">
     <div class="col-12">
-    <ul class="nav navbar-right">
+    <ul class="nav justify-content-center">
         <li class="nav-item">
             <a class="footer-socials" href="https://www.twitter.com" target="_blank">
                 <i class="fab fa-twitter-square" id="twitter"></i>
