@@ -22,6 +22,7 @@ hr {
 #description {
   text-align: center;
   margin: 20px 20px;
+  padding: 0 30px;
 }
 
 /* https://www.w3schools.com/cssref/sel_selection.asp */
@@ -364,7 +365,7 @@ blockquote {
 
 /*--------------------------------------------  Contact Section */
 .container-wrapper-contact {
-  color: #000;
+  color: #011801;
   background: rgba(135, 156, 166, 0.2);
   padding: 60px 0;
 }
@@ -374,19 +375,14 @@ blockquote {
   margin: 0 20px;
 }	
 
-.contact-form .form-control, .contact-form .btn {
-  min-height: 38px;
-  border-radius: 2px;
-}
-
 .contact-form .form-control {
-border-color: #011801;
-box-shadow: 1px 1px 6px #011801;
+    border-color: gray;
+    box-shadow: 1px 1px 6px gray;
 }
 
 .contact-form .form-control:focus {
 border-color: #011801;
-box-shadow: 1px 1px 2px #011801;
+box-shadow: 1px 1px 1px #011801;
 }
 
 .contact-form .btn-primary:hover {
@@ -399,7 +395,7 @@ box-shadow: 1px 1px 2px #011801;
 
 .contact-form label {
  font-family: "Futura-pt", sans-serif;
-font-size: 1.1rem;
+font-size: 1rem;
 font-weight: 500;
 color: #011801;
 }
@@ -410,9 +406,8 @@ color: #011801;
   color: #081108;
 }
 
-ul.nav-list.justify-content-center{
+ul.nav.justify-content-center{
   list-style: none;
-  margin: 20px 20px 10px 10px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -447,20 +442,18 @@ i.fas.fa-envelope-open:hover {
 
 a.btn.btn-info.btn-md {
   background-color: #69a8a9;
-  color: #011826;
-  border: none;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-a.btn.btn-info.btn-md:hover {
-  background-color: #203745bf;
   color: #f2f2f2;
   border: none;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  margin-top: 30px;
+}
+
+a.btn.btn-info.btn-md:hover {
+  background-color: #011826;
+  color: #f2f2f2;
+  border: none;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
 }
 
 ul.justify-content-center {
