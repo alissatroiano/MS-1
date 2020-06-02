@@ -2,33 +2,35 @@
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs the user to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and a 'Quotes' section with user stories.
+Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs users to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and 'Customer Reviews.'
 
 ## UX
 
-This website was built for a fictional yoga and meditation studio in Manhattan. The goal of the studio is to attract new members & retain their existing client base. The target market for this website is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
+This website was built for Infinity, a fictional yoga and meditation studio in Manhattan. The goal of the studio is to provide information and attract new & existing members. The target market for Infinty is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
 
-After much research and planning, it was determined that the final version of this website was the best way to help Infinity achieve their goals for the following reasons:
+The final version of this website allows Infinity to achieve its' goals for the following reasons:
 
-* The website is responsive across all devices, an essential factor for a target market of young men and women (24-36 year olds) living in an urban area, like NYC.
+* Infinity's website is responsive across all devices.
 
-* Navigation is intuitive across all devices.
+* The website navigation is intuitive.
 
-* The website places class details, class times and class sign up forms in one central location, so users will not have to click a lot, making them more likely to sign up.
+* The website provides a call-to-action button with a link in the Jumbotron (above the fold).
 
-* The website includes an 'About' section that fulfills one of the client's main goals: to provide users with information about the studio and its' procedures.
+* The website provides class details and class times in one central location.
+
+* The website provides information about the studio and its' procedures.
 
 User stories were created by the developer during the planning phase of this project and were used to help guide the wire framing process:
 
 > As a user, I want a fixed navbar so I can navigate the page easily.
 >>
-> As a user, I want the option to complete the 'Sign Up' process in less than 3 clicks.
+> As a user, I want to fill out the 'Contact Form' in less than 3 clicks.
 >>
 > As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up.
 >>
-> As a user, I want the ‘about’ to provide meaningful information.
+> As a user, I want the ‘About’ section to provide meaningful information.
 
-In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project. Please review the Trade Off Table and Chart below:
+In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project. 
 
 ![Trade Off Table](assets/development/tradeofftable.png)
 
@@ -36,13 +38,15 @@ In order to determine what features were the most important and most viable, the
 
 A full write-up of this exercise can also be viewed [here](assets/development/StrategyActivity.pdf).
 
-Once the strategy exercises were completed, wire frames were created by the developer. All wire-frames were created with [Balsamiq](https://balsamiq.com/) and can be viewed in [this document](assets/development/WireframesDoc.pdf).
+Once the strategy exercises were completed, thhe following wireframes were created by the developer. 
 
 * [Desktop Wireframe](assets/development/desktopwireframe.jpeg)
 
 * [Tablet Wireframe](assets/development/tabletwireframe.jpg)
 
 * [Mobile Wireframe](assets/development/mobilewireframe.jpeg)
+
+All wire-frames were created with [Balsamiq](https://balsamiq.com/) and can be viewed in [this document](assets/development/WireframesDoc.pdf).
 
 ## Features
 
