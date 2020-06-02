@@ -24,7 +24,7 @@
 </head>
 
 <!--Body-->
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
 <!-- Header-->
 <header>
     <!-- Navbar -->
@@ -62,7 +62,7 @@
 <!--./header-->
 
 <!--Begin Main Page Content-->
-<main>
+<main id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <!-- Jumbotron Section-->
 <section class="jumbotron-container">
     <!--Jumbotron Overlay-->
@@ -108,7 +108,8 @@
             <!--Why Infinity Container-->
             <div class="container-fluid text-center">
                 <h3 class="about-header">Why Infinity?</h3>
-                <p class="text-muted">Click the icons below to learn more!</p>
+                <p class="text-muted" style="margin-bottom: 40px; margin-top: 20px;">
+                    Click the icons below to learn more!</p>
                 <div class="row">
                     <div class="col-xs-8 col-sm-4">
                         <div class="about">
@@ -522,10 +523,10 @@
     <div class="container-fluid">
         <h2 class="section-header">Contact Us</h2>
         <hr>
-        <div class="row">
+        <div class="row justify-content-center text-center">
             <!--Contact Details-->
-            <div class="col-xs-6 col-md-offset-2 m-auto">
-                <ul class="nav-list justify-content-center">
+            <div class="col-xs-4">
+                <ul class="nav-list justify-content-center" style="margin-top:20px;">
                     <!--Address-->
                     <li id="contact-info"><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
                             <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000"
@@ -560,7 +561,7 @@
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
                         rows="3"></textarea>
                   <div class="row justify-content-center text-center">
-                    <button class="btn btn-info float-right" style="margin-top:20px;" type="submit">Send</button>
+                    <button class="btn btn-info float-right" style="margin-top:20px; font-style: italic;" type="submit">Send</button>
                   </div>          
             </form>
         </div>
