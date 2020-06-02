@@ -138,22 +138,6 @@ i.fas.fa-infinity:hover {
     text-shadow: 1px 1px 1px #69a8a9;
 }
 
-i.fab.fa-twitter-square,
-i.fab.fa-facebook-square,
-i.fab.fa-instagram-square,
-i.fab.fa-pinterest {
-    color: #69a8a9;
-    font-size: 1.2rem;
-}
-
-i.fab.fa-twitter-square:hover,
-i.fab.fa-facebook-square:hover,
-i.fab.fa-instagram-square:hover,
-i.fab.fa-pinterest:hover {
-    color: #011826;
-    font-size: 1.2rem;
-}
-
 a.navbar-brand {
     font-family: 'Futura-PT', sans-serif;
     letter-spacing: 1.5px;
@@ -380,7 +364,7 @@ textarea.form-control {
     box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
-    width: -webkit-fill-available;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
@@ -536,9 +520,11 @@ button.btn.btn-info.float-right:hover {
 
 i.fas.fa-map-marker-alt,
 i.fas.fa-phone,
-i.fas.fa-envelope-open {
+i.fas.fa-envelope-open,
+i.fas.fa-calendar {
     color: #69a8a9;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-right: 10px;
 }
 
 i.fas.fa-map-marker-alt:hover,
@@ -554,10 +540,15 @@ span.contact {
     font-size: 1rem;
 }
 
-
+#contact-info {
+    margin-top: 17px;
+    display: flex;
+    align-items: flex-start;
+  } 
+  
 /* end quotes */
 
-/*-------------------------------------------- Footer */
+/*----------------------------------------ff---- Footer */
 footer {
     background-color: #fff;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -582,9 +573,6 @@ footer i.fas.fa-chevron-up:hover {
     margin-top: 0px;
 }
 
-a.footer-nav {
-    margin-left: 10px;
-}
 
 #facebook, #instagram, #pinterest {
     margin-left: 20px;
@@ -595,6 +583,32 @@ hr.footer-divider {
     border: .5px solid #69A8A9;
 }
 
+i.fab.fa-twitter-square,
+i.fab.fa-facebook-square,
+i.fab.fa-instagram-square,
+i.fab.fa-pinterest {
+    color: #69a8a9;
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+i.fab.fa-twitter-square:hover,
+i.fab.fa-facebook-square:hover,
+i.fab.fa-instagram-square:hover,
+i.fab.fa-pinterest:hover {
+    color: #011826;
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+ol.breadcrumb.justify-content-center {
+    background-color: transparent;
+}
+
+li.breadcrumb-item {
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 14px;
+}
 /* end footer */
 
 /*-------------------------------------------- Sections */
