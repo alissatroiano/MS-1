@@ -69,7 +69,7 @@ h3 {
     font-style: italic;
     text-align: center;
     color: #011826;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -432,8 +432,6 @@ form {
 .container-wrapper-quotes{
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
-    margin-top: 30px;
-    padding: 60px 40px;
 }
 
 .top-color {
@@ -505,16 +503,22 @@ button.btn.btn-info.float-right:hover {
     color: #f2f2f2;
 }
 
-.form-group {
-    margin-top: 20px;
+form.signup-form {
+    margin: 0 auto;
 }
 
-.form-control::-webkit-input-placeholder, 
-.form-control::-moz-placeholder,
-.form-control:-ms-input-placeholder,
-.form-control::-ms-input-placeholder, 
+.form-group {
+    margin-top: 20px;
+    color: #69a8a9;
+}
+
 .form-control::placeholder {
+    color: #787d80;
     font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+input, #name, #email, #comments {
     color: #69a8a9;
 }
 
@@ -523,8 +527,8 @@ i.fas.fa-phone,
 i.fas.fa-envelope-open,
 i.fas.fa-calendar {
     color: #69a8a9;
-    font-size: 1.2rem;
-    margin-right: 10px;
+    font-size: 1rem;
+    letter-spacing: 6px;
 }
 
 i.fas.fa-map-marker-alt:hover,
@@ -541,9 +545,10 @@ span.contact {
 }
 
 #contact-info {
-    margin-top: 17px;
+    margin: 10px 20px;
     display: flex;
     align-items: flex-start;
+    text-align: center;
   } 
   
 /* end quotes */
@@ -551,26 +556,18 @@ span.contact {
 /*----------------------------------------ff---- Footer */
 footer {
     background-color: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    font: normal 18px sans-serif;
-    padding: 45px;
-    padding: 40px;
 }
 
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
     margin-bottom: 15px;
-    margin-top: 0px;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
     margin-bottom: 15px;
-    margin-top: 0px;
 }
 
 
@@ -613,22 +610,26 @@ li.breadcrumb-item {
 
 /*-------------------------------------------- Sections */
 #about {
-    padding: 60px 40px;
+    padding: 40px 40px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #schedule {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 60px 40px;
+    padding: 40px 40px;
 }
 
 #contact {
-    padding: 60px 40px;
+    padding: 40px 40px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #quotes {
+    margin-top: 50px;
+    padding: 40px 40px;
     margin-bottom: 50px;
 }
 /*.end sections*/
