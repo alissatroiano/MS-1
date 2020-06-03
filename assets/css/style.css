@@ -63,7 +63,7 @@ h6 {
 /*----------------------------------------- Main Page Content */
 hr {
     width: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     border-top: 3px solid #69a8a9;
 }
@@ -97,7 +97,6 @@ p {
 
 p.text-muted {
     font-family: 'Futura-PT', sans-serif;
-    font-family: 14px;
     margin: 10px 20px;
 }
 
@@ -410,14 +409,6 @@ form {
 /* end form */
 
 /*-------------------------------------------- Quotes */
-.container-wrapper-quotes{
-    background: rgba(135, 156, 166, 0.2);
-    text-align: center;
-    max-width: 100%;
-    height: 100vh;
-    min-height: 100%;
-}
-
 .top-color {
     background-color: #69a8a9 !important;
 }
@@ -448,8 +439,12 @@ form {
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
   }
   
-  .col-xs-8.col-sm-4 {
-    margin-top: 20px;
+  .col-xs-8.col-sm-4, .col-sm-6,
+  .col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .card-body {
@@ -470,7 +465,12 @@ blockquote {
 /* end quotes */
 
 /*-------------------------------------------- Contact */
-form.contact-form {
+.container-wrapper-contact {
+    background: rgba(135, 156, 166, 0.2);
+    text-align: center;
+}
+
+.contact-form {
     margin: 0 auto;
 }
 
@@ -499,9 +499,7 @@ span.contact {
     font-size: 1rem;
 }
 
-input.form-control, input, textarea, textarea.form-group, 
-textarea.form-control {
-    box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
+.form-group.row {
     font-family: 'Futura-PT', sans-serif;
     color: #69a8a9;
     width: 80%;
@@ -524,8 +522,7 @@ label#name, label#contact-email, label#comments {
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
     text-align: left;
-    padding-left: 40px;
-    margin: 10px 10px;
+    margin: 10px 0;
 }
 
 input, #name, #contact-email, #comments {
@@ -548,7 +545,7 @@ button.btn.btn-info.float-right:hover {
 }
 
 #contact-info {
-    margin: 10px 20px;
+    margin: 10px 0;
     display: flex;
     align-items: flex-start;
     text-align: center;
@@ -563,23 +560,24 @@ footer {
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-
-#facebook, #instagram, #pinterest {
-    margin-left: 20px;
+#facebook, #instagram, #pinterest, #twitter {
+    margin: 10px 15px;
+    font-size: 1.4rem;
 }
 
 hr.footer-divider {
     width: 100%;
     border: .5px solid #69A8A9;
+    margin: 20px 0;
 }
 
 i.fab.fa-twitter-square,
@@ -589,6 +587,9 @@ i.fab.fa-pinterest {
     color: #69a8a9;
     font-size: 1.3rem;
     margin: 10px 0;
+    box-sizing: content-box;
+    text-align: center;
+    border: 1px solid transparent;
 }
 
 i.fab.fa-twitter-square:hover,
@@ -608,6 +609,36 @@ li.breadcrumb-item {
     font-family: 'Futura-PT', sans-serif;
     font-size: 14px;
 }
+
+.socials {
+    transition: all 0.2s;
+    transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+    display: inline-block;
+    width: auto;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.socials li {
+    float: left;
+}
+
+.socials a {
+    display: block;
+    line-height: 1em;
+}
+
+.text-md-right {
+    text-align: right !important;
+}
+
 /* end footer */
 
 /*-------------------------------------------- Sections */
@@ -617,22 +648,20 @@ li.breadcrumb-item {
 }
 
 #schedule {
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 80px 40px;
+    margin: 50px 20px;
 }
 
 #quotes {
-    margin-top: 50px;
     padding: 80px 40px;
-    margin-bottom: 50px;
+    margin: 50px 20px;
 }
 
 #contact {
     padding: 80px 40px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin: 50px 20px;
 }
+
 /*.end sections*/
 
 /*-------------------------------------------- Media Queries */
@@ -661,9 +690,36 @@ li.breadcrumb-item {
     }
 }
 
-    
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px; 
+    } 
+}
 
-/* end media query */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px; 
+    } 
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px; 
+    } 
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1300px; 
+    } 
+}
+/* end media queries */
 
 
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
