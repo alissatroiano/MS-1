@@ -24,11 +24,13 @@
 <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
-        <a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
+        <a class="navbar-brand" href="#myPage">
+            <i class="fas fa-infinity"></i> 
+            Infinity
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-            </span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
@@ -43,10 +45,10 @@
                     <a class="nav-link" href="#schedule">Schedule</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#reviews">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#reviews">Reviews</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             <!--Social Media Links-->
@@ -360,7 +362,6 @@
 <!--./reviews-section-->
 
 <!--Contact Section-->
-    <!--Code copied from -->
 <section id="contact">
     <div class="container-wrapper-contact">
         <div class="container">
@@ -368,12 +369,31 @@
             <hr>
             <p id="description">We'd love to hear from you. Drop us a line and we'll try to get back to you
                 as soon as possible!</p>
-            <div class="row">
+                <div class="row justify-content-center text-center">
+                     <div class="col-xs-4">
+                        <ul class="nav-list justify-content-center" style="margin:30px 20px;">
+                            <li id="contact-info">
+                                <a><i class="fas fa-map-marker-alt"></i> 
+                                    <span class="contact">14 Allen St, NY, NY</span></a>
+                            </li>
+                            <li id="contact-info">
+                                <a>
+                                    <i class="fas fa-phone"></i>
+                                    <span>212.000.000</span></a>
+                            </li>
+                            <li id="contact-info">
+                                <a>
+                                    <i class="fas fa-envelope-open"></i> <span>owner@infinity.nyc</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 <div class="col-md-8 col-md-offset-2 m-auto">
                     <div class="contact-form">
                         <form action="/examples/actions/confirmation.php" method="post">
                             <div class="row">
                                 <div class="col-sm-6">
+
                                     <div class="form-group">
                                         <label for="inputName">Name</label>
                                         <input type="text" class="form-control" id="inputName" required="">
@@ -387,50 +407,17 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputSubject">Subject</label>
-                                <input type="text" class="form-control" id="inputSubject" required="">
-                            </div>
-                            <div class="form-group">
                                 <label for="inputMessage">Message</label>
                                 <textarea class="form-control" id="inputMessage" rows="5" required=""></textarea>
                             </div>
-                            <div class="text-center">
-                                <p style="margin-top: 40px; margin-bottom: 0px;">
-                                    <a type="submit" class="btn btn-info btn-lg"><i class="fa fa-paper-plane"></i>
-                                        Send</a>
-                                </p>
+                            <div class="row justify-content-center text-center">
+                                <a class="btn btn-info btn-md" style="margin-top:20px; font-style: italic; float: right;" type="submit">Send</a>
+                              </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-xs-6 col-md-offset-2 m-auto">
-                    <ul class="nav-list justify-content-center">
-                        <li id="contact-info">
-                            <a><i class="fas fa-map-marker-alt"></i> <span>14 Allen St, NYC</span></a>
-                        </li>
-          
-                        <li id="contact-info">
-                            <a>
-                                <i class="fas fa-phone"></i>
-                                <span>212.000.000</span></a>
-                        </li>
-                        <li id="contact-info">
-                            <a>
-                                <i class="fas fa-envelope-open"></i> <span>owner@infinity.nyc</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-md-offset-2 m-auto">
-                    <ul class="nav-list justify-content-center" style="list-style: none;">
-                        <li id="hours"><p id="contac-info">Open Monday - Friday </p></li>
-                        <li id="hours"><p id="contac-info">  9:00am - 7:00pm</p></li>
-                        <li id="hours" ><p id="contac-info"> Closed most weekends</p></li>
-                   </ul> 
-                </div>
         </div>
     </div>
 </section>
