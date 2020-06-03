@@ -42,8 +42,6 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 h3 {
@@ -294,7 +292,7 @@ svg rect {
   -o-transition: all 0.8s ease-in-out;
 }
 
-div.signUp, a.nav-item {
+div.signUp, a.signup {
 	color: #69a8a9;
 	text-align: center;
 	border-radius: 2px;
@@ -363,67 +361,33 @@ blockquote {
 }
 /* end reviews */
 
-/*--------------------------------------------  Contact Section */
+/*--------------------------------------------  Contact Section *//*-------------------------------------------- Contact */
 .container-wrapper-contact {
-  color: #000;
   background: rgba(135, 156, 166, 0.2);
-  padding: 60px 0;
+  text-align: center;
 }
 
 .contact-form {
-  font-family: "Futura-pt", sans-serif;
-  margin: 0 20px;
-}	
-
-.contact-form .form-control, .contact-form .btn {
-  min-height: 38px;
-  border-radius: 2px;
+  margin: 0 auto;
 }
 
-.contact-form .form-control {
-border-color: #898d8e;
-box-shadow: 1px 1px 6px #898d8e;
+.form-group {
+  color: #69a8a9;
 }
 
-.contact-form .form-control:focus {
-border-color: #898d8e;
-box-shadow: 1px 1px 2px #898d8e;
+i.fas.fa-map-marker-alt,
+i.fas.fa-phone,
+i.fas.fa-envelope-open {
+  color: #69a8a9;
+  font-size: 1rem;
+  letter-spacing: 6px;
 }
 
-.contact-form .btn-primary:hover {
-  color: #fff; 
-}
-
-.contact-form label {
- font-family: "Futura-pt", sans-serif;
-font-size: 1rem;
-font-weight: 500;
-color: #011801;
-}
-
-.contact-form textarea,
-input,
-#inputName, 
-#inputlastName,
-#inputEmail, 
-#inputSubject, 
-#inputMessage {
-  resize: vertical;
-  font-family: "Futura-pt", sans-serif;
-  color: #081108;
-}
-
-ul.nav-list.justify-content-center{
-  list-style: none;
-  margin: 20px 20px;
-}
-
-#contact-info {
-  display: flex;
-  align-items: flex-start;
-  text-align: center;
-  line-height: 2.2;
-  font-family: 'Futura-PT', sans-serif;
+i.fas.fa-map-marker-alt:hover,
+i.fas.fa-phone:hover,
+i.fas.fa-envelope-open:hover {
+  color: #011801;
+  font-size: 1rem;
 }
 
 span.contact {
@@ -432,49 +396,64 @@ span.contact {
   font-size: 1rem;
 }
 
-i.fas.fa-map-marker-alt,
-i.fas.fa-phone,
-i.fas.fa-envelope-open {
-    color: #69a8a9;
-    font-size: 20px;
+.form-group.row {
+  font-family: 'Futura-PT', sans-serif;
+  color: #69a8a9;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
 }
 
-i.fas.fa-map-marker-alt:hover,
-i.fas.fa-phone:hover,
-i.fas.fa-envelope-open:hover {
-    color: #011801;
-    font-size: 20px;
+.form-control::placeholder {
+  color: #787d80;
+  font-family: "Futura-PT", sans-serif;
+  font-size: 1rem;
 }
 
-a.btn.btn-info.btn-md {
+.row.contact {
+  margin-top: 50px;
+}
+
+label#name, label#contact-email, label#comments {
+  color: #011826;
+  font-family: "Futura-PT", sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  margin: 10px 0;
+}
+
+input, #name, #contact-email, #comments {
+  color: #69a8a9;
+  font-family: "Futura-PT", sans-serif;
+  font-size: 1rem;
+}
+
+button.btn.btn-info.float-right {
   background-color: #69a8a9;
-  color: #f2f2f2;
-  border: none;
+  border-color: transparent;
   font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 1.1rem;
 }
 
-a.btn.btn-info.btn-md:hover {
-  background-color: #011826;
-  color: #f2f2f2;
-  border: none;
+button.btn.btn-info.float-right:hover {
+  background-color: #011801;
+  border-color: transparent;
   font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 1.1rem;
+  color: #f2f2f2;
 }
 
-form {
-    margin-top: 10px;
+#contact-info {
+  margin: 10px 0;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
 }
-
+/* end contact section */
 
 /*--------------------------------------------./contact-section */
 
 /*-------------------------------------------- Footer */
 footer {
-    margin-bottom: 20px;
-    margin-top: 20px;
+
 }
 
 footer i.fas.fa-chevron-up {
@@ -749,22 +728,24 @@ i.fab.fa-twitter {
 
 /*-------------------------------------------- Sections */
 #about {
-  margin-top: 50px;
-  padding: 60px 40px;
+  margin: 60px 30px;
+  padding: 80px 30px;
 }
 
 #schedule {
-    margin-top: 50px;
-    padding: 60px 40px;
+  margin: 60px 30px;
+  padding: 80px 30px;
 }
 
 #contact {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 80px 30px;
 }
 
 #reviews {
-  margin-top: 50px;
-  padding: 60px 40px;
+  margin: 60px 30px;
+  padding: 80px 30px;
 }
 
 /*.end sections*/
