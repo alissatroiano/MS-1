@@ -201,7 +201,7 @@
                 <div class="card-deck">
                     <div class="col xs-8 col-sm-4">
                         <!--First Card-->
-                        <div class="card h-100" data-aos="fade-up"
+                        <div class="card h-100 text-center"  data-aos="fade-up"
                         data-aos-anchor-placement="center-bottom">
                             <div class="mx-auto">
                                 <img src="assets/images/vinyasa.jpg" alt="people taking vinyasa flow class at infinity"
@@ -370,240 +370,186 @@
 <!--./quotes-container-->
 
 
-<!--Quotes Container-->
-<div class="container-wrapper-quotes">
+<!--Contact Container-->
+<div class="container-wrapper-contact">
     <!--Contact Section-->
-<section id="contact">
-    <div class="container-fluid">
-        <h2 class="section-header">Contact Us</h2>
-        <hr>
-        <p id="description">
-            We'd love to hear from you. Drop us a line and we'll try to get back to you as soon as
-            possible!
-        </p>
-        <div class="row justify-content-center text-justify">
-            <!--Contact Details-->
-            <div class="col-xs-4">
-                <ul class="nav-list justify-content-center" style="padding: 10px 40px;">
-                    <!--Address-->
-                    <li id="contact-info">
-                        <a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
-                            <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
-                            </i>
-                        </a>
-                        <span class="contact">New York, New York</span>
-                    </li>
-                    <!--Phone number-->
-                    <li id="contact-info">
-                        <a href="https://www.google.com/gmail/about/" target="_blank">
-                            <i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
-                            </i>
-                        </a>
-                        <span class="contact">212.000.0000</span>
-                    </li>
-                    <!--Email-->
-                    <li id="contact-info">
-                        <a href="https://voice.google.com/about" target="_blank">
-                            <i class="fas fa-envelope-open" data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-anchor-placement="center-bottom"></i>
-                        </a>
-                        <span class="contact">owner@infinty.nyc</span>
-                    </li>
-            </div>
-            <!--./contact-details-->
-            
-            <!--Contact Form-->
-            <div class="col-md-8 col-md-offset-2 m-auto">
-                <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-                    <div class="form-group">
-                        <label for="name" id="name">First & Last Name</label>
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="contact-email" id="contact-email">Email</label>
-                        <input class="form-control" id="contact-email" name="contact-email" placeholder="Email"
-                            type="email" required />
-                    </div>
-                    <div class="form-group">
-                    <label for="comments" id="comments">Comments</label>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
-                        rows="5">
+    <section id="contact">
+        <div class="container-fluid">
+            <h2 class="section-header">Contact Us</h2>
+            <hr>
+            <p id="description">
+                We'd love to hear from you. Drop us a line and we'll try to get back to you as soon as
+                possible!
+            </p>
+            <div class="row justify-content-center text-justify">
+                <!--Contact Details-->
+                <div class="col-xs-4">
+                    <ul class="nav-list justify-content-center" style="padding: 0 20px;">
+                        <!--Address-->
+                        <li id="contact-info">
+                            <a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
+                                <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000"
+                                    data-aos-anchor-placement="center-bottom">
+                                </i>
+                            </a>
+                            <span class="contact">New York, New York</span>
+                        </li>
+                        <!--Phone number-->
+                        <li id="contact-info">
+                            <a href="https://www.google.com/gmail/about/" target="_blank">
+                                <i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000"
+                                    data-aos-anchor-placement="center-bottom">
+                                </i>
+                            </a>
+                            <span class="contact">212.000.0000</span>
+                        </li>
+                        <!--Email-->
+                        <li id="contact-info">
+                            <a href="https://voice.google.com/about" target="_blank">
+                                <i class="fas fa-envelope-open" data-aos="zoom-in" data-aos-duration="1000"
+                                    data-aos-anchor-placement="center-bottom"></i>
+                            </a>
+                            <span class="contact">owner@infinty.nyc</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--./contact-details-->
+
+                <!--Contact Form-->
+                <div class="col-md-8">
+                    <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/"
+                        target="_blank">
+                        <!--Name-->
+                        <div class="form-group row">
+                            <label for="name" id="name">
+                                Name
+                            </label>
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                        </div>
+                        <!--Email-->
+                        <div class="form-group row">
+                            <label for="contact-email" id="contact-email">
+                                Email
+                            </label>
+                            <input class="form-control" id="contact-email" name="contact-email" placeholder="Email"
+                                type="email" required />
+                        </div>
+                        <!--Comments-->
+                        <div class="form-group row">
+                            <label for="comments" id="comments">Comments</label>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
+                                rows="5">
                     </textarea>
-                    <div class="row justify-content-center text-center">
-                        <button class="btn btn-info float-right" style="margin-top:20px; font-style: italic;"
-                            type="submit">
-                            Send
-                        </button>
-                    </div>
-                    </div>
-                </form>
+                        </div>
+                        <!--Submit Button-->
+                        <div class="form-group row justify-content-center text-center">
+                            <button class="btn btn-info float-right" style="margin-top:20px; font-style: italic;"
+                                type="submit">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!--./contact-form-->
             </div>
-            <!--./contact-form-->
         </div>
-    </div>
-</section>
-<!--./contact-->
+    </section>
+    <!--./contact-->
 </div>
 
 </main>
 <!--./end main-page-content-->
 
-<!--Footer-->
+<!--Footer Section-->
 <footer>
+    <!--Chevron Up-->
     <div class="container">
         <div class="row text-center align-items-center">
             <div class="col-12">
-            <a href="#myPage" title="To Top">
-                <i class="fas fa-chevron-up"></i>
-            </a>
-        </div>
-    </div>
- </div>
-
- <div class="container">
-    <div class="row text-center align-items-center">
-        <div class="col-12">
-           <p> <i class="fas fa-infinity"></i>
-            <a class="navbar-brand" style="margin-top: 10px;">Infinity</a>
-           </p>
-        <p>
-            Peace love and <mark>Infinity</mark> since 2001.
-        </p>
-    </div>
-    </div>
-    
-    <hr class="footer-divider">
-    
-    <div class="row text-center align-items-center">
-        <div class="col-12">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item active" aria-current="page">
-                       Home
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="#schedule">Schedule</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="#reviews">Reviews</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="#contact">Contact</a>
-                    </li>
-                  </ol>
-            </nav>
-          
-        </div>
-    </div>
-
-    <!--Socials-->
-<div class="row">
-    <div class="col-12">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="footer-socials" href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-twitter-square" id="twitter"></i>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="footer-socials" href="https://www.facebook.com" target="_blank">
-                <i class="fab fa-facebook-square" id="facebook"></i>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="footer-socials" href="https://www.instagram.com" target="_blank">
-                <i class="fab fa-instagram-square" id="instagram"></i>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="footer-socials" href="https://www.pinterest.com" target="_blank">
-                <i class="fab fa-pinterest" id="pinterest"></i>
-            </a>
-        </li>
-    </ul>
-    </div>
-</div>
-</div>
-</footer>
-<!--./footer-->
-
-<!-- Modal -->
-<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-body">
-                    <section class="form_section">
-                        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-                            <h3 class="modal-title">Sign Up!</h3>
-                            <br>
-                            <i class="fas fa-infinity"></i>
-                            <br>
-                            <!-- First Name Input field -->
-                            <div class="form-group align-items-center">
-                                <div class="col">
-                                    <label class="fname" for="fname">First
-                                        Name</label>
-                                    <input type="text" class="form-control" id="fname" name="first_name"
-                                        placeholder="First Name" required />
-                                </div>
-                            </div>
-                            <!-- Last Name Input field -->
-                            <div class="form-group">
-                                <div class="col">
-                                    <label for="lname" class="lname">Last
-                                        Name</label>
-                                    <input type="text" class="form-control" id="lname" name="last_name"
-                                        placeholder="Last Name" required />
-                                </div>
-                            </div>
-                            <!-- Email Input field -->
-                            <div class="form-group">
-                                <div class="col">
-                                    <label for="email" class="email">Your Email
-                                    </label>
-                                    <input type="email" id="email" name="email_address" class="form-control"
-                                        placeholder="Your Email" required />
-                                </div>
-                            </div>
-                            <!-- Class Sign Up Radio Buttons -->
-                            <div class="form-group">
-                                <div class="col">
-                                    <input type="radio" id="vinyasa" name="class_selection" value="vinyasa" required />
-                                    <label for="vinyasa" class="vinyasa">
-                                        Vinyasa Flow
-                                    </label>
-                  
-                                    <input type="radio" id="restorative" name="class_selection" value="restorative" />
-                                    <label for="restorative" class="restorative">
-                                        Restorative Yoga
-                                    </label>
-                    
-                                    <input type="radio" id="chakracleansing" name="class_selection"
-                                        value="chakracleansing" />
-                                    <label for="chakracleansing" class="chakracleansing">
-                                        Chakra Cleansing
-                                    </label>
-                                </div>
-                            </div>
-                            <!-- Submit Button -->
-                            <div class="form-group align-items-center">
-                                <input type="submit" value="Sign Up!" class="btn btn-info" />
-                            </div>
-                            <!--Close Modal Button-->
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </form>
-                    </section>
-                </div>
+                <a href="#myPage" title="To Top">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
             </div>
         </div>
     </div>
-</div>
+    <!--./fas-fa-chevron-up-->
+
+    <!--Navbar Brand-->
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col-12">
+                <p> <i class="fas fa-infinity"></i>
+                    <a class="navbar-brand" style="margin-top: 10px;">Infinity</a>
+                </p>
+                <p>
+                    Peace love and <mark>Infinity</mark> since 2001.
+                </p>
+            </div>
+        </div>
+        <!--./navbar-brand-->
+
+        <!--Footer Divider-->
+        <hr class="footer-divider">
+        <!--./footer-divider-->
+
+        <!--Breadcrumb Nav-->
+        <div class="row text-center align-items-center">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Home
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#schedule">Schedule</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#reviews">Reviews</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!--./breadcrumb-nav-->
+
+        <!--Socials-->
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="footer-socials" href="https://www.twitter.com" target="_blank">
+                            <i class="fab fa-twitter-square" id="twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="footer-socials" href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square" id="facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="footer-socials" href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram-square" id="instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="footer-socials" href="https://www.pinterest.com" target="_blank">
+                            <i class="fab fa-pinterest" id="pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--./socials-->
+    </div>
+
+</footer>
+<!--./footer-->
 
 <!--Scripts-->
     <!-- Bootstrap CDN jQuery first, then Popper.js, then Bootstrap JS -->
