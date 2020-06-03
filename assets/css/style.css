@@ -13,6 +13,54 @@ html {
     font-size: 16px;
 }
 
+ /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
+::-moz-selection { /* Code for Firefox */
+    color: #f2f2f2;
+    background: #69a8a9;
+  }
+  
+::selection {
+    color: #f2f2f2;
+    background: #69a8a9;
+}
+
+/*-----------------------------------------Titles and Subtitles */
+h1 {
+    color: #011826;
+    text-shadow: 2px 2px #011826;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-size: 1.5rem;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    font-size: 1.2rem;
+}
+
+/*----------------------------------------- Main Page Content */
 hr {
     width: 20px;
     margin-top: 20px;
@@ -37,60 +85,20 @@ mark {
     text-shadow: .5px .5px .5px lightslategray;
 }
 
-/* https://www.w3schools.com/cssref/sel_selection.asp */
-::-moz-selection { /* Code for Firefox */
-    color: #f2f2f2;
-    background: #69a8a9;
-  }
-  
-::selection {
-    color: #f2f2f2;
-    background: #69a8a9;
-}
-
-#description {
-    padding: 10px 30px;
-}
-
-/*-----------------------------------------Headers */
-h1 {
-    color: #011826;
-    text-shadow: 2px 2px #011826;
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 60px;
-}
-
-h3 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-h4,
-h5,
-h6 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    font-size: 1.2rem;
-}
-
 p {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
+}
+
+#description {
+    padding: 10px 40px;
+}
+
+p.text-muted {
+    font-family: 'Futura-PT', sans-serif;
+    font-family: 14px;
+    margin: 10px 20px;
 }
 
 /*-------------------------------------------- Header */
@@ -120,9 +128,8 @@ p {
     transform: scale(1.05);
     background: #69A8A9;
     color: #fafafa;
-  }
+}
 
-  
 /*-------------------------------------------- Navbar */
 .navbar {
     font-family: 'Playfair Display', serif;
@@ -187,7 +194,6 @@ a.navbar-brand {
     overflow: visible;
 }
 
-
 a.btn.btn-info.btn-lg {
     background-color: #69a8a9;
     color: #011826;
@@ -203,7 +209,6 @@ a.btn.btn-info.btn-lg:hover {
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
-
 
 h1.display-3 {
     font-family: 'Futura-PT', sans-serif;
@@ -224,17 +229,9 @@ h2.lead {
 }
 
 /*-------------------------------------------- About */
-
 .about i {
     margin-bottom: 20px;
     line-height: 45px;
-}
-
-.about-content {
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0 auto;
-    float: none;
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
@@ -280,13 +277,9 @@ p.schedule-content {
     margin-bottom: 10px;
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-  }
-
-p.text-muted {
-  font-family: 'Futura-PT', sans-serif;
 }
 
-/*-------------------------------------------- Animated Modal Trigger Button */
+/*-------------------------------------------- Sign Up Button */
 .signUp {
   width: 130px;
   height: 65px;
@@ -343,42 +336,10 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
-/* end animated modal trigger button */
+/* end sign up button */
 
 /*-------------------------------------------- Sign Up Form */
-label.fname, label.lname, label.email, label.class_selection,
-label.vinyasa, label.restorative, label.chakracleansing {
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #011826;
-}
 
-#fname, #lname, #email,
-#fname2, #lname2, #email2,
-#fname3, #lname3, #email3 {
-    font-family: 'Futura-PT', sans-serif;
-    color: #69a8a9;
-    width: 75%;
-    height: auto;
-}
-
-.modal-open, .model-content {
-    overflow: hidden;
-    font-size: 1rem;
-    font-family: 'Futura-PT', sans-serif;
-    text-align: center;
-}
-
-input.form-control, input, textarea, textarea.form-group, 
-textarea.form-control {
-    box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
-    font-family: 'Futura-PT', sans-serif;
-    color: #69a8a9;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-}
 
 input.btn.btn-info {
     font-family: "Playfair Display", serif;
@@ -389,6 +350,14 @@ input.btn.btn-info {
     margin-bottom: 5px;
     max-width: 6rem;
     height: auto;
+}
+
+
+.modal-open, .model-content {
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: 'Futura-PT', sans-serif;
+    text-align: center;
 }
 
 input.btn.btn-info:hover {
@@ -444,6 +413,9 @@ form {
 .container-wrapper-quotes{
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
+    max-width: 100%;
+    height: 100vh;
+    min-height: 100%;
 }
 
 .top-color {
@@ -498,46 +470,17 @@ blockquote {
 /* end quotes */
 
 /*-------------------------------------------- Contact */
-.row.contact {
-    margin-top: 50px;
-}
-
-button.btn.btn-info.float-right {
-    background-color: #69a8a9;
-    border-color: transparent;
-    font-family: 'Playfair Display', serif;
-}
-
-button.btn.btn-info.float-right:hover {
-    background-color: #011801;
-    border-color: transparent;
-    font-family: 'Playfair Display', serif;
-    color: #f2f2f2;
-}
-
-form.signup-form {
+form.contact-form {
     margin: 0 auto;
 }
 
 .form-group {
-    margin-top: 20px;
-    color: #69a8a9;
-}
-
-.form-control::placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-}
-
-input, #name, #email, #comments {
     color: #69a8a9;
 }
 
 i.fas.fa-map-marker-alt,
 i.fas.fa-phone,
-i.fas.fa-envelope-open,
-i.fas.fa-calendar {
+i.fas.fa-envelope-open {
     color: #69a8a9;
     font-size: 1rem;
     letter-spacing: 6px;
@@ -556,14 +499,61 @@ span.contact {
     font-size: 1rem;
 }
 
+input.form-control, input, textarea, textarea.form-group, 
+textarea.form-control {
+    box-shadow: 1px 1px 1px 1px rgba(153, 163, 165, 0.5);
+    font-family: 'Futura-PT', sans-serif;
+    color: #69a8a9;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.form-control::placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+.row.contact {
+    margin-top: 50px;
+}
+
+label#name, label#contact-email, label#comments {
+    color: #011826;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 40px;
+    margin: 10px 10px;
+}
+
+input, #name, #contact-email, #comments {
+    color: #69a8a9;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+button.btn.btn-info.float-right {
+    background-color: #69a8a9;
+    border-color: transparent;
+    font-family: 'Playfair Display', serif;
+}
+
+button.btn.btn-info.float-right:hover {
+    background-color: #011801;
+    border-color: transparent;
+    font-family: 'Playfair Display', serif;
+    color: #f2f2f2;
+}
+
 #contact-info {
     margin: 10px 20px;
     display: flex;
     align-items: flex-start;
     text-align: center;
-  } 
-  
-/* end quotes */
+}
+/* end contact section */
 
 /*----------------------------------------ff---- Footer */
 footer {
@@ -622,20 +612,19 @@ li.breadcrumb-item {
 
 /*-------------------------------------------- Sections */
 #about {
-    padding: 40px 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 80px 40px;
+    margin: 50px 20px;
 }
 
 #schedule {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 40px 40px;
+    padding: 80px 40px;
 }
 
 #quotes {
     margin-top: 50px;
-    padding: 40px 40px;
+    padding: 80px 40px;
     margin-bottom: 50px;
 }
 
@@ -671,6 +660,9 @@ li.breadcrumb-item {
         overflow: hidden;
     }
 }
+
+    
+
 /* end media query */
 
 
