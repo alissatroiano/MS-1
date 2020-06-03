@@ -77,6 +77,19 @@ p {
     line-height: 1.5;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #69a8a9;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #011801;
+}
+
+li.nav-item:active {
+  color: #69a8a9;
+}
+
 i.fas.fa-infinity {
     color: #69a8a9;
     font-size: 1.7rem;
