@@ -401,7 +401,13 @@ font-weight: 500;
 color: #011801;
 }
 
-.contact-form textarea, input, #inputName, #inputEmail, #inputSubject, #inputMessage {
+.contact-form textarea,
+input,
+#inputName, 
+#inputlastName,
+#inputEmail, 
+#inputSubject, 
+#inputMessage {
   resize: vertical;
   font-family: "Futura-pt", sans-serif;
   color: #081108;
