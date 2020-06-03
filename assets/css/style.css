@@ -48,6 +48,10 @@ mark {
     background: #69a8a9;
 }
 
+#description {
+    padding: 10px 30px;
+}
+
 /*-----------------------------------------Headers */
 h1 {
     color: #011826;
@@ -231,7 +235,10 @@ h2.lead {
     font-weight: 400;
     margin: 0 auto;
     float: none;
-    margin-bottom: 40px;
+}
+
+#mind, #body, #spirit, #peace, #love, #harmony {
+    padding: 20px 40px;
 }
 
 /*-------------------------------------------- Icons */
@@ -243,6 +250,7 @@ i.fas.fa-brain.d-sm-block,
 i.fas.fa-praying-hands.d-sm-block {
     color: #69a8a9;
     font-size: 50px;
+    margin-top: 20px;
 }
 
 i.fas.fa-yin-yang.d-sm-block:hover,
@@ -253,6 +261,7 @@ i.fas.fa-brain.d-sm-block:hover,
 i.fas.fa-praying-hands.d-sm-block:hover {
     color: #011826;
     font-size: 50px;
+    margin-top: 20px;
 }
 
 /*-------------------------------------------- Schedule */
@@ -337,11 +346,12 @@ div.signUp, a.nav-item {
 /* end animated modal trigger button */
 
 /*-------------------------------------------- Sign Up Form */
-label.fname, label.lname, label.email, label.class_selection {
+label.fname, label.lname, label.email, label.class_selection,
+label.vinyasa, label.restorative, label.chakracleansing {
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
-    text-align: left;
     line-height: 1.5;
+    color: #011826;
 }
 
 #fname, #lname, #email,
@@ -357,6 +367,7 @@ label.fname, label.lname, label.email, label.class_selection {
     overflow: hidden;
     font-size: 1rem;
     font-family: 'Futura-PT', sans-serif;
+    text-align: center;
 }
 
 input.form-control, input, textarea, textarea.form-group, 
@@ -395,12 +406,12 @@ input.btn.btn-info:hover {
 button.close {
     margin-top: 20px;
     font-size: 2.1rem;
-    color: #011801;
+    color: #69a8a9;
 }
 
 button.close:hover {
     font-size: 2.1rem;
-    color: #69a8a9;
+    color: #011801;
 }
 
 a.nav-link:hover,
@@ -421,6 +432,7 @@ input[type=checkbox], input[type=radio] {
     padding: 0;
     background-color: transparent;
     box-shadow: none;
+    font-size: 14px;
 }
 
 form {
@@ -561,13 +573,13 @@ footer {
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
-    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
-    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 
@@ -621,16 +633,16 @@ li.breadcrumb-item {
     padding: 40px 40px;
 }
 
-#contact {
-    padding: 40px 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 #quotes {
     margin-top: 50px;
     padding: 40px 40px;
     margin-bottom: 50px;
+}
+
+#contact {
+    padding: 80px 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 /*.end sections*/
 
