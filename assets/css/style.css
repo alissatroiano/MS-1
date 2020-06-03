@@ -22,6 +22,7 @@ hr {
 #description {
   text-align: center;
   margin: 20px 20px;
+  padding: 10px 40px;
 }
 
 /* https://www.w3schools.com/cssref/sel_selection.asp */
@@ -380,26 +381,22 @@ blockquote {
 }
 
 .contact-form .form-control {
-border-color: #011801;
-box-shadow: 1px 1px 6px #011801;
+border-color: #898d8e;
+box-shadow: 1px 1px 6px #898d8e;
 }
 
 .contact-form .form-control:focus {
-border-color: #011801;
-box-shadow: 1px 1px 2px #011801;
+border-color: #898d8e;
+box-shadow: 1px 1px 2px #898d8e;
 }
 
 .contact-form .btn-primary:hover {
   color: #fff; 
 }
 
-.contact-form .btn-primary i {
-  margin-right: 5px;
-}
-
 .contact-form label {
  font-family: "Futura-pt", sans-serif;
-font-size: 1.1rem;
+font-size: 1rem;
 font-weight: 500;
 color: #011801;
 }
@@ -412,23 +409,21 @@ color: #011801;
 
 ul.nav-list.justify-content-center{
   list-style: none;
-  margin: 20px 20px 10px 10px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 20px 20px;
 }
 
 #contact-info {
-  padding-left: 10px;
-  margin-top: 17px;
   display: flex;
   align-items: flex-start;
-} 
+  text-align: center;
+  line-height: 2.2;
+  font-family: 'Futura-PT', sans-serif;
+}
 
-#hours {
-  margin-top: 12px;
-  display: flex;
-  align-items: flex-start;
-  padding-right: 10px;
+span.contact {
+  color: #011801;
+  font-family: "Futura-PT", sans-serif;
+  font-size: 1rem;
 }
 
 i.fas.fa-map-marker-alt,
@@ -447,35 +442,26 @@ i.fas.fa-envelope-open:hover {
 
 a.btn.btn-info.btn-md {
   background-color: #69a8a9;
-  color: #011826;
-  border: none;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-a.btn.btn-info.btn-md:hover {
-  background-color: #203745bf;
   color: #f2f2f2;
   border: none;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  margin-top: 30px;
+  font-size: 1.1rem;
 }
 
-ul.justify-content-center {
-  line-height: 2px;
-  margin-top: 50px;
-  font-family: 'Futura-PT', sans-serif;
+a.btn.btn-info.btn-md:hover {
+  background-color: #011826;
+  color: #f2f2f2;
+  border: none;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.1rem;
 }
 
 form {
     margin-top: 10px;
 }
 
-.form-group {
-    margin-bottom: 1rem;
-}
 
 /*--------------------------------------------./contact-section */
 
