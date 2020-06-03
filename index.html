@@ -100,22 +100,26 @@
                 </div>
             </div>
         </div>
-        <!--Why Infinity Container-->
+<!--Services Container-->
         <div class="container-fluid text-center">
             <h3 class="about-header">Why Infinity?</h3>
-            <p class="text-muted" style="margin-bottom: 40px; margin-top: 20px;">
-                Click the icons below to learn more!</p>
+            <hr>
+            <p id="description">
+                Yoga and meditation have many rewarding effects on the mind, body and soul. Click the icons below to learn about some of the benefits our classes provide.
+            </p>
             <div class="row">
                 <div class="col-xs-8 col-sm-4">
                     <div class="about">
-                        <i class="fas fa-brain d-sm-block" data-toggle="collapse" data-target="#mind" data-aos="zoom-in"
-                            data-aos-duration="1000" data-aos-anchor-placement="center-bottom"></i>
+                        <i class="fas fa-brain d-sm-block" data-toggle="collapse" data-target="#mind" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                        </i>
                         <h4 class="about-header" data-aos="zoom-in" data-aos-duration="1000"
-                            data-aos-anchor-placement="center-bottom">Mind</h4>
-                        <p id="mind" class="collapse display-6 about-content">Yoga increases healthy brain function
-                            &amp;
-                            mental
-                            clarity</p>
+                            data-aos-anchor-placement="center-bottom">
+                            Mind
+                        </h4>
+
+                        <p id="mind" class="collapse display-6 about-content">
+                            Yoga and meditation have positive effects on cognitive function and wellbeing.
+                        </p>
                     </div>
                 </div>
                 <div class="col-xs-8 col-sm-4">
@@ -124,8 +128,7 @@
                             data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"></i>
                         <h4 class="about-header" data-aos="zoom-in" data-aos-duration="1000"
                             data-aos-anchor-placement="center-bottom">Body</h4>
-                        <p id="body" class="collapse display-6 about-content">Burn calories during our Vinyasa Flow
-                            class</p>
+                        <p id="body" class="collapse display-6 about-content">Yoga is a great way to improve your physical wellbeing and strengthen your body.</p>
                     </div>
                 </div>
                 <div class="col-xs-8 col-sm-4">
@@ -374,50 +377,64 @@
     <div class="container-fluid">
         <h2 class="section-header">Contact Us</h2>
         <hr>
-        <p id="description">We'd love to hear from you. Drop us a line and we'll try to get back to you as soon as
-            possible!</p>
-        <div class="row justify-content-center text-center">
+        <p id="description">
+            We'd love to hear from you. Drop us a line and we'll try to get back to you as soon as
+            possible!
+        </p>
+        <div class="row justify-content-center text-justify">
             <!--Contact Details-->
             <div class="col-xs-4">
-                <ul class="nav-list justify-content-center" style="margin-top:20px;">
+                <ul class="nav-list justify-content-center" style="padding: 10px 40px;">
                     <!--Address-->
-                    <li id="contact-info"><a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
-                            <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-anchor-placement="center-bottom"></i></a><span class="contact">New York, New
-                            York</span>
+                    <li id="contact-info">
+                        <a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
+                            <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                            </i>
+                        </a>
+                        <span class="contact">New York, New York</span>
                     </li>
                     <!--Phone number-->
                     <li id="contact-info">
                         <a href="https://www.google.com/gmail/about/" target="_blank">
-                            <i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-anchor-placement="center-bottom">
-                            </i></a>
+                            <i class="fas fa-phone" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                            </i>
+                        </a>
                         <span class="contact">212.000.0000</span>
                     </li>
                     <!--Email-->
                     <li id="contact-info">
-                        <a href="https://voice.google.com/about" target="_blank"><i class="fas fa-envelope-open"
-                                data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-anchor-placement="center-bottom"></i></a>
+                        <a href="https://voice.google.com/about" target="_blank">
+                            <i class="fas fa-envelope-open" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-anchor-placement="center-bottom"></i>
+                        </a>
                         <span class="contact">owner@infinty.nyc</span>
                     </li>
             </div>
             <!--./contact-details-->
+            
             <!--Contact Form-->
             <div class="col-md-8 col-md-offset-2 m-auto">
-                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                     <div class="form-group">
+                        <label for="name" id="name">First & Last Name</label>
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
                     </div>
                     <div class="form-group">
+                        <label for="contact-email" id="contact-email">Email</label>
                         <input class="form-control" id="contact-email" name="contact-email" placeholder="Email"
                             type="email" required />
                     </div>
+                    <div class="form-group">
+                    <label for="comments" id="comments">Comments</label>
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comments"
-                        rows="5"></textarea>
+                        rows="5">
+                    </textarea>
                     <div class="row justify-content-center text-center">
                         <button class="btn btn-info float-right" style="margin-top:20px; font-style: italic;"
-                            type="submit">Send</button>
+                            type="submit">
+                            Send
+                        </button>
+                    </div>
                     </div>
                 </form>
             </div>
