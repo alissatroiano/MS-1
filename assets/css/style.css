@@ -46,7 +46,7 @@ h3 {
     text-align: center;
     color: #011826;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 1.5rem;
 }
 
@@ -92,7 +92,7 @@ p {
 }
 
 #description {
-    padding: 10px 40px;
+    padding: 10px 20px;
 }
 
 p.text-muted {
@@ -136,6 +136,19 @@ p.text-muted {
     line-height: 1.5;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #011826;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#69a8a9;
+}
+
+.navbar-light .navbar-nav .nav-link:hover > .nav-link.active {
+    color:#69a8a9;
+}
+
+
 i.fas.fa-infinity {
     color: #69a8a9;
     font-size: 1.7rem;
@@ -159,6 +172,7 @@ a.navbar-brand {
 
 /*-------------------------------------------- Jumbotron */
 /* jumbotron syntax and were copied from Code Institute's Whiskey Drop project */
+
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
 
@@ -181,6 +195,10 @@ a.navbar-brand {
 
     position: relative;
     overflow: hidden;
+} @media (max-width: 576px) {
+    .jumbotron-container { 
+      min-width: 320px; 
+  } 
 }
 
 .jumbotron-overlay {
@@ -217,7 +235,12 @@ h1.display-3 {
     letter-spacing: 1px;
     text-shadow: 2px 2px #011826;
     font-size: 5rem;
+} @media (max-width: 576px) {
+    .h1.display-3 { 
+      min-width: 320px; 
+  } 
 }
+
 
 h2.lead {
     font-family: 'Playfair Display', serif;
@@ -234,7 +257,7 @@ h2.lead {
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
-    padding: 20px 40px;
+    padding: 10px 10px;
 }
 
 /*-------------------------------------------- Icons */
@@ -439,12 +462,12 @@ form {
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
   }
   
-  .col-xs-8.col-sm-4, .col-sm-6,
-  .col-md-6 {
+  .col-xs-8.col-sm-4, .col-sm-6, .col-md-6 {
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 20px;
   }
 
   .card-body {
@@ -452,7 +475,7 @@ form {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 blockquote {
@@ -665,10 +688,46 @@ li.breadcrumb-item {
 /*.end sections*/
 
 /*-------------------------------------------- Media Queries */
+/* Jumbotron */
+@media (max-width: 320px) {
+    .cta_button, .cta_button:active {
+       display: inline-block;
+       padding-left: 1rem;
+       position: absolute;
+       top: 1rem;
+        right: 5rem;
+        background: #011826;
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        color: #fafafa;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+    } .cta_button:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        background: #69A8A9;
+        color: #fafafa;
+    }
+}
+
+@media (min-width: 320px) {
+    .cta_button {
+        max-width: 480px;
+    } 
+}
+
 @media only screen and (max-width: 320px) {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
-
+        background-position: 18% 100%;
         background-size: cover;
         height: 100vh;
         min-height: 100%;
@@ -684,9 +743,20 @@ li.breadcrumb-item {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-
+        text-align: center;
         position: relative;
         overflow: hidden;
+    } h1.display-3 {
+        font-size: 3.2rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px #011826;
+    } h2.lead {
+        font-size: 1.2rem;
+
     }
 }
 
