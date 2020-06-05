@@ -566,6 +566,8 @@ button.btn.btn-info.float-right:hover {
 /*----------------------------------------ff---- Footer */
 footer {
     background-color: #fff;
+    padding: 0 10px;
+
 }
 
 footer i.fas.fa-chevron-up {
@@ -654,23 +656,24 @@ li.breadcrumb-item {
 
 /*-------------------------------------------- Sections */
 #about {
-    padding: 80px 0;
-    margin: 50px 10px;
+    padding: 80px 10px;
+    margin: 50px 20px;
 }
 
 #schedule {
-    padding: 80px 0;
-    margin: 50px 10px;
+    padding: 80px 10px;
+    margin: 50px 20px;
 }
 
 #quotes {
-    padding: 80px 0;
-    margin: 50px 10px;
+    padding: 80px 10px;
+    margin: 50px 20px;
 }
 
 #contact {
-    padding: 80px 0;
-    margin: 50px 10px;
+    padding: 80px 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 /*.end sections*/
