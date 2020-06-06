@@ -30,7 +30,7 @@ User stories were created by the developer during the planning phase of this pro
 >>
 > As a user, I want the ‘About’ section to provide meaningful information.
 
-In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project. 
+In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project.
 
 ![Trade Off Table](assets/development/tradeofftable.png)
 
@@ -38,7 +38,7 @@ In order to determine what features were the most important and most viable, the
 
 A full write-up of this exercise can also be viewed [here](assets/development/StrategyActivity.pdf).
 
-Once the strategy exercises were completed, thhe following wireframes were created by the developer. 
+Once the strategy exercises were completed, thhe following wireframes were created by the developer.
 
 * [Desktop Wireframe](assets/development/desktopwireframe.jpeg)
 
