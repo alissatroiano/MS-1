@@ -112,9 +112,8 @@ p.text-muted {
 /* end main page content */
 
 /*-------------------------------------------- CTA Button */
-.cta_button, .cta_button:active {
+a.cta_button, a.cta_button:active {
     position: absolute;
-    padding-left: 1.5rem;
     top: 1rem;
     right: 5rem;
     background: #011826;
@@ -124,19 +123,22 @@ p.text-muted {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     -webkit-transform: rotate(-7deg);
-        -ms-transform: rotate(-7deg);
-            transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
     color: #fafafa;
     z-index: 1;
     border: none;
     outline: none;
     -webkit-animation: fadein 2.5s ease-in;
-            animation: fadein 2.5s ease-in;
+    animation: fadein 2.5s ease-in;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
   
-  .cta_button:hover {
+  a.cta_button:hover {
     cursor: pointer;
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
@@ -151,6 +153,11 @@ p.text-muted {
     font-family: 'Playfair Display', serif;
     font-size: 1rem !important;
     line-height: 1.5;
+}
+
+.bg-light {
+    background-color: #f2f2f2 !important;
+    box-shadow: .5px .5px .5px .5px #cecece;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -266,6 +273,13 @@ h2.lead {
 .about i {
     margin-bottom: 20px;
     line-height: 45px;
+}
+
+article {
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
@@ -527,7 +541,7 @@ button.btn.btn-info.float-right:hover {
     color: #f2f2f2;
 }
 
-#contact-info {
+#address, #phone, #email-owner {
     margin: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -695,7 +709,7 @@ li.breadcrumb-item {
 }
 
 @media (max-width: 575px) {
-    .cta_button, .cta_button:active {
+    a.cta_button, a.cta_button:active {
         display: inline-block;
         padding-left: .5rem;
         position: absolute;
@@ -719,6 +733,9 @@ li.breadcrumb-item {
                 animation: fadein 2.5s ease-in;
         vertical-align: middle;
         text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 22px;
     } .cta_button:hover {
         cursor: pointer;
         -webkit-transform: scale(1.05);
