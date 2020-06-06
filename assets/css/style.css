@@ -157,11 +157,9 @@ a.cta_button, a.cta_button:active {
 
 .bg-light {
     background-color: #f2f2f2 !important;
-    box-shadow: .5px .5px .5px .5px #cecece;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #545b62;
 }
 
 /* Navbar style properties copied from https://jsfiddle.net/g2ys46qo/2/ and Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
