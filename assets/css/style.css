@@ -79,7 +79,7 @@ hr {
 }
 
 a {
-    color: #011801;
+    color: #011826;
     text-decoration: none;
     background-color: transparent;
 }
@@ -153,12 +153,12 @@ p.text-muted {
     line-height: 1.5;
 }
 
-.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #787d80;
+.navbar-light .navbar-nav .nav-link {
+    color: #545b62;
 }
 
 /* Navbar style properties copied from https://jsfiddle.net/g2ys46qo/2/ and Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
     color:#69a8a9;
     text-decoration: overline;
 }
@@ -444,12 +444,12 @@ i.fas.fa-envelope-open {
 i.fas.fa-map-marker-alt:hover,
 i.fas.fa-phone:hover,
 i.fas.fa-envelope-open:hover {
-    color: #011801;
+    color: #011826;
     font-size: 1rem;
 }
 
 span.contact {
-    color: #011801;
+    color: #011826;
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
 }
@@ -521,7 +521,7 @@ button.btn.btn-info.float-right {
 }
 
 button.btn.btn-info.float-right:hover {
-    background-color: #011801;
+    background-color: #011826;
     border-color: transparent;
     font-family: 'Playfair Display', serif;
     color: #f2f2f2;
@@ -841,7 +841,7 @@ hr {
     border-top: 3px solid #69a8a9;
 }
 a {
-    color: #011801;
+    color: #011826;
     text-decoration: none;
     background-color: transparent;
 }
