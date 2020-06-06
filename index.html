@@ -90,7 +90,7 @@
         <section id="about">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 section-header">
                         <h2 class="section-header">About Us</h2>
                         <hr>
                         <p id="description">
@@ -564,7 +564,7 @@
 
 <!-- Override Bootstrap to style navbar. Solution script found on https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top and copied from https://jsfiddle.net/g2ys46qo/2/  -->
 <script>
-    let selector = 'nav li';
+    let selector = 'nav a.nav-link';
     $(selector).on('click', function() {
        $(selector).removeClass('active');
        $(this).addClass('active');
