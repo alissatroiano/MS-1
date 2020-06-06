@@ -8,9 +8,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Global Styles */
-
 html {
     font-size: 16px;
+}
+
+.col-xs-8.col-sm-4, .col-sm-6, .col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
 }
 
  /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
@@ -136,15 +143,17 @@ p.text-muted {
     line-height: 1.5;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #011826;
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #787d80;
+}
+
+/* Add Pagination: code copied from https://jsfiddle.net/g2ys46qo/2/ and Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color:#69a8a9;
+     text-decoration: overline;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color:#69a8a9;
-}
-
-.navbar-light .navbar-nav .nav-link:hover > .nav-link.active {
     color:#69a8a9;
 }
 
@@ -250,7 +259,6 @@ h2.lead {
     padding: 10px 10px;
 }
 
-/*-------------------------------------------- Icons */
 i.fas.fa-yin-yang.d-sm-block,
 i.fas.fa-peace.d-sm-block,
 i.fas.fa-heart.d-sm-block,
@@ -289,7 +297,7 @@ p.schedule-content {
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
 }
 
-/*-------------------------------------------- Sign Up Button */
+/* Sign Up Button */
 .signUp {
   width: 130px;
   height: 65px;
@@ -347,95 +355,28 @@ div.signUp, a.nav-item {
     color: #69a8a9;
 }
 /* end sign up button */
-
-/*-------------------------------------------- Sign Up Form */
-input.btn.btn-info {
-    font-family: "Playfair Display", serif;
-    font-size: 16px;
-    font-style: italic;
-    background-color: #69a8a9;
-    border-color: transparent;
-    margin-bottom: 5px;
-    max-width: 6rem;
-    height: auto;
-}
+/*-------------------------------------------- end schedule */
 
 
-.modal-open, .model-content {
-    overflow: hidden;
-    font-size: 1rem;
-    font-family: 'Futura-PT', sans-serif;
-    text-align: center;
-}
-
-input.btn.btn-info:hover {
-    font-family: "Playfair Display", serif;
-    font-size: 16px;
-    font-style: italic;
-    background-color: #011801;
-    border-color: transparent;
-    color: #f2f2f2;
-    margin-bottom: 5px;
-    max-width: 6rem;
-    height: auto;
-}
-
-button.close {
-    margin-top: 20px;
-    font-size: 2.1rem;
-    color: #69a8a9;
-}
-
-button.close:hover {
-    font-size: 2.1rem;
-    color: #011801;
-}
-
-a.nav-link:hover,
-a.nav-link.active.signUp:hover {
-	color: #69a8a9;
-	border-radius: 2px;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
-}
-
-.nav-link {
-	display: block;
-}
-
-input[type=checkbox], input[type=radio] {
-    box-sizing: border-box;
-    padding: 0;
-    background-color: transparent;
-    box-shadow: none;
-    font-size: 14px;
-}
-
-form {
-    position: relative;
-}
-/* end form */
-
-/*-------------------------------------------- Quotes */
-.top-color {
-    background-color: #69a8a9 !important;
-}
-
+/*-------------------------------------------- Reviews */
 .review-card .card-top {
     height: 120px;
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
 }
-  
+
+.top-color {
+    background-color: #69a8a9 !important;
+}
+
 .review-card .avatar {
     width: 120px;
     margin-top: -60px;
     overflow: hidden;
     border: 5px solid #fff;
     border-radius: 50%;
-  }
+}
 
 .img-fluid {
     max-width: 100%;
@@ -446,17 +387,9 @@ form {
     background-color: #fff;
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-  }
-  
-  .col-xs-8.col-sm-4, .col-sm-6, .col-md-6 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 20px;
-  }
+}
 
-  .card-body {
+.card-body {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
@@ -471,9 +404,9 @@ blockquote {
     margin-bottom: 20px;
     padding: 10px 10px;
 }
-/* end quotes */
+/* end reviews */
 
-/*-------------------------------------------- Contact */
+/*----------------------------------- Contact Section */
 .container-wrapper-contact {
     background: rgba(135, 156, 166, 0.2);
     text-align: center;
@@ -565,7 +498,7 @@ button.btn.btn-info.float-right:hover {
 }
 /* end contact section */
 
-/*----------------------------------------ff---- Footer */
+/*-------------------------------------------- Footer */
 footer {
     background-color: #fff;
 }
@@ -675,7 +608,6 @@ li.breadcrumb-item {
     margin-top: 50px;
     margin-bottom: 10px;
 }
-
 /*.end sections*/
 
 /*-------------------------------------------- Media Queries */
@@ -739,7 +671,7 @@ li.breadcrumb-item {
         position: relative;
         overflow: hidden;
     } h1.display-3 {
-        font-size: 3.2rem;
+        font-size: 3.3rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
