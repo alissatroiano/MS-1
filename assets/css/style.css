@@ -539,6 +539,7 @@ button.btn.btn-info.float-right:hover {
     color: #f2f2f2;
 }
 
+li.contact-info,
 #address, #phone, #email-owner {
     margin: 10px 0;
     display: -webkit-box;
