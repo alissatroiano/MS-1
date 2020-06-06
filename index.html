@@ -562,6 +562,15 @@
     </script>
 <!--./bootstrap-cdn-->
 
+<!-- Override Bootstrap to style navbar. Solution script found on https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top and copied from https://jsfiddle.net/g2ys46qo/2/  -->
+<script>
+    let selector = 'nav li';
+    $(selector).on('click', function() {
+       $(selector).removeClass('active');
+       $(this).addClass('active');
+   });
+</script>
+
 <!--Responsive Navbar-->
 <script>
     $('.navbar-collapse a').click(function () {
@@ -570,6 +579,7 @@
 </script>
 <!--./responsive-navbar-->
 
+
 <!--AOS-->
 <script>
     AOS.init();
@@ -577,5 +587,4 @@
 
 </body>
 <!--./body-->
-
 </html>
