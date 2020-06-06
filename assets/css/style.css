@@ -155,13 +155,6 @@ a.cta_button, a.cta_button:active {
     line-height: 1.5;
 }
 
-.bg-light {
-    background-color: #f2f2f2 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-}
-
 /* Navbar style properties copied from https://jsfiddle.net/g2ys46qo/2/ and Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
     color:#69a8a9;
