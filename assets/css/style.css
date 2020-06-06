@@ -221,10 +221,11 @@ a.btn.btn-info.btn-lg {
     border: none;
     font-family: 'Playfair Display', serif;
     font-style: italic;
+    margin-top: 6px;
 }
 
 a.btn.btn-info.btn-lg:hover {
-    background-color: #203745bf;
+    background-color: #011826;
     color: #f2f2f2;
     border: none;
     font-family: 'Playfair Display', serif;
