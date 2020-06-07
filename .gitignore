@@ -1,3 +1,6 @@
 
 .DS_Store
 .vscode/settings.json
+.DS_Store
+assets/.DS_Store
+assets/development/.DS_Store
