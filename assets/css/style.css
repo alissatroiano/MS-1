@@ -102,7 +102,7 @@ p {
 }
 
 #description {
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
 p.text-muted {
@@ -660,6 +660,173 @@ li.breadcrumb-item {
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
+/* Contact */
+@media (max-width: 320px) {
+    span.contact {
+        color: #011826;
+        font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
+    }
+    form.contact-form {
+    margin: 0 auto;
+    } li.contact-info, #address, #phone, #email-owner {
+        display: flex;
+        align-items: flex-start;
+        margin: 8px 0;
+    }
+    i.fas.fa-map-marker-alt,
+    i.fas.fa-phone,
+    i.fas.fa-envelope-open {
+    color: #69a8a9;
+    font-size: 15px;
+    } 
+    i.fas.fa-map-marker-alt:hover,
+    i.fas.fa-phone:hover,
+    i.fas.fa-envelope-open:hover {
+    color: #011826;
+    font-size: 15px;
+    }
+    .form-group.row {
+    font-family: 'Futura-PT', sans-serif;
+    color: #69a8a9;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    }
+    .form-control.placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 14px;
+    }
+    label#name, label#contact-email, label#comments {
+    color: #011826;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    ::-moz-selection { /* Code for Firefox */
+    color: #f2f2f2;
+    background: #69a8a9;
+  } 
+  ::selection {
+    color: #f2f2f2;
+    background: #69a8a9;
+} 
+    h1 {
+    color: #011826;
+    text-shadow: 2px 2px #011826;
+    font-size: 2rem;
+} 
+    h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+    h2.section-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    } 
+    h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    } 
+    h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    font-size: 1.2rem;
+    } 
+    hr {
+    width: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-top: 3px solid #69a8a9;
+    }
+    a {
+    color: #011826;
+    text-decoration: none;
+    background-color: transparent;
+    }
+    a:hover {
+    color: #69A8A9;
+    text-decoration: none;
+    }
+    mark {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-shadow: .5px .5px .5px lightslategray;
+    }
+    p {
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    } 
+    #description {
+    padding: 10px 10px;
+    font-size: 14px;
+    } 
+    p.text-muted {
+    font-family: 'Futura-PT', sans-serif;
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    }
+    article {
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #about {
+        padding: 80px 10px;
+        margin: 50px 20px;
+    }
+    
+    #schedule {
+        padding: 80px 10px;
+        margin: 40px 20px;
+    }
+    
+    #reviews {
+        padding: 80px 10px;
+        margin: 50px 20px;
+    }
+    
+    #contact {
+        padding: 80px 10px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
@@ -699,6 +866,7 @@ li.breadcrumb-item {
         font-size: 1rem;
     }
 }
+
 @media (max-width: 575px) {
     a.cta_button, a.cta_button:active {
         display: inline-block;
@@ -729,135 +897,6 @@ li.breadcrumb-item {
         background: #69A8A9;
         color: #fafafa;
     }
-}
-
-@media (min-width: 320px) {
-    .cta_button {
-        max-width: 480px;
-    } 
-}
-
-@media only screen and (max-width: 320px) { 
-    ::-moz-selection { /* Code for Firefox */
-    color: #f2f2f2;
-    background: #69a8a9;
-  } 
-  ::selection {
-    color: #f2f2f2;
-    background: #69a8a9;
-} 
-h1 {
-    color: #011826;
-    text-shadow: 2px 2px #011826;
-    font-size: 2.3rem;
-} 
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-} 
-h2.section-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.7rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 20px;
-}
-h3 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.5rem;
-} 
-h3.about-header {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.5rem;
-} 
-h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    font-size: 1.2rem;
-} 
-hr {
-    width: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-top: 3px solid #69a8a9;
-}
-a {
-    color: #011826;
-    text-decoration: none;
-    background-color: transparent;
-}
-a:hover {
-    color: #69A8A9;
-    text-decoration: none;
-}
-mark {
-    background-color: transparent;
-    text-transform: uppercase;
-    text-shadow: .5px .5px .5px lightslategray;
-}
-p {
-    font-family: 'Futura-PT', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-}
-#description {
-    padding: 10px 20px;
-} 
-p.text-muted {
-    font-family: 'Futura-PT', sans-serif;
-    margin: 10px 20px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    #about {
-        padding: 80px 10px;
-        margin: 50px 20px;
-    }
-    
-    #schedule {
-        padding: 80px 10px;
-        margin: 40px 20px;
-    }
-    
-    #reviews {
-        padding: 80px 10px;
-        margin: 50px 20px;
-    }
-    
-    #contact {
-        padding: 80px 10px;
-        margin-top: 50px;
-        margin-bottom: 10px;
-    }
-}
-
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
-    @media (min-width: 576px) {
-      .container {
-        max-width: 540px; 
-    } 
 }
 
 @media (min-width: 768px) {
