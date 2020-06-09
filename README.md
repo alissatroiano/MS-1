@@ -20,15 +20,19 @@ The final version of this website allows Infinity to achieve its' goals for the 
 
 * The website provides information about the studio and its' procedures.
 
-User stories were created by the [developer](https://www.github.com/alissatroiano) during the planning phase of this project and were used to help guide the wire framing process:
+Customer Reviews were created by the [developer](https://www.github.com/alissatroiano) during the planning phase of this project and were used to help guide the wireframing process:
 
-> As a user, I want a fixed navbar so I can navigate the page easily.
+> As a potential studio member, I want the ‘About’ section to provide meaningful information so I can decide if it's the right place for me to sign up.
 >>
-> As a user, I want to fill out the 'Contact Form' in less than 3 clicks.
+> As a prospective Infinity member, I want to be able to contact the studio directly so I can inquire about new memberships.  
 >>
-> As a user, I can navigate back to the top of the page easily, so I don't have to spend time scrolling up.
+>> As a potential Infinity member, I want to be able to view the website from my mobile device so I can check it out whenever and wherever is most convenient for me.
 >>
-> As a user, I want the ‘About’ section to provide meaningful information.
+> As an Infinity member, I can view the class schedule so I can plan my yoga & meditation routine accordingly.
+>>
+> As a studio member, I can read about all of Infinity's classes so I can decide if I want to try something new.
+>>
+> As an Infinity member, I can view the studio's contact information so I can inquire about my membership or any other issues.
 
 In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project.
 
@@ -51,22 +55,22 @@ All wire-frames were created with [Balsamiq](https://balsamiq.com/) and can be v
 ## Features
 
 * About: The about section allows users to learn about yoga and meditation in a fun and interactive fashion, by providing a paragraph of content and clickable icons.
-    *You can view the schedule [here](https://alissatroiano.github.io/MS-1/#schedule).*
+    *You can view the About section [here](https://alissatroiano.github.io/MS-1/#schedule).*
 
-* Schedule: The schedule section provides site visitors with class information and a place to sign up by listing class times, durations, details and a, "Sign Up," button.
-    *You can view the schedule [here](https://alissatroiano.github.io/MS-1/#about).*
+* Schedule: The Schedule section provides site visitors with class information and a place to sign up by listing class times, durations, details and a, "Sign Up," button.
+    *You can view the Schedule [here](https://alissatroiano.github.io/MS-1/#about).*
 
-* User stories: The user stories allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
-  *You can view the schedule [here](https://alissatroiano.github.io/MS-1/#reviews).*
+* Customer Reviews: The user stories section allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
+  *You can view the Customer Reviews section [here](https://alissatroiano.github.io/MS-1/#reviews).*
 
 * Contact Form: The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
-  *You can view the schedule [here](https://alissatroiano.github.io/MS-1/#contact).*
+  *You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
 
 ### Existing Features
 
 * Schedule
 * About
-* User Stories
+* Customer Reviews
 * Contact Form
 
 ### UX Design
@@ -120,11 +124,11 @@ This project makes use of the following languages, frameworks and libraries:
 
 * [Bootstrap](https://getbootstrap.com)
 
-* [Animate On Scroll](https://michalsnik.github.io/aos/)
-
-* [Gitub/GitHub Pages](https://github.com/)
+* [GitHub/GitHub Pages](https://github.com/)
 
 * [GitPod](https://gitpod.io/)
+
+* [Animate On Scroll](https://michalsnik.github.io/aos/)
 
 ## Testing
 
