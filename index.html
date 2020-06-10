@@ -567,8 +567,9 @@
 </footer>
 <!--./footer-->
 
-<!--Scripts-->
-<!-- Bootstrap CDN jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Bootstrap CDN required scripts-->
+    <!--copied from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+        <!-- Bootstrap CDN jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -578,9 +579,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-<!--./bootstrap-cdn-->
+<!--./bootstrap-cdn-required-scripts-->
 
-<!-- Override Bootstrap to style navbar. Solution script found on https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top and copied from https://jsfiddle.net/g2ys46qo/2/  -->
+<!-- Remove Active State Script -->
+    <!-- This script was added to repair an error causing the navbar to remain in the 'active' state by overriding Bootstrap's default CSS -->
+        <!-- Copied from Stack Overflow (https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top) -->
 <script>
     let selector = 'nav a.nav-link';
     $(selector).on('click', function() {
@@ -588,21 +591,24 @@
        $(this).addClass('active');
    });
 </script>
+<!--./remove-active-state-script-->
 
 <!--Navbar Collapse Script -->
-<!-- This script goes here so navbar will close automatically after a user clicks a nav-link. Works across devices 
-    copied from Stack Overflow (https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) -->
+    <!-- This script automatically closes the navbar-toggle after a user clicks a nav-link. The navbar remained in the expanded state prior to placing this script. -->
+        <!-- This script was copied from Stack Overflow (https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) -->
 <script>
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
     });
 </script>
-<!--./responsive-navbar-->
+<!--./navbar-collapse-script-->
 
-<!--AOS-->
+<!--AOS Script-->
+    <!-- Copied from https://michalsnik.github.io/aos/ -->
 <script>
     AOS.init();
 </script>
+<!--./aos-script-->
 
 </body>
 <!--./body-->
