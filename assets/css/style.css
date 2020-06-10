@@ -805,23 +805,23 @@ li.breadcrumb-item {
 
 @media only screen and (max-width: 320px) {
     #about {
-        padding: 80px 30px;
+        padding: 80px 20px;
         margin: 50px 20px;
     }
     
     #schedule {
-        padding: 80px 30px;
+        padding: 80px 20px;
         margin: 40px 20px;
     }
     
     #reviews {
-        padding: 80px 30px;
+        padding: 80px 20px;
         margin: 50px 20px;
     }
     
     #contact {
-        padding: 80px 30px;
-        margin: 50px 20pxs;
+        padding: 80px 20px;
+        margin: 50px 20px;
     }
 }
 
