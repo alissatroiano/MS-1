@@ -653,14 +653,214 @@ li.breadcrumb-item {
 }
 
 #contact {
-    padding: 80px 40px;
+    padding: 80px 20px;
     margin: 50px 20px;
 }
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
 /* Contact */
-@media (max-width: 320px) {
+
+@media (min-width: 1200px) {
+    .container-fluid, .container {
+        max-width: 1170px; 
+    }
+}
+
+@media (min-width: 1600px) {
+    .container-fluid, .container {
+        max-width: 1300px; 
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron-container {
+        background-image: url('../images/infinityphoto.jpg');
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: 150px 0px;
+        height: 100vh;
+        min-height: 100%;
+
+        -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    } h1, h1.display-3 {
+        font-size: 3.5rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px #011826;
+    } h2.lead {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        text-shadow: 1px 2px #011826;
+        letter-spacing: .5px;
+    } h2, h2.section-header {
+        font-size: 1.8rem;
+    }
+        a.btn.btn-info.btn-lg {
+        font-size: 1rem;
+    } a.btn.btn-info.btn-lg:hover {
+        font-size: 1rem;
+    }
+    .container-fluid, .container {
+        max-width: 720px;
+    } 
+    a.cta_button, a.cta_button:active {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+        background: #011826;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        color: #fafafa;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 25px;
+        font-size: 14px;
+    } .cta_button:hover {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+        background: #011826;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 25px;
+        font-size: 14px;
+        background: #69A8A9;
+        color: #fafafa;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .jumbotron-container {
+        background-image: url('../images/infinityphoto.jpg');
+        background-size: cover;
+        background-position: 20% 100%;
+        height: 100vh;
+        min-height: 100%;
+
+        -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    } h1.display-3 {
+        font-size: 3.3rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px #011826;
+    } h2.lead {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    } a.btn.btn-info.btn-lg {
+        font-size: 1rem;
+    } a.btn.btn-info.btn-lg:hover {
+        font-size: 1rem;
+    }
+    a.cta_button, a.cta_button:active {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+        background: #011826;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        color: #fafafa;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 22px;
+    } .cta_button:hover {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+        background: #011826;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 22px;
+        background: #69A8A9;
+        color: #fafafa;
+    }
+}
+
+@media only screen and (max-width: 320px) {
     span.contact {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
@@ -707,11 +907,11 @@ li.breadcrumb-item {
 }
 
 @media only screen and (max-width: 320px) { 
-    ::-moz-selection { /* Code for Firefox */
+    ::-moz-selection { 
     color: #f2f2f2;
     background: #69a8a9;
   } 
-  ::selection {
+    ::selection {
     color: #f2f2f2;
     background: #69a8a9;
 } 
@@ -801,71 +1001,6 @@ li.breadcrumb-item {
     text-align: center;
     padding: 10px 20px;
     }
-}
-
-@media only screen and (max-width: 320px) {
-    #about {
-        padding: 80px 20px;
-        margin: 50px 20px;
-    }
-    
-    #schedule {
-        padding: 80px 20px;
-        margin: 40px 20px;
-    }
-    
-    #reviews {
-        padding: 80px 20px;
-        margin: 50px 20px;
-    }
-    
-    #contact {
-        padding: 80px 20px;
-        margin: 50px 20px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .jumbotron-container {
-        background-image: url('../images/infinityphoto.jpg');
-        background-position: 18% 100%;
-        background-size: cover;
-        height: 100vh;
-        min-height: 100%;
-
-        -webkit-box-pack: center;
-
-        -ms-flex-pack: center;
-
-        justify-content: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-    } h1.display-3 {
-        font-size: 3.3rem;
-        font-family: 'Futura-PT', sans-serif;
-        color: #f2f2f2;
-        font-weight: 200;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-shadow: 2px 2px #011826;
-    } h2.lead {
-        font-size: 1.2rem;
-        margin-bottom: 15px;
-    } a.btn.btn-info.btn-lg {
-        font-size: 1rem;
-    } a.btn.btn-info.btn-lg:hover {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 575px) {
     a.cta_button, a.cta_button:active {
         display: inline-block;
         padding-left: .5rem;
@@ -897,23 +1032,6 @@ li.breadcrumb-item {
     }
 }
 
-@media (min-width: 768px) {
-    .container-fluid, .container {
-        max-width: 720px;
-    } 
-}
-
-@media (min-width: 1200px) {
-    .container-fluid, .container {
-        max-width: 1170px; 
-    } 
-}
-
-@media (min-width: 1600px) {
-    .container-fluid, .container {
-        max-width: 1300px; 
-    } 
-}
 /* end media queries */
 
 
