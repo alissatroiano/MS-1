@@ -110,10 +110,6 @@ The developer chose this color palette after much research and consideration.
 
 * Classic blue was chosen as the [Pantone](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020-tools-for-designers) color of the year for 2020.
 
-* [NeilPatel.com's Blog article, 'Gender and Color'](https://neilpatel.com/blog/gender-and-color/) also concluded that:
-
-![Key Points](assets/development/colortheory2.png)
-
 ## Technologies Used
 
 This project makes use of the following languages, frameworks and libraries:
@@ -128,7 +124,13 @@ This project makes use of the following languages, frameworks and libraries:
 
 * [GitPod](https://gitpod.io/)
 
-* [Animate On Scroll](https://michalsnik.github.io/aos/)
+* [Animate On Scroll](https://michalsnik.github.io/aos/) Library
+
+* [CSS Autoprefixer](https://autoprefixer.github.io)
+
+* [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+* [W3C HTML Validator](https://validator.w3.org/)
 
 ## Testing
 
@@ -256,6 +258,8 @@ Code Snippets:
 * The css selection syntax was copied from [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_text_selection).
 
 * The syntax for the 'Up Arrow' icon in the footer that takes users to the top of the page was copied from [W3 Schools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_footer&stacked=h).
+
+* The `Navbar Collapse` script was copied from [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
 
 ### Media
 
