@@ -26,7 +26,7 @@ Customer Reviews were created by the [developer](https://www.github.com/alissatr
 >>
 > As a prospective Infinity member, I want to be able to contact the studio directly so I can inquire about new memberships.  
 >>
->> As a potential Infinity member, I want to be able to view the website from my mobile device so I can check it out whenever and wherever is most convenient for me.
+> As a potential Infinity member, I want to be able to view the website from my mobile device so I can check it out while I'm on the go.
 >>
 > As an Infinity member, I can view the class schedule so I can plan my yoga & meditation routine accordingly.
 >>
@@ -40,7 +40,7 @@ In order to determine what features were the most important and most viable, the
 
 ![Trade Off Chart](assets/development/tradeoffchart.png)
 
-A full write-up of this exercise can also be viewed [here](assets/development/StrategyActivity.pdf).
+A full write-up of the strategy planning conducted for this project can also be viewed [here](assets/development/ms1planning.pdf). To only view charts and tables, checkout [this document](strategyplane.pdf).
 
 Once the strategy exercises were completed, thhe following wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
