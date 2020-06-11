@@ -126,9 +126,11 @@ This project makes use of the following languages, frameworks and libraries:
 
 * [GitHub/GitHub Pages](https://github.com/)
 
+* [Git](https://git-scm.com/)
+
 * [GitPod](https://gitpod.io/)
 
-* [Animate On Scroll](https://michalsnik.github.io/aos/) Library
+* [Animate On Scroll](https://michalsnik.github.io/aos/)
 
 * [CSS Autoprefixer](https://autoprefixer.github.io)
 
