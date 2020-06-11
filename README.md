@@ -42,7 +42,7 @@ In order to determine what features were the most important and most viable, the
 
 A full write-up of the strategy planning conducted for this project can also be viewed [here](assets/development/ms1planning.pdf). To only view charts and tables, checkout [this document](strategyplane.pdf).
 
-Once the strategy exercises were completed, thhe following wireframes were created by the [developer](https://www.github.com/alissatroiano).
+Once the strategy exercises were completed, the following low-fidelity wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
 * [Desktop Wireframe](assets/development/desktopwireframe.jpeg)
 
@@ -50,7 +50,11 @@ Once the strategy exercises were completed, thhe following wireframes were creat
 
 * [Mobile Wireframe](assets/development/mobilewireframe.jpeg)
 
-All wire-frames were created with [Balsamiq](https://balsamiq.com/) and can be viewed in [this document](assets/development/WireframesDoc.pdf).
+These wire-frames were created with [Balsamiq](https://balsamiq.com/) and can also be viewed in [this document](assets/development/WireframesDoc.pdf).
+
+After working on the project for a while, high-fidelity wireframes were created to guide the remainder of the project's development.
+
+The high-fidelity wireframes can be viewed in [this document](assets/development/detailedwireframes.pdf).
 
 ## Features
 
