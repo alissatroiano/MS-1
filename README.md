@@ -58,17 +58,37 @@ The high-fidelity wireframes can be viewed in [this document](assets/development
 
 ## Features
 
-* About: The about section allows users to learn about yoga and meditation in a fun and interactive fashion, by providing a paragraph of content and clickable icons.
-    *You can view the About section [here](https://alissatroiano.github.io/MS-1/#schedule).*
+* About:
 
-* Schedule: The Schedule section provides site visitors with class information and a place to sign up by listing class times, durations, details and a, "Sign Up," button.
-    *You can view the Schedule [here](https://alissatroiano.github.io/MS-1/#about).*
+The about section allows users to learn about yoga and meditation in a fun and interactive fashion, by providing a paragraph of content and clickable icons.
 
-* Customer Reviews: The user stories section allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
-  *You can view the Customer Reviews section [here](https://alissatroiano.github.io/MS-1/#reviews).*
+*You can view the About section [here](https://alissatroiano.github.io/MS-1/#about).*
 
-* Contact Form: The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
-  *You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
+![about.png](assets/development/about.png)
+
+* Schedule:
+
+The Schedule section provides site visitors with class information and a place to sign up by listing class times, durations, details and a, "Sign Up," button.
+
+*You can view the Schedule [here](https://alissatroiano.github.io/MS-1/#schedule)*
+
+![schedule.png](assets/development/schedule.png)
+
+* Customer Reviews:
+
+The user stories section allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
+
+*You can view the Customer Reviews section [here](https://alissatroiano.github.io/MS-1/#reviews).*
+
+![reviews.png](assets/development/reviews.png)
+
+* Contact Form:
+
+The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
+
+*You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
+
+![contact.png](assets/development/contact.png)
 
 ### Existing Features
 
@@ -137,6 +157,10 @@ This project makes use of the following languages, frameworks and libraries:
 * [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 * [W3C HTML Validator](https://validator.w3.org/)
+
+* [Popper.js](https://popper.js.org/)
+
+* [jQuery](https://jquery.com/)
 
 ## Testing
 
