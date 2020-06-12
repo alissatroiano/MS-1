@@ -104,6 +104,7 @@ p {
 
 #description {
     padding: 10px 40px;
+    margin: 10px 30px;
 }
 
 p.text-muted {
@@ -714,7 +715,7 @@ li.breadcrumb-item {
         text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
     } h2, h2.section-header {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     a.btn.btn-info.btn-lg {
         font-size: 1.3rem;
@@ -910,6 +911,10 @@ li.breadcrumb-item {
     font-size: 14px;
     text-align: left;
     margin: 10px 0;
+    }
+    #description {
+        padding: 10px 10px;
+        margin: 0 auto;
     }
 }
 
