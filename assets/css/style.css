@@ -192,16 +192,14 @@ a.navbar-brand {
 
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
-
-    background-size: cover;
+    background-position: 350px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
     max-width: 100%;
     height: 100vh;
     min-height: 100%;
-
     -webkit-box-pack: center;
-
     -ms-flex-pack: center;
-
     justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -209,7 +207,6 @@ a.navbar-brand {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
     position: relative;
     overflow: hidden;
 }
@@ -230,7 +227,6 @@ a.btn.btn-info.btn-lg {
     border: none;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    margin-top: 6px;
 }
 
 a.btn.btn-info.btn-lg:hover {
@@ -678,14 +674,11 @@ li.breadcrumb-item {
         background-image: url('../images/infinityphoto.jpg');
         background-size: cover;
         background-repeat:no-repeat;
-        background-position: 150px 0px;
+        background-position: 200px 0px;
         height: 100vh;
         min-height: 100%;
-
         -webkit-box-pack: center;
-
         -ms-flex-pack: center;
-
         justify-content: center;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -697,22 +690,23 @@ li.breadcrumb-item {
         position: relative;
         overflow: hidden;
     } h1, h1.display-3 {
-        font-size: 3.5rem;
+        font-size: 4rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
+        margin-top: 50px;
     } h2.lead {
-        font-size: 1.3rem;
-        margin-bottom: 15px;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
         text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
     } h2, h2.section-header {
         font-size: 1.8rem;
     }
-        a.btn.btn-info.btn-lg {
+    a.btn.btn-info.btn-lg {
         font-size: 1rem;
     } a.btn.btn-info.btn-lg:hover {
         font-size: 1rem;
@@ -776,14 +770,11 @@ li.breadcrumb-item {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
         background-size: cover;
-        background-position: 20% 100%;
+        background-position: 1px 50px;
         height: 100vh;
         min-height: 100%;
-
         -webkit-box-pack: center;
-
         -ms-flex-pack: center;
-
         justify-content: center;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -795,16 +786,18 @@ li.breadcrumb-item {
         position: relative;
         overflow: hidden;
     } h1.display-3 {
-        font-size: 3.3rem;
+        font-size: 3.2rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        /* letter-spacing: 1px; */
         text-shadow: 2px 2px #011826;
+        margin-top: 90px;
+        margin-bottom: 10px;
     } h2.lead {
         font-size: 1.2rem;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     } a.btn.btn-info.btn-lg {
         font-size: 1rem;
     } a.btn.btn-info.btn-lg:hover {
@@ -860,7 +853,7 @@ li.breadcrumb-item {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
     span.contact {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
@@ -906,7 +899,7 @@ li.breadcrumb-item {
     }
 }
 
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 425px) { 
     ::-moz-selection { 
     color: #f2f2f2;
     background: #69a8a9;
@@ -1001,6 +994,10 @@ li.breadcrumb-item {
     text-align: center;
     padding: 10px 20px;
     }
+    #about, #schedule, #reviews {
+        padding: 70px 20px;
+        margin: 50px 20px;
+    }
     a.cta_button, a.cta_button:active {
         display: inline-block;
         padding-left: .5rem;
@@ -1030,6 +1027,9 @@ li.breadcrumb-item {
         background: #69A8A9;
         color: #fafafa;
     }
+    .notfound .notfound-404 h1 {
+        font-size: 3rem;
+    }
 }
 
 /* end media queries */
@@ -1043,7 +1043,7 @@ li.breadcrumb-item {
   
   body#notfound-body {
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       background-color: #fff;
   }
     
@@ -1172,22 +1172,22 @@ li.breadcrumb-item {
       font-family: 'Montserrat', sans-serif;
       font-weight: 700; 
       font-style: normal;  
-      font-size: 200px;
-      margin: 0px;
+      font-size: 180px;
       text-shadow: -2px -2px 0px #69aaab, 1px 1px 0px #f71e6bbf;
-      letter-spacing: -5px;
+      letter-spacing: -15px;
+      color: #081108;
+      line-height: 300px;
     }
     
   .notfound h2 {
       font-family: 'Dolce', sans-serif;
       font-size: 30px;
       font-weight: 700;
-      margin: 0;
       text-shadow: 1px 2px 0px #69a8a9;
     }
     
   .notfound a {
-      margin-top: 20px;
+      margin-top: 10px;
       font-family: 'Futura-PT', sans-serif;
       padding: 10px 30px;
       display: inline-block;
