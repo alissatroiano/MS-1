@@ -2,25 +2,25 @@
 
 This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs users to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and 'Customer Reviews.'
+Infinity’s website addresses all of the studio's goals in a clean, user-friendly and visually appealing manner. The website's Jumbotron includes a call-to-action button that directs users to the schedule section, where class details, times and a signup button can be accessed with ease. The website also includes an interactive, 'About' section, relatable 'Customer Reviews' and contact details.
 
 ![responsive](wireframes//responsive0.png)
 
 ## UX
 
-This website was built for Infinity, a fictional yoga and meditation studio in Manhattan. The goal of the studio is to provide information and attract new & existing members. The target market for Infinty is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
+The goal of Infinity's website is to attract new & existing members to the studio by providing class details and information about the studio and its procedures. The target market for Infinty is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
 
 The final version of this website allows Infinity to achieve its' goals for the following reasons:
-
-* Infinity's website is responsive across all devices.
-
-* The website navigation is intuitive.
 
 * The website provides a call-to-action button with a link in the Jumbotron (above the fold).
 
 * The website provides class details and class times in one central location.
 
 * The website provides information about the studio and its' procedures.
+
+* Infinity's website is responsive.
+
+* The website navigation is intuitive.
 
 Customer Reviews were created by the [developer](https://www.github.com/alissatroiano) during the planning phase of this project and were used to help guide the wireframing process:
 
@@ -72,7 +72,9 @@ The about section allows users to learn about yoga and meditation in a fun and i
 
 *You can view the About section [here](https://alissatroiano.github.io/MS-1/#about).*
 
-![about.png](wireframes//about.png)
+![about.png](wireframes//aboutphoto.png)
+
+![responsive1.png](wireframes//responsive1.png)
 
 * Schedule:
 
@@ -82,6 +84,9 @@ The Schedule section provides site visitors with class information and a place t
 
 ![schedule.png](wireframes//schedule.png)
 
+![responsive2.png](wireframes//responsive2.png)
+
+
 * Customer Reviews:
 
 The user stories section allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
@@ -90,6 +95,8 @@ The user stories section allow users to learn more about Infinity from trustwort
 
 ![reviews.png](wireframes//reviews.png)
 
+![responsive3.png](wireframes//responsive3.png)
+
 * Contact Form:
 
 The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
@@ -97,6 +104,8 @@ The contact form allows site visitors to contact the studio by filling out a for
 *You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
 
 ![contact.png](wireframes//contact.png)
+
+![responsive4.png](wireframes//responsive4.png)
 
 ### Existing Features
 
