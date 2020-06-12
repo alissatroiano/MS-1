@@ -31,41 +31,42 @@
 <!------------------------------------------Header-->
 <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
-        <a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
-        <!--the design for this button was copied from http://www.matrebel.co.uk/ -->
-        <a href="#contact" class="cta_button">Sign Up</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#reviews">Reviews</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
+    <a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
+    <!--This call-to-action button takes users to the contact section when clicked-->
+        <!--this design was copied from http://www.matrebel.co.uk/-->
+    <a href="#contact" class="cta_button">Sign Up</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     <!--./navbar-->
 </header>
 <!--./header-->
 
 <!------------------------------------------Begin Main Page Content-->
-<main id="myPage" data-spy="scroll" data-target="navbarNav" data-offset="60">
+<main id="myPage" data-spy="scroll" data-target="navbarNav" data-offset="50">
 <!------------------------------------------ Jumbotron Section-->
 <section id="home" class="jumbotron-container">
     <!--Jumbotron Overlay-->
@@ -195,11 +196,9 @@
 </section>
 <!--./about-section-->
     
-<!------------------------------------------Schedule Section-->
-        <!--Container wrapper goes first to style background with color-->
+<!--Schedule Section-->
+<section id="schedule" class="schedule">
 <div class="container-wrapper-schedule">
-    <!--Schedule Section-->
-    <section id="schedule" class="schedule">
         <div class="container-fluid schedule-container">
             <div class="row text-center">
                 <div class="col-12 section-header">
@@ -301,9 +300,9 @@
                 <!--./card-deck-->
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!--./schedule-section-->
-</div>
 <!--./schedule-container-->
     
 <!--Customer Reviews Section Start Here-->
@@ -394,10 +393,9 @@
 </section>
     
 <!------------------------------------------Contact Section-->
-<!-- Container-wrapper is placed first to apply background-color to section -->
-<div class="container-wrapper-contact">
-    <!--Contact Section Starts Here-->
-    <section id="contact">
+<section id="contact">
+    <div class="container-wrapper-contact">
+        <!--Contact Section Starts Here-->
         <!--Contact Section Container Starts Here-->
         <div class="container-fluid">
             <h2 class="section-header">Contact Us</h2>
@@ -500,10 +498,9 @@
                 <!--./contact-form-->
             </div>
         </div>
-    </section>
-    <!--./contact-section-->
-</div>
-        <!--./container-wrapper-contact-->
+    </div>
+</section>
+<!--./contact-section-->
     </main>
     <!--./end main-page-content-->
 
@@ -630,6 +627,14 @@
             $(this).addClass('active');
         });
     </script>
+
+<script>
+    let selector = 'li.nav-item a.nav-link';
+    $(selector).on('click', function () {
+        $(selector).removeClass('active');
+        $(this).addClass('active');
+    });
+</script>
     <!--./remove-active-state-script-->
 
     <!--Navbar Collapse Script -->
