@@ -21,13 +21,14 @@ html {
     margin-top: 20px;
 }
 
- /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
+ /* Makes text selection the primary color. */
+    /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
 ::-moz-selection { /* Code for Firefox */
     color: #f2f2f2;
     background: #69a8a9;
   }
   
-::selection {
+::selection { /* Text selection code */
     color: #f2f2f2;
     background: #69a8a9;
 }
@@ -155,7 +156,7 @@ a.cta_button, a.cta_button:active {
     line-height: 1.5;
 }
 
-/* Navbar style properties copied from https://jsfiddle.net/g2ys46qo/2/ and Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
+    /* navbar styles copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
     color:#69a8a9;
     text-decoration: overline;
@@ -188,13 +189,10 @@ a.navbar-brand {
 /* end navbar */
 
 /*-------------------------------------------- Jumbotron */
-/* jumbotron-container syntax copied from Code Institute's Whiskey Drop project */
-
+    /* jumbotron-container syntax copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
-    background-position: 350px 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     max-width: 100%;
     height: 100vh;
     min-height: 100%;
@@ -208,7 +206,6 @@ a.navbar-brand {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
 }
 
 .jumbotron-overlay {
@@ -217,7 +214,7 @@ a.navbar-brand {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 10, 10, .7);
+    background-color: rgba(1, 10, 10, .75);
     overflow: visible;
 }
 
@@ -227,6 +224,7 @@ a.btn.btn-info.btn-lg {
     border: none;
     font-family: 'Playfair Display', serif;
     font-style: italic;
+    margin-top: 6px;
 }
 
 a.btn.btn-info.btn-lg:hover {
@@ -298,7 +296,6 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 
 /*-------------------------------------------- Schedule */
 .container-wrapper-schedule{
-    background: rgba(135, 156, 166, 0.2);
     text-align: center;
 }
 
@@ -311,7 +308,7 @@ p.schedule-content {
     -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
 }
-/*---------- Sign Up Button */
+/* Schedule Sign Up Button */
 .signUp {
   width: 130px;
   height: 65px;
@@ -368,7 +365,6 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
-/* end sign up button */
 /* end schedule */
 
 
@@ -422,7 +418,6 @@ blockquote {
 
 /*-------------------------------------------- Contact */
 .container-wrapper-contact {
-    background: rgba(135, 156, 166, 0.2);
     text-align: center;
 }
 
@@ -640,17 +635,20 @@ li.breadcrumb-item {
 
 #schedule {
     padding: 80px 40px;
-    margin: 50px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(135, 156, 166, 0.2);
 }
 
 #reviews {
     padding: 80px 40px;
-    margin: 50px 20px;
+    margin: 60px 20px;
 }
 
 #contact {
-    padding: 80px 20px;
-    margin: 50px 20px;
+    background-color: rgba(135, 156, 166, 0.2);
+    margin-top: 50px;
+    padding: 80px 40px;
 }
 /* end sections */
 
@@ -673,8 +671,7 @@ li.breadcrumb-item {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
         background-size: cover;
-        background-repeat:no-repeat;
-        background-position: 200px 0px;
+        background-position: 18% 100%;
         height: 100vh;
         min-height: 100%;
         -webkit-box-pack: center;
@@ -688,28 +685,27 @@ li.breadcrumb-item {
         align-items: center;
         text-align: center;
         position: relative;
-        overflow: hidden;
+        overflow: hidden;  
     } h1, h1.display-3 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
-        margin-top: 50px;
     } h2.lead {
         font-size: 1.5rem;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
     } h2, h2.section-header {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     a.btn.btn-info.btn-lg {
-        font-size: 1rem;
+        font-size: 1.3rem;
     } a.btn.btn-info.btn-lg:hover {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .container-fluid, .container {
         max-width: 720px;
@@ -770,7 +766,7 @@ li.breadcrumb-item {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
         background-size: cover;
-        background-position: 1px 50px;
+        background-position: 10% 100%;
         height: 100vh;
         min-height: 100%;
         -webkit-box-pack: center;
@@ -793,11 +789,9 @@ li.breadcrumb-item {
         text-transform: uppercase;
         /* letter-spacing: 1px; */
         text-shadow: 2px 2px #011826;
-        margin-top: 90px;
-        margin-bottom: 10px;
     } h2.lead {
-        font-size: 1.2rem;
-        margin-bottom: 20px;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
     } a.btn.btn-info.btn-lg {
         font-size: 1rem;
     } a.btn.btn-info.btn-lg:hover {
@@ -850,7 +844,13 @@ li.breadcrumb-item {
         padding-top: 22px;
         background: #69A8A9;
         color: #fafafa;
-    }
+    } .review-card .avatar {
+        width: 100px;
+        margin-top: -60px;
+        overflow: hidden;
+        border: 3px solid #fff;
+        border-radius: 50%;
+    }    
 }
 
 @media only screen and (max-width: 425px) {
@@ -899,138 +899,6 @@ li.breadcrumb-item {
     }
 }
 
-@media only screen and (max-width: 425px) { 
-    ::-moz-selection { 
-    color: #f2f2f2;
-    background: #69a8a9;
-  } 
-    ::selection {
-    color: #f2f2f2;
-    background: #69a8a9;
-} 
-    h1 {
-    color: #011826;
-    text-shadow: 2px 2px #011826;
-    font-size: 2rem;
-} 
-    h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-} 
-    h2.section-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 20px;
-    }
-    h3 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.3rem;
-    } 
-    h3.about-header {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.3rem;
-    } 
-    h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    font-size: 1.2rem;
-    } 
-    hr {
-    width: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-top: 3px solid #69a8a9;
-    }
-    a {
-    color: #011826;
-    text-decoration: none;
-    background-color: transparent;
-    }
-    a:hover {
-    color: #69A8A9;
-    text-decoration: none;
-    }
-    mark {
-    background-color: transparent;
-    text-transform: uppercase;
-    text-shadow: .5px .5px .5px lightslategray;
-    }
-    p {
-    font-family: 'Futura-PT', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    } 
-    #description {
-    padding: 10px 10px;
-    font-size: 14px;
-    } 
-    p.text-muted {
-    font-family: 'Futura-PT', sans-serif;
-    margin: 10px 20px;
-    text-align: center;
-    font-size: 13px;
-    }
-    article {
-    font-family: 'Futura-PT', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    padding: 10px 20px;
-    }
-    #about, #schedule, #reviews {
-        padding: 70px 20px;
-        margin: 50px 20px;
-    }
-    a.cta_button, a.cta_button:active {
-        display: inline-block;
-        padding-left: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 4rem;
-        background: #011826;
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 12px;
-        text-transform: uppercase;
-        transform: rotate(-7deg);
-        color: #fafafa;
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-top: 22px;
-    } .cta_button:hover {
-        cursor: pointer;
-        transform: scale(1.05);
-        background: #69A8A9;
-        color: #fafafa;
-    }
-    .notfound .notfound-404 h1 {
-        font-size: 3rem;
-    }
-}
 
 /* end media queries */
 
