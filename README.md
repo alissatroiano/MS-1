@@ -4,7 +4,7 @@ This responsive, user-friendly website was created for Infinity, a fictional yog
 
 Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs users to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and 'Customer Reviews.'
 
-![responsive](assets/development/responsive0.png)
+![responsive](wireframes//responsive0.png)
 
 ## UX
 
@@ -38,31 +38,31 @@ Customer Reviews were created by the [developer](https://www.github.com/alissatr
 
 In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project.
 
-![Trade Off Table](assets/development/tradeofftable.png)
+![Trade Off Table](wireframes//tradeofftable.png)
 
-![Trade Off Chart](assets/development/tradeoffchart.png)
+![Trade Off Chart](wireframes//tradeoffchart.png)
 
-A full write-up of the strategy planning conducted for this project can also be viewed [here](assets/development/ms1planning.pdf). To only view charts and tables, checkout [this document](assets/development/strategyplane.pdf).
+A full write-up of the strategy planning conducted for this project can also be viewed [here](wireframes//ms1planning.pdf). To only view charts and tables, checkout [this document](wireframes//strategyplane.pdf).
 
 Once the strategy exercises were completed, the following low-fidelity wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
-* [Desktop Wireframe](assets/development/desktopwireframe.png)
+* [Desktop Wireframe](wireframes//desktopwireframe.png)
 
-* [Tablet Wireframe](assets/development/tabletwireframe.png)
+* [Tablet Wireframe](wireframes//tabletwireframe.png)
 
-* [Mobile Wireframe](assets/development/mobilewireframe.png)
+* [Mobile Wireframe](wireframes//mobilewireframe.png)
 
 After starting the project and getting a better feel for the desired outcome, the developer made a second round of more detailed, high-fidelity wireframes.
 
 These wireframes guided the remainder of the development process.
 
-![desktop](assets/development/detailedwireframe1.png)
+![desktop](wireframes//detailedwireframe1.png)
 
-![tablet](assets/development/detailedwireframe3.png)
+![tablet](wireframes//detailedwireframe3.png)
 
-![mobile](assets/development/detailedwireframe2.png)
+![mobile](wireframes//detailedwireframe2.png)
 
-All wireframes were created with [Balsamiq](https://balsamiq.com/) wireframing software and can be viewed entirely in [this document](assets/development/allwireframes.pdf).
+All wireframes were created with [Balsamiq](https://balsamiq.com/) wireframing software and can be viewed entirely in [this document](wireframes//allwireframes.pdf).
 
 ## Features
 
@@ -72,7 +72,7 @@ The about section allows users to learn about yoga and meditation in a fun and i
 
 *You can view the About section [here](https://alissatroiano.github.io/MS-1/#about).*
 
-![about.png](assets/development/about.png)
+![about.png](wireframes//about.png)
 
 * Schedule:
 
@@ -80,7 +80,7 @@ The Schedule section provides site visitors with class information and a place t
 
 *You can view the Schedule [here](https://alissatroiano.github.io/MS-1/#schedule)*
 
-![schedule.png](assets/development/schedule.png)
+![schedule.png](wireframes//schedule.png)
 
 * Customer Reviews:
 
@@ -88,7 +88,7 @@ The user stories section allow users to learn more about Infinity from trustwort
 
 *You can view the Customer Reviews section [here](https://alissatroiano.github.io/MS-1/#reviews).*
 
-![reviews.png](assets/development/reviews.png)
+![reviews.png](wireframes//reviews.png)
 
 * Contact Form:
 
@@ -96,7 +96,7 @@ The contact form allows site visitors to contact the studio by filling out a for
 
 *You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
 
-![contact.png](assets/development/contact.png)
+![contact.png](wireframes//contact.png)
 
 ### Existing Features
 
@@ -126,7 +126,7 @@ The developer selected these fonts because:
 
 The following color scheme was chosen by [the developer](https://www.github.com/alissatroiano).
 
-![Color Palette](assets/development/colorpalette.png)
+![Color Palette](wireframes//colorpalette.png)
 
 The developer chose this color palette after much research and consideration.
 
@@ -134,7 +134,7 @@ The developer chose this color palette after much research and consideration.
 
 * [Toptal.com's article, 'Color in UX'](https://www.toptal.com/designers/ux/color-in-ux) .
 
-![Toptal color pyschology](assets/development/colortheory1.png)
+![Toptal color pyschology](wireframes//colortheory1.png)
 
 * **The dark blue (#081126) in the color palette was chosen because:**
 
@@ -174,7 +174,7 @@ This project makes use of the following languages, frameworks and libraries:
 
 ## Testing
 
-The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](assets/development/Testing.pdf).***
+The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](TESTING.md).***
 
 1. Navigation:
     1. Visited navigation bar in website.
@@ -203,7 +203,7 @@ The following tests have been conducted by the [developer](https://www.github.co
     4. Ran test again to verify all HTML passed tests.
     5. Repeated steps 1-4 after each update.
 
-Please see the enclosed [document](assets/development/testing.pdf) to view the full Testing write-up for this project.
+Please see the enclosed [document](wireframes//testing.pdf) to view the full Testing write-up for this project.
 
 ## Deployment
 
@@ -303,7 +303,7 @@ Code Snippets:
 
 * The syntax for the 'Up Arrow' icon in the footer that takes users to the top of the page was copied from [W3 Schools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_footer&stacked=h).
 
-* The `Navbar Collapse` script was copied from [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
+* The Navbar Collapse script was copied from [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
 
 ### Media
 
