@@ -421,8 +421,10 @@ blockquote {
     text-align: center;
 }
 
-.contact-form {
+.form-control {
     margin: 0 auto;
+    border-color: gray;
+    box-shadow: 1px 1px 6px grey;
 }
 
 .form-group {
@@ -437,9 +439,20 @@ i.fas.fa-envelope-open {
     letter-spacing: 6px;
 }
 
+i.fas.fa-calendar, i.fas.fa-clock {
+    color: #69a8a9;
+    font-size: 1rem;
+}
+
+.fas.fa-calendar:hover, .fas.fa-clock:hover  {
+    color: #011826;
+    font-size: 1rem;
+}
+
 i.fas.fa-map-marker-alt:hover,
 i.fas.fa-phone:hover,
-i.fas.fa-envelope-open:hover {
+i.fas.fa-envelope-open:hover,
+.fas.fa-calendar:hover, .fas.fa-clock:hover  {
     color: #011826;
     font-size: 1rem;
 }
@@ -456,6 +469,7 @@ span.contact {
     width: 80%;
     height: auto;
     margin: 0 auto;
+    border-radius: .25rem;
 }
 
 .form-control.placeholder {
@@ -859,7 +873,7 @@ li.breadcrumb-item {
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
     }
-    form.contact-form {
+    form.needs-validation {
     margin: 0 auto;
     } li.contact-info, #address, #phone, #email-owner {
         display: flex;

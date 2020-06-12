@@ -4,6 +4,8 @@ This responsive, user-friendly website was created for Infinity, a fictional yog
 
 Infinity’s website features an attractive Jumbotron image with a call-to-action button that, when clicked, directs users to the schedule. The schedule provides class details, times and an option to signup. The website also features an informative, 'About' section and 'Customer Reviews.'
 
+![responsive](assets/development/responsive0.png)
+
 ## UX
 
 This website was built for Infinity, a fictional yoga and meditation studio in Manhattan. The goal of the studio is to provide information and attract new & existing members. The target market for Infinty is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
@@ -40,21 +42,27 @@ In order to determine what features were the most important and most viable, the
 
 ![Trade Off Chart](assets/development/tradeoffchart.png)
 
-A full write-up of the strategy planning conducted for this project can also be viewed [here](assets/development/ms1planning.pdf). To only view charts and tables, checkout [this document](strategyplane.pdf).
+A full write-up of the strategy planning conducted for this project can also be viewed [here](assets/development/ms1planning.pdf). To only view charts and tables, checkout [this document](assets/development/strategyplane.pdf).
 
 Once the strategy exercises were completed, the following low-fidelity wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
-* [Desktop Wireframe](assets/development/desktopwireframe.jpeg)
+* [Desktop Wireframe](assets/development/desktopwireframe.png)
 
-* [Tablet Wireframe](assets/development/tabletwireframe.jpg)
+* [Tablet Wireframe](assets/development/tabletwireframe.png)
 
-* [Mobile Wireframe](assets/development/mobilewireframe.jpeg)
+* [Mobile Wireframe](assets/development/mobilewireframe.png)
 
-These wire-frames were created with [Balsamiq](https://balsamiq.com/) and can also be viewed in [this document](assets/development/WireframesDoc.pdf).
+After starting the project and getting a better feel for the desired outcome, the developer made a second round of more detailed, high-fidelity wireframes.
 
-After working on the project for a while, high-fidelity wireframes were created to guide the remainder of the project's development.
+These wireframes guided the remainder of the development process.
 
-The high-fidelity wireframes can be viewed in [this document](assets/development/detailedwireframes.pdf).
+![desktop](assets/development/detailedwireframe1.png)
+
+![tablet](assets/development/detailedwireframe3.png)
+
+![mobile](assets/development/detailedwireframe2.png)
+
+All wireframes were created with [Balsamiq](https://balsamiq.com/) wireframing software and can be viewed entirely in [this document](assets/development/allwireframes.pdf).
 
 ## Features
 
@@ -162,6 +170,8 @@ This project makes use of the following languages, frameworks and libraries:
 
 * [jQuery](https://jquery.com/)
 
+* [Balsamiq](https://balsamiq.com/)
+
 ## Testing
 
 The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](assets/development/Testing.pdf).***
@@ -244,6 +254,10 @@ Written Content:
 * The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
 
 * All other website content pertaining to Infinity Studio is fictional and was written by the [developer](https://www.github.com/alissatroiano).
+
+Strategy and Planning:
+
+* I used [Balsamiq](https://balsamiq.com/) wireframing software to create all project wireframes.
 
 Code Resources:
 
