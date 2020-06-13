@@ -319,8 +319,8 @@ p.schedule-content {
 }
  
 .card {
-    -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-    box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
+    -webkit-box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
+    box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
 }
 /* Schedule Sign Up Button */
 .signUp {
@@ -414,8 +414,8 @@ div.signUp, a.nav-item {
 
 .card.review-card.h-100 {
     background-color: #fff;
-    -webkit-box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
-    box-shadow: rgba(1, 24, 38, 0.16) 0px 2px 5px 0px, rgba(1, 24, 38, 0.12) 0px 2px 10px 0px;
+    -webkit-box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
+    box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
 }
 
 .card-body {
@@ -512,7 +512,7 @@ label {
 
 input#name.form-control,
 input#contact-email.form-control,
-input#comments.form-control
+textarea#comments.form-control
  {
     color: #69a8a9;
 }
