@@ -110,6 +110,7 @@ p {
 p.text-muted {
     font-family: 'Futura-PT', sans-serif;
     margin: 10px 20px;
+    font-size: 14px;
 }
 /* end main page content */
 
@@ -649,9 +650,8 @@ li.breadcrumb-item {
 }
 
 #schedule {
-    padding: 80px 40px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 60px 40px;
     background: rgba(135, 156, 166, 0.2);
 }
 
