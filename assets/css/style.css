@@ -21,6 +21,15 @@ html {
     margin-top: 20px;
 }
 
+body > section {
+    position: relative;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+    overflow: hidden;
+}
+
+
+
  /* Makes text selection the primary color. */
     /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
 ::-moz-selection { /* Code for Firefox */
@@ -32,6 +41,7 @@ html {
     color: #f2f2f2;
     background: #69a8a9;
 }
+
 /* end gloabl styles */
 
 /*-----------------------------------------Titles and Subtitles */
@@ -102,9 +112,10 @@ p {
     text-align: center;
 }
 
-#description {
-    padding: 10px 40px;
-    margin: 10px 30px;
+#about-description, #contact-description, #schedule-description, #reviews-description {
+        text-align: center;
+        margin: 20px 20px;
+        padding: 0 30px;
 }
 
 p.text-muted {
@@ -257,12 +268,16 @@ h2.lead {
 /* end jumbotron */
 
 /*-------------------------------------------- About */
+.container-wrapper-about {
+    padding: 50px 0px;
+}
+
 .about i {
     margin-bottom: 20px;
     line-height: 45px;
 }
 
-article {
+p.article {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
@@ -297,8 +312,9 @@ i.fas.fa-praying-hands.d-sm-block:hover {
 /* end about */
 
 /*-------------------------------------------- Schedule */
-.container-wrapper-schedule{
+.container-wrapper-schedule {
     text-align: center;
+    padding: 40px 0;
 }
 
 p.schedule-content {
@@ -371,6 +387,10 @@ div.signUp, a.nav-item {
 
 
 /*-------------------------------------------- Reviews */
+.container-fluid.reviews-container {
+    padding: 20px 0px;
+}
+
 .review-card .card-top {
     height: 120px;
     overflow: hidden;
@@ -421,6 +441,7 @@ blockquote {
 /*-------------------------------------------- Contact */
 .container-wrapper-contact {
     text-align: center;
+    padding: 40px 0;
 }
 
 .form-control {
@@ -560,13 +581,13 @@ footer {
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #facebook, #instagram, #pinterest, #twitter {
@@ -638,50 +659,22 @@ li.breadcrumb-item {
     line-height: 1em;
 }
 
-.text-md-right {
-    text-align: right !important;
-}
 /* end footer */
 
 /*-------------------------------------------- Sections */
-#about {
-    padding: 80px 40px;
-    margin: 50px 20px;
-}
-
-#schedule {
+#schedule, #contact {
     margin-top: 50px;
     padding: 60px 40px;
     background: rgba(135, 156, 166, 0.2);
 }
 
-#reviews {
+#reviews, #about {
     padding: 80px 40px;
-    margin: 60px 20px;
-}
-
-#contact {
-    background-color: rgba(135, 156, 166, 0.2);
     margin-top: 50px;
-    padding: 80px 40px;
 }
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
-/* Contact */
-
-@media (min-width: 1200px) {
-    .container-fluid, .container {
-        max-width: 1170px; 
-    }
-}
-
-@media (min-width: 1600px) {
-    .container-fluid, .container {
-        max-width: 1300px; 
-    } 
-}
-
 @media only screen and (max-width: 768px) {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
@@ -875,7 +868,7 @@ li.breadcrumb-item {
         font-size: 14px;
     }
     form.needs-validation {
-    margin: 0 auto;
+        margin: 0 auto;
     } li.contact-info, #address, #phone, #email-owner {
         display: flex;
         align-items: flex-start;
@@ -884,41 +877,39 @@ li.breadcrumb-item {
     i.fas.fa-map-marker-alt,
     i.fas.fa-phone,
     i.fas.fa-envelope-open {
-    color: #69a8a9;
-    font-size: 15px;
+        color: #69a8a9;
+        font-size: 15px;
     } 
     i.fas.fa-map-marker-alt:hover,
     i.fas.fa-phone:hover,
     i.fas.fa-envelope-open:hover {
-    color: #011826;
-    font-size: 15px;
+        color: #011826;
+        font-size: 15px;
     }
     .form-group.row {
-    font-family: 'Futura-PT', sans-serif;
-    color: #69a8a9;
-    width: 85%;
-    height: auto;
-    margin: 0 auto;
+        font-family: 'Futura-PT', sans-serif;
+        color: #69a8a9;
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
     }
     .form-control.placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 14px;
+        color: #787d80;
+        font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
     }
     label#name, label#contact-email, label#comments {
-    color: #011826;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 14px;
-    text-align: left;
-    margin: 10px 0;
+        color: #011826;
+        font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 0;
     }
-    #description {
+    #about-description, #contact-description, #schedule-description, #reviews-description {
         padding: 10px 10px;
         margin: 0 auto;
     }
 }
-
-
 /* end media queries */
 
 
