@@ -207,12 +207,13 @@
                 </div>
             </div>
             <div class="row text-center" style="margin-top: 30px;">
+                <div class="card-deck">
                     <div class="col xs-8 col-sm-4">
                         <!--First Card-->
                         <div class="card h-100 text-center" data-aos="fade-up" data-aos-duration="1000"
                             data-aos-delay="100" data-aos-anchor-placement="center-bottom">
                             <div class="mx-auto">
-                                <img src="assets/images/vinyasa.jpg" alt="people taking vinyasa flow class at infinity"
+                                <img src="assets/images/vinyasa.jpg" alt="people taking vinyasa flow class"
                                     class="card-img-top">
                             </div>
                             <!--Card Body-->
@@ -267,7 +268,7 @@
                             data-aos-anchor-placement="center-bottom">
                             <div class="mx-auto">
                                 <img src="assets/images/chakracleansing.jpg"
-                                    alt="people meditating during infinity chakra-cleansing class" class="card-img-top">
+                                    alt="people meditating at Infinity studio" class="card-img-top">
                             </div>
                             <!--Card Body-->
                             <div class="card-body">
@@ -291,6 +292,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 <!--./card-deck-->
             </div>
         </div>
@@ -308,7 +310,7 @@
             <div class="col-12 section-header">
                 <h2 class="section-header">Customer Reviews</h2>
                 <hr>
-                <p id="reviews-description">Want to know what our members have to say about Infinity? Check out these quotes!</p>
+                <p id="reviews-description" style="margin: 40px 10px;">Want to know what our members have to say about Infinity? Check out these quotes!</p>
             </div>
         </div>
         <!--New row for reviews cards-->
@@ -319,7 +321,7 @@
                     data-aos-delay="100" data-aos-duration="1000">
                     <div class="card-top top-color"></div>
                     <div class="avatar mx-auto white">
-                        <img src="assets/images/quotes1.png" alt="closeup of female doing yoga"
+                        <img src="assets/images/quotes1.png" alt="closeup of female yoga member"
                             class="rounded-circle img-fluid">
                     </div>
                     <!--Card Body-->
@@ -341,7 +343,7 @@
                     data-aos-delay="100" data-aos-duration="1000">
                     <div class="card-top top-color"></div>
                     <div class="avatar mx-auto white">
-                        <img src="assets/images/quotes3.png" alt="closeup of young man at infinity"
+                        <img src="assets/images/quotes3.png" alt="headshot of young ma at infinity"
                             class="rounded-circle img-fluid">
                     </div>
                     <!--Card Body-->
@@ -364,7 +366,7 @@
                     data-aos-delay="100" data-aos-duration="1000">
                     <div class="card-top top-color"></div>
                     <div class="avatar mx-auto white">
-                        <img src="assets/images/quotes2.png" alt="headshot of happy female infinity member"
+                        <img src="assets/images/quotes2.png" alt="avatar of female smiling "
                             class="rounded-circle img-fluid">
                     </div>
                     <!--Card Body-->
@@ -382,8 +384,7 @@
             </div>
         </div>
     </div>
-    </div>
-    <!--./reviews-container-->
+<!--./reviews-container-->
 </section>
     
 <!--Contact Section-->
@@ -437,7 +438,7 @@
                     <form class="needs-validation" novalidate>
                         <!--Name-->
                         <div class="form-group row">
-                            <label for="name" id="name">
+                            <label for="name" id="formname">
                                 Name
                             </label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
@@ -452,7 +453,7 @@
                         </div>
                         <!--Email-->
                         <div class="form-group row">
-                            <label for="contact-email" id="contact-email">
+                            <label for="contact-email" class="contact-email">
                                 Email
                             </label>
                             <input class="form-control" id="contact-email" name="contact-email" placeholder="Email"
@@ -468,7 +469,9 @@
                         </div>
                         <!--Comments-->
                         <div class="form-group row">
-                            <label for="comments" id="comments">Comments</label>
+                            <label for="comments">
+                                Comments
+                            </label>
                             <textarea class="form-control" id="comments" placeholder="Comments" rows="5"
                                 required></textarea>
                             <!--Valid feedback will display if user leaves a text comment -->
@@ -494,17 +497,17 @@
             <div class="row text-justify" style="margin-top: 60px;">
                 <div class="col-12">
                     <ul class="nav justify-content-center">
-                        <li id="contact-info">
-                           <i class="fas fa-calendar"></i>
-                                <span class="contact" style="margin-right: 8px;"> Open Monday - Friday</span>
-                           
+                        <li>
+                            <i class="fas fa-calendar"></i>
+                            <span class="contact" style="margin-right: 8px;"> Open Monday - Friday</span>
+                    
                         </li>
-                        <li id="contact-info">
-                                <i class="fas fa-clock"></i>
-                                <span class="contact">11:00am - 9:00pm </span>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span class="contact">11:00am - 9:00pm </span>
                         </li>
                     </ul>
-                    <p style="margin-top: 10px;">Closed most weekends</p>
+                    <p style="margin-top: 15px;">Closed most weekends</p>
                 </div>
             </div>
         </div>
@@ -630,14 +633,6 @@
     <!-- Remove Active State Script -->
         <!-- This script was added to repair an error causing the navbar to remain in the 'active' state by overriding Bootstrap's default CSS -->
             <!-- Copied from Stack Overflow (https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top) -->
-    <script>
-        let selector = 'nav a.nav-link';
-        $(selector).on('click', function () {
-            $(selector).removeClass('active');
-            $(this).addClass('active');
-        });
-    </script>
-
 <script>
     let selector = 'li.nav-item a.nav-link';
     $(selector).on('click', function () {
@@ -645,7 +640,7 @@
         $(this).addClass('active');
     });
 </script>
-    <!--./remove-active-state-script-->
+<!--./remove-active-state-script-->
 
     <!--Navbar Collapse Script -->
     <!-- This script automatically closes the navbar-toggle after a user clicks a nav-link. The navbar remained in the expanded state prior to placing this script. -->

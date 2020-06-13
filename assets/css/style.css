@@ -101,9 +101,7 @@ a:hover {
 }
 
 mark {
-    background-color: transparent;
-    text-transform: uppercase;
-    text-shadow: .5px .5px .5px lightslategray;
+    background-color: rgba(189, 224, 225, 0.17);
 }
 
 p {
@@ -115,7 +113,7 @@ p {
 #about-description, #contact-description, #schedule-description, #reviews-description {
         text-align: center;
         margin: 20px 20px;
-        padding: 0 30px;
+        padding: 0 50px;
 }
 
 p.text-muted {
@@ -269,7 +267,7 @@ h2.lead {
 
 /*-------------------------------------------- About */
 .container-wrapper-about {
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .about i {
@@ -389,6 +387,7 @@ div.signUp, a.nav-item {
 /*-------------------------------------------- Reviews */
 .container-fluid.reviews-container {
     padding: 20px 0px;
+    margin-bottom: 50px;
 }
 
 .review-card .card-top {
@@ -505,7 +504,7 @@ span.contact {
     margin-top: 50px;
 }
 
-label#name, label#contact-email, label#comments {
+label {
     color: #011826;
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
@@ -513,7 +512,10 @@ label#name, label#contact-email, label#comments {
     margin: 10px 0;
 }
 
-input, #name, #contact-email, #comments {
+input#name.form-control,
+input#contact-email.form-control,
+input#comments.form-control
+ {
     color: #69a8a9;
 }
 
@@ -581,13 +583,13 @@ footer {
 footer i.fas.fa-chevron-up {
     font-size: 30px;
     color: #69A8A9;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 footer i.fas.fa-chevron-up:hover {
     font-size: 30px;
     color: #011826;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 #facebook, #instagram, #pinterest, #twitter {
@@ -669,8 +671,8 @@ li.breadcrumb-item {
 }
 
 #reviews, #about {
-    padding: 80px 40px;
     margin-top: 50px;
+    padding: 60px 60px;
 }
 /* end sections */
 
@@ -897,15 +899,13 @@ li.breadcrumb-item {
         color: #787d80;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
-    }
-    label#name, label#contact-email, label#comments {
+    } label {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
         text-align: left;
         margin: 10px 0;
-    }
-    #about-description, #contact-description, #schedule-description, #reviews-description {
+    } #about-description, #contact-description, #schedule-description, #reviews-description {
         padding: 10px 10px;
         margin: 0 auto;
     }
