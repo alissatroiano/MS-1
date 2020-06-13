@@ -86,7 +86,6 @@ The Schedule section provides site visitors with class information and a place t
 
 ![responsive2.png](wireframes//responsive2.png)
 
-
 * Customer Reviews:
 
 The user stories section allow users to learn more about Infinity from trustworthy sources, by reading quotes from existing Infinity members.
