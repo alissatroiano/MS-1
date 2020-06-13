@@ -211,7 +211,7 @@ The following tests have been conducted by the [developer](https://www.github.co
     4. Ran test again to verify all HTML passed tests.
     5. Repeated steps 1-4 after each update.
 
-Please see the enclosed [document](wireframes//testing.pdf) to view the full Testing write-up for this project.
+Please see the enclosed [document](TESTING.md) to view the full Testing write-up for this project.
 
 ## Deployment
 
