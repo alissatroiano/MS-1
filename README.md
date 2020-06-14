@@ -267,6 +267,8 @@ Strategy and Planning:
 
 * I used [Balsamiq](https://balsamiq.com/) wireframing software to create all project wireframes.
 
+* The 'Learn UX Canvas' I used on page 2 of my [MS1 Planning Document](wireframes/ms1planning.pdf) was copied from [Medium's article, 'UX Case Study: A Yoga Festival Microsite'](https://medium.com/@biancaUX/ux-case-study-a-yoga-festival-microsite-9dea6135fd62).
+
 Code Resources:
 
 * The template for the 404 Error page was copied from [Colorlib](https://colorlib.com/wp/free-404-error-page-templates/).
@@ -335,8 +337,6 @@ Code Snippets:
 
 ### Acknowledgements
 
-Project:
-
 * This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
 
 * I received inspiration from [Code Institute's](https://codeinstitute.net).
@@ -352,3 +352,9 @@ Project:
 * I received inspiration from [Mat Rebel](http://www.matrebel.co.uk/).
 
 * I received inspiration about Git commits from [Gist](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
+
+* I received inspiration about target market research from [Prototypr.io's article, 'UI/UX Case study of Gym app'](https://blog.prototypr.io/ui-ux-case-study-of-gym-app-%EF%B8%8F-a71bd5155a89)
+
+* I received inspiration about marketing a yoga studio to millennials by reading [Wellness Living's article, 'How to Market Your Yoga Studio to Millennials'](https://www.wellnessliving.com/blog/yoga-marketing-for-millennials/)
+
+* I received user story inspiration and advice from [GSA Tech Guides](https://tech.gsa.gov/guides/user_story_example/).
