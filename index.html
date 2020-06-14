@@ -34,7 +34,7 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
-            <a class="navbar-brand" href="#"><i class="fas fa-infinity"></i> Infinity</a>
+            <a class="navbar-brand" href="#" aria-label="logo"><i class="fas fa-infinity"></i> Infinity</a>
             <!--This call-to-action button takes users to the contact section when clicked-->
             <!--this design was copied from http://www.matrebel.co.uk/-->
             <a href="#contact" class="cta_button">Sign Up</a>
@@ -45,20 +45,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="#" aria-label="home">Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about" aria-label="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#schedule">Schedule</a>
+                        <a class="nav-link" href="#schedule" aria-label="schedule">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
+                        <a class="nav-link" href="#reviews" aria-label="reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact" aria-label="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +81,7 @@
                         <div class="col-12">
                             <h1 class="display-3">Infinity</h1>
                             <h2 class="lead" style="color:#f2f2f2;">Yoga and Meditation</h2>
-                            <p><a class="btn btn-info btn-lg" href="#schedule" role="button">Schedule &raquo;</a></p>
+                            <p><a class="btn btn-info btn-lg" href="#schedule" role="button" aria-label="Schedule">Schedule &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                                             breath and movement as you improve strength and flexibility.</p>
                                         <div class="signUp">
                                             <!--Copied from (https://codepen.io/vitor-siqueira/pen/xNBExN) -->
-                                            <a class="nav-item" href="#contact">Sign Up
+                                            <a class="nav-item" href="#contact" aria-label="sign up">Sign Up
                                                 <svg width="130" height="65" viewbox="0 0 130 65"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <rect x="0" y="0" fill="none" width="130" height="65" />
@@ -263,7 +263,7 @@
                                             complete relaxation of body, mind and soul as you heal within.</p>
                                         <div class="signUp">
                                             <!--Copied from (https://codepen.io/vitor-siqueira/pen/xNBExN) -->
-                                            <a class="nav-item" href="#contact">Sign Up
+                                            <a class="nav-item" href="#contact" aria-label="sign up">Sign Up
                                                 <svg width="130" height="65" viewbox="0 0 130 65"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <rect x="0" y="0" fill="none" width="130" height="65" />
@@ -293,7 +293,7 @@
                                         </p>
                                         <div class="signUp">
                                             <!--Copied from (https://codepen.io/vitor-siqueira/pen/xNBExN) -->
-                                            <a class="nav-item" href="#contact">Sign Up
+                                            <a class="nav-item" href="#contact" aria-label="sign up">Sign Up
                                                <svg width="130" height="65" viewbox="0 0 130 65"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <rect x="0" y="0" fill="none" width="130" height="65" />
@@ -417,7 +417,7 @@
                             <ul class="nav-list justify-content-center" style="padding: 0 20px; margin-top: 25px;">
                                 <!--Address-->
                                 <li class="contact-info">
-                                    <a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank">
+                                    <a href="https://goo.gl/maps/GCsGgcjKv2tg6coHA" target="_blank" aria-label="address">
                                         <i class="fas fa-map-marker-alt" data-aos="zoom-in" data-aos-delay="100"
                                             data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                                         </i>
@@ -426,7 +426,7 @@
                                 </li>
                                 <!--Phone number-->
                                 <li class="contact-info">
-                                    <a href="https://www.google.com/gmail/about/" target="_blank">
+                                    <a href="https://www.google.com/gmail/about/" target="_blank" aria-label="phone number">
                                         <i class="fas fa-phone" data-aos="zoom-in" data-aos-delay="100"
                                             data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                                         </i>
@@ -435,7 +435,7 @@
                                 </li>
                                 <!--Email-->
                                 <li class="contact-info">
-                                    <a href="https://voice.google.com/about" target="_blank">
+                                    <a href="https://voice.google.com/about" target="_blank" aria-label="email">
                                         <i class="fas fa-envelope-open" data-aos="zoom-in" data-aos-delay="100"
                                             data-aos-duration="1000" data-aos-anchor-placement="center-bottom"></i>
                                     </a>
@@ -453,7 +453,7 @@
                                     <label for="name" id="formname">
                                         Name
                                     </label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-label="name"
                                         required />
                                     <!--Valid feedback text will display if user inputs text -->
                                     <div class="valid-feedback">
@@ -470,7 +470,7 @@
                                         Email
                                     </label>
                                     <input class="form-control" id="contact-email" name="contact-email"
-                                        placeholder="Email" type="email" required />
+                                        placeholder="Email" type="email" aria-label="email" required />
                                     <!--Valid feedback will display if user provides a valid email address -->
                                     <div class="valid-feedback">
                                         Looks good!
@@ -485,8 +485,7 @@
                                     <label for="comments">
                                         Comments
                                     </label>
-                                    <textarea class="form-control" id="comments" placeholder="Comments" rows="5"
-                                        required></textarea>
+                                    <textarea class="form-control" id="comments" placeholder="Comments" rows="5" required></textarea>
                                     <!--Valid feedback will display if user leaves a text comment -->
                                     <div class="valid-feedback">
                                         Looks good!
@@ -499,7 +498,7 @@
                                 <!--Submit Button-->
                                 <div class="form-group row justify-content-center text-center">
                                     <button class="btn btn-info float-right"
-                                        style="margin-top:20px; font-style: italic;" type="submit">
+                                        style="margin-top:20px; font-style: italic;" type="submit" aria-label="submit">
                                         Send
                                     </button>
                                 </div>
@@ -538,7 +537,7 @@
                 <div class="col-12">
                     <!--Fas fa-chevron-up icone takes users to top of page-->
                     <!--Syntax copied from (https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_footer&stacked=h)-->
-                    <a href="#myPage" title="To Top">
+                    <a href="#myPage" title="To Top" aria-label="to top">
                         <i class="fas fa-chevron-up"></i>
                     </a>
                     <!--./fas-fa-chevron-up-->
@@ -553,7 +552,7 @@
                 <div class="col-12">
                     <!-- Branded Logo Goes Here to Promote Brand Awareness-->
                     <p> <i class="fas fa-infinity"></i>
-                        <a class="navbar-brand" style="margin-top: 10px;">Infinity</a>
+                        <a class="navbar-brand" style="margin-top: 10px;" aria-label="logo">Infinity</a>
                     </p>
                     <p>
                         Peace love and <mark>Infinity</mark> since 2001.
@@ -577,16 +576,16 @@
                                 Home
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="#about">About</a>
+                                <a href="#about" aria-label="about">About</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="#schedule">Schedule</a>
+                                <a href="#schedule" aria-label="schedule">Schedule</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="#reviews">Reviews</a>
+                                <a href="#reviews" aria-label="reviews">Reviews</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" aria-label="contact">Contact</a>
                             </li>
                         </ol>
                     </nav>
@@ -600,22 +599,22 @@
                 <div class="col-12">
                     <ul class="nav justify-content-center">
                         <li class="social">
-                            <a class="footer-socials" href="https://www.twitter.com" target="_blank">
+                            <a class="footer-socials" href="https://www.twitter.com" target="_blank" aria-label="twitter">
                                 <i class="fab fa-twitter-square" id="twitter"></i>
                             </a>
                         </li>
                         <li class="social">
-                            <a class="footer-socials" href="https://www.facebook.com" target="_blank">
+                            <a class="footer-socials" href="https://www.facebook.com" target="_blank" aria-label="facebook">
                                 <i class="fab fa-facebook-square" id="facebook"></i>
                             </a>
                         </li>
                         <li class="social">
-                            <a class="footer-socials" href="https://www.instagram.com" target="_blank">
+                            <a class="footer-socials" href="https://www.instagram.com" target="_blank" aria-label="instagram">
                                 <i class="fab fa-instagram-square" id="instagram"></i>
                             </a>
                         </li>
                         <li class="social">
-                            <a class="footer-socials" href="https://www.pinterest.com" target="_blank">
+                            <a class="footer-socials" href="https://www.pinterest.com" target="_blank" aria-label="pinterest">
                                 <i class="fab fa-pinterest" id="pinterest"></i>
                             </a>
                         </li>
