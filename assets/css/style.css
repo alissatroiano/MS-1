@@ -16,10 +16,9 @@ html {
 .col-12.section-header {
     position: relative;
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 20px;
-    padding: 0 50px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 body > section {
@@ -104,7 +103,7 @@ p {
 
 #about-description, #contact-description, #schedule-description, #reviews-description {
         text-align: center;
-        margin: 20px 50px;
+        margin: 30px 50px;
         padding: 0 50px;
 }
 
@@ -271,6 +270,7 @@ p.article {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
+    padding: 10px 0px;
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
@@ -563,6 +563,7 @@ ul.nav-list.justify-content-center {
     display: contents;
     /* padding-top: 60px; */
     list-style: none;
+    /* padding: 10px 10px; */
 }
 
 li.contact-info {margin-top: 15px;}
@@ -687,8 +688,9 @@ li.breadcrumb-item {
 /*-------------------------------------------- Media Queries */
 @media only screen and (min-width: 1440px) {
     #reviews {
-     padding: 100px 20px;
-     margin: 80px 40px;
+     /* margin-top: 60px; */
+     margin: padding;
+     /* padding: 60px 60px; */
     }
     div#reviews-row {
     margin-top: 50px;
@@ -696,28 +698,58 @@ li.breadcrumb-item {
     #reviews-description {
         margin-top: 30px;
     }
+    .col-xs-8.col-sm-4, .col-sm-6, .col-md-6, .col-12.section-header {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 50px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    h1 {
+    color: #011826;
+    text-shadow: 2px 2px #011826;
+    font-size: 3rem;
+    }
+    h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+    h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 2rem;
+    } h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    font-size: 1.5rem;
+    }
+    #about-description, #contact-description, #schedule-description, #reviews-description {
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
-    form.needs-validation {
-    margin-top: 20px;
-}
-ul.nav-list.justify-content-center {
-    margin-top: 60px;
-}
-#contact-description {
-    margin-top: 40px;
+    #contact-description {
+    margin-top: 30px;
     }
     ul.nav.justify-content-center {
         margin-top: 60px;
     } .card.review-card.h-100 {
-        margin-top: 30px;
     }
     #reviews-description {
         margin: 40px 10px;
-    }
-    #reviews {
-        min-height: 100vh;
     }
 }
 
@@ -749,7 +781,7 @@ ul.nav-list.justify-content-center {
         letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
     } h2.lead {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 15px;
         text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
@@ -838,7 +870,7 @@ ul.nav-list.justify-content-center {
         position: relative;
         overflow: hidden;
     } h1.display-3 {
-        font-size: 3.2rem;
+        font-size: 4rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
@@ -846,10 +878,10 @@ ul.nav-list.justify-content-center {
         /* letter-spacing: 1px; */
         text-shadow: 2px 2px #011826;
     } h2.lead {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         margin-bottom: 15px;
     } a.btn.btn-info.btn-lg {
-        font-size: 1rem;
+        font-size: 1.5rem;
     } a.btn.btn-info.btn-lg:hover {
         font-size: 1rem;
     }
@@ -913,7 +945,7 @@ ul.nav-list.justify-content-center {
     span.contact {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
-        font-size: 14px;
+        font-size: 1rem;
     }
     form.needs-validation {
         margin: 0 auto;
@@ -926,7 +958,7 @@ ul.nav-list.justify-content-center {
     i.fas.fa-phone,
     i.fas.fa-envelope-open {
         color: #69a8a9;
-        font-size: 15px;
+        font-size: 1rem;
     } 
     i.fas.fa-map-marker-alt:hover,
     i.fas.fa-phone:hover,
@@ -937,7 +969,7 @@ ul.nav-list.justify-content-center {
     .form-group.row {
         font-family: 'Futura-PT', sans-serif;
         color: #69a8a9;
-        width: 85%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -952,8 +984,13 @@ ul.nav-list.justify-content-center {
         text-align: left;
         margin: 10px 0;
     } #about-description, #contact-description, #schedule-description, #reviews-description {
-        padding: 10px 10px;
-        margin: 0 auto;
+        padding: 10px 0px;
+        margin: 10px 0px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    h2.section-header, h2 {
+        font-size: 1.8rem;
     }
 }
 /* end media queries */
