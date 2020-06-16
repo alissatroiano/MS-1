@@ -554,21 +554,19 @@ button.btn.btn-info.float-right:hover {
     color: #f2f2f2;
 }
 
-li.contact-info,
-#address, #phone, #email-owner {
-    margin: 10px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    text-align: center;
+ul.nav.justify-content-center {
+    margin-top: 60px;
 }
 
-ul.nav.justify-content-center {
-    margin-top: 30px;
+ul.nav-list.justify-content-center {
+    margin: 0 auto;
+    display: contents;
+    /* padding-top: 60px; */
+    list-style: none;
 }
+
+li.contact-info {margin-top: 15px;}
+
 /*----------------------------------- end contact */
 
 /*-------------------------------------------- Footer */
@@ -682,10 +680,9 @@ li.breadcrumb-item {
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
-
-@media only screen and (orientation: portrait) and (min-width: 768px) {
+@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
     form.needs-validation {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 ul.nav-list.justify-content-center {
     margin-top: 60px;
