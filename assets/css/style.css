@@ -16,9 +16,10 @@ html {
 .col-12.section-header {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-top: 20px;
+    padding: 0 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 body > section {
@@ -27,8 +28,6 @@ body > section {
     padding: 6.25rem 0;
     overflow: hidden;
 }
-
-
 
  /* Makes text selection the primary color. */
     /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
@@ -42,9 +41,6 @@ body > section {
     background: #69a8a9;
 }
 
-/* end gloabl styles */
-
-/*-----------------------------------------Titles and Subtitles */
 h1 {
     color: #011826;
     text-shadow: 2px 2px #011826;
@@ -77,9 +73,7 @@ h3, h4, h5, h6 {
     color: #011826;
     font-size: 1.2rem;
 }
-/* end titles and subtitles */
 
-/*----------------------------------------- Main Page Content */
 hr {
     width: 20px;
     margin-top: 40px;
@@ -110,7 +104,7 @@ p {
 
 #about-description, #contact-description, #schedule-description, #reviews-description {
         text-align: center;
-        margin: 20px 20px;
+        margin: 20px 50px;
         padding: 0 50px;
 }
 
@@ -265,7 +259,7 @@ h2.lead {
 
 /*-------------------------------------------- About */
 .container-wrapper-about {
-    padding: 40px 0px;
+    padding: 40px 20px;
 }
 
 .about i {
@@ -277,7 +271,6 @@ p.article {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
-    padding: 10px 20px;
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
@@ -420,10 +413,11 @@ div.signUp, a.nav-item {
 
 .card-body {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1rem;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: auto;
+    /* padding: 1rem; */
+    /* padding-top: 20px; */
 }
 
 blockquote {
@@ -571,6 +565,10 @@ li.contact-info,
             align-items: flex-start;
     text-align: center;
 }
+
+ul.nav.justify-content-center {
+    margin-top: 30px;
+}
 /*----------------------------------- end contact */
 
 /*-------------------------------------------- Footer */
@@ -662,19 +660,49 @@ li.breadcrumb-item {
 /* end footer */
 
 /*-------------------------------------------- Sections */
-#schedule, #contact {
+#schedule {
     margin-top: 50px;
-    padding: 60px 40px;
+    padding: 60px 60px;
     background: rgba(135, 156, 166, 0.2);
+    min-height: 100vh;
+}
+
+#contact {
+    margin-top: 60px;
+    padding: 60px 60px;
+    background: rgba(135, 156, 166, 0.2);
+    min-height: 100vh;
 }
 
 #reviews, #about {
     margin-top: 50px;
     padding: 60px 60px;
+    min-height: 100vh;
 }
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
+
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+    form.needs-validation {
+    margin-top: 40px;
+}
+ul.nav-list.justify-content-center {
+    margin-top: 60px;
+}
+#contact-description {
+    margin-top: 40px;
+    }
+    ul.nav.justify-content-center {
+        margin-top: 60px;
+    } .card.review-card.h-100 {
+        margin-top: 30px;
+    }
+    #reviews-description {
+        margin: 40px 10px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
@@ -715,8 +743,10 @@ li.breadcrumb-item {
     } a.btn.btn-info.btn-lg:hover {
         font-size: 1.3rem;
     }
-    .container-fluid, .container {
-        max-width: 720px;
+    div.container-fluid.text-center {
+        /* max-width: 100vw; */
+        /* padding: 20px 20px; */
+        /* margin: 20px 50px; */
     } 
     a.cta_button, a.cta_button:active {
         display: inline-block;
