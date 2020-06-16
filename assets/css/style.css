@@ -669,7 +669,6 @@ li.breadcrumb-item {
     margin-top: 60px;
     padding: 60px 60px;
     background: rgba(135, 156, 166, 0.2);
-    min-height: 100vh;
 }
 
 #about {
@@ -696,7 +695,6 @@ li.breadcrumb-item {
     }
     #reviews-description {
         margin-top: 30px;
-        margin-bottom: 20px;
     }
 }
 
