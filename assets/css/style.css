@@ -672,14 +672,34 @@ li.breadcrumb-item {
     min-height: 100vh;
 }
 
-#reviews, #about {
+#about {
     margin-top: 50px;
     padding: 60px 60px;
     min-height: 100vh;
 }
+
+#reviews {
+    margin-top: 50px;
+    padding: 60px 60px;
+}
+
 /* end sections */
 
 /*-------------------------------------------- Media Queries */
+@media only screen and (min-width: 1440px) {
+    #reviews {
+     padding: 100px 20px;
+     margin: 80px 40px;
+    }
+    div#reviews-row {
+    margin-top: 50px;
+    }
+    #reviews-description {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
     form.needs-validation {
     margin-top: 20px;
@@ -697,6 +717,9 @@ ul.nav-list.justify-content-center {
     }
     #reviews-description {
         margin: 40px 10px;
+    }
+    #reviews {
+        min-height: 100vh;
     }
 }
 
