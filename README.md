@@ -46,7 +46,7 @@ A full write-up of the strategy planning conducted for this project can also be 
 
 Once the strategy exercises were completed, the following low-fidelity wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
-* [Desktop Wireframe](wireframes//desktopwireframe.png)
+* [Desktop Wireframe](wireframes//desktopwireframe.jpeg)
 
 * [Tablet Wireframe](wireframes//tabletwireframe.png)
 
@@ -182,7 +182,7 @@ This project makes use of the following languages, frameworks and libraries:
 
 ## Testing
 
-The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed. ***A full write-up of the testing process can also be reviewed [here](TESTING.md).***
+The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed.
 
 1. Navigation:
     1. Visited navigation bar in website.
@@ -229,26 +229,34 @@ This project was deployed with [Github Pages](https://pages.github.com/). The [d
 1. Scrolled down to the GitHub Pages section and clicked, "source".
 1. Fired up a browser and went [here](https://alissatroiano.github.io/MS-1/) to ensure deployment was successful.
 
-To run this project remotely:
+### To run this project locally
 
-1. Clone the repository using **git clone** open index.html in your web browser
-1. **cd** project folder
-1. **~/ms-1/setup-repo** then follow the instructions
-1. **git push deploy**
+1. Follow [this link](https://github.com/alissatroiano/MS-1) to the project's GitHub Repository.
+2. In the 'Code' section scroll passed the project's name and description.
+3. Click the green button labeled, 'Clone or download.'
+4. Open Git Bash in your local Integrated Development Environment.
+5. Type the command, `git clone`.
+6. Paste [this URL](https://github.com/alissatroiano/MS-1.git).
 
-To run this project locally, choose one of the following options:
+**Another Option:**
 
-1. **git init**
-1. **git remote add deploy**
-*then push to the server and deploy*
-1. **git add .**
-1. **git commit -m "commit message"**
-1. **git push deploy master**
+1. Follow [this link](https://github.com/alissatroiano/MS-1) to the project's GitHub Repository.
+2. In the 'Code' section scroll passed the project's name and description.
+3. Click the green button labeled, 'Clone or download.'
+4. Click, 'Download Zip'.
+5. Wait for the zip file to extract.
+6. Open the folder.
+7. Open index.html in your web browser
+
+### To run this project remotely
+
+1. Open your local IDE
+2. Type the command `git remote add origin` followed by [this URL](https://github.com/alissatroiano/MS-1).
+3. Run ***git remote -v***
+4. **cd** project folder
 
 You can also:
 
-* Download & unzip the project file, then open index.html in your web browser
-*or*
 * View a live version of this project [here](https://alissatroiano.github.io/MS-1/)
 
 ## Credits
@@ -258,8 +266,6 @@ You can also:
 Written Content:
 
 * The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
-
-* The deployment section of this README file was copied from [Medium](https://medium.com/@francoisromain/vps-deploy-with-git-fea605f1303b)
 
 * All other website content pertaining to Infinity Studio is fictional and was written by the [developer](https://www.github.com/alissatroiano).
 
