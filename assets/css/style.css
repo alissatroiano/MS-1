@@ -5,31 +5,25 @@
 * Browsers: last 4 version
 */
 
+/* Imported Playfair Display for main page and Monteserrat for thhe 404 Error Page */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
-/*-----------------------------------------Global Styles */
-html, body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+body {
     font-size: 16px;
 }
 
-.col-xs-8.col-sm-4, .col-sm-6, .col-md-6,
-.col-12.section-header {
-    position: relative;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 20px;
-}
-
-body > section {
-    position: relative;
-    margin: 0 auto;
-    padding: 6.25rem 0;
-    overflow: hidden;
-}
-
- /* Makes text selection the primary color. */
-    /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
+/*-------------------------------------------- Text Selection */
+/* Makes text selection the primary color. Copied from https://www.w3schools.com/cssref/sel_selection.asp */
 ::-moz-selection { /* Code for Firefox */
     color: #f2f2f2;
     background: #69a8a9;
@@ -39,6 +33,9 @@ body > section {
     color: #f2f2f2;
     background: #69a8a9;
 }
+/* end text selection */
+
+/* ----------------------------------------Special paddings/margins/text */
 
 h1 {
     color: #011826;
@@ -53,16 +50,6 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-}
-
-h3.about-header {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.5rem;
 }
 
 h3, h4, h5, h6 {
@@ -101,23 +88,116 @@ p {
     text-align: center;
 }
 
-#about-description, #contact-description, #schedule-description, #reviews-description {
-        text-align: center;
-        margin: 30px 50px;
-        padding: 0 50px;
+body > section {
+    position: relative;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+    overflow: hidden;
 }
 
+.col-xs-8.col-sm-4, .col-sm-6, .col-md-6,
+.col-12.section-header {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+/* end special paddings/margins/text */
+
+/*--------------------------------------------Section Specific Styles */
+#schedule {
+    margin-top: 50px;
+    padding: 60px 60px;
+    background: rgba(135, 156, 166, 0.2);
+    min-height: 100%;
+}
+
+#contact {
+    margin-top: 60px;
+    padding: 60px 60px;
+    background: rgba(135, 156, 166, 0.2);
+}
+
+#about {
+    margin-top: 50px;
+    padding: 60px 60px;
+}
+
+#reviews {
+    margin-top: 50px;
+    padding: 60px 60px;
+}
+
+#about-description, #contact-description, #schedule-description, #reviews-description {
+    text-align: center;
+    margin: 30px 50px;
+    padding: 0 50px;
+}
+/* end section specific styles */
+
+/*-------------------------------------------- Section Headers */
+h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+/* Smaller Text */
 p.text-muted {
     font-family: 'Futura-PT', sans-serif;
     margin-top: 30px;
     font-size: 1rem;
 }
-/* end main page content */
+/* end smaller text */
 
-/*-------------------------------------------- CTA Button */
+
+/*-------------------------------------------- Header */
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem !important;
+    line-height: 1.5;
+}
+
+    /* These navbar styles were copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
+    color:#69a8a9;
+    text-decoration: overline;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#69a8a9;
+}
+
+i.fas.fa-infinity {
+    color: #69a8a9;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #011826;
+}
+
+i.fas.fa-infinity:hover {
+    color: #011826;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #69a8a9;
+}
+
+a.navbar-brand {
+    font-family: 'Futura-PT', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
+}
+
+/* CTA Button copied from (http://www.matrebel.co.uk/) */
 a.cta_button, a.cta_button:active {
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
     right: 5rem;
     background: #011826;
     width: 5rem;
@@ -149,49 +229,11 @@ a.cta_button, a.cta_button:active {
     background: #69A8A9;
     color: #fafafa;
 }
-/*  end cta button */
-
-/*-------------------------------------------- Navbar */
-.navbar {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem !important;
-    line-height: 1.5;
-}
-
-    /* navbar styles copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
-    color:#69a8a9;
-    text-decoration: overline;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color:#69a8a9;
-}
-
-i.fas.fa-infinity {
-    color: #69a8a9;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px #011826;
-}
-
-i.fas.fa-infinity:hover {
-    color: #011826;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px #69a8a9;
-}
-
-a.navbar-brand {
-    font-family: 'Futura-PT', sans-serif;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
-}
-/* end navbar */
+/* end cta button*/
+/* end header */
 
 /*-------------------------------------------- Jumbotron */
-    /* jumbotron-container syntax copied from Code Institute's Whiskey Drop project */
+    /* jumbotron-container syntax copied from Code Institute's Project, Bootstrapping Your Next Big Idea (https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) */
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
     background-size: cover;
@@ -244,7 +286,8 @@ h1.display-3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 2px 2px #011826;
-    font-size: 5rem;
+    font-size: 5.5rem;
+    margin-bottom: 10px;
 }
 
 h2.lead {
@@ -315,8 +358,9 @@ p.schedule-content {
     -webkit-box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
 }
-/* Schedule Sign Up Button */
-.signUp {
+
+/* Animated Sign Up Button Styles copied from Codepen (https://codepen.io/b3taf1sh/full/xxwQJGX)  */
+.signUp { 
   width: 130px;
   height: 65px;
   margin: 0 auto;
@@ -381,13 +425,13 @@ div.signUp, a.nav-item {
 }
 /* end schedule */
 
-
 /*-------------------------------------------- Reviews */
 .container-fluid.reviews-container {
     padding: 20px 0px;
     margin-bottom: 50px;
 }
 
+/* Review Card-Top color styles copied from MDBootstrap-Testimonials v.1 (https://mdbootstrap.com/docs/jquery/sections/testimonials/) */
 .review-card .card-top {
     height: 120px;
     overflow: hidden;
@@ -423,8 +467,8 @@ div.signUp, a.nav-item {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: auto;
-    /* padding: 1rem; */
-    /* padding-top: 20px; */
+    padding: 1rem;
+    padding-top: 20px;
 }
 
 blockquote {
@@ -562,7 +606,7 @@ button.btn.btn-info.float-right:hover {
 }
 
 ul.nav.justify-content-center {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 ul.nav-list.justify-content-center {
@@ -573,9 +617,8 @@ ul.nav-list.justify-content-center {
 
 li.contact-info {
     margin: 8px 0;
-    }
-
-/*----------------------------------- end contact */
+}
+/* end contact */
 
 /*-------------------------------------------- Footer */
 footer {
@@ -662,335 +705,7 @@ li.breadcrumb-item {
     display: block;
     line-height: 1em;
 }
-
 /* end footer */
-
-/*-------------------------------------------- Sections */
-#schedule {
-    margin-top: 50px;
-    padding: 60px 60px;
-    background: rgba(135, 156, 166, 0.2);
-    min-height: 100%;
-}
-
-#contact {
-    margin-top: 60px;
-    padding: 60px 60px;
-    background: rgba(135, 156, 166, 0.2);
-}
-
-#about {
-    margin-top: 50px;
-    padding: 60px 60px;
-}
-
-#reviews {
-    margin-top: 50px;
-    padding: 60px 60px;
-}
-/* end sections */
-
-/* Media Queries */
-@media only screen and (min-width: 1440px) {
-    #reviews {
-        margin-top: 60px;
-    }
-    div#reviews-row {
-        margin-top: 50px;
-    }
-    #reviews-description {
-        margin-top: 30px;
-    }
-    .col-xs-8.col-sm-4, .col-sm-6, .col-md-6, .col-12.section-header {
-        position: relative;
-        width: 100%;
-        margin-top: 20px;
-        padding: 0 50px;
-    }
-    p {
-        font-size: 1.2rem;
-    }
-    h1 {
-        color: #011826;
-        text-shadow: 2px 2px #011826;
-        font-size: 3rem;
-    }
-    h2 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2.5rem;
-        font-style: italic;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    h3.about-header {
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-        text-align: center;
-        color: #011826;
-        margin-bottom: 30px;
-        margin-top: 40px;
-        font-size: 2rem;
-    } h3, h4, h5, h6 {
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-        text-align: center;
-        color: #011826;
-        font-size: 1.5rem;
-    }
-    #about-description, #contact-description, #schedule-description, #reviews-description {
-        font-size: 1.2rem;
-    }
-}
-
-@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
-    #contact-description {
-        margin-top: 30px;
-    }
-    ul.nav.justify-content-center {
-        margin-top: 60px;
-    } 
-    #reviews-description {
-        margin: 40px 10px;
-    } #about, #schedule {
-        min-height: 100vh;
-    }
-}
-
-/*-------------------------------------------- Media Queries */
-@media only screen and (max-width: 768px) {
-    .jumbotron-container {
-        background-image: url('../images/infinityphoto.jpg');
-        background-size: cover;
-        height: 100vh;
-        min-height: 100%;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        overflow: hidden;  
-    } h1, h1.display-3 {
-        font-size: 4.5rem;
-        font-family: 'Futura-PT', sans-serif;
-        color: #f2f2f2;
-        font-weight: 200;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-shadow: 2px 2px #011826;
-    } h2.lead {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-        text-shadow: 1px 2px #011826;
-        letter-spacing: .5px;
-    } h2, h2.section-header {
-        font-size: 1.8rem;
-    }
-    a.btn.btn-info.btn-lg {
-        font-size: 1.3rem;
-    } a.btn.btn-info.btn-lg:hover {
-        font-size: 1.3rem;
-    }
-    .container-fluid, .container {
-        max-width: 720px;
-    } 
-    a.cta_button, a.cta_button:active {
-       display: inline-block;
-        padding-left: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 5rem;
-        background: #011826;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 1rem;
-        text-transform: uppercase;
-        transform: rotate(-7deg);
-        color: #fafafa;
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-top: 27px;
-    } .cta_button:hover {
-        display: inline-block;
-        padding-left: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 5rem;
-        background: #011826;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 1rem;
-        text-transform: uppercase;
-        transform: rotate(-7deg);
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-top: 27px;
-        background: #69A8A9;
-        color: #fafafa;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .jumbotron-container {
-        background-image: url('../images/infinityphoto.jpg');
-        background-size: cover;
-        background-position: 10% 100%;
-        height: 100vh;
-        min-height: 100%;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-    } h1.display-3 {
-        font-size: 3.2rem;
-        font-family: 'Futura-PT', sans-serif;
-        color: #f2f2f2;
-        font-weight: 200;
-        text-transform: uppercase;
-        text-shadow: 2px 2px #011826;
-    } h2.lead {
-        font-size: 1.1rem;
-        margin-bottom: 15px;
-    } a.btn.btn-info.btn-lg {
-        font-size: 1rem;
-    } a.btn.btn-info.btn-lg:hover {
-        font-size: 1rem;
-    }
-    a.cta_button, a.cta_button:active {
-        display: inline-block;
-        padding-left: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 6rem;
-        background: #011826;
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 12px;
-        text-transform: uppercase;
-        transform: rotate(-7deg);
-        color: #fafafa;
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-top: 22px;
-    } .cta_button:hover {
-        display: inline-block;
-        padding-left: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 6rem;
-        background: #011826;
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: 12px;
-        text-transform: uppercase;
-        transform: rotate(-7deg);
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-top: 22px;
-        background: #69A8A9;
-        color: #fafafa;
-    } .review-card .avatar {
-        width: 100px;
-        margin-top: -60px;
-        overflow: hidden;
-        border: 3px solid #fff;
-        border-radius: 50%;
-    }    
-}
-
-@media only screen and (max-width: 425px) {
-    span.contact {
-        color: #011826;
-        font-family: "Futura-PT", sans-serif;
-        font-size: 14px;
-    }
-    form.needs-validation {
-        margin: 0 auto;
-    } li.contact-info, #address, #phone, #email-owner {
-        display: flex;
-        align-items: flex-start;
-        margin: 8px 0;
-    }
-    i.fas.fa-map-marker-alt,
-    i.fas.fa-phone,
-    i.fas.fa-envelope-open {
-        color: #69a8a9;
-        font-size: 15px;
-    } 
-    i.fas.fa-map-marker-alt:hover,
-    i.fas.fa-phone:hover,
-    i.fas.fa-envelope-open:hover {
-        color: #011826;
-        font-size: 15px;
-    }
-    .form-group.row {
-        font-family: 'Futura-PT', sans-serif;
-        color: #69a8a9;
-        width: 85%;
-        height: auto;
-        margin: 0 auto;
-    }
-    .form-control.placeholder {
-        color: #787d80;
-        font-family: "Futura-PT", sans-serif;
-        font-size: 14px;
-    }
-    label#name, label#contact-email, label#comments {
-        color: #011826;
-        font-family: "Futura-PT", sans-serif;
-        font-size: 14px;
-        text-align: left;
-        margin: 10px 0;
-    }
-    #about-description, #contact-description, #schedule-description, #reviews-description {
-        padding: 10px 10px;
-        margin: 0 auto;
-    }
-}
-/* end media queries */
-
 
 /*--------------------------------------------  404 Error Page (https://colorlib.com) */
 * {
@@ -1196,4 +911,321 @@ li.breadcrumb-item {
       color: #081108;
     }
   /* end 404 error styles */
-  
+
+
+/*-------------------------------------------- Media Queries */
+@media only screen and (min-width: 1440px) {
+    #reviews {
+        margin-top: 60px;
+    }
+    div#reviews-row {
+        margin-top: 50px;
+    }
+    #reviews-description {
+        margin-top: 30px;
+    }
+    .col-xs-8.col-sm-4, .col-sm-6, .col-md-6, .col-12.section-header {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 50px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    h1 {
+        color: #011826;
+        text-shadow: 2px 2px #011826;
+        font-size: 3rem;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3.about-header {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        color: #011826;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 2rem;
+    } h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        color: #011826;
+        font-size: 1.5rem;
+    }
+    #about-description, #contact-description, #schedule-description, #reviews-description {
+        font-size: 1.2rem;
+    }
+    ul.nav.justify-content-center {
+        margin-top: 60px;
+    }
+    h1.display-3 {
+        font-size: 6.5rem;
+    }
+    h2.lead {
+        font-size: 2rem;
+    }
+    a.btn.btn-info.btn-lg, .btn-group-lg>.btn, .btn-lg {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+    #contact-description {
+        margin-top: 30px;
+    }
+    ul.nav.justify-content-center {
+        margin-top: 60px;
+    } 
+    #reviews-description {
+        margin: 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron-container {
+        background-image: url('../images/infinityphoto.jpg');
+        background-size: cover;
+        height: 100vh;
+        min-height: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;  
+    } h1, h1.display-3 {
+        font-size: 5rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px #011826;
+    } h2.lead {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        text-shadow: 1px 2px #011826;
+        letter-spacing: .5px;
+    } h2, h2.section-header {
+        font-size: 1.8rem;
+    }
+    a.btn.btn-info.btn-lg {
+        font-size: 1.3rem;
+    } a.btn.btn-info.btn-lg:hover {
+        font-size: 1.3rem;
+    }
+    .container-fluid, .container {
+        max-width: 720px;
+    } 
+    a.cta_button, a.cta_button:active {
+       display: inline-block;
+       padding-left: .5rem;
+       position: absolute;
+       top: 2rem;
+       right: 5rem;
+       background: #011826;
+       width: 5.5rem;
+       height: 5.5rem;
+       border-radius: 50%;
+       font-family: 'Futura-PT', sans-serif;
+       font-size: 1.2rem;
+       text-transform: uppercase;
+       transform: rotate(-7deg);
+       color: #fafafa;
+       margin: 0 auto;
+       border: none;
+       outline: none;
+       animation: fadein 2.5s ease-in;
+       vertical-align: middle;
+       text-align: center;
+       margin-bottom: 2rem;
+       padding-top: 30px;
+    } .cta_button:hover {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 5rem;
+        background: #011826;
+        width: 5.5rem;
+        height: 5.5rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: -3.8rem;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 30px;
+        background: #69A8A9;
+        color: #fafafa;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .jumbotron-container {
+        background-image: url('../images/infinityphoto.jpg');
+        background-size: cover;
+        background-position: 10% 100%;
+        height: 100vh;
+        min-height: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    } h1.display-3 {
+        font-size: 4.25rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        text-shadow: 2px 2px #011826;
+     } h2.lead {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    } a.btn.btn-info.btn-lg {
+        font-size: 1rem;
+    } a.btn.btn-info.btn-lg:hover {
+        font-size: 1rem;
+    }
+    a.cta_button, a.cta_button:active {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4.8rem;
+        background: #011826;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        color: #fafafa;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 22px;
+    } .cta_button:hover {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 4.8rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 22px;
+    } .review-card .avatar {
+        width: 100px;
+        margin-top: -60px;
+        overflow: hidden;
+        border: 3px solid #fff;
+        border-radius: 50%;
+    }    
+}
+
+@media only screen and (max-width: 425px) {
+    span.contact {
+        color: #011826;
+        font-family: "Futura-PT", sans-serif;
+    }
+    form.needs-validation {
+        margin: 0 auto;
+        width: 100%;
+    }
+    i.fas.fa-map-marker-alt,
+    i.fas.fa-phone,
+    i.fas.fa-envelope-open {
+        color: #69a8a9;
+        font-size: 15px;
+    } 
+    i.fas.fa-map-marker-alt:hover,
+    i.fas.fa-phone:hover,
+    i.fas.fa-envelope-open:hover {
+        color: #011826;
+        font-size: 15px;
+    }
+    .form-group.row {
+        font-family: 'Futura-PT', sans-serif;
+        color: #69a8a9;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .form-control.placeholder {
+        color: #787d80;
+        font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
+    }
+    label#name, label#contact-email, label#comments {
+        color: #011826;
+        font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 0;
+    }
+    #about-description, #contact-description, #schedule-description, #reviews-description {
+        padding: 10px 10px;
+        margin: 0 auto;
+    } 
+    h2.section-header {
+        font-size: 1.7rem;
+    }
+    #about, #schedule, #contact, #reviews {
+        margin-top: 50px;
+        padding: 60px 20px;
+    }
+    h1.display-3 {
+        font-size: 4rem;
+    }
+    li#hours {
+        margin-top: 10px;
+    }
+}
+    
+
+/* end media queries */
