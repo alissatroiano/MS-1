@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Global Styles */
-html {
+html, body {
     font-size: 16px;
 }
 
@@ -109,8 +109,8 @@ p {
 
 p.text-muted {
     font-family: 'Futura-PT', sans-serif;
-    margin: 10px 20px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 1rem;
 }
 /* end main page content */
 
@@ -372,6 +372,13 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
+
+#class1, #class2, #class3 {
+    width: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 3px solid #69a8a9;
+}
 /* end schedule */
 
 
@@ -561,12 +568,12 @@ ul.nav.justify-content-center {
 ul.nav-list.justify-content-center {
     margin: 0 auto;
     display: contents;
-    /* padding-top: 60px; */
     list-style: none;
-    /* padding: 10px 10px; */
 }
 
-li.contact-info {margin-top: 15px;}
+li.contact-info {
+    margin: 8px 0;
+    }
 
 /*----------------------------------- end contact */
 
@@ -663,7 +670,7 @@ li.breadcrumb-item {
     margin-top: 50px;
     padding: 60px 60px;
     background: rgba(135, 156, 166, 0.2);
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 #contact {
@@ -675,65 +682,61 @@ li.breadcrumb-item {
 #about {
     margin-top: 50px;
     padding: 60px 60px;
-    min-height: 100vh;
 }
 
 #reviews {
     margin-top: 50px;
     padding: 60px 60px;
 }
-
 /* end sections */
 
-/*-------------------------------------------- Media Queries */
+/* Media Queries */
 @media only screen and (min-width: 1440px) {
     #reviews {
-     /* margin-top: 60px; */
-     margin: padding;
-     /* padding: 60px 60px; */
+        margin-top: 60px;
     }
     div#reviews-row {
-    margin-top: 50px;
+        margin-top: 50px;
     }
     #reviews-description {
         margin-top: 30px;
     }
     .col-xs-8.col-sm-4, .col-sm-6, .col-md-6, .col-12.section-header {
-    position: relative;
-    width: 100%;
-    margin-top: 20px;
-    padding: 0 50px;
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 50px;
     }
     p {
         font-size: 1.2rem;
     }
     h1 {
-    color: #011826;
-    text-shadow: 2px 2px #011826;
-    font-size: 3rem;
+        color: #011826;
+        text-shadow: 2px 2px #011826;
+        font-size: 3rem;
     }
     h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     h3.about-header {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        color: #011826;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 2rem;
     } h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    font-size: 1.5rem;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        color: #011826;
+        font-size: 1.5rem;
     }
     #about-description, #contact-description, #schedule-description, #reviews-description {
         font-size: 1.2rem;
@@ -742,7 +745,7 @@ li.breadcrumb-item {
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
     #contact-description {
-    margin-top: 30px;
+        margin-top: 30px;
     }
     ul.nav.justify-content-center {
         margin-top: 60px;
@@ -750,14 +753,16 @@ li.breadcrumb-item {
     }
     #reviews-description {
         margin: 40px 10px;
+    } #about, #schedule {
+        min-height: 100vh;
     }
 }
 
+/*-------------------------------------------- Media Queries */
 @media only screen and (max-width: 768px) {
     .jumbotron-container {
         background-image: url('../images/infinityphoto.jpg');
         background-size: cover;
-        background-position: 18% 100%;
         height: 100vh;
         min-height: 100%;
         -webkit-box-pack: center;
@@ -781,7 +786,7 @@ li.breadcrumb-item {
         letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
     } h2.lead {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-bottom: 15px;
         text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
@@ -793,23 +798,21 @@ li.breadcrumb-item {
     } a.btn.btn-info.btn-lg:hover {
         font-size: 1.3rem;
     }
-    div.container-fluid.text-center {
-        /* max-width: 100vw; */
-        /* padding: 20px 20px; */
-        /* margin: 20px 50px; */
+    .container-fluid, .container {
+        max-width: 720px;
     } 
     a.cta_button, a.cta_button:active {
-        display: inline-block;
+       display: inline-block;
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4rem;
+        right: 5rem;
         background: #011826;
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50%;
         font-family: 'Futura-PT', sans-serif;
-        font-size: 12px;
+        font-size: 1rem;
         text-transform: uppercase;
         transform: rotate(-7deg);
         color: #fafafa;
@@ -820,20 +823,19 @@ li.breadcrumb-item {
         vertical-align: middle;
         text-align: center;
         margin-bottom: 2rem;
-        padding-top: 25px;
-        font-size: 14px;
+        padding-top: 27px;
     } .cta_button:hover {
         display: inline-block;
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4rem;
+        right: 5rem;
         background: #011826;
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50%;
         font-family: 'Futura-PT', sans-serif;
-        font-size: 12px;
+        font-size: 1rem;
         text-transform: uppercase;
         transform: rotate(-7deg);
         margin: 0 auto;
@@ -843,8 +845,7 @@ li.breadcrumb-item {
         vertical-align: middle;
         text-align: center;
         margin-bottom: 2rem;
-        padding-top: 25px;
-        font-size: 14px;
+        padding-top: 27px;
         background: #69A8A9;
         color: #fafafa;
     }
@@ -870,18 +871,17 @@ li.breadcrumb-item {
         position: relative;
         overflow: hidden;
     } h1.display-3 {
-        font-size: 4rem;
+        font-size: 3.2rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
         text-transform: uppercase;
-        /* letter-spacing: 1px; */
         text-shadow: 2px 2px #011826;
     } h2.lead {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin-bottom: 15px;
     } a.btn.btn-info.btn-lg {
-        font-size: 1.5rem;
+        font-size: 1rem;
     } a.btn.btn-info.btn-lg:hover {
         font-size: 1rem;
     }
@@ -890,7 +890,7 @@ li.breadcrumb-item {
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4rem;
+        right: 6rem;
         background: #011826;
         width: 4rem;
         height: 4rem;
@@ -913,7 +913,7 @@ li.breadcrumb-item {
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4rem;
+        right: 6rem;
         background: #011826;
         width: 4rem;
         height: 4rem;
@@ -945,7 +945,7 @@ li.breadcrumb-item {
     span.contact {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
-        font-size: 1rem;
+        font-size: 14px;
     }
     form.needs-validation {
         margin: 0 auto;
@@ -958,7 +958,7 @@ li.breadcrumb-item {
     i.fas.fa-phone,
     i.fas.fa-envelope-open {
         color: #69a8a9;
-        font-size: 1rem;
+        font-size: 15px;
     } 
     i.fas.fa-map-marker-alt:hover,
     i.fas.fa-phone:hover,
@@ -969,7 +969,7 @@ li.breadcrumb-item {
     .form-group.row {
         font-family: 'Futura-PT', sans-serif;
         color: #69a8a9;
-        width: 100%;
+        width: 85%;
         height: auto;
         margin: 0 auto;
     }
@@ -977,20 +977,17 @@ li.breadcrumb-item {
         color: #787d80;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
-    } label {
+    }
+    label#name, label#contact-email, label#comments {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
         text-align: left;
         margin: 10px 0;
-    } #about-description, #contact-description, #schedule-description, #reviews-description {
-        padding: 10px 0px;
-        margin: 10px 0px;
-        text-align: center;
-        font-size: 1rem;
     }
-    h2.section-header, h2 {
-        font-size: 1.8rem;
+    #about-description, #contact-description, #schedule-description, #reviews-description {
+        padding: 10px 10px;
+        margin: 0 auto;
     }
 }
 /* end media queries */
