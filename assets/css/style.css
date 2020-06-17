@@ -57,12 +57,12 @@ h3, h4, h5, h6 {
     font-style: italic;
     text-align: center;
     color: #011826;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 hr {
     width: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-top: 3px solid #69a8a9;
 }
@@ -88,6 +88,12 @@ p {
     text-align: center;
 }
 
+p.text-muted {
+    font-family: 'Futura-PT', sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
 body > section {
     position: relative;
     margin: 0 auto;
@@ -103,9 +109,7 @@ body > section {
     padding-right: 15px;
     margin-top: 20px;
 }
-/* end special paddings/margins/text */
 
-/*--------------------------------------------Section Specific Styles */
 #schedule {
     margin-top: 50px;
     padding: 60px 60px;
@@ -134,27 +138,7 @@ body > section {
     margin: 30px 50px;
     padding: 0 50px;
 }
-/* end section specific styles */
-
-/*-------------------------------------------- Section Headers */
-h3.about-header {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    color: #011826;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 1.5rem;
-}
-
-/* Smaller Text */
-p.text-muted {
-    font-family: 'Futura-PT', sans-serif;
-    margin-top: 30px;
-    font-size: 1rem;
-}
-/* end smaller text */
-
+/* end special paddings/margins/text */
 
 /*-------------------------------------------- Header */
 .navbar {
@@ -163,7 +147,7 @@ p.text-muted {
     line-height: 1.5;
 }
 
-    /* These navbar styles were copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
+/* These navbar styles were copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
     color:#69a8a9;
     text-decoration: overline;
@@ -194,7 +178,7 @@ a.navbar-brand {
     text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
 }
 
-/* CTA Button copied from (http://www.matrebel.co.uk/) */
+    /* CTA Button copied from (http://www.matrebel.co.uk/) */
 a.cta_button, a.cta_button:active {
     position: absolute;
     top: 1.5rem;
@@ -229,11 +213,11 @@ a.cta_button, a.cta_button:active {
     background: #69A8A9;
     color: #fafafa;
 }
-/* end cta button*/
+    /* end cta button*/
 /* end header */
 
 /*-------------------------------------------- Jumbotron */
-    /* jumbotron-container syntax copied from Code Institute's Project, Bootstrapping Your Next Big Idea (https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) */
+    /* Jumbotron-container and overlay styles copied from Code Institute's Project, Bootstrapping Your Next Big Idea (https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) */
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
     background-size: cover;
@@ -419,8 +403,8 @@ div.signUp, a.nav-item {
 
 #class1, #class2, #class3 {
     width: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-top: 3px solid #69a8a9;
 }
 /* end schedule */
@@ -483,17 +467,13 @@ blockquote {
 /*-------------------------------------------- Contact */
 .container-wrapper-contact {
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
 .form-control {
     margin: 0 auto;
     border-color: gray;
-    box-shadow: 1px 1px 6px grey;
-}
-
-.form-group {
-    color: #69a8a9;
+    box-shadow: 1px 1px 6px #011826;
 }
 
 i.fas.fa-map-marker-alt,
@@ -538,7 +518,7 @@ span.contact {
 }
 
 .form-control.placeholder {
-    color: #787d80;
+    color: #859CA6;
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
 }
@@ -560,36 +540,6 @@ input#contact-email.form-control,
 textarea#comments.form-control
  {
     color: #69a8a9;
-}
-
-.form-control::-webkit-input-placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-}
-
-.form-control::-moz-placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-}
-
-.form-control:-ms-input-placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-}
-
-.form-control::-ms-input-placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
-}
-
-.form-control::placeholder {
-    color: #787d80;
-    font-family: "Futura-PT", sans-serif;
-    font-size: 1rem;
 }
 
 button.btn.btn-info.float-right {
@@ -916,7 +866,7 @@ li.breadcrumb-item {
 /*-------------------------------------------- Media Queries */
 @media only screen and (min-width: 1440px) {
     #reviews {
-        margin-top: 60px;
+        padding: 60px 60px;
     }
     div#reviews-row {
         margin-top: 50px;
@@ -939,26 +889,14 @@ li.breadcrumb-item {
         font-size: 3rem;
     }
     h2 {
-        font-family: 'Playfair Display', serif;
         font-size: 2.5rem;
-        font-style: italic;
-        text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
     }
     h3.about-header {
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-        text-align: center;
-        color: #011826;
-        margin-bottom: 30px;
-        margin-top: 40px;
         font-size: 2rem;
-    } h3, h4, h5, h6 {
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-        text-align: center;
-        color: #011826;
+    }
+    h3, h4, h5, h6, .card-title.mt-1 {
         font-size: 1.5rem;
     }
     #about-description, #contact-description, #schedule-description, #reviews-description {
@@ -976,6 +914,9 @@ li.breadcrumb-item {
     a.btn.btn-info.btn-lg, .btn-group-lg>.btn, .btn-lg {
         font-size: 2rem;
     }
+    .form-group.row {
+        width: 60%;
+    }
 }
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
@@ -991,35 +932,11 @@ li.breadcrumb-item {
 }
 
 @media only screen and (max-width: 768px) {
-    .jumbotron-container {
-        background-image: url('../images/infinityphoto.jpg');
-        background-size: cover;
-        height: 100vh;
-        min-height: 100%;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        overflow: hidden;  
-    } h1, h1.display-3 {
+    h1, h1.display-3 {
         font-size: 5rem;
-        font-family: 'Futura-PT', sans-serif;
-        color: #f2f2f2;
-        font-weight: 200;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-shadow: 2px 2px #011826;
     } h2.lead {
         font-size: 1.8rem;
         margin-bottom: 15px;
-        text-shadow: 1px 2px #011826;
         letter-spacing: .5px;
     } h2, h2.section-header {
         font-size: 1.8rem;
@@ -1033,52 +950,29 @@ li.breadcrumb-item {
         max-width: 720px;
     } 
     a.cta_button, a.cta_button:active {
-       display: inline-block;
        padding-left: .5rem;
-       position: absolute;
        top: 2rem;
        right: 5rem;
-       background: #011826;
        width: 5.5rem;
        height: 5.5rem;
        border-radius: 50%;
-       font-family: 'Futura-PT', sans-serif;
        font-size: 1.2rem;
-       text-transform: uppercase;
-       transform: rotate(-7deg);
-       color: #fafafa;
-       margin: 0 auto;
-       border: none;
-       outline: none;
-       animation: fadein 2.5s ease-in;
-       vertical-align: middle;
-       text-align: center;
        margin-bottom: 2rem;
        padding-top: 30px;
     } .cta_button:hover {
-        display: inline-block;
         padding-left: .5rem;
-        position: absolute;
         top: 2rem;
         right: 5rem;
         background: #011826;
         width: 5.5rem;
         height: 5.5rem;
-        border-radius: 50%;
-        font-family: 'Futura-PT', sans-serif;
-        font-size: -3.8rem;
-        text-transform: uppercase;
+        font-size: 1.2rem;
         transform: rotate(-7deg);
-        margin: 0 auto;
-        border: none;
-        outline: none;
-        animation: fadein 2.5s ease-in;
-        vertical-align: middle;
-        text-align: center;
         margin-bottom: 2rem;
         padding-top: 30px;
-        background: #69A8A9;
-        color: #fafafa;
+    }
+    .form-group.row {
+        width: 70%;
     }
 }
 
@@ -1217,15 +1111,13 @@ li.breadcrumb-item {
     }
     #about, #schedule, #contact, #reviews {
         margin-top: 50px;
-        padding: 60px 20px;
+        padding: 60px 30px;
     }
     h1.display-3 {
         font-size: 4rem;
     }
-    li#hours {
+    li#hours, li#address {
         margin-top: 10px;
     }
 }
-    
-
 /* end media queries */
