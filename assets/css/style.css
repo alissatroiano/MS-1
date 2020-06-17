@@ -178,14 +178,14 @@ a.navbar-brand {
     text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
 }
 
-    /* CTA Button copied from (http://www.matrebel.co.uk/) */
+/* CTA Button copied from (http://www.matrebel.co.uk/) */
 a.cta_button, a.cta_button:active {
     position: absolute;
     top: 1.5rem;
-    right: 5rem;
+    right: 6.5rem;
     background: #011826;
-    width: 5rem;
-    height: 5rem;
+    width: 5.2rem;
+    height: 5.2rem;
     border-radius: 50%;
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
@@ -200,9 +200,10 @@ a.cta_button, a.cta_button:active {
     outline: none;
     -webkit-animation: fadein 2.5s ease-in;
     animation: fadein 2.5s ease-in;
-    padding-top: 26px;
+    padding-top: 29px;
     padding-left: 5px;
     padding-right: 5px;
+    letter-spacing: 1px;
 }
   
   a.cta_button:hover {
@@ -280,6 +281,7 @@ h2.lead {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-size: 1.8rem;
 }
 /* end jumbotron */
 
@@ -908,7 +910,7 @@ li.breadcrumb-item {
     h1.display-3 {
         font-size: 6.5rem;
     }
-    h2.lead {
+    .lead {
         font-size: 2rem;
     }
     a.btn.btn-info.btn-lg, .btn-group-lg>.btn, .btn-lg {
@@ -916,63 +918,6 @@ li.breadcrumb-item {
     }
     .form-group.row {
         width: 60%;
-    }
-}
-
-@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
-    #contact-description {
-        margin-top: 30px;
-    }
-    ul.nav.justify-content-center {
-        margin-top: 60px;
-    } 
-    #reviews-description {
-        margin: 40px 10px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    h1, h1.display-3 {
-        font-size: 5rem;
-    } h2.lead {
-        font-size: 1.8rem;
-        margin-bottom: 15px;
-        letter-spacing: .5px;
-    } h2, h2.section-header {
-        font-size: 1.8rem;
-    }
-    a.btn.btn-info.btn-lg {
-        font-size: 1.3rem;
-    } a.btn.btn-info.btn-lg:hover {
-        font-size: 1.3rem;
-    }
-    .container-fluid, .container {
-        max-width: 720px;
-    } 
-    a.cta_button, a.cta_button:active {
-       padding-left: .5rem;
-       top: 2rem;
-       right: 5rem;
-       width: 5.5rem;
-       height: 5.5rem;
-       border-radius: 50%;
-       font-size: 1.2rem;
-       margin-bottom: 2rem;
-       padding-top: 30px;
-    } .cta_button:hover {
-        padding-left: .5rem;
-        top: 2rem;
-        right: 5rem;
-        background: #011826;
-        width: 5.5rem;
-        height: 5.5rem;
-        font-size: 1.2rem;
-        transform: rotate(-7deg);
-        margin-bottom: 2rem;
-        padding-top: 30px;
-    }
-    .form-group.row {
-        width: 70%;
     }
 }
 
