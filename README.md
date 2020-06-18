@@ -1,14 +1,14 @@
 # Milestone 1
 
-This responsive, user-friendly website was created for Infinity, a fictional yoga and meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
+This responsive website was created for Infinity, a fictional Yoga & Meditation studio in New York, New York. As the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) Full Stack Software Development Program, this website was built with HTML, CSS & Bootstrap.
 
-Infinity’s website addresses all of the studio's goals in a clean, user-friendly and visually appealing manner. The website's Jumbotron includes a call-to-action button that directs users to the schedule section, where class details, times and a signup button can be accessed with ease. The website also includes an interactive, 'About' section, relatable 'Customer Reviews' and contact details.
+Infinity’s website addresses all of the studio's goals in a clean, user-friendly, and visually appealing manner. The website's Jumbotron includes a call-to-action button that directs users to the schedule section where class details, times, and a signup button can be accessed with ease. The website also includes an interactive, 'About' section, relatable 'Customer Reviews, and contact details.
 
 ![responsive](wireframes//responsive0.png)
 
 ## UX
 
-The goal of Infinity's website is to attract new & existing members to the studio by providing class details and information about the studio and its procedures. The target market for Infinty is men & women (ages 24-36) who live in New York, NY and currently practice or wish to begin practicing yoga and meditation.
+The goal of Infinity's website is to attract new & existing members to the studio by providing class details and information about the studio and its procedures. The target market for Infinity is men & women (ages 24-36) who live in New York, NY, currently practice or wish to begin practicing yoga and meditation.
 
 The final version of this website allows Infinity to achieve its' goals for the following reasons:
 
@@ -36,13 +36,13 @@ Customer Reviews were created by the [developer](https://www.github.com/alissatr
 >>
 > As an Infinity member, I can view the studio's contact information so I can inquire about my membership or any other issues.
 
-In order to determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project.
+To determine what features were the most important and most viable, the following Strategy Plane activity was completed during the planning phase of this project.
 
 ![Trade Off Table](wireframes//tradeofftable.png)
 
 ![Trade Off Chart](wireframes//tradeoffchart.png)
 
-A full write-up of the strategy planning conducted for this project can also be viewed [here](wireframes//ms1planning.pdf). To only view charts and tables, checkout [this document](wireframes//strategyplane.pdf).
+A full write-up of the strategic planning conducted for this project can also be viewed [here](wireframes//ms1planning.pdf). To only view charts and tables, check out [this document](wireframes//strategyplane.pdf).
 
 Once the strategy exercises were completed, the following low-fidelity wireframes were created by the [developer](https://www.github.com/alissatroiano).
 
@@ -52,7 +52,7 @@ Once the strategy exercises were completed, the following low-fidelity wireframe
 
 * [Mobile Wireframe](wireframes//mobilewireframe.png)
 
-After starting the project and getting a better feel for the desired outcome, the developer made a second round of more detailed, high-fidelity wireframes.
+After starting the project and getting a better feel for the desired outcome, the developer made the second round of more detailed, high-fidelity wireframes.
 
 These wireframes guided the remainder of the development process.
 
@@ -98,7 +98,7 @@ The user stories section allow users to learn more about Infinity from trustwort
 
 * Contact Form:
 
-The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email and comments.
+The contact form allows site visitors to contact the studio by filling out a form and inputting their name, email, and comments.
 
 *You can view the Contact Form [here](https://alissatroiano.github.io/MS-1/#contact).*
 
@@ -128,31 +128,33 @@ The developer selected these fonts because:
 
 * Playfair Display: A serif font that brings both style & elegance to the project.
 
-* Futura-PT: is a modern, sans-serif font that is clean, visually appealing and easy for users to read.
+* Futura-PT: is a modern, sans-serif font that is clean, visually appealing, and easy for users to read.
 
 #### Color Scheme
 
-The following color scheme was chosen by [the developer](https://www.github.com/alissatroiano).
+The following color scheme was chosen for this project.
 
 ![Color Palette](wireframes//colorpalette.png)
 
-The developer chose this color palette after much research and consideration.
+The developer chose this color palette after much research and consideration for several reasons.
 
-**The primary color is a mix of blue and green, which are both associated with positive, calm emotions, like comfort and happiness, according to UXD Research from the following sources:**
+* The color (#69A8A9) is a mix of blue and green, which are both associated with positive, calm emotions, like comfort and happiness, according to UXD Research from many sources.
 
-* [Toptal.com's article, 'Color in UX'](https://www.toptal.com/designers/ux/color-in-ux) .
+![Toptal color psychology](wireframes//colortheory1.png)
 
-![Toptal color pyschology](wireframes//colortheory1.png)
+* Certain shades of blue/green (like #69A8A9) are strongly associated with environmentalism and nature, which makes this color perfect for Infinity's website.
 
-* **The dark blue (#081126) in the color palette was chosen because:**
+* Blue is the most universally liked color in the world (for both men and women).
 
-* It compliments the primary color very well.
+* Shades of white and gray (like #F2F2F2) are popular among minimalist designs, which is exactly what I was going for when building Infinity.
 
-* Classic blue was chosen as the [Pantone](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020-tools-for-designers) color of the year for 2020.
+* The dark blue (#081126) in the color palette was chosen because it adds contrast to the page. It is also a dark shade of classic blue, which was chosen as the [Pantone](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020-tools-for-designers) color of the year for 2020.
+
+All of the research sources for this section are included in the Credits section of this document.
 
 ## Technologies Used
 
-This project makes use of the following languages, frameworks and libraries:
+This project makes use of the following languages, frameworks, and libraries:
 
 * [HTML](https://html5tutorial.info)
 
@@ -185,21 +187,21 @@ This project makes use of the following languages, frameworks and libraries:
 The following tests have been conducted by the [developer](https://www.github.com/alissatroiano). Each test described below was accompanied by the actions taken to ensure the tests passed.
 
 1. Navigation:
-    1. Visited navigation bar in website.
+    1. Visited the website's navigation bar.
     2. Clicked each link.
-    3. Verified links bring user to proper section.
+    3. Verified links bring users to the proper section.
     4. Repeated steps 1-3 on mobile and tablet.
 
 2. Contact Form:
-    1. Visited contact section of website.
-    2. Filled out contact form with text.
-    3. Tried to submit contact form with `required` field blank.
-    4. Failed to fill out "email" without email address.
+    1. Visited the contact section of the website.
+    2. Filled out the contact form with text.
+    3. Attempted to submit the contact form with a `required` field blank.
+    4. Failed to fill out "email" without an email address.
     5. Repeated steps 1-4 on mobile and tablet.
 
 3. W3C Jigsaw CSS Test:
     1. Visited [W3C HTML Validator](https://validator.w3.org/nu/#textarea).
-    2. Uploaded entire stylesheet.
+    2. Uploaded the entire stylesheet.
     3. Made all changes.
     4. Ran test again to verify all CSS passed.
     5. Repeated steps 1-4 again after repairing styles.
@@ -217,26 +219,30 @@ Please see the enclosed [document](TESTING.md) to view the full Testing write-up
 
 This project was deployed with [Github Pages](https://pages.github.com/). The [developer](https://github.com/alissatroiano) deployed the project successfully by following these steps:
 
-1. Created a repository.
-1. Opened project in GitPod.
+1. Created a repository on GitHub.
+1. Exported the project to GitPod.
+1. Opened the project in GitPod.
 1. Created index.html.
 1. Built project website.
 1. Committed and pushed all changes to Github.
-1. Imported project into GitHub Desktop and VSCode to work on features.
+1. Imported project into GitHub Desktop and VSCode to work on Animations_Branch and experiment with new features.
 1. Committed and pushed all changes to Github.
-1. Merged Animations_Branch into master
-1. Once project was completed, visited "repository settings" on GitHub.com.
+1. Merged Animations_Branch into master.
+1. Deleted alternate branches.
+1. Once the project was completed, I visited "repository settings" on GitHub.com.
 1. Scrolled down to the GitHub Pages section and clicked, "source".
+1. Selected the 'master' branch for deployment.
 1. Fired up a browser and went [here](https://alissatroiano.github.io/MS-1/) to ensure deployment was successful.
 
 ### To run this project locally
 
 1. Follow [this link](https://github.com/alissatroiano/MS-1) to the project's GitHub Repository.
-2. In the 'Code' section scroll passed the project's name and description.
+2. In the 'Code' section to the project name and description.
 3. Click the green button labeled, 'Clone or download.'
-4. Open Git Bash in your local Integrated Development Environment.
-5. Type the command, `git clone`.
-6. Paste [this URL](https://github.com/alissatroiano/MS-1.git).
+4. Copy the provided URL.
+5. Open Git Bash in your local Integrated Development Environment.
+6. Type the command, `git clone`.
+7. Paste [this URL](https://github.com/alissatroiano/MS-1.git) that was copied from GitHub earlier.
 
 **Another Option:**
 
@@ -267,13 +273,19 @@ Written Content:
 
 * The class descriptions in the schedule section were copied from [Holistic Yoga School](https://www.holisticyogaschool.com/yoga-class-description/) and reworded by the [developer](https://www.github.com/alissatroiano).
 
-* All other website content pertaining to Infinity Studio is fictional and was written by the [developer](https://www.github.com/alissatroiano).
+* All other website content about Infinity Studio is fictional and was written by the [developer](https://www.github.com/alissatroiano).
 
-Strategy and Planning:
+Research and Planning:
 
 * I used [Balsamiq](https://balsamiq.com/) wireframing software to create all project wireframes.
 
 * The 'Learn UX Canvas' I used on page 2 of my [MS1 Planning Document](wireframes/ms1planning.pdf) was copied from [Medium's article, 'UX Case Study: A Yoga Festival Microsite'](https://medium.com/@biancaUX/ux-case-study-a-yoga-festival-microsite-9dea6135fd62).
+
+* The color wheel image and facts about color theory in the UX section of this README were copied from [Toptal](https://www.toptal.com/designers/ux/color-in-ux).
+
+* The information about Pantone's color of the year for 2020 was copied from [CNN Style](https://www.cnn.com/style/article/pantone-color-classic-blue-2020/index.html).
+
+* More UX research about men and women color preferences was copied from [NeilPatel.com](https://neilpatel.com/blog/gender-and-color/)
 
 Code Resources:
 
@@ -287,7 +299,7 @@ Code Resources:
 
 * The tools used to repair any markdown issues were acquired from [this article](https://github.com/DavidAnson/markdownlint/blob/v0.20.2/doc/Rules.md#md004).
 
-* The text decoration property used to style the navbar were aquired from [W3 Schools](https://www.w3schools.com/cssref/pr_text_text-decoration.asp).
+* The text-decoration property used to style the navbar was acquired from [W3 Schools](https://www.w3schools.com/cssref/pr_text_text-decoration.asp).
 
 Code Snippets:
 
@@ -299,13 +311,13 @@ Code Snippets:
 
 * The sans-serif font, 'Futura-PT' used for the body content was imported from [Adobe Fonts](https://fonts.adobe.com/fonts).
 
-* The card layout/design used in the, "Reviews," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/).
+* The card layout/design used in the "Reviews," section was copied from [Material Design for Bootstrap](https://mdbootstrap.com/).
 
 * The animated sign up button in the schedule section was copied from [Codepen](https://codepen.io/vitor-siqueira/pen/xNBExN).
 
 * The syntax for the Jumbotron container background image was copied from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) and [Code Institute's](https://codeinstitute.net) Bootstrap project, 'Whiskey Drop'.
 
-* The syntax for the social media icons in the navbar was copied from [codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
+* The syntax for the social media icons in the navbar was copied from [Codelab](https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-navbar-with-social-media-icons) tutorial.
 
 * The script used to overwrite Bootstrap's default navbar styles were copied from [Stack Overflow](https://stackoverflow.com/questions/36105119/bootstrap-change-navbar-active-background-color?answertab=active#tab-top) and [JSFiddle](https://jsfiddle.net/g2ys46qo/2/)
 
@@ -315,7 +327,7 @@ Code Snippets:
 
 * The flex styles used to properly align the icons and contact details in the contact section were copied from [Stack Overflow](https://stackoverflow.com/questions/32118013/align-icon-vertically-to-the-center-of-the-first-line-of-text/32119917) and [CSS Tricks](https://css-tricks.com/almanac/properties/a/align-items/).
 
-* The css selection syntax was copied from [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_text_selection).
+* The CSS selection syntax was copied from [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_text_selection).
 
 * The syntax for the 'Up Arrow' icon in the footer that takes users to the top of the page was copied from [W3 Schools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_footer&stacked=h).
 
@@ -341,9 +353,13 @@ Code Snippets:
 
 * The photo of Sara Solar in the 'Quotes' section was copied from [Pexels](https://www.pexels.com/photo/exercising-keeps-oneself-healthy-3768918/).
 
+* The screenshots included in the Features section of this README were copied from [Am I Responsive](http://ami.responsivedesign.is/).
+
+* The Mobile-Friendly Test described in `TESTING.md` was copied from [Mobile Friendly Test by Google](https://search.google.com/test/mobile-friendly).
+
 ### Acknowledgements
 
-* This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User Centric Front End Development portion of the Full Stack Software Development program.
+* This project was created as the Milestone 1 Project for [Code Institute's](https://codeinstitute.net) User-Centric Front End Development portion of the Full Stack Software Development program.
 
 * I received inspiration from [Code Institute's](https://codeinstitute.net).
 
