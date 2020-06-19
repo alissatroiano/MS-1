@@ -5,25 +5,31 @@
 * Browsers: last 4 version
 */
 
-/* Imported Playfair Display for main page and Monteserrat for thhe 404 Error Page */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box; }
-
+/*-----------------------------------------Custom Paddings/Margins/Text */
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-}
-
-body {
     font-size: 16px;
 }
 
-/*-------------------------------------------- Text Selection */
-/* Makes text selection the primary color. Copied from https://www.w3schools.com/cssref/sel_selection.asp */
+body > section {
+    position: relative;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+    overflow: hidden;
+}
+
+.col-xs-8.col-sm-4, .col-sm-6, .col-md-6,
+.col-12.section-header {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+/* Makes text selection the primary color. */
+    /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
 ::-moz-selection { /* Code for Firefox */
     color: #f2f2f2;
     background: #69a8a9;
@@ -33,9 +39,6 @@ body {
     color: #f2f2f2;
     background: #69a8a9;
 }
-/* end text selection */
-
-/* ----------------------------------------Special paddings/margins/text */
 
 h1 {
     color: #011826;
@@ -52,12 +55,22 @@ h2 {
     margin-top: 20px;
 }
 
+h3.about-header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    color: #011826;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
 h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
     color: #011826;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 hr {
@@ -88,101 +101,37 @@ p {
     text-align: center;
 }
 
+#about-description, #contact-description, #schedule-description, #reviews-description {
+        text-align: center;
+        margin: 20px 20px;
+        padding: 0 50px;
+}
+
 p.text-muted {
     font-family: 'Futura-PT', sans-serif;
-    margin-top: 20px;
+    margin: 10px 20px;
     font-size: 1rem;
 }
+/* end custom paddings/margins/text */
 
-body > section {
-    position: relative;
-    margin: 0 auto;
-    padding: 6.25rem 0;
-    overflow: hidden;
-}
-
-.col-xs-8.col-sm-4, .col-sm-6, .col-md-6,
-.col-12.section-header {
-    position: relative;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 20px;
-}
-
-#schedule {
+/*-------------------------------------------- Sections */
+#schedule, #contact {
     margin-top: 50px;
-    padding: 60px 60px;
-    background: rgba(135, 156, 166, 0.2);
-    min-height: 100%;
-}
-
-#contact {
-    margin-top: 60px;
-    padding: 60px 60px;
+    padding: 60px 40px;
     background: rgba(135, 156, 166, 0.2);
 }
 
-#about {
+#reviews, #about {
     margin-top: 50px;
     padding: 60px 60px;
 }
+/* end sections */
 
-#reviews {
-    margin-top: 50px;
-    padding: 60px 60px;
-}
-
-#about-description, #contact-description, #schedule-description, #reviews-description {
-    text-align: center;
-    margin: 30px 50px;
-    padding: 0 50px;
-}
-/* end special paddings/margins/text */
-
-/*-------------------------------------------- Header */
-.navbar {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem !important;
-    line-height: 1.5;
-}
-
-/* These navbar styles were copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
-    color:#69a8a9;
-    text-decoration: overline;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color:#69a8a9;
-}
-
-i.fas.fa-infinity {
-    color: #69a8a9;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px #011826;
-}
-
-i.fas.fa-infinity:hover {
-    color: #011826;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px #69a8a9;
-}
-
-a.navbar-brand {
-    font-family: 'Futura-PT', sans-serif;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
-}
-
-/* CTA Button copied from (http://www.matrebel.co.uk/) */
+/*-------------------------------------------- CTA Button */
 a.cta_button, a.cta_button:active {
     position: absolute;
     top: 1.5rem;
-    right: 6.5rem;
+    right: 6rem;
     background: #011826;
     width: 5.2rem;
     height: 5.2rem;
@@ -214,11 +163,49 @@ a.cta_button, a.cta_button:active {
     background: #69A8A9;
     color: #fafafa;
 }
-    /* end cta button*/
-/* end header */
+/*  end cta button */
+
+/*-------------------------------------------- Navbar */
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem !important;
+    line-height: 1.5;
+}
+
+/* navbar styles copied from Stack Overflow(https://stackoverflow.com/questions/41743102/changing-the-color-of-active-nav-item) */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, li.nav-item.active {
+    color:#69a8a9;
+    text-decoration: overline;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#69a8a9;
+}
+
+i.fas.fa-infinity {
+    color: #69a8a9;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #011826;
+}
+
+i.fas.fa-infinity:hover {
+    color: #011826;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #69a8a9;
+}
+
+a.navbar-brand {
+    font-family: 'Futura-PT', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
+}
+/* end navbar */
 
 /*-------------------------------------------- Jumbotron */
-    /* Jumbotron-container and overlay styles copied from Code Institute's Project, Bootstrapping Your Next Big Idea (https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) */
+    /* jumbotron-container syntax copied from Code Institute's Whiskey Drop project */
 .jumbotron-container {
     background-image: url('../images/infinityphoto.jpg');
     background-size: cover;
@@ -271,8 +258,7 @@ h1.display-3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 2px 2px #011826;
-    font-size: 5.5rem;
-    margin-bottom: 10px;
+    font-size: 5rem;
 }
 
 h2.lead {
@@ -281,13 +267,12 @@ h2.lead {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 1.8rem;
 }
 /* end jumbotron */
 
 /*-------------------------------------------- About */
 .container-wrapper-about {
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
 
 .about i {
@@ -299,7 +284,7 @@ p.article {
     font-family: 'Futura-PT', sans-serif;
     font-size: 1rem;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
 }
 
 #mind, #body, #spirit, #peace, #love, #harmony {
@@ -344,9 +329,8 @@ p.schedule-content {
     -webkit-box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
 }
-
-/* Animated Sign Up Button Styles copied from Codepen (https://codepen.io/b3taf1sh/full/xxwQJGX)  */
-.signUp { 
+/* Schedule Sign Up Button */
+.signUp {
   width: 130px;
   height: 65px;
   margin: 0 auto;
@@ -411,13 +395,13 @@ div.signUp, a.nav-item {
 }
 /* end schedule */
 
+
 /*-------------------------------------------- Reviews */
 .container-fluid.reviews-container {
     padding: 20px 0px;
     margin-bottom: 50px;
 }
 
-/* Review Card-Top color styles copied from MDBootstrap-Testimonials v.1 (https://mdbootstrap.com/docs/jquery/sections/testimonials/) */
 .review-card .card-top {
     height: 120px;
     overflow: hidden;
@@ -450,11 +434,10 @@ div.signUp, a.nav-item {
 
 .card-body {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    min-height: 1px;
     padding: 1rem;
-    padding-top: 20px;
 }
 
 blockquote {
@@ -464,18 +447,26 @@ blockquote {
     margin-bottom: 20px;
     padding: 10px 10px;
 }
+
+#reviews-header {
+    margin-top: 40px;
+}
 /* end reviews */
 
 /*-------------------------------------------- Contact */
 .container-wrapper-contact {
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 0;
 }
 
 .form-control {
     margin: 0 auto;
     border-color: gray;
-    box-shadow: 1px 1px 6px #011826;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.form-group {
+    color: #69a8a9;
 }
 
 i.fas.fa-map-marker-alt,
@@ -520,7 +511,7 @@ span.contact {
 }
 
 .form-control.placeholder {
-    color: #859CA6;
+    color: #787d80;
     font-family: "Futura-PT", sans-serif;
     font-size: 1rem;
 }
@@ -544,6 +535,36 @@ textarea#comments.form-control
     color: #69a8a9;
 }
 
+.form-control::-webkit-input-placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+.form-control::-moz-placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
+.form-control::placeholder {
+    color: #787d80;
+    font-family: "Futura-PT", sans-serif;
+    font-size: 1rem;
+}
+
 button.btn.btn-info.float-right {
     background-color: #69a8a9;
     border-color: transparent;
@@ -557,20 +578,18 @@ button.btn.btn-info.float-right:hover {
     color: #f2f2f2;
 }
 
-ul.nav.justify-content-center {
-    margin-top: 40px;
+li.contact-info,
+#address, #phone, #email-owner {
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: center;
 }
-
-ul.nav-list.justify-content-center {
-    margin: 0 auto;
-    display: contents;
-    list-style: none;
-}
-
-li.contact-info {
-    margin: 8px 0;
-}
-/* end contact */
+/*----------------------------------- end contact */
 
 /*-------------------------------------------- Footer */
 footer {
@@ -864,60 +883,99 @@ li.breadcrumb-item {
     }
   /* end 404 error styles */
 
-
 /*-------------------------------------------- Media Queries */
-@media only screen and (min-width: 1440px) {
-    #reviews {
-        padding: 60px 60px;
-    }
-    div#reviews-row {
-        margin-top: 50px;
-    }
-    #reviews-description {
-        margin-top: 30px;
-    }
-    .col-xs-8.col-sm-4, .col-sm-6, .col-md-6, .col-12.section-header {
+@media only screen and (max-width: 768px) {
+    .jumbotron-container {
+        background-image: url('../images/infinityphoto.jpg');
+        background-size: cover;
+        background-position: 18% 100%;
+        height: 100vh;
+        min-height: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
         position: relative;
-        width: 100%;
-        margin-top: 20px;
-        padding: 0 50px;
-    }
-    p {
-        font-size: 1.2rem;
-    }
-    h1 {
-        color: #011826;
+        overflow: hidden;  
+    } h1, h1.display-3 {
+        font-size: 4.5rem;
+        font-family: 'Futura-PT', sans-serif;
+        color: #f2f2f2;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    h3.about-header {
-        font-size: 2rem;
-    }
-    h3, h4, h5, h6, .card-title.mt-1 {
+    } h2.lead {
         font-size: 1.5rem;
+        margin-bottom: 15px;
+        text-shadow: 1px 2px #011826;
+        letter-spacing: .5px;
+    } h2, h2.section-header {
+        font-size: 1.8rem;
     }
-    #about-description, #contact-description, #schedule-description, #reviews-description {
-        font-size: 1.2rem;
+    a.btn.btn-info.btn-lg {
+        font-size: 1.3rem;
+    } a.btn.btn-info.btn-lg:hover {
+        font-size: 1.3rem;
     }
-    ul.nav.justify-content-center {
-        margin-top: 60px;
-    }
-    h1.display-3 {
-        font-size: 6.5rem;
-    }
-    .lead {
-        font-size: 2rem;
-    }
-    a.btn.btn-info.btn-lg, .btn-group-lg>.btn, .btn-lg {
-        font-size: 2rem;
-    }
-    .form-group.row {
-        width: 60%;
+    .container-fluid, .container {
+        max-width: 720px;
+    } 
+    a.cta_button, a.cta_button:active {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 5rem;
+        background: #011826;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        color: #fafafa;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 25px;
+        font-size: 14px;
+    } .cta_button:hover {
+        display: inline-block;
+        padding-left: .5rem;
+        position: absolute;
+        top: 2rem;
+        right: 5rem;
+        background: #011826;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        font-family: 'Futura-PT', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-7deg);
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        animation: fadein 2.5s ease-in;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-top: 25px;
+        font-size: 14px;
+        background: #69A8A9;
+        color: #fafafa;
     }
 }
 
@@ -941,13 +999,14 @@ li.breadcrumb-item {
         position: relative;
         overflow: hidden;
     } h1.display-3 {
-        font-size: 4.25rem;
+        font-size: 3.2rem;
         font-family: 'Futura-PT', sans-serif;
         color: #f2f2f2;
         font-weight: 200;
         text-transform: uppercase;
+        letter-spacing: 1px;
         text-shadow: 2px 2px #011826;
-     } h2.lead {
+    } h2.lead {
         font-size: 1.1rem;
         margin-bottom: 15px;
     } a.btn.btn-info.btn-lg {
@@ -960,7 +1019,7 @@ li.breadcrumb-item {
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4.8rem;
+        right: 5rem;
         background: #011826;
         width: 4rem;
         height: 4rem;
@@ -983,13 +1042,15 @@ li.breadcrumb-item {
         padding-left: .5rem;
         position: absolute;
         top: 2rem;
-        right: 4.8rem;
+        right: 5rem;
+        background: #011826;
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
         font-family: 'Futura-PT', sans-serif;
         font-size: 12px;
         text-transform: uppercase;
+        transform: rotate(-7deg);
         margin: 0 auto;
         border: none;
         outline: none;
@@ -998,6 +1059,8 @@ li.breadcrumb-item {
         text-align: center;
         margin-bottom: 2rem;
         padding-top: 22px;
+        background: #69A8A9;
+        color: #fafafa;
     } .review-card .avatar {
         width: 100px;
         margin-top: -60px;
@@ -1011,10 +1074,14 @@ li.breadcrumb-item {
     span.contact {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
+        font-size: 14px;
     }
     form.needs-validation {
         margin: 0 auto;
-        width: 100%;
+    } li.contact-info, #address, #phone, #email-owner {
+        display: flex;
+        align-items: flex-start;
+        margin: 8px 0;
     }
     i.fas.fa-map-marker-alt,
     i.fas.fa-phone,
@@ -1031,7 +1098,7 @@ li.breadcrumb-item {
     .form-group.row {
         font-family: 'Futura-PT', sans-serif;
         color: #69a8a9;
-        width: 100%;
+        width: 85%;
         height: auto;
         margin: 0 auto;
     }
@@ -1039,30 +1106,16 @@ li.breadcrumb-item {
         color: #787d80;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
-    }
-    label#name, label#contact-email, label#comments {
+    } label {
         color: #011826;
         font-family: "Futura-PT", sans-serif;
         font-size: 14px;
         text-align: left;
         margin: 10px 0;
-    }
-    #about-description, #contact-description, #schedule-description, #reviews-description {
+    } #about-description, #contact-description, #schedule-description, #reviews-description {
         padding: 10px 10px;
         margin: 0 auto;
-    } 
-    h2.section-header {
-        font-size: 1.7rem;
-    }
-    #about, #schedule, #contact, #reviews {
-        margin-top: 50px;
-        padding: 60px 30px;
-    }
-    h1.display-3 {
-        font-size: 4rem;
-    }
-    li#hours, li#address {
-        margin-top: 10px;
     }
 }
 /* end media queries */
+  
