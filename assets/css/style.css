@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+/*  Playfair Display for main page and Monteserrat for thhe 404 Error Page */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 
 /*-----------------------------------------Custom Paddings/Margins/Text */
@@ -26,18 +27,6 @@ body > section {
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 20px;
-}
-
-/* Makes text selection the primary color. */
-    /* Copied from https://www.w3schools.com/cssref/sel_selection.asp */
-::-moz-selection { /* Code for Firefox */
-    color: #f2f2f2;
-    background: #69a8a9;
-  }
-  
-::selection { /* Text selection code */
-    color: #f2f2f2;
-    background: #69a8a9;
 }
 
 h1 {
@@ -114,7 +103,20 @@ p.text-muted {
 }
 /* end custom paddings/margins/text */
 
-/*-------------------------------------------- Sections */
+/*-------------------------------------------- Text Selection */
+    /* Makes text selection the primary color. Copied from https://www.w3schools.com/cssref/sel_selection.asp */
+    ::-moz-selection { /* Code for Firefox */
+        color: #f2f2f2;
+        background: #69a8a9;
+      }
+      
+    ::selection { /* Text selection code */
+        color: #f2f2f2;
+        background: #69a8a9;
+    }
+/* end text selection */
+
+/*-------------------------------------------- Page Sections */
 #schedule, #contact {
     margin-top: 50px;
     padding: 60px 40px;
@@ -125,47 +127,9 @@ p.text-muted {
     margin-top: 50px;
     padding: 60px 60px;
 }
-/* end sections */
+/* end page sections */
 
-/*-------------------------------------------- CTA Button */
-a.cta_button, a.cta_button:active {
-    position: absolute;
-    top: 1.5rem;
-    right: 6rem;
-    background: #011826;
-    width: 5.2rem;
-    height: 5.2rem;
-    border-radius: 50%;
-    font-family: 'Futura-PT', sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-    -webkit-transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg);
-    transform: rotate(-7deg);
-    color: #fafafa;
-    z-index: 1;
-    border: none;
-    outline: none;
-    -webkit-animation: fadein 2.5s ease-in;
-    animation: fadein 2.5s ease-in;
-    padding-top: 29px;
-    padding-left: 5px;
-    padding-right: 5px;
-    letter-spacing: 1px;
-}
-  
-  a.cta_button:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
-    background: #69A8A9;
-    color: #fafafa;
-}
-/*  end cta button */
-
-/*-------------------------------------------- Navbar */
+/*-------------------------------------------- Header */
 .navbar {
     font-family: 'Playfair Display', serif;
     font-size: 1rem !important;
@@ -202,7 +166,45 @@ a.navbar-brand {
     font-size: 1.7rem;
     text-shadow: 1px 1px 1px rgba(135, 156, 166, 0.7);
 }
-/* end navbar */
+
+/* CTA Button copied from (http://www.matrebel.co.uk/) */
+a.cta_button, a.cta_button:active {
+    position: absolute;
+    top: 1.5rem;
+    right: 6rem;
+    background: #011826;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 50%;
+    font-family: 'Futura-PT', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    color: #fafafa;
+    z-index: 1;
+    border: none;
+    outline: none;
+    -webkit-animation: fadein 2.5s ease-in;
+    animation: fadein 2.5s ease-in;
+    padding-top: 29px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 1px;
+}
+  
+  a.cta_button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    background: #69A8A9;
+    color: #fafafa;
+}
+    /* end cta button */
+/* end header */
 
 /*-------------------------------------------- Jumbotron */
     /* jumbotron-container syntax copied from Code Institute's Whiskey Drop project */
@@ -329,7 +331,8 @@ p.schedule-content {
     -webkit-box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
     box-shadow: rgba(1, 24, 38, 0.2) 0px 2px 5px 0px, rgba(1, 24, 38, 0.2) 0px 2px 10px 0px;
 }
-/* Schedule Sign Up Button */
+
+/* Animated signUp copied from Codepen (https://codepen.io/b3taf1sh/full/xxwQJGX) */
 .signUp {
   width: 130px;
   height: 65px;
@@ -386,6 +389,7 @@ div.signUp, a.nav-item {
     font-size: 1rem;
     color: #69a8a9;
 }
+/* end animated signUp */
 
 #class1, #class2, #class3 {
     width: 20px;
@@ -589,7 +593,7 @@ li.contact-info,
             align-items: flex-start;
     text-align: center;
 }
-/*----------------------------------- end contact */
+/* end contact */
 
 /*-------------------------------------------- Footer */
 footer {
